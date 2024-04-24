@@ -1,0 +1,9 @@
+/user/profiles/*
+/user/logs/*
+/user/cache/*
+/Aki.Server.exe
+/.vscode
+/user/mods/RemotePlugins/files/*
+/user/mods/**/*.js
+/user/mods/**/*.js.map
+/user/mods/**/node_modules/*
