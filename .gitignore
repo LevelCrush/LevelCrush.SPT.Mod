@@ -8,4 +8,4 @@
 /user/mods/**/*.js.map
 /user/mods/**/node_modules/*
 /user/mods/SITCoop/config/*
-/user/mods/DrakiaXYZ-LiveFleaPrices/config/*
+/user/mods/DrakiaXYZ-LiveFleaPrices/config/prices.json
