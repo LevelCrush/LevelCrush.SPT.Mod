@@ -1,64 +1,64 @@
 {
-	"manifest": [
-		{
-			"key": "assets/content/items/mods/tactical/shottacticalbase.at",
-			"dependencyKeys": []
-		},
-		{
-			"key": "assets/content/items/mods/tactical/shottactical.at",
-			"dependencyKeys": [
-				"shaders",
-				"cubemaps",
-				"assets/content/textures/holemanager/eotech_spec_mask.bundle",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-			]
-		},
-		{
-			"key": "assets/content/items/mods/tactical/shottactical02.at",
-			"dependencyKeys": [
-				"shaders",
-				"cubemaps",
-				"assets/content/textures/holemanager/eotech_spec_mask.bundle",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-			]
-		},
-		{
-			"key": "assets/content/items/mods/tactical/shottactical03.at",
-			"dependencyKeys": [
-				"shaders",
-				"cubemaps",
-				"assets/content/textures/holemanager/eotech_spec_mask.bundle",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-			]
-		},
-		{
-			"key": "assets/content/items/mods/tactical/breakershot.at",
-			"dependencyKeys": [
-				"shaders",
-				"cubemaps",
-				"assets/content/textures/holemanager/eotech_spec_mask.bundle",
-				"assets/commonassets/physics/physicsmaterials.bundle"
-			]
-		},
-		{
-			"key": "assets/content/items/mods/scopes/carscop.bundle",
-			"dependencyKeys": [
-				"shaders",
-				"cubemaps",
-				"assets/content/textures/holemanager/eotech_spec_mask.bundle",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/systems/effects/collimator.bundle"
-			]
-		},
-		{
-			"key": "assets/content/items/mods/scopes/201scop.bundle",
-			"dependencyKeys": [
-				"shaders",
-				"cubemaps",
-				"assets/content/textures/holemanager/eotech_spec_mask.bundle",
-				"assets/commonassets/physics/physicsmaterials.bundle",
-				"assets/systems/effects/collimator.bundle"
-			]
-		}
-	]
+  "manifest": [
+    {
+      "key": "assets/content/items/mods/tactical/shottacticalbase.at",
+      "dependencyKeys": []
+    },
+    {
+      "key": "assets/content/items/mods/tactical/shottactical.at",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/textures/holemanager/eotech_spec_mask.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/tactical/shottactical02.at",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/textures/holemanager/eotech_spec_mask.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/tactical/shottactical03.at",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/textures/holemanager/eotech_spec_mask.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/tactical/breakershot.at",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/textures/holemanager/eotech_spec_mask.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/scopes/carscop.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/textures/holemanager/eotech_spec_mask.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/systems/effects/collimator.bundle"
+      ]
+    },
+    {
+      "key": "assets/content/items/mods/scopes/201scop.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/textures/holemanager/eotech_spec_mask.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/systems/effects/collimator.bundle"
+      ]
+    }
+  ]
 }

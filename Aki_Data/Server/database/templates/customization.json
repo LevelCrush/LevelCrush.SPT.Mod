@@ -8,9 +8,7 @@
       "Name": "",
       "ShortName": "",
       "Description": "",
-      "Side": [
-        "Savage"
-      ]
+      "Side": ["Savage"]
     }
   },
   "628a6801805c5b6c100cc200": {
@@ -22,9 +20,7 @@
       "Name": "Top_BOSS_Birdeye",
       "ShortName": "Top_BOSS_Birdeye",
       "Description": "Top_BOSS_Birdeye",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_birdeye.bundle",
@@ -57,9 +53,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_voin.bundle",
@@ -92,9 +86,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_acu.bundle",
@@ -127,9 +119,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_pcsshirt.bundle",
@@ -162,9 +152,7 @@
       "Name": "Pants_BOSS_Birdeye",
       "ShortName": "Pants_BOSS_Birdeye",
       "Description": "Pants_BOSS_Birdeye",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_birdeye.bundle",
@@ -197,9 +185,7 @@
       "Name": "Wild_Killa_feet",
       "ShortName": "Wild_Killa_feet",
       "Description": "Wild_Killa_feet",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pant_boss_killa.bundle",
@@ -231,9 +217,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_gorkasso.bundle",
@@ -266,9 +250,7 @@
       "Name": "wild_feet_1",
       "ShortName": "wild_feet_1",
       "Description": "wild_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_wasatch.bundle",
@@ -301,9 +283,7 @@
       "Name": "wild_security_feet_1",
       "ShortName": "wild_security_feet_1",
       "Description": "wild_security_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_security_bratva_2.bundle",
@@ -336,9 +316,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_bomber/hands_wild_bomber.skin.bundle",
@@ -371,9 +349,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_russia/hands_wild_russia.skin.bundle",
@@ -406,9 +382,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_yellowcoat/hands_wild_yellowcoat.skin.bundle",
@@ -441,9 +415,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_tshirt_bear_black/hands_tshirt_bear_black.skin.bundle",
@@ -476,9 +448,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_tier2/hands_usec_tier2.skin.bundle",
@@ -511,9 +481,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_carinthia_softshell/hands_usec_carinthia_softshell.skin.bundle",
@@ -546,9 +514,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_velocity/hands_usec_velocity.skin.bundle",
@@ -581,9 +547,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_usec_cryeac.bundle",
@@ -615,9 +579,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_borey.bundle",
@@ -650,9 +612,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_bear_termo.bundle",
@@ -685,9 +645,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_blacklynx.bundle",
@@ -720,9 +678,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_zaslon.bundle",
@@ -755,9 +711,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_sumrak.bundle",
@@ -790,9 +744,7 @@
       "Name": "top_cultist_01",
       "ShortName": "top_cultist_01",
       "Description": "top_cultist_01",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_cultist_01.bundle",
@@ -825,9 +777,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_chameleon_softshell.bundle",
@@ -860,9 +810,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle",
@@ -895,9 +843,7 @@
       "Name": "wild_security_body_1",
       "ShortName": "wild_security_body_1",
       "Description": "wild_security_body_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_security_bratva_1.bundle",
@@ -930,9 +876,7 @@
       "Name": "Pants_security_Gorka4",
       "ShortName": "Pants_security_Gorka4",
       "Description": "Pants_security_Gorka4",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_security_gorka4.bundle",
@@ -965,9 +909,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/usec/usec_hands_skin.bundle",
@@ -999,9 +941,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_rainparka/hands_wild_rainparka.skin.bundle",
@@ -1034,9 +974,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_telnik/hands_bear_telnik.skin.bundle",
@@ -1069,9 +1007,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_aggressor_parka/hands_usec_aggressor_parka.skin.bundle",
@@ -1104,9 +1040,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_combatshirt/hands_usec_combatshirt.skin.bundle",
@@ -1139,9 +1073,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_polevoi.bundle",
@@ -1174,9 +1106,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_usec_combatshirt.bundle",
@@ -1209,9 +1139,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_tier2.bundle",
@@ -1244,9 +1172,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_srvv.bundle",
@@ -1278,9 +1204,7 @@
       "Name": "Pants_BOSS_Blackknight",
       "ShortName": "Pants_BOSS_Blackknight",
       "Description": "Pants_BOSS_Blackknight",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_blackknight.bundle",
@@ -1313,9 +1237,7 @@
       "Name": "Pants_security_Flora",
       "ShortName": "Pants_security_Flora",
       "Description": "Pants_security_Flora",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_security_flora.bundle",
@@ -1348,9 +1270,7 @@
       "Name": "Wild_Dealmaker_feet",
       "ShortName": "Wild_Dealmaker_feet",
       "Description": "Wild_Dealmaker_feet",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_dealmaker_feet.bundle",
@@ -1383,9 +1303,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_fsburban.bundle",
@@ -1418,9 +1336,7 @@
       "Name": "Pants_BOSS_Shturman",
       "ShortName": "Pants_BOSS_Shturman",
       "Description": "Pants_BOSS_Shturman",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_tagilla.bundle",
@@ -1453,9 +1369,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_blackhawk_tac_life.bundle",
@@ -1488,9 +1402,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_truspec.bundle",
@@ -1523,9 +1435,7 @@
       "Name": "wild_feet_1",
       "ShortName": "wild_feet_1",
       "Description": "wild_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_yellowcoat.bundle",
@@ -1558,9 +1468,7 @@
       "Name": "wild_pmcBot_feet",
       "ShortName": "wild_pmcBot_feet",
       "Description": "wild_pmcBot_feet",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_scavelite.bundle",
@@ -1593,9 +1501,7 @@
       "Name": "SavageHands3",
       "ShortName": "SavageHands3",
       "Description": "SavageHands3",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/wild/wild_body_3_firsthands.bundle",
@@ -1627,9 +1533,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_orc_pcu/hands_usec_orc_pcu.skin.bundle",
@@ -1662,9 +1566,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_hoody_victory/hands_wild_hoody_victory.skin.bundle",
@@ -1697,9 +1599,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle",
@@ -1732,9 +1632,7 @@
       "Name": "Head_BOSS_Glukhar",
       "ShortName": "Head_BOSS_Glukhar",
       "Description": "Head_BOSS_Glukhar",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_glukhar.bundle",
@@ -1767,9 +1665,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_fsbfastresponse.bundle",
@@ -1802,9 +1698,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_beltstaff.bundle",
@@ -1837,9 +1731,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_cereum.bundle",
@@ -1872,9 +1764,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_body.bundle",
@@ -1906,9 +1796,7 @@
       "Name": "wild_body_2",
       "ShortName": "wild_body_2",
       "Description": "wild_body_2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_body_2.bundle",
@@ -1941,9 +1829,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_combat.bundle",
@@ -1976,9 +1862,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_voin.bundle",
@@ -2011,9 +1895,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_commando.bundle",
@@ -2046,9 +1928,7 @@
       "Name": "SavageHands2",
       "ShortName": "SavageHands2",
       "Description": "SavageHands2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/wild/wild_body_2_firsthands.bundle",
@@ -2080,9 +1960,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_motocross/hands_wild_motocross.skin.bundle",
@@ -2115,9 +1993,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_acu/hands_usec_acu.skin.bundle",
@@ -2150,9 +2026,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_g99.bundle",
@@ -2185,9 +2059,7 @@
       "Name": "Top_BOSS_Sanitar",
       "ShortName": "Top_BOSS_Sanitar",
       "Description": "Top_BOSS_Sanitar",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_sanitar.bundle",
@@ -2220,9 +2092,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_tactical_long.bundle",
@@ -2255,9 +2125,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_nightpatrol.bundle",
@@ -2290,9 +2158,7 @@
       "Name": "wild_security_body_2",
       "ShortName": "wild_security_body_2",
       "Description": "wild_security_body_2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_security_body_2.bundle",
@@ -2325,9 +2191,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_aggressor_parka.bundle",
@@ -2360,9 +2224,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_hoody.bundle",
@@ -2395,9 +2257,7 @@
       "Name": "wild_body_1",
       "ShortName": "wild_body_1",
       "Description": "wild_body_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_body_1.bundle",
@@ -2429,9 +2289,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_yellowcoat.bundle",
@@ -2464,9 +2322,7 @@
       "Name": "Top_BOSS_Zryachi",
       "ShortName": "Top_BOSS_Zryachi",
       "Description": "Top_BOSS_Zryachi",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_zryachi.bundle",
@@ -2499,9 +2355,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_cereum.bundle",
@@ -2534,9 +2388,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
@@ -2569,9 +2421,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_tier_2.bundle",
@@ -2604,9 +2454,7 @@
       "Name": "wild_feet",
       "ShortName": "wild_feet",
       "Description": "wild_feet",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_feet.bundle",
@@ -2638,9 +2486,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_underarmour/hands_wild_underarmour.skin.bundle",
@@ -2673,9 +2519,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_ghostmarksman/hands_bear_ghostmarksman.skin.bundle",
@@ -2708,9 +2552,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_spna.bundle",
@@ -2743,9 +2585,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_zaslon/hands_bear_zaslon.skin.bundle",
@@ -2778,9 +2618,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_nightpatrol/hands_usec_nightpatrol.bundle",
@@ -2813,9 +2651,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_cereum/hands_usec_cereum.bundle",
@@ -2848,9 +2684,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_spna/hands_bear_spna.skin.bundle",
@@ -2883,9 +2717,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_hoody/hands_usec_hoody.skin.bundle",
@@ -2918,9 +2750,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_pcsshirt/hands_usec_pcsshirt.skin.bundle",
@@ -2953,9 +2783,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_tier3/hands_usec_tier3.skin.bundle",
@@ -2988,9 +2816,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_bomber.bundle",
@@ -3023,10 +2849,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec",
-        "Bear"
-      ],
+      "Side": ["Usec", "Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_blackknight_quest.bundle",
@@ -3059,9 +2882,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_tactical_long.bundle",
@@ -3094,9 +2915,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_triarius.bundle",
@@ -3129,9 +2948,7 @@
       "Name": "wild_feet_1",
       "ShortName": "wild_feet_1",
       "Description": "wild_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_feet_1.bundle",
@@ -3163,9 +2980,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_meteor/hands_wild_meteor.skin.bundle",
@@ -3198,9 +3013,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_chameleon_softshell/hands_usec_chameleon_softshell.skin.bundle",
@@ -3233,9 +3046,7 @@
       "Name": "Head_BOSS_Birdeye",
       "ShortName": "Head_BOSS_Birdeye",
       "Description": "Head_BOSS_Birdeye",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_birdeye.bundle",
@@ -3268,9 +3079,7 @@
       "Name": "Top_BOSS_Blackknight",
       "ShortName": "Top_BOSS_Blackknight",
       "Description": "Top_BOSS_Blackknight",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_blackknight_quest.bundle",
@@ -3303,9 +3112,7 @@
       "Name": "Pants_BOSS_Glukhar",
       "ShortName": "Pants_BOSS_Glukhar",
       "Description": "Pants_BOSS_Glukhar",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_glukhar.bundle",
@@ -3338,9 +3145,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_gorkae.bundle",
@@ -3373,9 +3178,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_oldschool.bundle",
@@ -3408,9 +3211,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_polevoi.bundle",
@@ -3443,9 +3244,7 @@
       "Name": "wild_security_feet_1",
       "ShortName": "wild_security_feet_1",
       "Description": "wild_security_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_security_feet_1.bundle",
@@ -3478,9 +3277,7 @@
       "Name": "Pants_BOSS_Zryachi",
       "ShortName": "Pants_BOSS_Zryachi",
       "Description": "Pants_BOSS_Zryachi",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_zryachi.bundle",
@@ -3513,9 +3310,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_velocity.bundle",
@@ -3548,9 +3343,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hand_bear_blacklynx/hand_bear_blacklynx.skin.bundle",
@@ -3583,9 +3376,7 @@
       "Name": "BearHead1",
       "ShortName": "BearHead1",
       "Description": "BearHead1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head_0.bundle",
@@ -3617,9 +3408,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_bear_tiger.bundle",
@@ -3652,9 +3441,7 @@
       "Name": "top_cultist_02",
       "ShortName": "top_cultist_02",
       "Description": "top_cultist_02",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_cultist_02.bundle",
@@ -3687,9 +3474,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_usec_commando.skin.bundle",
@@ -3722,9 +3507,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_victory.bundle",
@@ -3757,9 +3540,7 @@
       "Name": "wild_security_body_1",
       "ShortName": "wild_security_body_1",
       "Description": "wild_security_body_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_security_bratva_2.bundle",
@@ -3792,9 +3573,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_tier3.bundle",
@@ -3827,9 +3606,7 @@
       "Name": "wild_feet_1",
       "ShortName": "wild_feet_1",
       "Description": "wild_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_slimpants.bundle",
@@ -3862,9 +3639,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_sumrak/hands_bear_sumrak.skin.bundle",
@@ -3897,9 +3672,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_tactical_long/hands_bear_tactical_long.skin.bundle",
@@ -3932,9 +3705,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_commando/hands_usec_commando.skin.bundle",
@@ -3967,9 +3738,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_bear_black.bundle",
@@ -4002,9 +3771,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_ghostmarksman.bundle",
@@ -4037,9 +3804,7 @@
       "Name": "wild_Killa_body",
       "ShortName": "wild_Killa_body",
       "Description": "wild_Killa_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_tagilla.bundle",
@@ -4072,9 +3837,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_orc_pcu.bundle",
@@ -4107,9 +3870,7 @@
       "Name": "wild_security_body_1",
       "ShortName": "wild_security_body_1",
       "Description": "wild_security_body_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_security_body_1.bundle",
@@ -4142,9 +3903,7 @@
       "Name": "wild_feet_1",
       "ShortName": "wild_feet_1",
       "Description": "wild_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_sweatpants.bundle",
@@ -4177,9 +3936,7 @@
       "Name": "usec_lower_chameleon_softshell",
       "ShortName": "usec_lower_chameleon_softshell",
       "Description": "usec_lower_chameleon_softshell",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_chameleon_softshell.bundle",
@@ -4212,9 +3969,7 @@
       "Name": "Pants_BOSS_Kaban",
       "ShortName": "Pants_BOSS_Kaban",
       "Description": "Pants_BOSS_Kaban",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_kaban.bundle",
@@ -4247,9 +4002,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_ops_windshirt.bundle",
@@ -4282,9 +4035,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/bear/bear_hands_skin.bundle",
@@ -4316,9 +4067,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_tiger/hands_bear_tiger.bundle",
@@ -4351,9 +4100,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_bear_telnik.bundle",
@@ -4386,9 +4133,7 @@
       "Name": "wild_Shturman_body",
       "ShortName": "wild_Shturman_body",
       "Description": "wild_Shturman_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_shturman_skin.bundle",
@@ -4421,9 +4166,7 @@
       "Name": "wild_body_3",
       "ShortName": "wild_body_3",
       "Description": "wild_body_3",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_body_3.bundle",
@@ -4456,9 +4199,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_carinthia_softshell.bundle",
@@ -4491,9 +4232,7 @@
       "Name": "Pants_BOSS_Sanitar",
       "ShortName": "Pants_BOSS_Sanitar",
       "Description": "Pants_BOSS_Sanitar",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_sanitar.bundle",
@@ -4526,9 +4265,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_beltstaff.bundle",
@@ -4561,9 +4298,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_gen2.bundle",
@@ -4596,9 +4331,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_fsbfastresponse/hands_bear_fsbfastresponse.skin.bundle",
@@ -4631,9 +4364,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_polevoi/hands_bear_polevoi.skin.bundle",
@@ -4666,9 +4397,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_softshell/hands_usec_softshell.skin.bundle",
@@ -4701,9 +4430,7 @@
       "Name": "Head_BOSS_BigPipe",
       "ShortName": "Head_BOSS_BigPipe",
       "Description": "Head_BOSS_BigPipe",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_big_pipe.bundle",
@@ -4736,9 +4463,7 @@
       "Name": "Top_BOSS_Blackknight",
       "ShortName": "Top_BOSS_Blackknight",
       "Description": "Top_BOSS_Blackknight",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_blackknight.bundle",
@@ -4771,9 +4496,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_softshell.bundle",
@@ -4806,9 +4529,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_usec_tier3.bundle",
@@ -4841,9 +4562,7 @@
       "Name": "wild_Killa_body",
       "ShortName": "wild_Killa_body",
       "Description": "wild_Killa_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_killa.bundle",
@@ -4875,9 +4594,7 @@
       "Name": "Top_BOSS_Kaban",
       "ShortName": "Top_BOSS_Kaban",
       "Description": "Top_BOSS_Kaban",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_kaban.bundle",
@@ -4910,9 +4627,7 @@
       "Name": "Pants_BOSS_Shturman",
       "ShortName": "Pants_BOSS_Shturman",
       "Description": "Pants_BOSS_Shturman",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_shturman.bundle",
@@ -4945,9 +4660,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_striker.bundle",
@@ -4980,9 +4693,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_deeprecon.bundle",
@@ -5015,9 +4726,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_cryeprecision.bundle",
@@ -5050,9 +4759,7 @@
       "Name": "wild_feet_1",
       "ShortName": "wild_feet_1",
       "Description": "wild_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_bomber.bundle",
@@ -5085,9 +4792,7 @@
       "Name": "DefaultUsecHands",
       "ShortName": "DefaultUsecHands",
       "Description": "DefaultUsecHands",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_usec_beltstaff/hands_usec_beltstaff.skin.bundle",
@@ -5120,9 +4825,7 @@
       "Name": "Tshirt_security_TshirtTatu_02",
       "ShortName": "Tshirt_security_TshirtTatu_02",
       "Description": "Tshirt_security_TshirtTatu_02",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_security_tshirttatu_02.bundle",
@@ -5155,9 +4858,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_bear_spna.bundle",
@@ -5190,9 +4891,7 @@
       "Name": "Pants_BOSS_BigPipe",
       "ShortName": "Pants_BOSS_BigPipe",
       "Description": "Pants_BOSS_BigPipe",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_big_pipe.bundle",
@@ -5225,9 +4924,7 @@
       "Name": "pants_cultist_01",
       "ShortName": "pants_cultist_01",
       "Description": "pants_cultist_01",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_cultist_01.bundle",
@@ -5260,9 +4957,7 @@
       "Name": "wild_feet_1",
       "ShortName": "wild_feet_1",
       "Description": "wild_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_victory.bundle",
@@ -5295,9 +4990,7 @@
       "Name": "wild_security_feet_1",
       "ShortName": "wild_security_feet_1",
       "Description": "wild_security_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_security_bratva_1.bundle",
@@ -5330,9 +5023,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/wild/wild_body_1_firsthands.bundle",
@@ -5364,9 +5055,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_borey/hands_bear_borey.skin.bundle",
@@ -5399,9 +5088,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_termo/hands_bear_termo.skin.bundle",
@@ -5434,9 +5121,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_boss_blackknight_quest/hands_boss_blackknight_quest.skin.bundle",
@@ -5469,9 +5154,7 @@
       "Name": "Head_BOSS_Sanitar",
       "ShortName": "Head_BOSS_Sanitar",
       "Description": "Head_BOSS_Sanitar",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_sanitar.bundle",
@@ -5504,9 +5187,7 @@
       "Name": "Top_security_Gorka4",
       "ShortName": "Top_security_Gorka4",
       "Description": "Top_security_Gorka4",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_security_gorka4.bundle",
@@ -5539,9 +5220,7 @@
       "Name": "Top_security_Husky",
       "ShortName": "Top_security_Husky",
       "Description": "Top_security_Husky",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_security_husky.bundle",
@@ -5574,9 +5253,7 @@
       "Name": "Tshirt_security_TshirtTatu_01",
       "ShortName": "Tshirt_security_TshirtTatu_01",
       "Description": "Tshirt_security_TshirtTatu_01",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_security_tshirttatu_01.bundle",
@@ -5609,9 +5286,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_motocross.bundle",
@@ -5644,9 +5319,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_rainparka.bundle",
@@ -5679,9 +5352,7 @@
       "Name": "wild_body_1",
       "ShortName": "wild_body_1",
       "Description": "wild_body_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_russia.bundle",
@@ -5714,9 +5385,7 @@
       "Name": "wild_body_feldparka",
       "ShortName": "wild_body_feldparka",
       "Description": "wild_body_feldparka",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_feldparka.bundle",
@@ -5749,9 +5418,7 @@
       "Name": "DefaultUsecBody",
       "ShortName": "DefaultUsecBody",
       "Description": "DefaultUsecBody",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_usec_velocity.bundle",
@@ -5784,9 +5451,7 @@
       "Name": "pants_cultist_02",
       "ShortName": "pants_cultist_02",
       "Description": "pants_cultist_02",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_cultist_02.bundle",
@@ -5819,9 +5484,7 @@
       "Name": "wild_security_feet_1",
       "ShortName": "wild_security_feet_1",
       "Description": "wild_security_feet_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_feet_2.bundle",
@@ -5854,9 +5517,7 @@
       "Name": "wild_feet",
       "ShortName": "wild_feet",
       "Description": "wild_feet",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_sklon.bundle",
@@ -5889,9 +5550,7 @@
       "Name": "wild_feet_feldparka",
       "ShortName": "wild_feet_feldparka",
       "Description": "wild_feet_feldparka",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_feldparka.bundle",
@@ -5924,9 +5583,7 @@
       "Name": "Pants_BOSS_Zryachi",
       "ShortName": "Pants_BOSS_Zryachi",
       "Description": "Pants_BOSS_Zryachi",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_boss_kolontai.bundle",
@@ -5959,9 +5616,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/wild/hands_boss_killa.bundle",
@@ -5994,9 +5649,7 @@
       "Name": "Head_BOSS_Blackknight",
       "ShortName": "Head_BOSS_Blackknight",
       "Description": "Head_BOSS_Blackknight",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_blackknight.bundle",
@@ -6029,9 +5682,7 @@
       "Name": "wild_body_1",
       "ShortName": "wild_body_1",
       "Description": "wild_body_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_dealmaker_body.bundle",
@@ -6064,9 +5715,7 @@
       "Name": "wild_Gluhar_body",
       "ShortName": "wild_Gluhar_body",
       "Description": "wild_Gluhar_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_glukhar.bundle",
@@ -6099,9 +5748,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_meteor.bundle",
@@ -6134,9 +5781,7 @@
       "Name": "wild_body",
       "ShortName": "wild_body",
       "Description": "wild_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_underarmour.bundle",
@@ -6169,9 +5814,7 @@
       "Name": "wild_pmcBot_body",
       "ShortName": "wild_pmcBot_body",
       "Description": "wild_pmcBot_body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_wild_scavelite.bundle",
@@ -6204,9 +5847,7 @@
       "Name": "Top_BOSS_Zryachi",
       "ShortName": "Top_BOSS_Zryachi",
       "Description": "Top_BOSS_Zryachi",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_kolontai.bundle",
@@ -6239,9 +5880,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_cryeac.bundle",
@@ -6273,9 +5912,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_g99.bundle",
@@ -6308,9 +5945,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_sumrak.bundle",
@@ -6343,9 +5978,7 @@
       "Name": "DefaultUsecFeet",
       "ShortName": "DefaultUsecFeet",
       "Description": "DefaultUsecFeet",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_urbanresponder.bundle",
@@ -6378,9 +6011,7 @@
       "Name": "usec_lower_carinthia_softshell",
       "ShortName": "usec_lower_carinthia_softshell",
       "Description": "usec_lower_carinthia_softshell",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_usec_carinthia_softshell.bundle",
@@ -6413,9 +6044,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_g99/hands_bear_g99.skin.bundle",
@@ -6448,9 +6077,7 @@
       "Name": "DeafaultBearBody",
       "ShortName": "DeafaultBearBody",
       "Description": "DeafaultBearBody",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/tshirt_bear_turtleneck.bundle",
@@ -6482,9 +6109,7 @@
       "Name": "Top_BOSS_BigPipe",
       "ShortName": "Top_BOSS_BigPipe",
       "Description": "Top_BOSS_BigPipe",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/top_boss_big_pipe.bundle",
@@ -6517,9 +6142,7 @@
       "Name": "DefaultBeerFeet",
       "ShortName": "DefaultBeerFeet",
       "Description": "DefaultBeerFeet",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_bear_zaslon.bundle",
@@ -6552,9 +6175,7 @@
       "Name": "wild_feet_scavelite_taclite",
       "ShortName": "wild_feet_scavelite_taclite",
       "Description": "wild_feet_scavelite_taclite",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/pants_wild_scavelite_taclite.bundle",
@@ -6587,9 +6208,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_bear_voin/hands_bear_voin.skin.bundle",
@@ -6622,9 +6241,7 @@
       "Name": "SavageHands1",
       "ShortName": "SavageHands1",
       "Description": "SavageHands1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_wild_feldparka/hands_wild_feldparka.skin.bundle",
@@ -6657,10 +6274,7 @@
       "Name": "DefaultBearHands",
       "ShortName": "DefaultBearHands",
       "Description": "DefaultBearHands",
-      "Side": [
-        "Bear",
-        "Usec"
-      ],
+      "Side": ["Bear", "Usec"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/hands_boss_blackknight_quest/hands_boss_blackknight_quest.skin.bundle",
@@ -6693,9 +6307,7 @@
       "Name": "DefaultUsecHead",
       "ShortName": "DefaultUsecHead",
       "Description": "DefaultUsecHead",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/usec_head_1.bundle",
@@ -6727,9 +6339,7 @@
       "Name": "BearHead1",
       "ShortName": "BearHead1",
       "Description": "BearHead1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head_5.bundle",
@@ -6762,9 +6372,7 @@
       "Name": "BearHead1",
       "ShortName": "BearHead1",
       "Description": "BearHead1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head_1.bundle",
@@ -6797,9 +6405,7 @@
       "Name": "wild_head_2",
       "ShortName": "wild_head_2",
       "Description": "wild_head_2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_head_misha.bundle",
@@ -6832,9 +6438,7 @@
       "Name": "BearHead1",
       "ShortName": "BearHead1",
       "Description": "BearHead1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head_4.bundle",
@@ -6867,9 +6471,7 @@
       "Name": "Wild_Killa_head",
       "ShortName": "Wild_Killa_head",
       "Description": "Wild_Killa_head",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_killa.bundle",
@@ -6902,9 +6504,7 @@
       "Name": "BearHead1",
       "ShortName": "BearHead1",
       "Description": "BearHead1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head_eug.bundle",
@@ -6937,9 +6537,7 @@
       "Name": "Wild_Dealmaker_head",
       "ShortName": "Wild_Dealmaker_head",
       "Description": "Wild_Dealmaker_head",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_dealmaker_head.bundle",
@@ -6972,9 +6570,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5f5e40400bc58666c37e7819"
     },
@@ -6989,9 +6585,7 @@
       "Name": "usec_head_5",
       "ShortName": "usec_head_5",
       "Description": "usec_head_5",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/usec_head_sean.bundle",
@@ -7024,9 +6618,7 @@
       "Name": "Wild_Head_nonMesh",
       "ShortName": "Wild_Head_nonMesh",
       "Description": "Wild_Head_nonMesh",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_head_nonmesh.bundle",
@@ -7059,9 +6651,7 @@
       "Name": "BearHead1",
       "ShortName": "BearHead1",
       "Description": "BearHead1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head_3.bundle",
@@ -7094,9 +6684,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "617c02e24013b06b0b78df80"
     },
@@ -7111,9 +6699,7 @@
       "Name": "Feet",
       "ShortName": "Feet",
       "Description": "Feet",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Feet",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_feet.bundle",
@@ -7145,9 +6731,7 @@
       "Name": "usec_head_3",
       "ShortName": "usec_head_3",
       "Description": "usec_head_3",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/usec_head_3.bundle",
@@ -7180,9 +6764,7 @@
       "Name": "usec_head_5",
       "ShortName": "usec_head_5",
       "Description": "usec_head_5",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/usec_head_eric.bundle",
@@ -7215,9 +6797,7 @@
       "Name": "usec_head_4",
       "ShortName": "usec_head_4",
       "Description": "usec_head_4",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/usec_head_4.bundle",
@@ -7250,9 +6830,7 @@
       "Name": "head_cultist_02",
       "ShortName": "head_cultist_02",
       "Description": "head_cultist_02",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_cultist_02.bundle",
@@ -7285,9 +6863,7 @@
       "Name": "Head_BOSS_Zryachi",
       "ShortName": "Head_BOSS_Zryachi",
       "Description": "Head_BOSS_Zryachi",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_kolontai.bundle",
@@ -7320,9 +6896,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5d1f58bd86f7744bce0ee9ef"
     },
@@ -7337,9 +6911,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "617be9e4e02b3b3fa50fa8f2"
     },
@@ -7354,9 +6926,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5d1f593286f7743014162044"
     },
@@ -7371,9 +6941,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "6377315993a3b4967208e437"
     },
@@ -7388,9 +6956,7 @@
       "Name": "BossGluhar",
       "ShortName": "BossGluhar",
       "Description": "BossGluhar",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossGluhar"
     }
   },
@@ -7403,9 +6969,7 @@
       "Name": "Usec_4",
       "ShortName": "Usec_4",
       "Description": "Usec_4",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "Prefab": "Usec_4"
     }
   },
@@ -7418,9 +6982,7 @@
       "Name": "Usec_5",
       "ShortName": "Usec_5",
       "Description": "Usec_5",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "Prefab": "Usec_5"
     }
   },
@@ -7433,9 +6995,7 @@
       "Name": "BossBigPipe",
       "ShortName": "BossBigPipe",
       "Description": "BossBigPipe",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossBigPipe"
     },
     "_proto": "5fc50bddb4965a7a2f48c5af"
@@ -7449,9 +7009,7 @@
       "Name": "BossKnight",
       "ShortName": "BossKnight",
       "Description": "BossKnight",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossKnight"
     },
     "_proto": "5fc50bddb4965a7a2f48c5af"
@@ -7465,9 +7023,7 @@
       "Name": "head_cultist_01",
       "ShortName": "head_cultist_01",
       "Description": "head_cultist_01",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_cultist_01.bundle",
@@ -7500,9 +7056,7 @@
       "Name": "usec_head_5",
       "ShortName": "usec_head_5",
       "Description": "usec_head_5",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/usec_head_5.bundle",
@@ -7535,9 +7089,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5d1f58cb86f7744bca3f0b9a"
     },
@@ -7552,9 +7104,7 @@
       "Name": "SavageLowerSuite2",
       "ShortName": "SavageLowerSuite2",
       "Description": "SavageLowerSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "5f5e410c6bdad616ad46d60b"
     },
@@ -7569,9 +7119,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5f5e40a06760b4138443b341"
     },
@@ -7586,9 +7134,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5d1f591186f7744bcc048755"
     },
@@ -7603,9 +7149,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5f5e401747344c2e4f6c42c5",
       "Hands": "5f5f3fa30bc58666c37e782e"
@@ -7621,9 +7165,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5df89f1f86f77412631087ea",
       "Hands": "5df8e76486f7740bfe6df782"
@@ -7639,9 +7181,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5fd3e9f71b735718c25cd9f8",
       "Hands": "5fd78519a8c881276c55eae6"
@@ -7657,9 +7197,7 @@
       "Name": "BossBirdEye",
       "ShortName": "BossBirdEye",
       "Description": "BossBirdEye",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossBirdEye"
     },
     "_proto": "5fc50bddb4965a7a2f48c5af"
@@ -7682,9 +7220,7 @@
       "Name": "wild_head_drozd",
       "ShortName": "wild_head_drozd",
       "Description": "wild_head_drozd",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_head_drozd.bundle",
@@ -7717,9 +7253,7 @@
       "Name": "Hands",
       "ShortName": "Hands",
       "Description": "Hands",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Hands",
       "Prefab": {
         "path": "assets/content/hands/bear/bear_hands_skin.bundle",
@@ -7751,9 +7285,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5d1f592286f7743f8362bcdb"
     },
@@ -7768,9 +7300,7 @@
       "Name": "SavageUpperSuite1",
       "ShortName": "SavageUpperSuite1",
       "Description": "SavageUpperSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "619238266c614e6d15792bca",
       "Hands": "618cf9540a5a59657e5f5677"
@@ -7786,9 +7316,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "657058fddf9b3231400e9188",
       "Hands": "6572eafead200ced8e0f051a"
@@ -7804,9 +7332,7 @@
       "Name": "Bear_1",
       "ShortName": "Bear_1",
       "Description": "Bear_1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "Prefab": "Bear_1"
     }
   },
@@ -7819,9 +7345,7 @@
       "Name": "Scav_4",
       "ShortName": "Scav_4",
       "Description": "Scav_4",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Scav_4"
     }
   },
@@ -7862,9 +7386,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "6295e944e9de5e7b3751c4da"
     },
@@ -7879,9 +7401,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5d1f56a686f7744bce0ee9eb",
       "Hands": "5d1f5b5386f7744bcc048757"
@@ -7897,9 +7417,7 @@
       "Name": "SavageUpperSuite1",
       "ShortName": "SavageUpperSuite1",
       "Description": "SavageUpperSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "5fd22d311add82653b5a704c",
       "Hands": "5fd7901bdd870108a754c0e6"
@@ -7915,9 +7433,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "618109c96d7ca35d076b3363",
       "Hands": "618d1a5574bb2d036a049ea9"
@@ -7933,9 +7449,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5d1f56f186f7744bcb0acd1a",
       "Hands": "5d1f5b3f86f7744bcd1345a2"
@@ -7951,9 +7465,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5d1f56ff86f7743f8362bcd7",
       "Hands": "5d1f5b4886f7744bce0ee9f3"
@@ -7969,9 +7481,7 @@
       "Name": "Scav_3",
       "ShortName": "Scav_3",
       "Description": "Scav_3",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Scav_3"
     }
   },
@@ -7984,9 +7494,7 @@
       "Name": "Usec_1",
       "ShortName": "Usec_1",
       "Description": "Usec_1",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "Prefab": "Usec_1"
     }
   },
@@ -7999,9 +7507,7 @@
       "Name": "Usec_3",
       "ShortName": "Usec_3",
       "Description": "Usec_3",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "Prefab": "Usec_3"
     }
   },
@@ -8014,9 +7520,7 @@
       "Name": "Arena_Guard_2",
       "ShortName": "Arena_Guard_2",
       "Description": "Arena_Guard_2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Arena_Guard_2"
     }
   },
@@ -8029,9 +7533,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": true,
       "Feet": "5cc085bb14c02e000e67a5c5"
     }
@@ -8045,9 +7547,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5fce3e965a9f8c40685693bc"
     },
@@ -8062,9 +7562,7 @@
       "Name": "SavageLowerSuite2",
       "ShortName": "SavageLowerSuite2",
       "Description": "SavageLowerSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "5f5e41576760b4138443b344"
     },
@@ -8079,11 +7577,7 @@
       "Name": "KillaUpperSuite",
       "ShortName": "KillaUpperSuite",
       "Description": "KillaUpperSuite",
-      "Side": [
-        "Bear",
-        "Usec",
-        "Savage"
-      ],
+      "Side": ["Bear", "Usec", "Savage"],
       "AvailableAsDefault": false,
       "Body": "5cdea33e7d6c8b0474535dac",
       "Hands": "5df8ead786f774530571b14b"
@@ -8098,9 +7592,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5d4da0cb86f77450fe0a6629",
       "Hands": "5d4da36686f77421522b35ee"
@@ -8116,9 +7608,7 @@
       "Name": "Boss_Sturman",
       "ShortName": "Boss_Sturman",
       "Description": "Boss_Sturman",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Boss_Sturman"
     }
   },
@@ -8131,9 +7621,7 @@
       "Name": "wild_head_1",
       "ShortName": "wild_head_1",
       "Description": "wild_head_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_head_1.bundle",
@@ -8165,9 +7653,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "6571cad4c8673f00290f5657"
     },
@@ -8182,9 +7668,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5fce3e47fe40296c1d5fd784",
       "Hands": "5fd760001189a17bcc172b85"
@@ -8200,9 +7684,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5fce3e0cfe40296c1d5fd782",
       "Hands": "5fd75289b1f9ad0f60509d25"
@@ -8218,9 +7700,7 @@
       "Name": "KillaUpperSuite",
       "ShortName": "KillaUpperSuite",
       "Description": "KillaUpperSuite",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "5df8a10486f77412672a1e3a",
       "Hands": "5df8eac086f77412640e2ea7"
@@ -8236,9 +7716,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5fcf63da5c287f01f22bf245",
       "Hands": "5fd7769cd3d418755f40ea43"
@@ -8254,9 +7732,7 @@
       "Name": "BearHead1",
       "ShortName": "BearHead1",
       "Description": "BearHead1",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head_slava.bundle",
@@ -8289,9 +7765,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "6033a3d8ed2e0509b15f9031"
     },
@@ -8306,9 +7780,7 @@
       "Name": "SavageLowerSuite2",
       "ShortName": "SavageLowerSuite2",
       "Description": "SavageLowerSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "61922589bb2cea6f7a22d964"
     },
@@ -8323,9 +7795,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5e4bb3b586f77406812bd579"
     },
@@ -8340,9 +7810,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": true,
       "Body": "5cde95d97d6c8b647a3769b0",
       "Hands": "5cde95fa7d6c8b04737c2d13"
@@ -8357,9 +7825,7 @@
       "Name": "SavageUpperSuite1",
       "ShortName": "SavageUpperSuite1",
       "Description": "SavageUpperSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "618d1af10a5a59657e5f56f3",
       "Hands": "6197aca964ae5436d76c1f98"
@@ -8375,9 +7841,7 @@
       "Name": "SavageUpperSuite1",
       "ShortName": "SavageUpperSuite1",
       "Description": "SavageUpperSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "5e4bb3ee86f77406975c934e",
       "Hands": "5e4bb49586f77406a313ec5a"
@@ -8393,9 +7857,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5e4bb31586f7740695730568",
       "Hands": "5e4bb1d286f77406a313ec59"
@@ -8411,9 +7873,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5e9d9fa986f774054d6b89f2",
       "Hands": "5e9da26286f7741d2e3424a5"
@@ -8438,9 +7898,7 @@
       "Name": "Scav_2",
       "ShortName": "Scav_2",
       "Description": "Scav_2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Scav_2"
     }
   },
@@ -8453,9 +7911,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5d1f590486f7744bcd13459e"
     },
@@ -8470,9 +7926,7 @@
       "Name": "SavageUpperSuite1",
       "ShortName": "SavageUpperSuite1",
       "Description": "SavageUpperSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "5e9da1d086f774054a667134",
       "Hands": "5e9da2dd86f774054e7d0f63"
@@ -8488,9 +7942,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5d1f564b86f7744bcb0acd16",
       "Hands": "5d1f5aca86f7744bce0ee9f1"
@@ -8506,9 +7958,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "6295e8c3e08ed747e64aea00",
       "Hands": "6295e95e2ff06264a71c7c1f"
@@ -8534,9 +7984,7 @@
       "Name": "Bear_2_Eng",
       "ShortName": "Bear_2_Eng",
       "Description": "Bear_2_Eng",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "Prefab": "Bear_2_Eng"
     }
   },
@@ -8549,9 +7997,7 @@
       "Name": "Bear_3",
       "ShortName": "Bear_3",
       "Description": "Bear_3",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "Prefab": "Bear_3"
     }
   },
@@ -8564,9 +8010,7 @@
       "Name": "Usec_2",
       "ShortName": "Usec_2",
       "Description": "Usec_2",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "Prefab": "Usec_2"
     }
   },
@@ -8579,9 +8023,7 @@
       "Name": "BossKilla",
       "ShortName": "BossKilla",
       "Description": "BossKilla",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossKilla"
     },
     "_proto": "5fc50bddb4965a7a2f48c5af"
@@ -8595,9 +8037,7 @@
       "Name": "Head_BOSS_Zryachi",
       "ShortName": "Head_BOSS_Zryachi",
       "Description": "Head_BOSS_Zryachi",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_zryachi.bundle",
@@ -8630,9 +8070,7 @@
       "Name": "KillaLowerSuite",
       "ShortName": "KillaLowerSuite",
       "Description": "KillaLowerSuite",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "5cdea3c47d6c8b0475341734"
     }
@@ -8646,9 +8084,7 @@
       "Name": "SavageLowerSuite1",
       "ShortName": "SavageLowerSuite1",
       "Description": "SavageLowerSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "5cc2e5d014c02e15d53d9c03"
     }
@@ -8662,9 +8098,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5df89f8f86f77412672a1e38"
     },
@@ -8679,9 +8113,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "6295e63de08ed747e64ae991"
     }
@@ -8695,9 +8127,7 @@
       "Name": "DefaultBearUpperSuite",
       "ShortName": "DefaultBearUpperSuite",
       "Description": "DefaultBearUpperSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": true,
       "Body": "5cc0858d14c02e000c6bea66",
       "Hands": "5cc0876314c02e000c6bea6b"
@@ -8712,9 +8142,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5d1f568486f7744bca3f0b98",
       "Hands": "5d1f5ab286f7743f8362bcdd"
@@ -8730,9 +8158,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "617bca4b4013b06b0b78df2a",
       "Hands": "618aeee10a5a59657e5f55ed"
@@ -8748,9 +8174,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "6033a31e9ec839204e6a2f3e",
       "Hands": "6034d3053903bc73173b0d35"
@@ -8766,9 +8190,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5e9da17386f774054b6f79a3",
       "Hands": "5e9da2a786f774054c19ac94"
@@ -8784,9 +8206,7 @@
       "Name": "BossBully",
       "ShortName": "BossBully",
       "Description": "BossBully",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossBully"
     }
   },
@@ -8799,9 +8219,7 @@
       "Name": "Scav_1",
       "ShortName": "Scav_1",
       "Description": "Scav_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Scav_1"
     }
   },
@@ -8814,9 +8232,7 @@
       "Name": "head_cultist_03",
       "ShortName": "head_cultist_03",
       "Description": "head_cultist_03",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_cultist_03.bundle",
@@ -8849,9 +8265,7 @@
       "Name": "wild_head_drozd",
       "ShortName": "wild_head_drozd",
       "Description": "wild_head_drozd",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_wild_security_gus.bundle",
@@ -8884,9 +8298,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5d1f58ab86f7743014162042"
     },
@@ -8901,9 +8313,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5e9dcadd86f7743e20652f23"
     },
@@ -8918,9 +8328,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5df8a08886f7740bfe6df775"
     },
@@ -8935,9 +8343,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "6033a35f80ae5e2f970ba6bb",
       "Hands": "6034d33392ec1c31037959dc"
@@ -8953,9 +8359,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "637b945722e2a933ed0e33c8",
       "Hands": "6393082c1c8f182ad90c8961"
@@ -8971,9 +8375,7 @@
       "Name": "wild_head_misha",
       "ShortName": "wild_head_misha",
       "Description": "wild_head_misha",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_head_misha.bundle",
@@ -9006,9 +8408,7 @@
       "Name": "Body",
       "ShortName": "Body",
       "Description": "Body",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Body",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_body.bundle",
@@ -9040,9 +8440,7 @@
       "Name": "DefaultUsecLowerSuite",
       "ShortName": "DefaultUsecLowerSuite",
       "Description": "DefaultUsecLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": true,
       "Feet": "5cde95ef7d6c8b04713c4f2d"
     }
@@ -9056,9 +8454,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5d1f58a086f7743f8362bcd9"
     },
@@ -9073,9 +8469,7 @@
       "Name": "SavageLowerSuite2",
       "ShortName": "SavageLowerSuite2",
       "Description": "SavageLowerSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "5df8a15186f77412640e2e6a"
     },
@@ -9090,9 +8484,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5fcf940bce1ba36a513bb9cc"
     },
@@ -9107,9 +8499,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5d1f565786f7743f8362bcd5",
       "Hands": "5d1f5aa286f7744bca3f0b9c"
@@ -9125,9 +8515,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5f5e4075df4f3100376a8138",
       "Hands": "5f5f3fc66bdad616ad46d62f"
@@ -9143,9 +8531,7 @@
       "Name": "Boss_Kaban",
       "ShortName": "Boss_Kaban",
       "Description": "Boss_Kaban",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Boss_Kaban"
     }
   },
@@ -9158,9 +8544,7 @@
       "Name": "Boss_Kollontay",
       "ShortName": "Boss_Kollontay",
       "Description": "Boss_Kollontay",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Boss_Kollontay"
     }
   },
@@ -9173,9 +8557,7 @@
       "Name": "wild_head_drozd",
       "ShortName": "wild_head_drozd",
       "Description": "wild_head_drozd",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_wild_security_den.bundle",
@@ -9208,9 +8590,7 @@
       "Name": "SavageLowerSuite2",
       "ShortName": "SavageLowerSuite2",
       "Description": "SavageLowerSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "5cde9fb87d6c8b0474535da9"
     }
@@ -9224,9 +8604,7 @@
       "Name": "SavageLowerSuite2",
       "ShortName": "SavageLowerSuite2",
       "Description": "SavageLowerSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "5f5e41366760b4138443b343"
     },
@@ -9241,9 +8619,7 @@
       "Name": "SavageUpperSuite1",
       "ShortName": "SavageUpperSuite1",
       "Description": "SavageUpperSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "5fd1eb3fbe3b7107d66cb645",
       "Hands": "5fd78fe9e3bfcf6cab4c9f54"
@@ -9259,9 +8635,7 @@
       "Name": "DefaultBearUpperSuite",
       "ShortName": "DefaultBearUpperSuite",
       "Description": "DefaultBearUpperSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "6295e698e9de5e7b3751c47a",
       "Hands": "62961424869a02221651df53"
@@ -9276,9 +8650,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5d1f56c686f7744bcd13459c",
       "Hands": "5d1f5b0686f7743f8362bcde"
@@ -9294,9 +8666,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5e4bb39386f774067f79de05"
     },
@@ -9311,9 +8681,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "6377266693a3b4967208e42b",
       "Hands": "6390103dfdb42a2ccc0e8cca"
@@ -9329,9 +8697,7 @@
       "Name": "Bear_1_Eng",
       "ShortName": "Bear_1_Eng",
       "Description": "Bear_1_Eng",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "Prefab": "Bear_1_Eng"
     }
   },
@@ -9344,9 +8710,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5d1f588e86f7744bcc048753"
     },
@@ -9361,9 +8725,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "65707a89f5a6f1412f0c5f7b"
     },
@@ -9378,9 +8740,7 @@
       "Name": "Arena_Guard_1",
       "ShortName": "Arena_Guard_1",
       "Description": "Arena_Guard_1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Arena_Guard_1"
     }
   },
@@ -9393,9 +8753,7 @@
       "Name": "SavageUpperSuite1",
       "ShortName": "SavageUpperSuite1",
       "Description": "SavageUpperSuite1",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "5cc2e59214c02e000f16684e",
       "Hands": "5cc2e68f14c02e28b47de290"
@@ -9423,9 +8781,7 @@
       "Name": "SavageUpperSuite2",
       "ShortName": "SavageUpperSuite2",
       "Description": "SavageUpperSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Body": "5cde9f337d6c8b0474535da8",
       "Hands": "5cde9fff7d6c8b647a3769b1"
@@ -9440,9 +8796,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5d1f56e486f7744bce0ee9ed",
       "Hands": "5d1f5b1986f7744bcd1345a1"
@@ -9458,9 +8812,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "5e4bb35286f77406a511c9bc",
       "Hands": "5e4bb1fe86f774069342dec8"
@@ -9476,9 +8828,7 @@
       "Name": "Bear_2",
       "ShortName": "Bear_2",
       "Description": "Bear_2",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "Prefab": "Bear_2"
     }
   },
@@ -9491,9 +8841,7 @@
       "Name": "SavageLowerSuite2",
       "ShortName": "SavageLowerSuite2",
       "Description": "SavageLowerSuite2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "AvailableAsDefault": false,
       "Feet": "6193be546e5968395b260157"
     },
@@ -9508,9 +8856,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "6033a3fee29c9f6c9b14e74e"
     },
@@ -9525,9 +8871,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "637ba17aa10a96c2b605dbc2"
     },
@@ -9542,9 +8886,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5d1f566d86f7744bcd13459a",
       "Hands": "5d1f5a9786f7743014162046"
@@ -9560,9 +8902,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Body": "5d1f567786f7744bcc04874f",
       "Hands": "5d1f5ac086f7744bcd1345a0"
@@ -9578,10 +8918,7 @@
       "Name": "Blackknight_Suite",
       "ShortName": "Blackknight_Suite",
       "Description": "Blackknight_Suite",
-      "Side": [
-        "Bear",
-        "Usec"
-      ],
+      "Side": ["Bear", "Usec"],
       "AvailableAsDefault": false,
       "Body": "64ef3efdb63b74469b6c1499",
       "Hands": "64ef3f3739e45b527a7c40ae"
@@ -9596,9 +8933,7 @@
       "Name": "BossSanitar",
       "ShortName": "BossSanitar",
       "Description": "BossSanitar",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossSanitar"
     }
   },
@@ -9611,9 +8946,7 @@
       "Name": "Scav_5",
       "ShortName": "Scav_5",
       "Description": "Scav_5",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Scav_5"
     }
   },
@@ -9626,9 +8959,7 @@
       "Name": "Scav_6",
       "ShortName": "Scav_6",
       "Description": "Scav_6",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "Scav_6"
     }
   },
@@ -9641,9 +8972,7 @@
       "Name": "usec_head_5",
       "ShortName": "usec_head_5",
       "Description": "usec_head_5",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/usec_head_6.bundle",
@@ -9676,9 +9005,7 @@
       "Name": "wild_head_2",
       "ShortName": "wild_head_2",
       "Description": "wild_head_2",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/wild_head_2.bundle",
@@ -9710,9 +9037,7 @@
       "Name": "Head_BOSS_Kaban",
       "ShortName": "Head_BOSS_Kaban",
       "Description": "Head_BOSS_Kaban",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/head_boss_kaban.bundle",
@@ -9745,9 +9070,7 @@
       "Name": "Head",
       "ShortName": "Head",
       "Description": "Head",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "BodyPart": "Head",
       "Prefab": {
         "path": "assets/content/characters/character/prefabs/bear_head.bundle",
@@ -9779,9 +9102,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Bear"
-      ],
+      "Side": ["Bear"],
       "AvailableAsDefault": false,
       "Feet": "5e9dc97c86f774054c19ac9a"
     },
@@ -9796,9 +9117,7 @@
       "Name": "DefaultBearLowerSuite",
       "ShortName": "DefaultBearLowerSuite",
       "Description": "DefaultBearLowerSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Feet": "5d1f58ed86f7744bcb0acd1c"
     },
@@ -9813,9 +9132,7 @@
       "Name": "DefaultUsecUpperSuite",
       "ShortName": "DefaultUsecUpperSuite",
       "Description": "DefaultUsecUpperSuite",
-      "Side": [
-        "Usec"
-      ],
+      "Side": ["Usec"],
       "AvailableAsDefault": false,
       "Body": "6571cb0923aa6d72760a7f8f",
       "Hands": "657316a92dba425ccc0141a4"
@@ -9831,9 +9148,7 @@
       "Name": "BossTagilla",
       "ShortName": "BossTagilla",
       "Description": "BossTagilla",
-      "Side": [
-        "Savage"
-      ],
+      "Side": ["Savage"],
       "Prefab": "BossTagilla"
     },
     "_proto": "5fc50bddb4965a7a2f48c5af"

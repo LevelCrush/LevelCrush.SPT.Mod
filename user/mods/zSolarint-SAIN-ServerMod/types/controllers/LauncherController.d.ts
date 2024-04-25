@@ -15,40 +15,50 @@ import { SaveServer } from "@spt-aki/servers/SaveServer";
 import { LocalisationService } from "@spt-aki/services/LocalisationService";
 import { HashUtil } from "@spt-aki/utils/HashUtil";
 export declare class LauncherController {
-    protected logger: ILogger;
-    protected hashUtil: HashUtil;
-    protected saveServer: SaveServer;
-    protected httpServerHelper: HttpServerHelper;
-    protected profileHelper: ProfileHelper;
-    protected databaseServer: DatabaseServer;
-    protected localisationService: LocalisationService;
-    protected preAkiModLoader: PreAkiModLoader;
-    protected configServer: ConfigServer;
-    protected coreConfig: ICoreConfig;
-    constructor(logger: ILogger, hashUtil: HashUtil, saveServer: SaveServer, httpServerHelper: HttpServerHelper, profileHelper: ProfileHelper, databaseServer: DatabaseServer, localisationService: LocalisationService, preAkiModLoader: PreAkiModLoader, configServer: ConfigServer);
-    connect(): IConnectResponse;
-    /**
-     * Get descriptive text for each of the profile edtions a player can choose, keyed by profile.json profile type e.g. "Edge Of Darkness"
-     * @returns Dictionary of profile types with related descriptive text
-     */
-    protected getProfileDescriptions(): Record<string, string>;
-    find(sessionIdKey: string): Info;
-    login(info: ILoginRequestData): string;
-    register(info: IRegisterData): string;
-    protected createAccount(info: IRegisterData): string;
-    changeUsername(info: IChangeRequestData): string;
-    changePassword(info: IChangeRequestData): string;
-    wipe(info: IRegisterData): string;
-    getCompatibleTarkovVersion(): string;
-    /**
-     * Get the mods the server has currently loaded
-     * @returns Dictionary of mod name and mod details
-     */
-    getLoadedServerMods(): Record<string, IPackageJsonData>;
-    /**
-     * Get the mods a profile has ever loaded into game with
-     * @param sessionId Player id
-     * @returns Array of mod details
-     */
-    getServerModsProfileUsed(sessionId: string): ModDetails[];
+  protected logger: ILogger;
+  protected hashUtil: HashUtil;
+  protected saveServer: SaveServer;
+  protected httpServerHelper: HttpServerHelper;
+  protected profileHelper: ProfileHelper;
+  protected databaseServer: DatabaseServer;
+  protected localisationService: LocalisationService;
+  protected preAkiModLoader: PreAkiModLoader;
+  protected configServer: ConfigServer;
+  protected coreConfig: ICoreConfig;
+  constructor(
+    logger: ILogger,
+    hashUtil: HashUtil,
+    saveServer: SaveServer,
+    httpServerHelper: HttpServerHelper,
+    profileHelper: ProfileHelper,
+    databaseServer: DatabaseServer,
+    localisationService: LocalisationService,
+    preAkiModLoader: PreAkiModLoader,
+    configServer: ConfigServer
+  );
+  connect(): IConnectResponse;
+  /**
+   * Get descriptive text for each of the profile edtions a player can choose, keyed by profile.json profile type e.g. "Edge Of Darkness"
+   * @returns Dictionary of profile types with related descriptive text
+   */
+  protected getProfileDescriptions(): Record<string, string>;
+  find(sessionIdKey: string): Info;
+  login(info: ILoginRequestData): string;
+  register(info: IRegisterData): string;
+  protected createAccount(info: IRegisterData): string;
+  changeUsername(info: IChangeRequestData): string;
+  changePassword(info: IChangeRequestData): string;
+  wipe(info: IRegisterData): string;
+  getCompatibleTarkovVersion(): string;
+  /**
+   * Get the mods the server has currently loaded
+   * @returns Dictionary of mod name and mod details
+   */
+  getLoadedServerMods(): Record<string, IPackageJsonData>;
+  /**
+   * Get the mods a profile has ever loaded into game with
+   * @param sessionId Player id
+   * @returns Array of mod details
+   */
+  getServerModsProfileUsed(sessionId: string): ModDetails[];
 }

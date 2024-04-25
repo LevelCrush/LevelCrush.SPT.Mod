@@ -386,7 +386,7 @@
       "Name": "Zone_Yellow",
       "Position": {
         "x": -67.97296,
-        "y": -7.074559e-07,
+        "y": -7.074559e-7,
         "z": -4.810565
       },
       "WildSpawnType": "pmc",

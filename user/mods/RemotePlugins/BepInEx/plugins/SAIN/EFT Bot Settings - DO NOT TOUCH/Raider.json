@@ -128,7 +128,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1E-05,
+        "COEF_REPEATED_SEEN": 1e-5,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -488,14 +488,9 @@
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": ["assault"],
         "ENEMY_BOT_TYPES": [],
-        "REVENGE_BOT_TYPES": [
-          "pmcBot",
-          "gifter"
-        ],
+        "REVENGE_BOT_TYPES": ["pmcBot", "gifter"],
         "FOLLOWER_AND_BOSS_WARN_EQUAL_PRIORITY": true,
         "MAX_AGGRO_BOT_DIST_UPPER_LIMIT": 400.0,
         "MAX_AGGRO_BOT_DIST_SQR_UPPER_LIMIT": 40000.0,
@@ -895,7 +890,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1E-05,
+        "COEF_REPEATED_SEEN": 1e-5,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -1255,14 +1250,9 @@
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": ["assault"],
         "ENEMY_BOT_TYPES": [],
-        "REVENGE_BOT_TYPES": [
-          "pmcBot",
-          "gifter"
-        ],
+        "REVENGE_BOT_TYPES": ["pmcBot", "gifter"],
         "FOLLOWER_AND_BOSS_WARN_EQUAL_PRIORITY": true,
         "MAX_AGGRO_BOT_DIST_UPPER_LIMIT": 400.0,
         "MAX_AGGRO_BOT_DIST_SQR_UPPER_LIMIT": 40000.0,
@@ -1662,7 +1652,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1E-05,
+        "COEF_REPEATED_SEEN": 1e-5,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -2022,14 +2012,9 @@
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": ["assault"],
         "ENEMY_BOT_TYPES": [],
-        "REVENGE_BOT_TYPES": [
-          "pmcBot",
-          "gifter"
-        ],
+        "REVENGE_BOT_TYPES": ["pmcBot", "gifter"],
         "FOLLOWER_AND_BOSS_WARN_EQUAL_PRIORITY": true,
         "MAX_AGGRO_BOT_DIST_UPPER_LIMIT": 400.0,
         "MAX_AGGRO_BOT_DIST_SQR_UPPER_LIMIT": 40000.0,
@@ -2429,7 +2414,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1E-05,
+        "COEF_REPEATED_SEEN": 1e-5,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -2789,14 +2774,9 @@
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": ["assault"],
         "ENEMY_BOT_TYPES": [],
-        "REVENGE_BOT_TYPES": [
-          "pmcBot",
-          "gifter"
-        ],
+        "REVENGE_BOT_TYPES": ["pmcBot", "gifter"],
         "FOLLOWER_AND_BOSS_WARN_EQUAL_PRIORITY": true,
         "MAX_AGGRO_BOT_DIST_UPPER_LIMIT": 400.0,
         "MAX_AGGRO_BOT_DIST_SQR_UPPER_LIMIT": 40000.0,

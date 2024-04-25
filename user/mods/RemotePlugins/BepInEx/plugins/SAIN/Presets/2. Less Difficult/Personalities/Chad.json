@@ -33,9 +33,6 @@
     "FrequentSprintWhileSearch": false,
     "CanRushEnemyReloadHeal": true,
     "CanFakeDeathRare": false,
-    "AllowedTypes": [
-      "Usec",
-      "Bear"
-    ]
+    "AllowedTypes": ["Usec", "Bear"]
   }
 }

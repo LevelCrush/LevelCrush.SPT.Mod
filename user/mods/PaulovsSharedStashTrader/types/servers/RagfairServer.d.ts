@@ -11,33 +11,47 @@ import { RagfairCategoriesService } from "@spt-aki/services/RagfairCategoriesSer
 import { RagfairOfferService } from "@spt-aki/services/RagfairOfferService";
 import { RagfairRequiredItemsService } from "@spt-aki/services/RagfairRequiredItemsService";
 export declare class RagfairServer {
-    protected logger: ILogger;
-    protected ragfairOfferGenerator: RagfairOfferGenerator;
-    protected ragfairOfferService: RagfairOfferService;
-    protected ragfairCategoriesService: RagfairCategoriesService;
-    protected ragfairRequiredItemsService: RagfairRequiredItemsService;
-    protected localisationService: LocalisationService;
-    protected traderHelper: TraderHelper;
-    protected traderAssortHelper: TraderAssortHelper;
-    protected configServer: ConfigServer;
-    protected ragfairConfig: IRagfairConfig;
-    constructor(logger: ILogger, ragfairOfferGenerator: RagfairOfferGenerator, ragfairOfferService: RagfairOfferService, ragfairCategoriesService: RagfairCategoriesService, ragfairRequiredItemsService: RagfairRequiredItemsService, localisationService: LocalisationService, traderHelper: TraderHelper, traderAssortHelper: TraderAssortHelper, configServer: ConfigServer);
-    load(): Promise<void>;
-    update(): Promise<void>;
-    /**
-     * Get traders who need to be periodically refreshed
-     * @returns string array of traders
-     */
-    getUpdateableTraders(): string[];
-    getAllActiveCategories(fleaUnlocked: boolean, searchRequestData: ISearchRequestData, offers: IRagfairOffer[]): Record<string, number>;
-    /**
-     * Disable/Hide an offer from flea
-     * @param offerId
-     */
-    hideOffer(offerId: string): void;
-    getOffer(offerID: string): IRagfairOffer;
-    getOffers(): IRagfairOffer[];
-    removeOfferStack(offerID: string, amount: number): void;
-    doesOfferExist(offerId: string): boolean;
-    addPlayerOffers(): void;
+  protected logger: ILogger;
+  protected ragfairOfferGenerator: RagfairOfferGenerator;
+  protected ragfairOfferService: RagfairOfferService;
+  protected ragfairCategoriesService: RagfairCategoriesService;
+  protected ragfairRequiredItemsService: RagfairRequiredItemsService;
+  protected localisationService: LocalisationService;
+  protected traderHelper: TraderHelper;
+  protected traderAssortHelper: TraderAssortHelper;
+  protected configServer: ConfigServer;
+  protected ragfairConfig: IRagfairConfig;
+  constructor(
+    logger: ILogger,
+    ragfairOfferGenerator: RagfairOfferGenerator,
+    ragfairOfferService: RagfairOfferService,
+    ragfairCategoriesService: RagfairCategoriesService,
+    ragfairRequiredItemsService: RagfairRequiredItemsService,
+    localisationService: LocalisationService,
+    traderHelper: TraderHelper,
+    traderAssortHelper: TraderAssortHelper,
+    configServer: ConfigServer
+  );
+  load(): Promise<void>;
+  update(): Promise<void>;
+  /**
+   * Get traders who need to be periodically refreshed
+   * @returns string array of traders
+   */
+  getUpdateableTraders(): string[];
+  getAllActiveCategories(
+    fleaUnlocked: boolean,
+    searchRequestData: ISearchRequestData,
+    offers: IRagfairOffer[]
+  ): Record<string, number>;
+  /**
+   * Disable/Hide an offer from flea
+   * @param offerId
+   */
+  hideOffer(offerId: string): void;
+  getOffer(offerID: string): IRagfairOffer;
+  getOffers(): IRagfairOffer[];
+  removeOfferStack(offerID: string, amount: number): void;
+  doesOfferExist(offerId: string): boolean;
+  addPlayerOffers(): void;
 }

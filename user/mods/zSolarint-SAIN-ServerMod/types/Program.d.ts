@@ -1,5 +1,5 @@
 export declare class Program {
-    private errorHandler;
-    constructor();
-    start(): void;
+  private errorHandler;
+  constructor();
+  start(): void;
 }

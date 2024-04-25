@@ -1,5 +1,5 @@
 {
-    "enableLogging": true,
-    "enableDebugLogging": false,
-    "ignoreSideExclusive": false
+  "enableLogging": true,
+  "enableDebugLogging": false,
+  "ignoreSideExclusive": false
 }

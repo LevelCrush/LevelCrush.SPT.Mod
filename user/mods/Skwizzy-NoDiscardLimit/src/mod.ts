@@ -7,7 +7,6 @@ import { ConfigServer } from "@spt-aki/servers/ConfigServer";
 import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
 import { IPmcConfig } from "@spt-aki/models/spt/config/IPmcConfig";
 
-
 import config from "../config/config.json";
 
 class DisableDiscardLimits implements IPostDBLoadMod {
@@ -21,18 +20,25 @@ class DisableDiscardLimits implements IPostDBLoadMod {
 
     /**
      * Set the item generation weights for backpackLoot, vestLoot, and pocketLoot to zero to prevent extra loot items from spawning on the specified bot type
-     * @param botTypes 
+     * @param botTypes
      */
     const emptyInventory = (botTypes: string[]) => {
       botTypes.forEach((type) => {
         logInfo(`Removing loot from ${type}`);
-        const backpackWeights = tables.bots.types[type].generation.items.backpackLoot.weights;
-        const vestWeights = tables.bots.types[type].generation.items.vestLoot.weights;
-        const pocketWeights = tables.bots.types[type].generation.items.pocketLoot.weights;
-        
-        Object.keys(backpackWeights).forEach(weight => backpackWeights[weight] = 0);
-        Object.keys(vestWeights).forEach(weight => vestWeights[weight] = 0);
-        Object.keys(pocketWeights).forEach(weight => pocketWeights[weight] = 0);
+        const backpackWeights =
+          tables.bots.types[type].generation.items.backpackLoot.weights;
+        const vestWeights =
+          tables.bots.types[type].generation.items.vestLoot.weights;
+        const pocketWeights =
+          tables.bots.types[type].generation.items.pocketLoot.weights;
+
+        Object.keys(backpackWeights).forEach(
+          (weight) => (backpackWeights[weight] = 0)
+        );
+        Object.keys(vestWeights).forEach((weight) => (vestWeights[weight] = 0));
+        Object.keys(pocketWeights).forEach(
+          (weight) => (pocketWeights[weight] = 0)
+        );
       });
     };
 

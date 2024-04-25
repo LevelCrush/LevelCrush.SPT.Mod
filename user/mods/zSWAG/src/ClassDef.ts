@@ -1,6 +1,4 @@
-import {
-  BossLocationSpawn,
-} from "@spt-aki/models/eft/common/ILocationBase";
+import { BossLocationSpawn } from "@spt-aki/models/eft/common/ILocationBase";
 
 export interface BossPattern extends BossLocationSpawn {
   OnlySpawnOnce?: boolean;
@@ -107,7 +105,7 @@ export const roleCase: object = {
   bosszryachiy: "bossZryachiy",
   followerzryachiy: "followerZryachiy",
   arenafighterevent: "arenaFighterEvent",
-  crazyassaultevent: "crazyAssaultEvent"
+  crazyassaultevent: "crazyAssaultEvent",
 };
 
 export const reverseBossNames: object = {
@@ -128,7 +126,7 @@ export const reverseBossNames: object = {
   crazyassaultevent: "crazyscavs",
   arenafighterevent: "bloodhounds",
   bosspunisher: "punisher",
-  gifter: "santa"
+  gifter: "santa",
 };
 
 export const reverseMapNames: object = {
@@ -142,7 +140,7 @@ export const reverseMapNames: object = {
   interchange: "interchange",
   laboratory: "laboratory",
   tarkovstreets: "streets",
-  sandbox: "groundzero"
+  sandbox: "groundzero",
 };
 
 export const diffProper = {
@@ -150,7 +148,7 @@ export const diffProper = {
   asonline: "random",
   normal: "normal",
   hard: "hard",
-  impossible: "impossible"
+  impossible: "impossible",
 };
 
 export const pmcType: string[] = ["sptbear", "sptusec"];
@@ -166,7 +164,7 @@ export const validMaps: string[] = [
   "shoreline",
   "tarkovstreets",
   "woods",
-  "sandbox"
+  "sandbox",
 ];
 
 export const aiAmountProper = {

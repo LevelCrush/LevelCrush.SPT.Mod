@@ -1,110 +1,93 @@
 {
-    "gear_juggernaut19_feet": {
-        "clone": "5f5e40a06760b4138443b341",
-        "customization": {
-            "_props": {
-                "Side": [
-                    "Bear",
-                    "Usec"
-                ],
-                "Prefab": {
-                    "path": "clothing_jugg_bot.bundle"
-                }
-            }
-        },
-        "locales": {
-            "en": {
-                "Name": "gear_juggernaut19_feet"
-            }
+  "gear_juggernaut19_feet": {
+    "clone": "5f5e40a06760b4138443b341",
+    "customization": {
+      "_props": {
+        "Side": ["Bear", "Usec"],
+        "Prefab": {
+          "path": "clothing_jugg_bot.bundle"
         }
+      }
     },
-    "gear_juggernaut19_bot_suit": {
-        "clone": "5f5f471bdf4f3100376a815e",
-        "enable": true,
-        "customization": {
-            "_props": {
-                "Side": [
-                    "Bear",
-                    "Usec"
-                ],
-                "Feet": "gear_juggernaut19_feet"
-            }
-        },
-        "locales": {
-            "en": {
-                "Name": "Juggernaut BOTTOM",
-                "ShortName": "Juggernaut",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut BOTTOM."
-
-            }
-        }
-    },
-    "gear_juggernaut19_top": {
-        "clone": "5f5e401747344c2e4f6c42c5",
-        "customization": {
-            "_props": {
-                "Side": [
-                    "Bear",
-                    "Usec"
-                ],
-                "WatchPrefab": {
-                    "path": "",
-                    "rcid": ""
-                },
-                "Prefab": {
-                    "path": "clothing_jugg_top.bundle"
-                }
-            }
-        },
-        "locales": {
-            "en": {
-                "Name": "gear_juggernaut19_top"
-            }
-        }
-    },
-    "gear_juggernaut19_top_hands": {
-        "clone": "5f5f3fa30bc58666c37e782e",
-        "customization": {
-            "_props": {
-                "Side": [
-                    "Bear",
-                    "Usec"
-                ],
-                "WatchPrefab": {
-                    "path": "",
-                    "rcid": ""
-                },
-                "Prefab": {
-                    "path": "clothing_jugg_top_hands.bundle"
-                }
-            }
-        },
-        "locales": {
-            "en": {
-                "Name": "gear_juggernaut19_top_hands"
-            }
-        }
-    },
-    "gear_juggernaut19_top_suit": {
-        "clone": "5f5f45df0bc58666c37e7832",
-        "enable": true,
-        "customization": {
-            "_props": {
-                "Side": [
-                    "Bear",
-                    "Usec"
-                ],
-                "Body": "gear_juggernaut19_top",
-                "Hands": "gear_juggernaut19_top_hands"
-            }
-        },
-        "locales": {
-            "en": {
-                "Name": "Juggernaut TOP",
-                "ShortName": "Juggernaut",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut TOP."
-
-            }
-        }
+    "locales": {
+      "en": {
+        "Name": "gear_juggernaut19_feet"
+      }
     }
+  },
+  "gear_juggernaut19_bot_suit": {
+    "clone": "5f5f471bdf4f3100376a815e",
+    "enable": true,
+    "customization": {
+      "_props": {
+        "Side": ["Bear", "Usec"],
+        "Feet": "gear_juggernaut19_feet"
+      }
+    },
+    "locales": {
+      "en": {
+        "Name": "Juggernaut BOTTOM",
+        "ShortName": "Juggernaut",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut BOTTOM."
+      }
+    }
+  },
+  "gear_juggernaut19_top": {
+    "clone": "5f5e401747344c2e4f6c42c5",
+    "customization": {
+      "_props": {
+        "Side": ["Bear", "Usec"],
+        "WatchPrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Prefab": {
+          "path": "clothing_jugg_top.bundle"
+        }
+      }
+    },
+    "locales": {
+      "en": {
+        "Name": "gear_juggernaut19_top"
+      }
+    }
+  },
+  "gear_juggernaut19_top_hands": {
+    "clone": "5f5f3fa30bc58666c37e782e",
+    "customization": {
+      "_props": {
+        "Side": ["Bear", "Usec"],
+        "WatchPrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "Prefab": {
+          "path": "clothing_jugg_top_hands.bundle"
+        }
+      }
+    },
+    "locales": {
+      "en": {
+        "Name": "gear_juggernaut19_top_hands"
+      }
+    }
+  },
+  "gear_juggernaut19_top_suit": {
+    "clone": "5f5f45df0bc58666c37e7832",
+    "enable": true,
+    "customization": {
+      "_props": {
+        "Side": ["Bear", "Usec"],
+        "Body": "gear_juggernaut19_top",
+        "Hands": "gear_juggernaut19_top_hands"
+      }
+    },
+    "locales": {
+      "en": {
+        "Name": "Juggernaut TOP",
+        "ShortName": "Juggernaut",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut TOP."
+      }
+    }
+  }
 }

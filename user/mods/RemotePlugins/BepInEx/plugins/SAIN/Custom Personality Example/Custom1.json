@@ -2,7 +2,7 @@
   "SAINPersonality": "Custom1",
   "Name": "Custom Personality Example",
   "Description": "an Example of a custom personality. Custom1 through Custom5 are available for making custom personalities.",
-  
+
   "Variables": {
     "Enabled": false,
     "CanBeRandomlyAssigned": true,

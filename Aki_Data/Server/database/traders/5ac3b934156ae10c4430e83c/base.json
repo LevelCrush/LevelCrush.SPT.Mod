@@ -35,10 +35,7 @@
   },
   "items_buy_prohibited": {
     "category": [],
-    "id_list": [
-      "62e910aaf957f2915e0a5e36",
-      "64d0b40fbe2eed70e254e2d4"
-    ]
+    "id_list": ["62e910aaf957f2915e0a5e36", "64d0b40fbe2eed70e254e2d4"]
   },
   "location": "",
   "loyaltyLevels": [
@@ -96,9 +93,7 @@
     "price_rate": 0,
     "quality": "1"
   },
-  "sell_category": [
-    "5b47574386f77428ca22b33f"
-  ],
+  "sell_category": ["5b47574386f77428ca22b33f"],
   "sell_modifier_for_prohibited_items": 0,
   "surname": "Абрамян",
   "unlockedByDefault": true

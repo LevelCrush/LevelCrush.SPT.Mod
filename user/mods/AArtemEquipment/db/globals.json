@@ -1,7 +1,6 @@
 {
-	"ItemPresets": {
-	},
-	"config": {
-		"Mastering": []
-	}
+  "ItemPresets": {},
+  "config": {
+    "Mastering": []
+  }
 }

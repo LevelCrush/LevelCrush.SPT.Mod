@@ -1,2 +1,1 @@
-export interface IDeclineGroupInviteRequest {
-}
+export interface IDeclineGroupInviteRequest {}

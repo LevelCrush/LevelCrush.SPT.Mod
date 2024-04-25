@@ -18,49 +18,84 @@ import { RandomUtil } from "@spt-aki/utils/RandomUtil";
 import { TimeUtil } from "@spt-aki/utils/TimeUtil";
 import { IRepeatableQuestConfig } from "@spt-aki/models/spt/config/IQuestConfig";
 import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IPmcDataRepeatableQuest, IRepeatableQuest } from "@spt-aki/models/eft/common/tables/IRepeatableQuests";
+import {
+  IPmcDataRepeatableQuest,
+  IRepeatableQuest,
+} from "@spt-aki/models/eft/common/tables/IRepeatableQuests";
 import { IQuestTypePool } from "@spt-aki/models/spt/repeatable/IQuestTypePool";
 import { TraderInfo } from "@spt-aki/models/eft/common/tables/IBotBase";
 
-
 @injectable()
-export class CustomRepeatableQuestController extends RepeatableQuestController 
-{
-    constructor(
-        @inject("WinstonLogger") protected logger: ILogger,
-        @inject("DatabaseServer") protected databaseServer: DatabaseServer,
-        @inject("TimeUtil") protected timeUtil: TimeUtil,
-        @inject("RandomUtil") protected randomUtil: RandomUtil,
-        @inject("HttpResponseUtil") protected httpResponse: HttpResponseUtil,
-        @inject("JsonUtil") protected jsonUtil: JsonUtil,
-        @inject("ProfileHelper") protected profileHelper: ProfileHelper,
-        @inject("ProfileFixerService") protected profileFixerService: ProfileFixerService,
-        @inject("EventOutputHolder") protected eventOutputHolder: EventOutputHolder,
-        @inject("PaymentService") protected paymentService: PaymentService,
-        @inject("ObjectId") protected objectId: ObjectId,
-        @inject("RepeatableQuestGenerator") protected repeatableQuestGenerator: RepeatableQuestGenerator,
-        @inject("RepeatableQuestHelper") protected repeatableQuestHelper: RepeatableQuestHelper,
-        @inject("QuestHelper") protected questHelper: QuestHelper,
-        @inject("ConfigServer") protected configServer: ConfigServer
-    ) 
-    {
-        // Pass the parent class the callback dependencies it needs.
-        
-        super(logger, databaseServer, timeUtil, randomUtil, httpResponse, jsonUtil, profileHelper, profileFixerService, eventOutputHolder, paymentService, objectId, repeatableQuestGenerator, repeatableQuestHelper, questHelper, configServer);
-    }
+export class CustomRepeatableQuestController extends RepeatableQuestController {
+  constructor(
+    @inject("WinstonLogger") protected logger: ILogger,
+    @inject("DatabaseServer") protected databaseServer: DatabaseServer,
+    @inject("TimeUtil") protected timeUtil: TimeUtil,
+    @inject("RandomUtil") protected randomUtil: RandomUtil,
+    @inject("HttpResponseUtil") protected httpResponse: HttpResponseUtil,
+    @inject("JsonUtil") protected jsonUtil: JsonUtil,
+    @inject("ProfileHelper") protected profileHelper: ProfileHelper,
+    @inject("ProfileFixerService")
+    protected profileFixerService: ProfileFixerService,
+    @inject("EventOutputHolder") protected eventOutputHolder: EventOutputHolder,
+    @inject("PaymentService") protected paymentService: PaymentService,
+    @inject("ObjectId") protected objectId: ObjectId,
+    @inject("RepeatableQuestGenerator")
+    protected repeatableQuestGenerator: RepeatableQuestGenerator,
+    @inject("RepeatableQuestHelper")
+    protected repeatableQuestHelper: RepeatableQuestHelper,
+    @inject("QuestHelper") protected questHelper: QuestHelper,
+    @inject("ConfigServer") protected configServer: ConfigServer
+  ) {
+    // Pass the parent class the callback dependencies it needs.
 
-    public getRepeatableQuestSubTypeFromProfilePublic(repeatableConfig: IRepeatableQuestConfig, pmcData: IPmcData): IPmcDataRepeatableQuest
-    {
-        return super.getRepeatableQuestSubTypeFromProfile(repeatableConfig, pmcData);
-    }
+    super(
+      logger,
+      databaseServer,
+      timeUtil,
+      randomUtil,
+      httpResponse,
+      jsonUtil,
+      profileHelper,
+      profileFixerService,
+      eventOutputHolder,
+      paymentService,
+      objectId,
+      repeatableQuestGenerator,
+      repeatableQuestHelper,
+      questHelper,
+      configServer
+    );
+  }
 
-    public generateQuestPoolPublic(repeatableConfig: IRepeatableQuestConfig, pmcLevel: number) : IQuestTypePool
-    {
-        return super.generateQuestPool(repeatableConfig, pmcLevel);
-    }
+  public getRepeatableQuestSubTypeFromProfilePublic(
+    repeatableConfig: IRepeatableQuestConfig,
+    pmcData: IPmcData
+  ): IPmcDataRepeatableQuest {
+    return super.getRepeatableQuestSubTypeFromProfile(
+      repeatableConfig,
+      pmcData
+    );
+  }
 
-    public generateRepeatableQuestPublic(pmcLevel: number, pmcTraderInfo: Record<string, TraderInfo>, questTypePool: IQuestTypePool, repeatableConfig: IRepeatableQuestConfig) : IRepeatableQuest
-    {
-        return this.repeatableQuestGenerator.generateRepeatableQuest(pmcLevel, pmcTraderInfo, questTypePool, repeatableConfig);
-    }
+  public generateQuestPoolPublic(
+    repeatableConfig: IRepeatableQuestConfig,
+    pmcLevel: number
+  ): IQuestTypePool {
+    return super.generateQuestPool(repeatableConfig, pmcLevel);
+  }
+
+  public generateRepeatableQuestPublic(
+    pmcLevel: number,
+    pmcTraderInfo: Record<string, TraderInfo>,
+    questTypePool: IQuestTypePool,
+    repeatableConfig: IRepeatableQuestConfig
+  ): IRepeatableQuest {
+    return this.repeatableQuestGenerator.generateRepeatableQuest(
+      pmcLevel,
+      pmcTraderInfo,
+      questTypePool,
+      repeatableConfig
+    );
+  }
 }

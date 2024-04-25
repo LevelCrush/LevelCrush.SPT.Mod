@@ -3,8 +3,8 @@
   "author": "Crackbone",
   "license": "MIT",
   "version": "1.4.0",
-	"loadAfter": [
-      "AAAArtemTrader"
+  "loadAfter": [
+    "AAAArtemTrader"
   ],
   "main": "src/mod.js",
   "isBundleMod": true,

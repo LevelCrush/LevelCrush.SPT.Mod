@@ -3,6 +3,7 @@
 This project is designed to streamline the initial setup process for building and creating mods in the SPT-AKI environment. Follow this guide to set up your environment efficiently.
 
 ## **Table of Contents**
+
 - [NodeJS Setup](#nodejs-setup)
 - [IDE Setup](#ide-setup)
 - [Workspace Configuration](#workspace-configuration)
@@ -42,12 +43,13 @@ Note: Preserve the `node_modules` folder as it contains necessary dependencies f
 Prioritize understanding Dependency Injection and Inversion of Control, the architectural principles SPT-AKI adopts. Comprehensive guidelines will be available on the hub upon release.
 
 Some resources to get you started:
- - [A quick intro to Dependency Injection](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/)
- - [Understanding Inversion of Control (IoC) Principle](https://medium.com/@amitkma/understanding-inversion-of-control-ioc-principle-163b1dc97454)
+
+- [A quick intro to Dependency Injection](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/)
+- [Understanding Inversion of Control (IoC) Principle](https://medium.com/@amitkma/understanding-inversion-of-control-ioc-principle-163b1dc97454)
 
 ## **Coding Guidelines**
 
-Focus your mod development around the `mod.ts` file. In the `package.json` file, only alter these properties: `"name"`, `"version"`, `"license"`, `"author"`, and `"akiVersion"`. 
+Focus your mod development around the `mod.ts` file. In the `package.json` file, only alter these properties: `"name"`, `"version"`, `"license"`, `"author"`, and `"akiVersion"`.
 
 New to Typescript? Find comprehensive documentation on the [official website](https://www.typescriptlang.org/docs/).
 

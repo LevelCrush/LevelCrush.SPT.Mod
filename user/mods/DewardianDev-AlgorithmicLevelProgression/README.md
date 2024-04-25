@@ -149,13 +149,11 @@ Example order.json with recommended mods:
     // Just keep this off
     "debug": false
 
-
-
-  // This is the configuration for nonPmcBots
-  "nonPmcBots": [
-     {
-      // Name of the bot, or bot group (see below for bot group explanation)
-      "name": "assault",  
+// This is the configuration for nonPmcBots
+"nonPmcBots": [
+{
+// Name of the bot, or bot group (see below for bot group explanation)
+"name": "assault",
 
       // These are this bots tiers
       "tiers": [
@@ -165,7 +163,7 @@ Example order.json with recommended mods:
         [46, 100]
       ],
 
-      // These values add equipment to bots, this can be best explained like so. 
+      // These values add equipment to bots, this can be best explained like so.
       // There is a "Constants" folder with lists of items, prioritized from worst > best
       // The numbers below specify how much and which portion of that list is added to a bot.
       // 0,3 > would result in the bottom 30% of that equipment type being added to that bot.
@@ -180,20 +178,20 @@ Example order.json with recommended mods:
     ]
 
     Bot groups are lists of bots that can have the same nonPmcBot configurations.
-    If you understand JSON than the examples are quite obvious. 
-    allBossFollowers is under nonPmcBots, and is comprised of a list of that type. 
+    If you understand JSON than the examples are quite obvious.
+    allBossFollowers is under nonPmcBots, and is comprised of a list of that type.
 
     TO PREVENT WIERDNESS, ONLY ADD EACH BOTTYPE TO EITHER A GROUP OR THE "nonPMCBots" LIST, not both.
-   
-    EXAMPLE: 
+
+    EXAMPLE:
     IF you wanted to add a custom setting for "bosssanitar", you would first remove him from the
     "allBosses" list, then add him to the "nonPmcBots" list, with his own custom config.
 
     Creating your own groups is easy, create a new list similar to "allBosses" but named "whatever"
     Then move the bottype names over that you want your new configuration to effect.
-    When done add your "whatever" config to the "nonPmcBots" list. 
+    When done add your "whatever" config to the "nonPmcBots" list.
 
-    Do not ask for help in the forums, the answers you seek 
+    Do not ask for help in the forums, the answers you seek
     are above for those with the aptitude to understand them.
 
     If you have feedback, ping me on discord

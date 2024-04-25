@@ -5,15 +5,19 @@ import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEve
 import { ItemEventRouter } from "@spt-aki/routers/ItemEventRouter";
 import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
 export declare class ItemEventCallbacks {
-    protected httpResponse: HttpResponseUtil;
-    protected itemEventRouter: ItemEventRouter;
-    constructor(httpResponse: HttpResponseUtil, itemEventRouter: ItemEventRouter);
-    handleEvents(url: string, info: IItemEventRouterRequest, sessionID: string): IGetBodyResponseData<IItemEventRouterResponse>;
-    /**
-     * Return true if the passed in list of warnings contains critical issues
-     * @param warnings The list of warnings to check for critical errors
-     * @returns
-     */
-    private isCriticalError;
-    protected getErrorCode(warnings: Warning[]): number;
+  protected httpResponse: HttpResponseUtil;
+  protected itemEventRouter: ItemEventRouter;
+  constructor(httpResponse: HttpResponseUtil, itemEventRouter: ItemEventRouter);
+  handleEvents(
+    url: string,
+    info: IItemEventRouterRequest,
+    sessionID: string
+  ): IGetBodyResponseData<IItemEventRouterResponse>;
+  /**
+   * Return true if the passed in list of warnings contains critical issues
+   * @param warnings The list of warnings to check for critical errors
+   * @returns
+   */
+  private isCriticalError;
+  protected getErrorCode(warnings: Warning[]): number;
 }

@@ -66,12 +66,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -90,12 +86,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -114,12 +106,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -138,12 +126,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -162,12 +146,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 2,
@@ -186,12 +166,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 2,
@@ -210,12 +186,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -234,12 +206,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -258,12 +226,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -282,12 +246,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -306,12 +266,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -330,12 +286,8 @@
         "_props": {
           "filters": [
             {
-              "Filter": [
-                "54009119af1c881c07000029"
-              ],
-              "ExcludedFilter": [
-                "5448bf274bdc2dfc2f8b456a"
-              ]
+              "Filter": ["54009119af1c881c07000029"],
+              "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
             }
           ],
           "cellsH": 1,
@@ -379,9 +331,7 @@
                 "64afdcb83efdfea28601d041"
               ],
               "armorColliders": [],
-              "armorPlateColliders": [
-                "Plate_Granit_SAPI_chest"
-              ],
+              "armorPlateColliders": ["Plate_Granit_SAPI_chest"],
               "bluntDamageReduceFromSoftArmor": true
             }
           ]
@@ -420,9 +370,7 @@
                 "64afdcb83efdfea28601d041"
               ],
               "armorColliders": [],
-              "armorPlateColliders": [
-                "Plate_Granit_SAPI_back"
-              ],
+              "armorPlateColliders": ["Plate_Granit_SAPI_back"],
               "bluntDamageReduceFromSoftArmor": true
             }
           ]
@@ -440,13 +388,8 @@
             {
               "locked": true,
               "Plate": "6570e83223c1f638ef0b0ede",
-              "Filter": [
-                "6570e83223c1f638ef0b0ede"
-              ],
-              "armorColliders": [
-                "RibcageUp",
-                "RibcageLow"
-              ],
+              "Filter": ["6570e83223c1f638ef0b0ede"],
+              "armorColliders": ["RibcageUp", "RibcageLow"],
               "armorPlateColliders": [],
               "bluntDamageReduceFromSoftArmor": false
             }
@@ -465,13 +408,8 @@
             {
               "locked": true,
               "Plate": "6570e87c23c1f638ef0b0ee2",
-              "Filter": [
-                "6570e87c23c1f638ef0b0ee2"
-              ],
-              "armorColliders": [
-                "SpineTop",
-                "SpineDown"
-              ],
+              "Filter": ["6570e87c23c1f638ef0b0ee2"],
+              "armorColliders": ["SpineTop", "SpineDown"],
               "armorPlateColliders": [],
               "bluntDamageReduceFromSoftArmor": false
             }
@@ -490,12 +428,8 @@
             {
               "locked": true,
               "Plate": "6570e90b3a5689d85f08db97",
-              "Filter": [
-                "6570e90b3a5689d85f08db97"
-              ],
-              "armorColliders": [
-                "Pelvis"
-              ],
+              "Filter": ["6570e90b3a5689d85f08db97"],
+              "armorColliders": ["Pelvis"],
               "armorPlateColliders": [],
               "bluntDamageReduceFromSoftArmor": false
             }
@@ -520,7 +454,5 @@
     "mousePenalty": 0,
     "weaponErgonomicPenalty": 0
   },
-"_proto": "544a5caa4bdc2d1a388b4568"
+  "_proto": "544a5caa4bdc2d1a388b4568"
 }
-
-

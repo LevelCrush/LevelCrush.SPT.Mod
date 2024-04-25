@@ -1,2006 +1,1889 @@
 {
-    "MFAC_level4_soft_armor_front": {
-        "clone": "6575d561b15fef3dd4051670",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_front",
-            "_name": "MFAC_level4_soft_armor_front",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_front",
-                "ShortName": "MFAC_level4_soft_armor_front",
-                "Description": "MFAC_level4_soft_armor_front",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "4",
-                "armorColliders": [
-                    "RibcageUp",
-                    "RibcageLow"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        },
-        "presets": {
-            "soft_armor_left_forearm": "LFT. FOREARM",
-            "soft_armor_right_forearm": "RGT. FOREARM",
-            "soft_armor_left_calf": "LFT. CALF",
-            "soft_armor_right_calf": "RGT. CALF",
-            "soft_armor_left_thigh": "LFT. THIGH",
-            "soft_armor_right_thigh": "RGT. THIGH"
-        }
+  "MFAC_level4_soft_armor_front": {
+    "clone": "6575d561b15fef3dd4051670",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_front",
+      "_name": "MFAC_level4_soft_armor_front",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_front",
+        "ShortName": "MFAC_level4_soft_armor_front",
+        "Description": "MFAC_level4_soft_armor_front",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "4",
+        "armorColliders": ["RibcageUp", "RibcageLow"],
+        "armorPlateColliders": []
+      }
     },
-    "MFAC_level5_soft_armor_front": {
-        "clone": "6575d561b15fef3dd4051670",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_front",
-            "_name": "MFAC_level5_soft_armor_front",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_front",
-                "ShortName": "MFAC_level5_soft_armor_front",
-                "Description": "MFAC_level5_soft_armor_front",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "5",
-                "armorColliders": [
-                    "RibcageUp",
-                    "RibcageLow"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
     },
-    "MFAC_level6_soft_armor_front": {
-        "clone": "6575d561b15fef3dd4051670",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_front",
-            "_name": "MFAC_level6_soft_armor_front",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_front",
-                "ShortName": "MFAC_level6_soft_armor_front",
-                "Description": "MFAC_level6_soft_armor_front",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "6",
-                "armorColliders": [
-                    "RibcageUp",
-                    "RibcageLow"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
     },
-    "MFAC_level4_soft_armor_back": {
-        "clone": "6575d56b16c2762fba005818",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_back",
-            "_name": "MFAC_level4_soft_armor_back",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_back",
-                "ShortName": "MFAC_level4_soft_armor_back",
-                "Description": "MFAC_level4_soft_armor_back",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "4",
-                "armorColliders": [
-                    "SpineTop",
-                    "SpineDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_back": {
-        "clone": "6575d56b16c2762fba005818",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_back",
-            "_name": "MFAC_level5_soft_armor_back",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_back",
-                "ShortName": "MFAC_level5_soft_armor_back",
-                "Description": "MFAC_level5_soft_armor_back",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "5",
-                "armorColliders": [
-                    "SpineTop",
-                    "SpineDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_back": {
-        "clone": "6575d56b16c2762fba005818",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_back",
-            "_name": "MFAC_level6_soft_armor_back",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_back",
-                "ShortName": "MFAC_level6_soft_armor_back",
-                "Description": "MFAC_level6_soft_armor_back",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "6",
-                "armorColliders": [
-                    "SpineTop",
-                    "SpineDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_left_side": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_left_side",
-            "_name": "MFAC_level4_soft_armor_left_side",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_left_side",
-                "ShortName": "MFAC_level4_soft_armor_left_side",
-                "Description": "MFAC_level4_soft_armor_left_side",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "4",
-                "armorColliders": [
-                    "LeftSideChestDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_left_side": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_left_side",
-            "_name": "MFAC_level5_soft_armor_left_side",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_left_side",
-                "ShortName": "MFAC_level5_soft_armor_left_side",
-                "Description": "MFAC_level5_soft_armor_left_side",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "5",
-                "armorColliders": [
-                    "LeftSideChestDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_left_side": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_left_side",
-            "_name": "MFAC_level6_soft_armor_left_side",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_left_side",
-                "ShortName": "MFAC_level6_soft_armor_left_side",
-                "Description": "MFAC_level6_soft_armor_left_side",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "6",
-                "armorColliders": [
-                    "LeftSideChestDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_right_side": {
-        "clone": "6575d589b15fef3dd4051674",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_right_side",
-            "_name": "MFAC_level4_soft_armor_right_side",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_right_side",
-                "ShortName": "MFAC_level4_soft_armor_right_side",
-                "Description": "MFAC_level4_soft_armor_right_side",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "4",
-                "armorColliders": [
-                    "RightSideChestDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_right_side": {
-        "clone": "6575d589b15fef3dd4051674",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_right_side",
-            "_name": "MFAC_level5_soft_armor_right_side",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_right_side",
-                "ShortName": "MFAC_level5_soft_armor_right_side",
-                "Description": "MFAC_level5_soft_armor_right_side",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "5",
-                "armorColliders": [
-                    "RightSideChestDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_right_side": {
-        "clone": "6575d589b15fef3dd4051674",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_right_side",
-            "_name": "MFAC_level6_soft_armor_right_side",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_right_side",
-                "ShortName": "MFAC_level6_soft_armor_right_side",
-                "Description": "MFAC_level6_soft_armor_right_side",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "6",
-                "armorColliders": [
-                    "RightSideChestDown"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_collar": {
-        "clone": "6575d598b15fef3dd4051678",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_collar",
-            "_name": "MFAC_level4_soft_armor_collar",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_collar",
-                "ShortName": "MFAC_level4_soft_armor_collar",
-                "Description": "MFAC_level4_soft_armor_collar",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "4",
-                "armorColliders": [
-                    "NeckFront",
-                    "NeckBack"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_collar": {
-        "clone": "6575d598b15fef3dd4051678",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_collar",
-            "_name": "MFAC_level5_soft_armor_collar",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_collar",
-                "ShortName": "MFAC_level5_soft_armor_collar",
-                "Description": "MFAC_level5_soft_armor_collar",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "5",
-                "armorColliders": [
-                    "NeckFront",
-                    "NeckBack"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_collar": {
-        "clone": "6575d598b15fef3dd4051678",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_collar",
-            "_name": "MFAC_level6_soft_armor_collar",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_collar",
-                "ShortName": "MFAC_level6_soft_armor_collar",
-                "Description": "MFAC_level6_soft_armor_collar",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 50,
-                "MaxDurability": 50,
-                "armorClass": "6",
-                "armorColliders": [
-                    "NeckFront",
-                    "NeckBack"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_left_arm": {
-        "clone": "6575d5b316c2762fba005824",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_left_arm",
-            "_name": "MFAC_level4_soft_armor_left_arm",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_left_arm",
-                "ShortName": "MFAC_level4_soft_armor_left_arm",
-                "Description": "MFAC_level4_soft_armor_left_arm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "4",
-                "armorColliders": [
-                    "LeftUpperArm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_left_arm": {
-        "clone": "6575d5b316c2762fba005824",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_left_arm",
-            "_name": "MFAC_level5_soft_armor_left_arm",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_left_arm",
-                "ShortName": "MFAC_level5_soft_armor_left_arm",
-                "Description": "MFAC_level5_soft_armor_left_arm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "5",
-                "armorColliders": [
-                    "LeftUpperArm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_left_arm": {
-        "clone": "6575d5b316c2762fba005824",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_left_arm",
-            "_name": "MFAC_level6_soft_armor_left_arm",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_left_arm",
-                "ShortName": "MFAC_level6_soft_armor_left_arm",
-                "Description": "MFAC_level6_soft_armor_left_arm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "6",
-                "armorColliders": [
-                    "LeftUpperArm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_left_forearm": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_left_forearm",
-            "_name": "MFAC_level4_soft_armor_left_forearm",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_left_forearm",
-                "ShortName": "MFAC_level4_soft_armor_left_forearm",
-                "Description": "MFAC_level4_soft_armor_left_forearm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "4",
-                "armorColliders": [
-                    "LeftForearm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_left_forearm": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_left_forearm",
-            "_name": "MFAC_level5_soft_armor_left_forearm",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_left_forearm",
-                "ShortName": "MFAC_level5_soft_armor_left_forearm",
-                "Description": "MFAC_level5_soft_armor_left_forearm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "5",
-                "armorColliders": [
-                    "LeftForearm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_left_forearm": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_left_forearm",
-            "_name": "MFAC_level6_soft_armor_left_forearm",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_left_forearm",
-                "ShortName": "MFAC_level6_soft_armor_left_forearm",
-                "Description": "MFAC_level6_soft_armor_left_forearm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "6",
-                "armorColliders": [
-                    "LeftForearm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_right_arm": {
-        "clone": "6575d5bd16c2762fba005828",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_right_arm",
-            "_name": "MFAC_level4_soft_armor_right_arm",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_right_arm",
-                "ShortName": "MFAC_level4_soft_armor_right_arm",
-                "Description": "MFAC_level4_soft_armor_right_arm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "4",
-                "armorColliders": [
-                    "RightUpperArm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_right_arm": {
-        "clone": "6575d5bd16c2762fba005828",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_right_arm",
-            "_name": "MFAC_level5_soft_armor_right_arm",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_right_arm",
-                "ShortName": "MFAC_level5_soft_armor_right_arm",
-                "Description": "MFAC_level5_soft_armor_right_arm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "5",
-                "armorColliders": [
-                    "RightUpperArm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_right_arm": {
-        "clone": "6575d5bd16c2762fba005828",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_right_arm",
-            "_name": "MFAC_level6_soft_armor_right_arm",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_right_arm",
-                "ShortName": "MFAC_level6_soft_armor_right_arm",
-                "Description": "MFAC_level6_soft_armor_right_arm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "6",
-                "armorColliders": [
-                    "RightUpperArm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_right_forearm": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_right_forearm",
-            "_name": "MFAC_level4_soft_armor_right_forearm",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_right_forearm",
-                "ShortName": "MFAC_level4_soft_armor_right_forearm",
-                "Description": "MFAC_level4_soft_armor_right_forearm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "4",
-                "armorColliders": [
-                    "RightForearm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_right_forearm": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_right_forearm",
-            "_name": "MFAC_level5_soft_armor_right_forearm",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_right_forearm",
-                "ShortName": "MFAC_level5_soft_armor_right_forearm",
-                "Description": "MFAC_level5_soft_armor_right_forearm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "5",
-                "armorColliders": [
-                    "RightForearm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_right_forearm": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_right_forearm",
-            "_name": "MFAC_level6_soft_armor_right_forearm",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_right_forearm",
-                "ShortName": "MFAC_level6_soft_armor_right_forearm",
-                "Description": "MFAC_level6_soft_armor_right_forearm",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "6",
-                "armorColliders": [
-                    "RightForearm"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_groin_front": {
-        "clone": "6575d5a616c2762fba005820",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_groin_front",
-            "_name": "MFAC_level4_soft_armor_groin_front",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_groin_front",
-                "ShortName": "MFAC_level4_soft_armor_groin_front",
-                "Description": "MFAC_level4_soft_armor_groin_front",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "4",
-                "armorColliders": [
-                    "Pelvis"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_groin_front": {
-        "clone": "6575d5a616c2762fba005820",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_groin_front",
-            "_name": "MFAC_level5_soft_armor_groin_front",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_groin_front",
-                "ShortName": "MFAC_level5_soft_armor_groin_front",
-                "Description": "MFAC_level5_soft_armor_groin_front",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "Pelvis"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_groin_front": {
-        "clone": "6575d5a616c2762fba005820",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_groin_front",
-            "_name": "MFAC_level6_soft_armor_groin_front",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_groin_front",
-                "ShortName": "MFAC_level6_soft_armor_groin_front",
-                "Description": "MFAC_level6_soft_armor_groin_front",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "Pelvis"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_groin_back": {
-        "clone": "6575c326c6700bd6b40e8a80",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_groin_back",
-            "_name": "MFAC_level4_soft_armor_groin_back",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_groin_back",
-                "ShortName": "MFAC_level4_soft_armor_groin_back",
-                "Description": "MFAC_level4_soft_armor_groin_back",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "4",
-                "armorColliders": [
-                    "PelvisBack"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_groin_back": {
-        "clone": "6575c326c6700bd6b40e8a80",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_groin_back",
-            "_name": "MFAC_level5_soft_armor_groin_back",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_groin_back",
-                "ShortName": "MFAC_level5_soft_armor_groin_back",
-                "Description": "MFAC_level5_soft_armor_groin_back",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "PelvisBack"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_groin_back": {
-        "clone": "6575c326c6700bd6b40e8a80",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_groin_back",
-            "_name": "MFAC_level6_soft_armor_groin_back",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_groin_back",
-                "ShortName": "MFAC_level6_soft_armor_groin_back",
-                "Description": "MFAC_level6_soft_armor_groin_back",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "PelvisBack"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_left_calf": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_left_calf",
-            "_name": "MFAC_level4_soft_armor_left_calf",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_left_calf",
-                "ShortName": "MFAC_level4_soft_armor_left_calf",
-                "Description": "MFAC_level4_soft_armor_left_calf",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "4",
-                "armorColliders": [
-                    "LeftCalf"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_left_calf": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_left_calf",
-            "_name": "MFAC_level5_soft_armor_left_calf",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_left_calf",
-                "ShortName": "MFAC_level5_soft_armor_left_calf",
-                "Description": "MFAC_level5_soft_armor_left_calf",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "5",
-                "armorColliders": [
-                    "LeftCalf"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_left_calf": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_left_calf",
-            "_name": "MFAC_level6_soft_armor_left_calf",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_left_calf",
-                "ShortName": "MFAC_level6_soft_armor_left_calf",
-                "Description": "MFAC_level6_soft_armor_left_calf",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "6",
-                "armorColliders": [
-                    "LeftCalf"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_right_calf": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_right_calf",
-            "_name": "MFAC_level4_soft_armor_right_calf",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_right_calf",
-                "ShortName": "MFAC_level4_soft_armor_right_calf",
-                "Description": "MFAC_level4_soft_armor_right_calf",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "4",
-                "armorColliders": [
-                    "RightCalf"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_right_calf": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_right_calf",
-            "_name": "MFAC_level5_soft_armor_right_calf",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_right_calf",
-                "ShortName": "MFAC_level5_soft_armor_right_calf",
-                "Description": "MFAC_level5_soft_armor_right_calf",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "5",
-                "armorColliders": [
-                    "RightCalf"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_right_calf": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_right_calf",
-            "_name": "MFAC_level6_soft_armor_right_calf",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_right_calf",
-                "ShortName": "MFAC_level6_soft_armor_right_calf",
-                "Description": "MFAC_level6_soft_armor_right_calf",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": "6",
-                "armorColliders": [
-                    "RightCalf"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_left_thigh": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_left_thigh",
-            "_name": "MFAC_level4_soft_armor_left_thigh",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_left_thigh",
-                "ShortName": "MFAC_level4_soft_armor_left_thigh",
-                "Description": "MFAC_level4_soft_armor_left_thigh",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "4",
-                "armorColliders": [
-                    "LeftThigh"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_left_thigh": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_left_thigh",
-            "_name": "MFAC_level5_soft_armor_left_thigh",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_left_thigh",
-                "ShortName": "MFAC_level5_soft_armor_left_thigh",
-                "Description": "MFAC_level5_soft_armor_left_thigh",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "LeftThigh"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_left_thigh": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_left_thigh",
-            "_name": "MFAC_level6_soft_armor_left_thigh",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_left_thigh",
-                "ShortName": "MFAC_level6_soft_armor_left_thigh",
-                "Description": "MFAC_level6_soft_armor_left_thigh",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "LeftThigh"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level4_soft_armor_right_thigh": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level4_soft_armor_right_thigh",
-            "_name": "MFAC_level4_soft_armor_right_thigh",
-            "_props": {
-                "Name": "MFAC_level4_soft_armor_right_thigh",
-                "ShortName": "MFAC_level4_soft_armor_right_thigh",
-                "Description": "MFAC_level4_soft_armor_right_thigh",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "4",
-                "armorColliders": [
-                    "RightThigh"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_armor_right_thigh": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_armor_right_thigh",
-            "_name": "MFAC_level5_soft_armor_right_thigh",
-            "_props": {
-                "Name": "MFAC_level5_soft_armor_right_thigh",
-                "ShortName": "MFAC_level5_soft_armor_right_thigh",
-                "Description": "MFAC_level5_soft_armor_right_thigh",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "RightThigh"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_armor_right_thigh": {
-        "clone": "6575d57a16c2762fba00581c",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_armor_right_thigh",
-            "_name": "MFAC_level6_soft_armor_right_thigh",
-            "_props": {
-                "Name": "MFAC_level6_soft_armor_right_thigh",
-                "ShortName": "MFAC_level6_soft_armor_right_thigh",
-                "Description": "MFAC_level6_soft_armor_right_thigh",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Light",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "RightThigh"
-                ],
-                "armorPlateColliders": []
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_helm_top": {
-        "clone": "657bc06daab96fccee08be9b",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_helm_top",
-            "_name": "MFAC_level5_soft_helm_top",
-            "_props": {
-                "Name": "MFAC_level5_soft_helm_top",
-                "ShortName": "MFAC_level5_soft_helm_top",
-                "Description": "MFAC_level5_soft_helm_top",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_helm_top": {
-        "clone": "657bc06daab96fccee08be9b",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_helm_top",
-            "_name": "MFAC_level6_soft_helm_top",
-            "_props": {
-                "Name": "MFAC_level6_soft_helm_top",
-                "ShortName": "MFAC_level6_soft_helm_top",
-                "Description": "MFAC_level6_soft_helm_top",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_helm_nape": {
-        "clone": "657bc0d8a1c61ee0c303632f",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_helm_nape",
-            "_name": "MFAC_level5_soft_helm_nape",
-            "_props": {
-                "Name": "MFAC_level5_soft_helm_nape",
-                "ShortName": "MFAC_level5_soft_helm_nape",
-                "Description": "MFAC_level5_soft_helm_nape",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_helm_nape": {
-        "clone": "657bc0d8a1c61ee0c303632f",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_helm_nape",
-            "_name": "MFAC_level6_soft_helm_nape",
-            "_props": {
-                "Name": "MFAC_level6_soft_helm_nape",
-                "ShortName": "MFAC_level6_soft_helm_nape",
-                "Description": "MFAC_level6_soft_helm_nape",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_helm_ears": {
-        "clone": "657bc107aab96fccee08be9f",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_helm_ears",
-            "_name": "MFAC_level5_soft_helm_ears",
-            "_props": {
-                "Name": "MFAC_level5_soft_helm_ears",
-                "ShortName": "MFAC_level5_soft_helm_ears",
-                "Description": "MFAC_level5_soft_helm_ears",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "Ears"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_helm_ears": {
-        "clone": "657bc107aab96fccee08be9f",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_helm_ears",
-            "_name": "MFAC_level6_soft_helm_ears",
-            "_props": {
-                "Name": "MFAC_level6_soft_helm_ears",
-                "ShortName": "MFAC_level6_soft_helm_ears",
-                "Description": "MFAC_level6_soft_helm_ears",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "Ears"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level5_soft_helm_faceshield": {
-        "clone": "658188edf026a90c1708c827",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level5_soft_helm_faceshield",
-            "_name": "MFAC_level5_soft_helm_faceshield",
-            "_props": {
-                "Name": "MFAC_level5_soft_helm_faceshield",
-                "ShortName": "MFAC_level5_soft_helm_faceshield",
-                "Description": "MFAC_level5_soft_helm_faceshield",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "5",
-                "armorColliders": [
-                    "HeadCommon",
-                    "Eyes"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
-    },
-    "MFAC_level6_soft_helm_faceshield": {
-        "clone": "658188edf026a90c1708c827",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_id": "MFAC_level6_soft_helm_faceshield",
-            "_name": "MFAC_level6_soft_helm_faceshield",
-            "_props": {
-                "Name": "MFAC_level6_soft_helm_faceshield",
-                "ShortName": "MFAC_level6_soft_helm_faceshield",
-                "Description": "MFAC_level6_soft_helm_faceshield",
-                "BackgroundColor": "violet",
-                "ArmorMaterial": "Aramid",
-                "ArmorType": "Heavy",
-                "BluntThroughput": 0.10,
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": "6",
-                "armorColliders": [
-                    "HeadCommon",
-                    "Eyes"
-                ],
-                "armorPlateColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0
-            }
-        },
-        "handbook": {
-            "ParentId": "6564b96a189fe36f356d177c",
-            "Price": 24088
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#a1ffba>Kampfium V Insert</color>",
-                "ShortName": "",
-                "Description": ""
-            }
-        }
+    "presets": {
+      "soft_armor_left_forearm": "LFT. FOREARM",
+      "soft_armor_right_forearm": "RGT. FOREARM",
+      "soft_armor_left_calf": "LFT. CALF",
+      "soft_armor_right_calf": "RGT. CALF",
+      "soft_armor_left_thigh": "LFT. THIGH",
+      "soft_armor_right_thigh": "RGT. THIGH"
     }
+  },
+  "MFAC_level5_soft_armor_front": {
+    "clone": "6575d561b15fef3dd4051670",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_front",
+      "_name": "MFAC_level5_soft_armor_front",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_front",
+        "ShortName": "MFAC_level5_soft_armor_front",
+        "Description": "MFAC_level5_soft_armor_front",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "5",
+        "armorColliders": ["RibcageUp", "RibcageLow"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_front": {
+    "clone": "6575d561b15fef3dd4051670",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_front",
+      "_name": "MFAC_level6_soft_armor_front",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_front",
+        "ShortName": "MFAC_level6_soft_armor_front",
+        "Description": "MFAC_level6_soft_armor_front",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "6",
+        "armorColliders": ["RibcageUp", "RibcageLow"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_back": {
+    "clone": "6575d56b16c2762fba005818",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_back",
+      "_name": "MFAC_level4_soft_armor_back",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_back",
+        "ShortName": "MFAC_level4_soft_armor_back",
+        "Description": "MFAC_level4_soft_armor_back",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "4",
+        "armorColliders": ["SpineTop", "SpineDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_back": {
+    "clone": "6575d56b16c2762fba005818",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_back",
+      "_name": "MFAC_level5_soft_armor_back",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_back",
+        "ShortName": "MFAC_level5_soft_armor_back",
+        "Description": "MFAC_level5_soft_armor_back",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "5",
+        "armorColliders": ["SpineTop", "SpineDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_back": {
+    "clone": "6575d56b16c2762fba005818",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_back",
+      "_name": "MFAC_level6_soft_armor_back",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_back",
+        "ShortName": "MFAC_level6_soft_armor_back",
+        "Description": "MFAC_level6_soft_armor_back",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "6",
+        "armorColliders": ["SpineTop", "SpineDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_left_side": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_left_side",
+      "_name": "MFAC_level4_soft_armor_left_side",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_left_side",
+        "ShortName": "MFAC_level4_soft_armor_left_side",
+        "Description": "MFAC_level4_soft_armor_left_side",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "4",
+        "armorColliders": ["LeftSideChestDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_left_side": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_left_side",
+      "_name": "MFAC_level5_soft_armor_left_side",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_left_side",
+        "ShortName": "MFAC_level5_soft_armor_left_side",
+        "Description": "MFAC_level5_soft_armor_left_side",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "5",
+        "armorColliders": ["LeftSideChestDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_left_side": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_left_side",
+      "_name": "MFAC_level6_soft_armor_left_side",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_left_side",
+        "ShortName": "MFAC_level6_soft_armor_left_side",
+        "Description": "MFAC_level6_soft_armor_left_side",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "6",
+        "armorColliders": ["LeftSideChestDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_right_side": {
+    "clone": "6575d589b15fef3dd4051674",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_right_side",
+      "_name": "MFAC_level4_soft_armor_right_side",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_right_side",
+        "ShortName": "MFAC_level4_soft_armor_right_side",
+        "Description": "MFAC_level4_soft_armor_right_side",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "4",
+        "armorColliders": ["RightSideChestDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_right_side": {
+    "clone": "6575d589b15fef3dd4051674",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_right_side",
+      "_name": "MFAC_level5_soft_armor_right_side",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_right_side",
+        "ShortName": "MFAC_level5_soft_armor_right_side",
+        "Description": "MFAC_level5_soft_armor_right_side",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "5",
+        "armorColliders": ["RightSideChestDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_right_side": {
+    "clone": "6575d589b15fef3dd4051674",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_right_side",
+      "_name": "MFAC_level6_soft_armor_right_side",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_right_side",
+        "ShortName": "MFAC_level6_soft_armor_right_side",
+        "Description": "MFAC_level6_soft_armor_right_side",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "6",
+        "armorColliders": ["RightSideChestDown"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_collar": {
+    "clone": "6575d598b15fef3dd4051678",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_collar",
+      "_name": "MFAC_level4_soft_armor_collar",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_collar",
+        "ShortName": "MFAC_level4_soft_armor_collar",
+        "Description": "MFAC_level4_soft_armor_collar",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "4",
+        "armorColliders": ["NeckFront", "NeckBack"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_collar": {
+    "clone": "6575d598b15fef3dd4051678",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_collar",
+      "_name": "MFAC_level5_soft_armor_collar",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_collar",
+        "ShortName": "MFAC_level5_soft_armor_collar",
+        "Description": "MFAC_level5_soft_armor_collar",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "5",
+        "armorColliders": ["NeckFront", "NeckBack"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_collar": {
+    "clone": "6575d598b15fef3dd4051678",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_collar",
+      "_name": "MFAC_level6_soft_armor_collar",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_collar",
+        "ShortName": "MFAC_level6_soft_armor_collar",
+        "Description": "MFAC_level6_soft_armor_collar",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 50,
+        "MaxDurability": 50,
+        "armorClass": "6",
+        "armorColliders": ["NeckFront", "NeckBack"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_left_arm": {
+    "clone": "6575d5b316c2762fba005824",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_left_arm",
+      "_name": "MFAC_level4_soft_armor_left_arm",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_left_arm",
+        "ShortName": "MFAC_level4_soft_armor_left_arm",
+        "Description": "MFAC_level4_soft_armor_left_arm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "4",
+        "armorColliders": ["LeftUpperArm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_left_arm": {
+    "clone": "6575d5b316c2762fba005824",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_left_arm",
+      "_name": "MFAC_level5_soft_armor_left_arm",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_left_arm",
+        "ShortName": "MFAC_level5_soft_armor_left_arm",
+        "Description": "MFAC_level5_soft_armor_left_arm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "5",
+        "armorColliders": ["LeftUpperArm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_left_arm": {
+    "clone": "6575d5b316c2762fba005824",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_left_arm",
+      "_name": "MFAC_level6_soft_armor_left_arm",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_left_arm",
+        "ShortName": "MFAC_level6_soft_armor_left_arm",
+        "Description": "MFAC_level6_soft_armor_left_arm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "6",
+        "armorColliders": ["LeftUpperArm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_left_forearm": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_left_forearm",
+      "_name": "MFAC_level4_soft_armor_left_forearm",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_left_forearm",
+        "ShortName": "MFAC_level4_soft_armor_left_forearm",
+        "Description": "MFAC_level4_soft_armor_left_forearm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "4",
+        "armorColliders": ["LeftForearm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_left_forearm": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_left_forearm",
+      "_name": "MFAC_level5_soft_armor_left_forearm",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_left_forearm",
+        "ShortName": "MFAC_level5_soft_armor_left_forearm",
+        "Description": "MFAC_level5_soft_armor_left_forearm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "5",
+        "armorColliders": ["LeftForearm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_left_forearm": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_left_forearm",
+      "_name": "MFAC_level6_soft_armor_left_forearm",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_left_forearm",
+        "ShortName": "MFAC_level6_soft_armor_left_forearm",
+        "Description": "MFAC_level6_soft_armor_left_forearm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "6",
+        "armorColliders": ["LeftForearm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_right_arm": {
+    "clone": "6575d5bd16c2762fba005828",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_right_arm",
+      "_name": "MFAC_level4_soft_armor_right_arm",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_right_arm",
+        "ShortName": "MFAC_level4_soft_armor_right_arm",
+        "Description": "MFAC_level4_soft_armor_right_arm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "4",
+        "armorColliders": ["RightUpperArm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_right_arm": {
+    "clone": "6575d5bd16c2762fba005828",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_right_arm",
+      "_name": "MFAC_level5_soft_armor_right_arm",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_right_arm",
+        "ShortName": "MFAC_level5_soft_armor_right_arm",
+        "Description": "MFAC_level5_soft_armor_right_arm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "5",
+        "armorColliders": ["RightUpperArm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_right_arm": {
+    "clone": "6575d5bd16c2762fba005828",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_right_arm",
+      "_name": "MFAC_level6_soft_armor_right_arm",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_right_arm",
+        "ShortName": "MFAC_level6_soft_armor_right_arm",
+        "Description": "MFAC_level6_soft_armor_right_arm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "6",
+        "armorColliders": ["RightUpperArm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_right_forearm": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_right_forearm",
+      "_name": "MFAC_level4_soft_armor_right_forearm",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_right_forearm",
+        "ShortName": "MFAC_level4_soft_armor_right_forearm",
+        "Description": "MFAC_level4_soft_armor_right_forearm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "4",
+        "armorColliders": ["RightForearm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_right_forearm": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_right_forearm",
+      "_name": "MFAC_level5_soft_armor_right_forearm",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_right_forearm",
+        "ShortName": "MFAC_level5_soft_armor_right_forearm",
+        "Description": "MFAC_level5_soft_armor_right_forearm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "5",
+        "armorColliders": ["RightForearm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_right_forearm": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_right_forearm",
+      "_name": "MFAC_level6_soft_armor_right_forearm",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_right_forearm",
+        "ShortName": "MFAC_level6_soft_armor_right_forearm",
+        "Description": "MFAC_level6_soft_armor_right_forearm",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "6",
+        "armorColliders": ["RightForearm"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_groin_front": {
+    "clone": "6575d5a616c2762fba005820",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_groin_front",
+      "_name": "MFAC_level4_soft_armor_groin_front",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_groin_front",
+        "ShortName": "MFAC_level4_soft_armor_groin_front",
+        "Description": "MFAC_level4_soft_armor_groin_front",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "4",
+        "armorColliders": ["Pelvis"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_groin_front": {
+    "clone": "6575d5a616c2762fba005820",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_groin_front",
+      "_name": "MFAC_level5_soft_armor_groin_front",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_groin_front",
+        "ShortName": "MFAC_level5_soft_armor_groin_front",
+        "Description": "MFAC_level5_soft_armor_groin_front",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["Pelvis"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_groin_front": {
+    "clone": "6575d5a616c2762fba005820",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_groin_front",
+      "_name": "MFAC_level6_soft_armor_groin_front",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_groin_front",
+        "ShortName": "MFAC_level6_soft_armor_groin_front",
+        "Description": "MFAC_level6_soft_armor_groin_front",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["Pelvis"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_groin_back": {
+    "clone": "6575c326c6700bd6b40e8a80",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_groin_back",
+      "_name": "MFAC_level4_soft_armor_groin_back",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_groin_back",
+        "ShortName": "MFAC_level4_soft_armor_groin_back",
+        "Description": "MFAC_level4_soft_armor_groin_back",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "4",
+        "armorColliders": ["PelvisBack"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_groin_back": {
+    "clone": "6575c326c6700bd6b40e8a80",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_groin_back",
+      "_name": "MFAC_level5_soft_armor_groin_back",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_groin_back",
+        "ShortName": "MFAC_level5_soft_armor_groin_back",
+        "Description": "MFAC_level5_soft_armor_groin_back",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["PelvisBack"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_groin_back": {
+    "clone": "6575c326c6700bd6b40e8a80",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_groin_back",
+      "_name": "MFAC_level6_soft_armor_groin_back",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_groin_back",
+        "ShortName": "MFAC_level6_soft_armor_groin_back",
+        "Description": "MFAC_level6_soft_armor_groin_back",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["PelvisBack"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_left_calf": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_left_calf",
+      "_name": "MFAC_level4_soft_armor_left_calf",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_left_calf",
+        "ShortName": "MFAC_level4_soft_armor_left_calf",
+        "Description": "MFAC_level4_soft_armor_left_calf",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "4",
+        "armorColliders": ["LeftCalf"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_left_calf": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_left_calf",
+      "_name": "MFAC_level5_soft_armor_left_calf",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_left_calf",
+        "ShortName": "MFAC_level5_soft_armor_left_calf",
+        "Description": "MFAC_level5_soft_armor_left_calf",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "5",
+        "armorColliders": ["LeftCalf"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_left_calf": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_left_calf",
+      "_name": "MFAC_level6_soft_armor_left_calf",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_left_calf",
+        "ShortName": "MFAC_level6_soft_armor_left_calf",
+        "Description": "MFAC_level6_soft_armor_left_calf",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "6",
+        "armorColliders": ["LeftCalf"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_right_calf": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_right_calf",
+      "_name": "MFAC_level4_soft_armor_right_calf",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_right_calf",
+        "ShortName": "MFAC_level4_soft_armor_right_calf",
+        "Description": "MFAC_level4_soft_armor_right_calf",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "4",
+        "armorColliders": ["RightCalf"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_right_calf": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_right_calf",
+      "_name": "MFAC_level5_soft_armor_right_calf",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_right_calf",
+        "ShortName": "MFAC_level5_soft_armor_right_calf",
+        "Description": "MFAC_level5_soft_armor_right_calf",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "5",
+        "armorColliders": ["RightCalf"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_right_calf": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_right_calf",
+      "_name": "MFAC_level6_soft_armor_right_calf",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_right_calf",
+        "ShortName": "MFAC_level6_soft_armor_right_calf",
+        "Description": "MFAC_level6_soft_armor_right_calf",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": "6",
+        "armorColliders": ["RightCalf"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_left_thigh": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_left_thigh",
+      "_name": "MFAC_level4_soft_armor_left_thigh",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_left_thigh",
+        "ShortName": "MFAC_level4_soft_armor_left_thigh",
+        "Description": "MFAC_level4_soft_armor_left_thigh",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "4",
+        "armorColliders": ["LeftThigh"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_left_thigh": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_left_thigh",
+      "_name": "MFAC_level5_soft_armor_left_thigh",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_left_thigh",
+        "ShortName": "MFAC_level5_soft_armor_left_thigh",
+        "Description": "MFAC_level5_soft_armor_left_thigh",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["LeftThigh"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_left_thigh": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_left_thigh",
+      "_name": "MFAC_level6_soft_armor_left_thigh",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_left_thigh",
+        "ShortName": "MFAC_level6_soft_armor_left_thigh",
+        "Description": "MFAC_level6_soft_armor_left_thigh",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["LeftThigh"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level4_soft_armor_right_thigh": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level4_soft_armor_right_thigh",
+      "_name": "MFAC_level4_soft_armor_right_thigh",
+      "_props": {
+        "Name": "MFAC_level4_soft_armor_right_thigh",
+        "ShortName": "MFAC_level4_soft_armor_right_thigh",
+        "Description": "MFAC_level4_soft_armor_right_thigh",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "4",
+        "armorColliders": ["RightThigh"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium IV Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_armor_right_thigh": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_armor_right_thigh",
+      "_name": "MFAC_level5_soft_armor_right_thigh",
+      "_props": {
+        "Name": "MFAC_level5_soft_armor_right_thigh",
+        "ShortName": "MFAC_level5_soft_armor_right_thigh",
+        "Description": "MFAC_level5_soft_armor_right_thigh",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["RightThigh"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_armor_right_thigh": {
+    "clone": "6575d57a16c2762fba00581c",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_armor_right_thigh",
+      "_name": "MFAC_level6_soft_armor_right_thigh",
+      "_props": {
+        "Name": "MFAC_level6_soft_armor_right_thigh",
+        "ShortName": "MFAC_level6_soft_armor_right_thigh",
+        "Description": "MFAC_level6_soft_armor_right_thigh",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Light",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["RightThigh"],
+        "armorPlateColliders": []
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_helm_top": {
+    "clone": "657bc06daab96fccee08be9b",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_helm_top",
+      "_name": "MFAC_level5_soft_helm_top",
+      "_props": {
+        "Name": "MFAC_level5_soft_helm_top",
+        "ShortName": "MFAC_level5_soft_helm_top",
+        "Description": "MFAC_level5_soft_helm_top",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["ParietalHead"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_helm_top": {
+    "clone": "657bc06daab96fccee08be9b",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_helm_top",
+      "_name": "MFAC_level6_soft_helm_top",
+      "_props": {
+        "Name": "MFAC_level6_soft_helm_top",
+        "ShortName": "MFAC_level6_soft_helm_top",
+        "Description": "MFAC_level6_soft_helm_top",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["ParietalHead"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_helm_nape": {
+    "clone": "657bc0d8a1c61ee0c303632f",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_helm_nape",
+      "_name": "MFAC_level5_soft_helm_nape",
+      "_props": {
+        "Name": "MFAC_level5_soft_helm_nape",
+        "ShortName": "MFAC_level5_soft_helm_nape",
+        "Description": "MFAC_level5_soft_helm_nape",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["BackHead"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_helm_nape": {
+    "clone": "657bc0d8a1c61ee0c303632f",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_helm_nape",
+      "_name": "MFAC_level6_soft_helm_nape",
+      "_props": {
+        "Name": "MFAC_level6_soft_helm_nape",
+        "ShortName": "MFAC_level6_soft_helm_nape",
+        "Description": "MFAC_level6_soft_helm_nape",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["BackHead"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_helm_ears": {
+    "clone": "657bc107aab96fccee08be9f",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_helm_ears",
+      "_name": "MFAC_level5_soft_helm_ears",
+      "_props": {
+        "Name": "MFAC_level5_soft_helm_ears",
+        "ShortName": "MFAC_level5_soft_helm_ears",
+        "Description": "MFAC_level5_soft_helm_ears",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["Ears"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_helm_ears": {
+    "clone": "657bc107aab96fccee08be9f",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_helm_ears",
+      "_name": "MFAC_level6_soft_helm_ears",
+      "_props": {
+        "Name": "MFAC_level6_soft_helm_ears",
+        "ShortName": "MFAC_level6_soft_helm_ears",
+        "Description": "MFAC_level6_soft_helm_ears",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["Ears"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium VI Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level5_soft_helm_faceshield": {
+    "clone": "658188edf026a90c1708c827",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level5_soft_helm_faceshield",
+      "_name": "MFAC_level5_soft_helm_faceshield",
+      "_props": {
+        "Name": "MFAC_level5_soft_helm_faceshield",
+        "ShortName": "MFAC_level5_soft_helm_faceshield",
+        "Description": "MFAC_level5_soft_helm_faceshield",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "5",
+        "armorColliders": ["HeadCommon", "Eyes"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  },
+  "MFAC_level6_soft_helm_faceshield": {
+    "clone": "658188edf026a90c1708c827",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_id": "MFAC_level6_soft_helm_faceshield",
+      "_name": "MFAC_level6_soft_helm_faceshield",
+      "_props": {
+        "Name": "MFAC_level6_soft_helm_faceshield",
+        "ShortName": "MFAC_level6_soft_helm_faceshield",
+        "Description": "MFAC_level6_soft_helm_faceshield",
+        "BackgroundColor": "violet",
+        "ArmorMaterial": "Aramid",
+        "ArmorType": "Heavy",
+        "BluntThroughput": 0.1,
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": "6",
+        "armorColliders": ["HeadCommon", "Eyes"],
+        "armorPlateColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0
+      }
+    },
+    "handbook": {
+      "ParentId": "6564b96a189fe36f356d177c",
+      "Price": 24088
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#a1ffba>Kampfium V Insert</color>",
+        "ShortName": "",
+        "Description": ""
+      }
+    }
+  }
 }

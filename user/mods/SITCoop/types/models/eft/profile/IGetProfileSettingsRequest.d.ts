@@ -1,3 +1,3 @@
 export interface IGetProfileSettingsRequest {
-    squadInviteRestriction: boolean;
+  squadInviteRestriction: boolean;
 }

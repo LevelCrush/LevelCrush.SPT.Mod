@@ -84,12 +84,7 @@
     "ArmorMaterial": "UHMWPE",
     "BlindnessProtection": 0,
     "ArmorType": "Light",
-    "armorColliders": [
-      "HeadCommon",
-      "Jaw",
-      "Eyes",
-      "ParietalHead"
-    ],
+    "armorColliders": ["HeadCommon", "Jaw", "Eyes", "ParietalHead"],
     "armorPlateColliders": [],
     "speedPenaltyPercent": -1,
     "mousePenalty": -3,
@@ -97,5 +92,3 @@
   },
   "_proto": "572b7d8524597762b472f9d1"
 }
-
-

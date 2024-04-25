@@ -1,26 +1,26 @@
 {
-    "addtoconfigsitem": {
-        "blacklist": [
-            "gear_juggernaut19_helm_PETTAN",
-            "gear_juggernaut19_visor_PETTAN",
-            "gear_juggernaut19_gasmask_PETTAN",
-            "gear_juggernaut19_armor_full_PETTAN",
-            "gear_juggernaut19_armor_core_PETTAN",
-            "gear_juggernaut19_armor_core_arms_left_PETTAN",
-            "gear_juggernaut19_armor_core_arms_right_PETTAN",
-            "gear_juggernaut19_armor_core_ass_PETTAN",
-            "gear_juggernaut19_armor_core_backpack_PETTAN",
-            "gear_juggernaut19_armor_core_extra_PETTAN",
-            "gear_juggernaut19_armor_core_lower_leg_left_PETTAN",
-            "gear_juggernaut19_armor_core_lower_leg_right_PETTAN",
-            "gear_juggernaut19_armor_core_thigh_PETTAN",
-            "gear_juggernaut19_armor_core_radio_base_PETTAN",
-            "gear_juggernaut19_armor_core_radio_antenna_PETTAN",
-            "gear_juggernaut19_armor_helm_tubegas_PETTAN",
-            "gear_juggernaut19_armor_helm_ring_PETTAN"
-        ]
-    },
-    "addtoconfigsscavcase": {
-        "rewardItemBlacklist": []
-    }
+  "addtoconfigsitem": {
+    "blacklist": [
+      "gear_juggernaut19_helm_PETTAN",
+      "gear_juggernaut19_visor_PETTAN",
+      "gear_juggernaut19_gasmask_PETTAN",
+      "gear_juggernaut19_armor_full_PETTAN",
+      "gear_juggernaut19_armor_core_PETTAN",
+      "gear_juggernaut19_armor_core_arms_left_PETTAN",
+      "gear_juggernaut19_armor_core_arms_right_PETTAN",
+      "gear_juggernaut19_armor_core_ass_PETTAN",
+      "gear_juggernaut19_armor_core_backpack_PETTAN",
+      "gear_juggernaut19_armor_core_extra_PETTAN",
+      "gear_juggernaut19_armor_core_lower_leg_left_PETTAN",
+      "gear_juggernaut19_armor_core_lower_leg_right_PETTAN",
+      "gear_juggernaut19_armor_core_thigh_PETTAN",
+      "gear_juggernaut19_armor_core_radio_base_PETTAN",
+      "gear_juggernaut19_armor_core_radio_antenna_PETTAN",
+      "gear_juggernaut19_armor_helm_tubegas_PETTAN",
+      "gear_juggernaut19_armor_helm_ring_PETTAN"
+    ]
+  },
+  "addtoconfigsscavcase": {
+    "rewardItemBlacklist": []
+  }
 }

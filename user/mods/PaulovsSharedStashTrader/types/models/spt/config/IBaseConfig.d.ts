@@ -1,3 +1,3 @@
 export interface IBaseConfig {
-    kind: string;
+  kind: string;
 }

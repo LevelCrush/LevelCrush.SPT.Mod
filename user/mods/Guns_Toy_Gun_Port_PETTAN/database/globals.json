@@ -1,41 +1,40 @@
 {
-	"ItemPresets": {
-		"6606af2cc690b729e20beb56": {
-			"_id": "6606af2cc690b729e20beb56",
-			"_type": "Preset",
-			"_changeWeaponName": false,
-			"_name": "ussr_pd_20x1mm",
-			"_parent": "6606af2cc690b729e20beb59",
-			"_items": [
-			  {
-				"_id": "6606af2cc690b729e20beb59",
-				"_tpl": "66015072e9f84d5680039678",
-				"upd": {
-				  "Repairable": {
-					"Durability": 100,
-					"MaxDurability": 100
-				  }
-				}
-			  },
-			  {
-				"_id": "6606af2cc690b729e20beb5a",
-				"_tpl": "66015dc4aaad2f54cb04c56a",
-				"parentId": "6606af2cc690b729e20beb59",
-				"slotId": "mod_magazine"
-			  }
-			],
-			"_encyclopedia": "66015072e9f84d5680039678"
-		  }
-	  
-	},
-	"config": {
-		"Mastering": [],
-		"Health": {
-			"Effects": {
-				"Stimulator": {
-					"Buffs": {}
-				}
-			}
-		}
-	}
+  "ItemPresets": {
+    "6606af2cc690b729e20beb56": {
+      "_id": "6606af2cc690b729e20beb56",
+      "_type": "Preset",
+      "_changeWeaponName": false,
+      "_name": "ussr_pd_20x1mm",
+      "_parent": "6606af2cc690b729e20beb59",
+      "_items": [
+        {
+          "_id": "6606af2cc690b729e20beb59",
+          "_tpl": "66015072e9f84d5680039678",
+          "upd": {
+            "Repairable": {
+              "Durability": 100,
+              "MaxDurability": 100
+            }
+          }
+        },
+        {
+          "_id": "6606af2cc690b729e20beb5a",
+          "_tpl": "66015dc4aaad2f54cb04c56a",
+          "parentId": "6606af2cc690b729e20beb59",
+          "slotId": "mod_magazine"
+        }
+      ],
+      "_encyclopedia": "66015072e9f84d5680039678"
+    }
+  },
+  "config": {
+    "Mastering": [],
+    "Health": {
+      "Effects": {
+        "Stimulator": {
+          "Buffs": {}
+        }
+      }
+    }
+  }
 }

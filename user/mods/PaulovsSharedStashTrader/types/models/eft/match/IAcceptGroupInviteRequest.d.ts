@@ -1,3 +1,3 @@
 export interface IAcceptGroupInviteRequest {
-    requestId: string;
+  requestId: string;
 }

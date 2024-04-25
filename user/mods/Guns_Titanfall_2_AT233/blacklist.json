@@ -1,12 +1,8 @@
 {
-    "addtoconfigsitem": {
-        "blacklist": [
-            "AT233_g2a5",
-            "AT233_r201",
-            "AT233_car"
-        ]
-    },
-    "addtoconfigsscavcase": {
-        "rewardItemBlacklist": []
-    }
+  "addtoconfigsitem": {
+    "blacklist": ["AT233_g2a5", "AT233_r201", "AT233_car"]
+  },
+  "addtoconfigsscavcase": {
+    "rewardItemBlacklist": []
+  }
 }

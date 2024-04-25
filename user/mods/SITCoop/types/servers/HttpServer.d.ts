@@ -10,20 +10,29 @@ import { WebSocketServer } from "@spt-aki/servers/WebSocketServer";
 import { IHttpListener } from "@spt-aki/servers/http/IHttpListener";
 import { LocalisationService } from "@spt-aki/services/LocalisationService";
 export declare class HttpServer {
-    protected logger: ILogger;
-    protected databaseServer: DatabaseServer;
-    protected httpServerHelper: HttpServerHelper;
-    protected localisationService: LocalisationService;
-    protected httpListeners: IHttpListener[];
-    protected configServer: ConfigServer;
-    protected applicationContext: ApplicationContext;
-    protected webSocketServer: WebSocketServer;
-    protected httpConfig: IHttpConfig;
-    constructor(logger: ILogger, databaseServer: DatabaseServer, httpServerHelper: HttpServerHelper, localisationService: LocalisationService, httpListeners: IHttpListener[], configServer: ConfigServer, applicationContext: ApplicationContext, webSocketServer: WebSocketServer);
-    /**
-     * Handle server loading event
-     */
-    load(): void;
-    protected handleRequest(req: IncomingMessage, resp: ServerResponse): void;
-    protected getCookies(req: IncomingMessage): Record<string, string>;
+  protected logger: ILogger;
+  protected databaseServer: DatabaseServer;
+  protected httpServerHelper: HttpServerHelper;
+  protected localisationService: LocalisationService;
+  protected httpListeners: IHttpListener[];
+  protected configServer: ConfigServer;
+  protected applicationContext: ApplicationContext;
+  protected webSocketServer: WebSocketServer;
+  protected httpConfig: IHttpConfig;
+  constructor(
+    logger: ILogger,
+    databaseServer: DatabaseServer,
+    httpServerHelper: HttpServerHelper,
+    localisationService: LocalisationService,
+    httpListeners: IHttpListener[],
+    configServer: ConfigServer,
+    applicationContext: ApplicationContext,
+    webSocketServer: WebSocketServer
+  );
+  /**
+   * Handle server loading event
+   */
+  load(): void;
+  protected handleRequest(req: IncomingMessage, resp: ServerResponse): void;
+  protected getCookies(req: IncomingMessage): Record<string, string>;
 }

@@ -1,4 +1,4 @@
 import type { DependencyContainer } from "tsyringe";
 export interface IPreAkiLoadMod {
-    preAkiLoad(container: DependencyContainer): void;
+  preAkiLoad(container: DependencyContainer): void;
 }

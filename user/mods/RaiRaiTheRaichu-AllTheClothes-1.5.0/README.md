@@ -1,14 +1,16 @@
 # All The Clothes v1.5.0
+
 Author: RaiRaiTheRaichu
 Original Authors: JustNU, Senko, Ereshkigal, Baliston
 
 ### ---BUILT FOR AKI VERSION 3.8.0---
 
-Inspired and built upon SellScavSuits, this mod adds all Scav/Raider/Boss etc clothing to unlock from Fence. You can navigate to the Services tab at the top of Fence's trade screen to view all the new clothing! 
+Inspired and built upon SellScavSuits, this mod adds all Scav/Raider/Boss etc clothing to unlock from Fence. You can navigate to the Services tab at the top of Fence's trade screen to view all the new clothing!
 
 Furthermore, check out the mod's config.json for more options! You can remove all the unlock requirements (some clothing requires quests, skills, items, and levels!), change them to whatever you'd like, and toggle some new features that allow you to fully customize your character further than ever before!
 
 You can:
+
 - Choose scav and boss voices for your PMC!
 - Choose scav and boss faces for your PMC! (Only available at profile creation - see "Swapping Heads" to change head models on existing profiles.)
 - Choose any faction voice for your PMC! Play as a USEC with a Bear voice (including the new English Bear voices!) or vice versa!
@@ -30,7 +32,8 @@ If you're updating from an older version, please be sure to delete the old mod f
 
 ## ---CHANGELOGS---
 
-#### v1.1.0 Changelog: 
+#### v1.1.0 Changelog:
+
 - Added first person arms/hands to every clothing! Now you can see the proper hands for all clothing.
 - Added Killa's pants to Ragman.
 - Added config option to make all default clothing (clothes already on Ragman) free as well.
@@ -42,31 +45,36 @@ If you're updating from an older version, please be sure to delete the old mod f
 - Minor change to the version in the package.json, compatible with version 3.2.3 of AKI.
 
 #### v1.1.1 Changelog:
+
 - Fixed issue with Big Pipe and Sanitar tops causing loading issues.
 - Fixed issue with Overview tab breaking if you updated from v1.0.0.
 - Tying in to the previous change, clothing you previously unlocked in v1.0.0 are now carried over, assuming you haven't already repurchased them.
 - Minor change to the version in the package.json, compatible with version 3.2.4 of AKI.
 
 #### v1.1.2 Changelog:
+
 - Fixed issue where the save sanitizing feature would crash the server upon loading a newly created profile.
 - Fixed issue where some SCAV clothing had the incorrect first person hand meshes.
 - Minor refactors to the save sanitizing feature for compatibility with version 3.3.0 of AKI.
 - Minor change to the version in the package.json, compatible with version 3.3.0 of AKI.
 
-#### v1.2.0 Changelog: 
+#### v1.2.0 Changelog:
+
 - Major refactor to localization to comply with new standards as of client version 20765.
 - Minor change to the version in the package.json, compatible with version 3.4.0 of AKI.
 
-#### v1.3.0 Changelog: 
+#### v1.3.0 Changelog:
+
 - Added new clothing with the EFT 0.12.13 patch - "Victory" clothing set and "Zryachiy" clothing set.
 - Added hand mesh for Zryachiy's ghillie suit.
 - Minor refactors to handle clothing/heads/voices not being added to the player customization list.
 - Minor change to the version in the package.json, compatible with version 3.5.0 of AKI.
 
 #### v1.4.0 Changelog
-- Added new clothing with the EFT 0.13.5 Patch - Kaban's clothing* and new Scav Feldparka
+
+- Added new clothing with the EFT 0.13.5 Patch - Kaban's clothing\* and new Scav Feldparka
 - Added hand mesh for Kaban's clothing
-- Added playable head model for Kaban*
+- Added playable head model for Kaban\*
 - Added two new voices for the Bloodhound characters
 - Slight localization changes
 - Russian translation now up to date (thanks JustNU!)
@@ -76,10 +84,11 @@ If you're updating from an older version, please be sure to delete the old mod f
 * Clipping issues currently exist for Kaban due to his larger model. These issues will be rectified in a later patch, optional variants that better fit the standard playermodel will be included.
 
 #### v1.5.0 Changelog
+
 - Minor code refactor
-- Added all new clothing for the EFT 0.14.0 Patch - Kollontay's clothing* and new Scav leather jackets
+- Added all new clothing for the EFT 0.14.0 Patch - Kollontay's clothing\* and new Scav leather jackets
 - Added hand meshes for the new clothing
-- Added playable head model for Kollontay*
+- Added playable head model for Kollontay\*
 - Added new voices for Kollontay, Kaban, and Shturman
 - New custom-made "Hood Down" variant of Shturman's Parka by me, no more clipping with headgear or certain heads
 - Removed "Empty" head for player, this hasn't been needed for awhile after Shturman and Tagilla had custom top meshes
@@ -136,11 +145,10 @@ Swap the ID for the head for any of the following, and save your profile:
 `"64809e3077c11aeac5078e3c"` for: Kaban
 `"654b5ed58558fd71f97254f4"` for: Kollontay
 
-
 ## ---CONTACT---
 
 @RaiRaiTheRaichu - Discord
-user/6798-rairaitheraichu - on sp-tarkov.com 
+user/6798-rairaitheraichu - on sp-tarkov.com
 
 ## ---LICENSE---
 

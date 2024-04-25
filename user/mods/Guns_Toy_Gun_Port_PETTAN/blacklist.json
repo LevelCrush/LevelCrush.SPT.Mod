@@ -1,9 +1,8 @@
 {
-    "addtoconfigsitem": {
-        "blacklist": [
-        ]
-    },
-    "addtoconfigsscavcase": {
-        "rewardItemBlacklist": []
-    }
+  "addtoconfigsitem": {
+    "blacklist": []
+  },
+  "addtoconfigsscavcase": {
+    "rewardItemBlacklist": []
+  }
 }

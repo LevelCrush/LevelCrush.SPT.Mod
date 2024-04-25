@@ -1,4 +1,4 @@
 export interface ISendGroupInviteRequest {
-    to: string;
-    inLobby: boolean;
+  to: string;
+  inLobby: boolean;
 }

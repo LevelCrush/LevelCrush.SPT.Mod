@@ -8,19 +8,46 @@ import { IRemoveBuildRequestData } from "@spt-aki/models/eft/presetBuild/IRemove
 import { IUserBuilds } from "@spt-aki/models/eft/profile/IAkiProfile";
 import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
 export declare class PresetBuildCallbacks {
-    protected httpResponse: HttpResponseUtil;
-    protected presetBuildController: PresetBuildController;
-    constructor(httpResponse: HttpResponseUtil, presetBuildController: PresetBuildController);
-    /** Handle client/handbook/builds/my/list */
-    getHandbookUserlist(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IUserBuilds>;
-    /** Handle SaveWeaponBuild event */
-    saveWeaponBuild(pmcData: IPmcData, body: IPresetBuildActionRequestData, sessionID: string): IItemEventRouterResponse;
-    /** Handle removeBuild event*/
-    removeBuild(pmcData: IPmcData, body: IRemoveBuildRequestData, sessionID: string): IItemEventRouterResponse;
-    /** Handle RemoveWeaponBuild event*/
-    removeWeaponBuild(pmcData: IPmcData, body: IPresetBuildActionRequestData, sessionID: string): IItemEventRouterResponse;
-    /** Handle SaveEquipmentBuild event */
-    saveEquipmentBuild(pmcData: IPmcData, body: IPresetBuildActionRequestData, sessionID: string): IItemEventRouterResponse;
-    /** Handle RemoveEquipmentBuild event*/
-    removeEquipmentBuild(pmcData: IPmcData, body: IPresetBuildActionRequestData, sessionID: string): IItemEventRouterResponse;
+  protected httpResponse: HttpResponseUtil;
+  protected presetBuildController: PresetBuildController;
+  constructor(
+    httpResponse: HttpResponseUtil,
+    presetBuildController: PresetBuildController
+  );
+  /** Handle client/handbook/builds/my/list */
+  getHandbookUserlist(
+    url: string,
+    info: IEmptyRequestData,
+    sessionID: string
+  ): IGetBodyResponseData<IUserBuilds>;
+  /** Handle SaveWeaponBuild event */
+  saveWeaponBuild(
+    pmcData: IPmcData,
+    body: IPresetBuildActionRequestData,
+    sessionID: string
+  ): IItemEventRouterResponse;
+  /** Handle removeBuild event*/
+  removeBuild(
+    pmcData: IPmcData,
+    body: IRemoveBuildRequestData,
+    sessionID: string
+  ): IItemEventRouterResponse;
+  /** Handle RemoveWeaponBuild event*/
+  removeWeaponBuild(
+    pmcData: IPmcData,
+    body: IPresetBuildActionRequestData,
+    sessionID: string
+  ): IItemEventRouterResponse;
+  /** Handle SaveEquipmentBuild event */
+  saveEquipmentBuild(
+    pmcData: IPmcData,
+    body: IPresetBuildActionRequestData,
+    sessionID: string
+  ): IItemEventRouterResponse;
+  /** Handle RemoveEquipmentBuild event*/
+  removeEquipmentBuild(
+    pmcData: IPmcData,
+    body: IPresetBuildActionRequestData,
+    sessionID: string
+  ): IItemEventRouterResponse;
 }

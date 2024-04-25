@@ -1,2421 +1,2202 @@
 {
-    "gear_juggernaut19_armor_full_PETTAN": {
-        "clone": "64a5366719bab53bd203bf33",
-        "enableCloneCompats": true,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
+  "gear_juggernaut19_armor_full_PETTAN": {
+    "clone": "64a5366719bab53bd203bf33",
+    "enableCloneCompats": true,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "ExaminedByDefault": true,
+        "Height": 5,
+        "Width": 3,
+        "Prefab": {
+          "path": "equipment_jugger_full.bundle",
+          "rcid": ""
+        },
+        "BlocksArmorVest": true,
+        "BackgroundColor": "violet",
+        "Grids": [
+          {
+            "_id": "gear_juggernaut19_armor_full_PETTANcont",
+            "_name": "1",
+            "_parent": "gear_juggernaut19_armor_full_PETTAN",
             "_props": {
-                "ExaminedByDefault": true,
-                "Height": 5,
-                "Width": 3,
-                "Prefab": {
-                    "path": "equipment_jugger_full.bundle",
-                    "rcid": ""
-                },
-                "BlocksArmorVest": true,
-                "BackgroundColor": "violet",
-                "Grids": [
-                    {
-                        "_id": "gear_juggernaut19_armor_full_PETTANcont",
-                        "_name": "1",
-                        "_parent": "gear_juggernaut19_armor_full_PETTAN",
-                        "_props": {
-                            "cellsH": 6,
-                            "cellsV": 12,
-                            "filters": [
-                                {
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a",
-                                        "gear_juggernaut19_helm_PETTAN",
-                                        "gear_juggernaut19_visor_PETTAN",
-                                        "gear_juggernaut19_gasmask_PETTAN",
-                                        "gear_juggernaut19_armor_full_PETTAN",
-                                        "gear_juggernaut19_armor_core_PETTAN",
-                                        "gear_juggernaut19_armor_core_arms_left_PETTAN",
-                                        "gear_juggernaut19_armor_core_arms_right_PETTAN",
-                                        "gear_juggernaut19_armor_core_ass_PETTAN",
-                                        "gear_juggernaut19_armor_core_backpack_PETTAN",
-                                        "gear_juggernaut19_armor_core_extra_PETTAN",
-                                        "gear_juggernaut19_armor_core_lower_leg_left_PETTAN",
-                                        "gear_juggernaut19_armor_core_lower_leg_right_PETTAN",
-                                        "gear_juggernaut19_armor_core_thigh_PETTAN",
-                                        "gear_juggernaut19_armor_core_radio_base_PETTAN",
-                                        "gear_juggernaut19_armor_core_radio_antenna_PETTAN",
-                                        "gear_juggernaut19_armor_helm_tubegas_PETTAN",
-                                        "gear_juggernaut19_armor_helm_ring_PETTAN",
-                                        "64a5366719bab53bd203bf33",
-                                        "5448e54d4bdc2dcc718b4568",
-                                        "57bef4c42459772e8d35a53b",
-                                        "5a341c4086f77401f2541505"
-                                    ],
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ]
-                                }
-                            ],
-                            "isSortingTable": false,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "minCount": 0
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    }
-                ],
-                "RigLayoutName": "",
-                "Slots": [
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0b",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Front_plate",
-                        "_parent": "gear_juggernaut19_armor_full_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "656fa8d700d62bcd2e024084",
-                                        "656f9d5900d62bcd2e02407c",
-                                        "656fa99800d62bcd2e024088",
-                                        "656fae5f7c2d57afe200c0d7",
-                                        "656faf0ca0dce000a2020f77",
-                                        "656fa0fb498d1b7e3e071d9c",
-                                        "656fafe3498d1b7e3e071da4",
-                                        "656fa76500d62bcd2e024080",
-                                        "656fa25e94b480b8a500c0e0",
-                                        "656fad8c498d1b7e3e071da0",
-                                        "656fa61e94b480b8a500c0e8",
-                                        "656fb21fa0dce000a2020f7c",
-                                        "656fac30c6baea13cd07e10c",
-                                        "656fb0bd7c2d57afe200c0dc",
-                                        "656f9fa0498d1b7e3e071d98",
-                                        "656fa53d94b480b8a500c0e4",
-                                        "65573fa5655447403702a816",
-                                        "64afc71497cf3a403c01ff38",
-                                        "655746010177119f4a097ff7",
-                                        "64afdcb83efdfea28601d041"
-                                    ],
-                                    "Plate": "65573fa5655447403702a816",
-                                    "armorColliders": [],
-                                    "armorPlateColliders": [
-                                        "Plate_Granit_SAPI_chest"
-                                    ],
-                                    "locked": false
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": false
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0c",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Back_plate",
-                        "_parent": "gear_juggernaut19_armor_full_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "656f9d5900d62bcd2e02407c",
-                                        "656fa8d700d62bcd2e024084",
-                                        "656fae5f7c2d57afe200c0d7",
-                                        "656fa99800d62bcd2e024088",
-                                        "656fa0fb498d1b7e3e071d9c",
-                                        "656faf0ca0dce000a2020f77",
-                                        "656fa76500d62bcd2e024080",
-                                        "656fafe3498d1b7e3e071da4",
-                                        "656fa25e94b480b8a500c0e0",
-                                        "656fad8c498d1b7e3e071da0",
-                                        "656fb21fa0dce000a2020f7c",
-                                        "656fac30c6baea13cd07e10c",
-                                        "656fa61e94b480b8a500c0e8",
-                                        "656fb0bd7c2d57afe200c0dc",
-                                        "656f9fa0498d1b7e3e071d98",
-                                        "656fa53d94b480b8a500c0e4",
-                                        "65573fa5655447403702a816",
-                                        "64afc71497cf3a403c01ff38",
-                                        "655746010177119f4a097ff7",
-                                        "64afdcb83efdfea28601d041"
-                                    ],
-                                    "Plate": "65573fa5655447403702a816",
-                                    "armorColliders": [],
-                                    "armorPlateColliders": [
-                                        "Plate_Granit_SAPI_back"
-                                    ],
-                                    "locked": false
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": false
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0d",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_front",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_front"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_front",
-                                    "armorColliders": [
-                                        "RibcageLow",
-                                        "RibcageUp"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0e",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_back",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_back"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_back",
-                                    "armorColliders": [
-                                        "SpineDown",
-                                        "SpineTop"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0f",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_left",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_left_side"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_left_side",
-                                    "armorColliders": [
-                                        "LeftSideChestDown"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d10",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_right",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_right_side"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_right_side",
-                                    "armorColliders": [
-                                        "RightSideChestDown"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005834",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Collar",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_collar"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_collar",
-                                    "armorColliders": [
-                                        "NeckFront",
-                                        "NeckBack"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005835",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_left_arm",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_left_arm"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_left_arm",
-                                    "armorColliders": [
-                                        "LeftUpperArm"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005836",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_right_arm",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_right_arm"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_right_arm",
-                                    "armorColliders": [
-                                        "RightUpperArm"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005835",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_left_forearm",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_left_forearm"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_left_forearm",
-                                    "armorColliders": [
-                                        "LeftForearm"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005836",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_right_forearm",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_right_forearm"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_right_forearm",
-                                    "armorColliders": [
-                                        "RightForearm"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005837",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Groin",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_groin_front"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_groin_front",
-                                    "armorColliders": [
-                                        "Pelvis"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005837",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "groin_back",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_groin_back"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_groin_back",
-                                    "armorColliders": [
-                                        "PelvisBack"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005835",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_left_calf",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_left_calf"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_left_calf",
-                                    "armorColliders": [
-                                        "LeftCalf"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005836",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_right_calf",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_right_calf"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_right_calf",
-                                    "armorColliders": [
-                                        "RightCalf"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005835",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_left_thigh",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_left_thigh"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_left_thigh",
-                                    "armorColliders": [
-                                        "LeftThigh"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6575d74816c2762fba005836",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_right_thigh",
-                        "_parent": "60a283193cb70855c43a381d",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_right_thigh"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_right_thigh",
-                                    "armorColliders": [
-                                        "RightThigh"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    }
-                ],
-                "Weight": 33.0,
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -24,
-                "weaponErgonomicPenalty": -24
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f6f8786f77447ed563642",
-            "Price": 500000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Armor Package (FULL)",
-                "ShortName": "FULL",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Armor Package (FULL). The tags on this equipment shows it to be manufactured in 2019. \nBest used with the special clothing as a set."
-            }
-        }
+              "cellsH": 6,
+              "cellsV": 12,
+              "filters": [
+                {
+                  "ExcludedFilter": [
+                    "5448bf274bdc2dfc2f8b456a",
+                    "gear_juggernaut19_helm_PETTAN",
+                    "gear_juggernaut19_visor_PETTAN",
+                    "gear_juggernaut19_gasmask_PETTAN",
+                    "gear_juggernaut19_armor_full_PETTAN",
+                    "gear_juggernaut19_armor_core_PETTAN",
+                    "gear_juggernaut19_armor_core_arms_left_PETTAN",
+                    "gear_juggernaut19_armor_core_arms_right_PETTAN",
+                    "gear_juggernaut19_armor_core_ass_PETTAN",
+                    "gear_juggernaut19_armor_core_backpack_PETTAN",
+                    "gear_juggernaut19_armor_core_extra_PETTAN",
+                    "gear_juggernaut19_armor_core_lower_leg_left_PETTAN",
+                    "gear_juggernaut19_armor_core_lower_leg_right_PETTAN",
+                    "gear_juggernaut19_armor_core_thigh_PETTAN",
+                    "gear_juggernaut19_armor_core_radio_base_PETTAN",
+                    "gear_juggernaut19_armor_core_radio_antenna_PETTAN",
+                    "gear_juggernaut19_armor_helm_tubegas_PETTAN",
+                    "gear_juggernaut19_armor_helm_ring_PETTAN",
+                    "64a5366719bab53bd203bf33",
+                    "5448e54d4bdc2dcc718b4568",
+                    "57bef4c42459772e8d35a53b",
+                    "5a341c4086f77401f2541505"
+                  ],
+                  "Filter": ["54009119af1c881c07000029"]
+                }
+              ],
+              "isSortingTable": false,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "minCount": 0
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          }
+        ],
+        "RigLayoutName": "",
+        "Slots": [
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0b",
+            "_mergeSlotWithChildren": true,
+            "_name": "Front_plate",
+            "_parent": "gear_juggernaut19_armor_full_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "656fa8d700d62bcd2e024084",
+                    "656f9d5900d62bcd2e02407c",
+                    "656fa99800d62bcd2e024088",
+                    "656fae5f7c2d57afe200c0d7",
+                    "656faf0ca0dce000a2020f77",
+                    "656fa0fb498d1b7e3e071d9c",
+                    "656fafe3498d1b7e3e071da4",
+                    "656fa76500d62bcd2e024080",
+                    "656fa25e94b480b8a500c0e0",
+                    "656fad8c498d1b7e3e071da0",
+                    "656fa61e94b480b8a500c0e8",
+                    "656fb21fa0dce000a2020f7c",
+                    "656fac30c6baea13cd07e10c",
+                    "656fb0bd7c2d57afe200c0dc",
+                    "656f9fa0498d1b7e3e071d98",
+                    "656fa53d94b480b8a500c0e4",
+                    "65573fa5655447403702a816",
+                    "64afc71497cf3a403c01ff38",
+                    "655746010177119f4a097ff7",
+                    "64afdcb83efdfea28601d041"
+                  ],
+                  "Plate": "65573fa5655447403702a816",
+                  "armorColliders": [],
+                  "armorPlateColliders": ["Plate_Granit_SAPI_chest"],
+                  "locked": false
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": false
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0c",
+            "_mergeSlotWithChildren": true,
+            "_name": "Back_plate",
+            "_parent": "gear_juggernaut19_armor_full_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "656f9d5900d62bcd2e02407c",
+                    "656fa8d700d62bcd2e024084",
+                    "656fae5f7c2d57afe200c0d7",
+                    "656fa99800d62bcd2e024088",
+                    "656fa0fb498d1b7e3e071d9c",
+                    "656faf0ca0dce000a2020f77",
+                    "656fa76500d62bcd2e024080",
+                    "656fafe3498d1b7e3e071da4",
+                    "656fa25e94b480b8a500c0e0",
+                    "656fad8c498d1b7e3e071da0",
+                    "656fb21fa0dce000a2020f7c",
+                    "656fac30c6baea13cd07e10c",
+                    "656fa61e94b480b8a500c0e8",
+                    "656fb0bd7c2d57afe200c0dc",
+                    "656f9fa0498d1b7e3e071d98",
+                    "656fa53d94b480b8a500c0e4",
+                    "65573fa5655447403702a816",
+                    "64afc71497cf3a403c01ff38",
+                    "655746010177119f4a097ff7",
+                    "64afdcb83efdfea28601d041"
+                  ],
+                  "Plate": "65573fa5655447403702a816",
+                  "armorColliders": [],
+                  "armorPlateColliders": ["Plate_Granit_SAPI_back"],
+                  "locked": false
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": false
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0d",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_front",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_front"],
+                  "Plate": "MFAC_level6_soft_armor_front",
+                  "armorColliders": ["RibcageLow", "RibcageUp"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0e",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_back",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_back"],
+                  "Plate": "MFAC_level6_soft_armor_back",
+                  "armorColliders": ["SpineDown", "SpineTop"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0f",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_left",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_left_side"],
+                  "Plate": "MFAC_level6_soft_armor_left_side",
+                  "armorColliders": ["LeftSideChestDown"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d10",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_right",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_right_side"],
+                  "Plate": "MFAC_level6_soft_armor_right_side",
+                  "armorColliders": ["RightSideChestDown"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005834",
+            "_mergeSlotWithChildren": true,
+            "_name": "Collar",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_collar"],
+                  "Plate": "MFAC_level6_soft_armor_collar",
+                  "armorColliders": ["NeckFront", "NeckBack"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005835",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_left_arm",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_left_arm"],
+                  "Plate": "MFAC_level6_soft_armor_left_arm",
+                  "armorColliders": ["LeftUpperArm"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005836",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_right_arm",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_right_arm"],
+                  "Plate": "MFAC_level6_soft_armor_right_arm",
+                  "armorColliders": ["RightUpperArm"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005835",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_left_forearm",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_left_forearm"],
+                  "Plate": "MFAC_level6_soft_armor_left_forearm",
+                  "armorColliders": ["LeftForearm"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005836",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_right_forearm",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_right_forearm"],
+                  "Plate": "MFAC_level6_soft_armor_right_forearm",
+                  "armorColliders": ["RightForearm"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005837",
+            "_mergeSlotWithChildren": true,
+            "_name": "Groin",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_groin_front"],
+                  "Plate": "MFAC_level6_soft_armor_groin_front",
+                  "armorColliders": ["Pelvis"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005837",
+            "_mergeSlotWithChildren": true,
+            "_name": "groin_back",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_groin_back"],
+                  "Plate": "MFAC_level6_soft_armor_groin_back",
+                  "armorColliders": ["PelvisBack"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005835",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_left_calf",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_left_calf"],
+                  "Plate": "MFAC_level6_soft_armor_left_calf",
+                  "armorColliders": ["LeftCalf"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005836",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_right_calf",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_right_calf"],
+                  "Plate": "MFAC_level6_soft_armor_right_calf",
+                  "armorColliders": ["RightCalf"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005835",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_left_thigh",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_left_thigh"],
+                  "Plate": "MFAC_level6_soft_armor_left_thigh",
+                  "armorColliders": ["LeftThigh"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6575d74816c2762fba005836",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_right_thigh",
+            "_parent": "60a283193cb70855c43a381d",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_right_thigh"],
+                  "Plate": "MFAC_level6_soft_armor_right_thigh",
+                  "armorColliders": ["RightThigh"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          }
+        ],
+        "Weight": 33.0,
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -24,
+        "weaponErgonomicPenalty": -24
+      }
     },
-    "gear_juggernaut19_armor_core_PETTAN": {
-        "clone": "64a5366719bab53bd203bf33",
-        "enable": true,
-        "item": {
-            "_props": {
-                "ExaminedByDefault": true,
-                "Height": 3,
-                "Width": 3,
-                "MergesWithChildren": true,
-                "Prefab": {
-                    "path": "equipment_jugger_core.bundle",
-                    "rcid": ""
-                },
-                "Slots": [
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0b",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Front_plate",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "656fa8d700d62bcd2e024084",
-                                        "656f9d5900d62bcd2e02407c",
-                                        "656fa99800d62bcd2e024088",
-                                        "656fae5f7c2d57afe200c0d7",
-                                        "656faf0ca0dce000a2020f77",
-                                        "656fa0fb498d1b7e3e071d9c",
-                                        "656fafe3498d1b7e3e071da4",
-                                        "656fa76500d62bcd2e024080",
-                                        "656fa25e94b480b8a500c0e0",
-                                        "656fad8c498d1b7e3e071da0",
-                                        "656fa61e94b480b8a500c0e8",
-                                        "656fb21fa0dce000a2020f7c",
-                                        "656fac30c6baea13cd07e10c",
-                                        "656fb0bd7c2d57afe200c0dc",
-                                        "656f9fa0498d1b7e3e071d98",
-                                        "656fa53d94b480b8a500c0e4",
-                                        "65573fa5655447403702a816",
-                                        "64afc71497cf3a403c01ff38",
-                                        "655746010177119f4a097ff7",
-                                        "64afdcb83efdfea28601d041"
-                                    ],
-                                    "Plate": "65573fa5655447403702a816",
-                                    "armorColliders": [],
-                                    "armorPlateColliders": [
-                                        "Plate_Granit_SAPI_chest"
-                                    ],
-                                    "locked": false
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": false
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0c",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Back_plate",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "656f9d5900d62bcd2e02407c",
-                                        "656fa8d700d62bcd2e024084",
-                                        "656fae5f7c2d57afe200c0d7",
-                                        "656fa99800d62bcd2e024088",
-                                        "656fa0fb498d1b7e3e071d9c",
-                                        "656faf0ca0dce000a2020f77",
-                                        "656fa76500d62bcd2e024080",
-                                        "656fafe3498d1b7e3e071da4",
-                                        "656fa25e94b480b8a500c0e0",
-                                        "656fad8c498d1b7e3e071da0",
-                                        "656fb21fa0dce000a2020f7c",
-                                        "656fac30c6baea13cd07e10c",
-                                        "656fa61e94b480b8a500c0e8",
-                                        "656fb0bd7c2d57afe200c0dc",
-                                        "656f9fa0498d1b7e3e071d98",
-                                        "656fa53d94b480b8a500c0e4",
-                                        "65573fa5655447403702a816",
-                                        "64afc71497cf3a403c01ff38",
-                                        "655746010177119f4a097ff7",
-                                        "64afdcb83efdfea28601d041"
-                                    ],
-                                    "Plate": "65573fa5655447403702a816",
-                                    "armorColliders": [],
-                                    "armorPlateColliders": [
-                                        "Plate_Granit_SAPI_back"
-                                    ],
-                                    "locked": false
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": false
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0d",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_front",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_front"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_front",
-                                    "armorColliders": [
-                                        "RibcageLow",
-                                        "RibcageUp"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0e",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_back",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_back"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_back",
-                                    "armorColliders": [
-                                        "SpineDown",
-                                        "SpineTop"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0f",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_left",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_left_side"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_left_side",
-                                    "armorColliders": [
-                                        "LeftSideChestDown"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d10",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_right",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_right_side"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_right_side",
-                                    "armorColliders": [
-                                        "RightSideChestDown"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_name": "mod_equipment_000",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN000",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_extra_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_001",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN001",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_backpack_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_002",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN002",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_arms_left_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_003",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN003",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_arms_right_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_004",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN004",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_ass_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_005",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN005",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_lower_leg_left_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_006",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN006",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_lower_leg_right_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_007",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN007",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_thigh_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_008",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN008",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_radio_base_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_009",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN009",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_helm_ring_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_010",
-                        "_id": "gear_juggernaut19_armor_core_PETTAN010",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_core_radio_antenna_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    }
-                ],
-                "BlocksArmorVest": true,
-                "BackgroundColor": "violet",
-                "Grids": [
-                    {
-                        "_id": "gear_juggernaut19_armor_core_PETTANgriddy",
-                        "_name": "1",
-                        "_parent": "gear_juggernaut19_armor_core_PETTAN",
-                        "_props": {
-                            "cellsH": 6,
-                            "cellsV": 10,
-                            "filters": [
-                                {
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a",
-                                        "gear_juggernaut19_helm_PETTAN",
-                                        "gear_juggernaut19_visor_PETTAN",
-                                        "gear_juggernaut19_gasmask_PETTAN",
-                                        "gear_juggernaut19_armor_full_PETTAN",
-                                        "gear_juggernaut19_armor_core_PETTAN",
-                                        "gear_juggernaut19_armor_core_arms_left_PETTAN",
-                                        "gear_juggernaut19_armor_core_arms_right_PETTAN",
-                                        "gear_juggernaut19_armor_core_ass_PETTAN",
-                                        "gear_juggernaut19_armor_core_backpack_PETTAN",
-                                        "gear_juggernaut19_armor_core_extra_PETTAN",
-                                        "gear_juggernaut19_armor_core_lower_leg_left_PETTAN",
-                                        "gear_juggernaut19_armor_core_lower_leg_right_PETTAN",
-                                        "gear_juggernaut19_armor_core_thigh_PETTAN",
-                                        "gear_juggernaut19_armor_core_radio_base_PETTAN",
-                                        "gear_juggernaut19_armor_core_radio_antenna_PETTAN",
-                                        "gear_juggernaut19_armor_helm_tubegas_PETTAN",
-                                        "gear_juggernaut19_armor_helm_ring_PETTAN",
-                                        "64a5366719bab53bd203bf33",
-                                        "5448e54d4bdc2dcc718b4568",
-                                        "57bef4c42459772e8d35a53b",
-                                        "5a341c4086f77401f2541505"
-                                    ],
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ]
-                                }
-                            ],
-                            "isSortingTable": false,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "minCount": 0
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    }
-                ],
-                "RigLayoutName": "",
-                "Weight": 5.2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f6f8786f77447ed563642",
-            "Price": 500000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Plate Carrier",
-                "ShortName": "Carrier",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Plate Carrier with attachments for multiple armor pieces.\nBest used with the special clothing as a set."
-            }
-        }
+    "handbook": {
+      "ParentId": "5b5f6f8786f77447ed563642",
+      "Price": 500000
     },
-    "gear_juggernaut19_armor_core_arms_left_PETTAN": {
-        "enable": true,
-        "item": {
-            "_id": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-            "_name": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-            "_parent": "57bef4c42459772e8d35a53b",
-            "_type": "Item",
-            "_props": {
-                "BackgroundColor": "violet",
-                "Name": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-                "ShortName": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-                "Description": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-                "AnimationVariantsNumber": 0,
-                "BlindnessProtection": 0,
-                "BlocksEarpiece": false,
-                "BlocksEyewear": false,
-                "BlocksFaceCover": false,
-                "BlocksHeadwear": false,
-                "CanPutIntoDuringTheRaid": true,
-                "CanRequireOnRagfair": false,
-                "CanSellOnRagfair": true,
-                "CantRemoveFromSlotsDuringRaid": [],
-                "ConflictingItems": [],
-                "DeafStrength": "None",
-                "DiscardLimit": -1,
-                "DiscardingBlock": false,
-                "DropSoundType": "None",
-                "ExamineExperience": 4,
-                "ExamineTime": 1,
-                "ExaminedByDefault": true,
-                "ExtraSizeDown": 0,
-                "ExtraSizeForceAdd": false,
-                "ExtraSizeLeft": 0,
-                "ExtraSizeRight": 0,
-                "ExtraSizeUp": 0,
-                "FaceShieldComponent": false,
-                "FaceShieldMask": "NoMask",
-                "Grids": [],
-                "HasHinge": false,
-                "HideEntrails": false,
-                "Indestructibility": 0.9,
-                "InsuranceDisabled": false,
-                "IsAlwaysAvailableForInsurance": false,
-                "IsLockedafterEquip": false,
-                "IsSpecialSlotOnly": false,
-                "IsUnbuyable": false,
-                "IsUndiscardable": false,
-                "IsUngivable": false,
-                "IsUnremovable": false,
-                "IsUnsaleable": false,
-                "ItemSound": "gear_helmet",
-                "LootExperience": 20,
-                "MergesWithChildren": true,
-                "NotShownInSlot": false,
-                "UsePrefab": {
-                    "path": "",
-                    "rcid": ""
-                },
-                "QuestItem": false,
-                "QuestStashMaxCount": 0,
-                "RagFairCommissionModifier": 1,
-                "Slots": [],
-                "StackMaxSize": 1,
-                "StackObjectsCount": 1,
-                "Unlootable": false,
-                "UnlootableFromSide": [],
-                "UnlootableFromSlot": "FirstPrimaryWeapon",
-                "Prefab": {
-                    "path": "equipment_jugger_core_arms_left.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": 6,
-                "armorColliders": [
-                    "LeftUpperArm",
-                    "LeftForearm"
-                ],
-                "mousePenalty": -1,
-                "speedPenaltyPercent": 2,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 3,
-                "Width": 1,
-                "Weight": 2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 120000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Arm Plates (Left)",
-                "ShortName": "Left Arm",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Left Arm Plates. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_arms_right_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_arms_right.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": 6,
-                "armorColliders": [
-                    "RightUpperArm",
-                    "RightForearm"
-                ],
-                "mousePenalty": -1,
-                "speedPenaltyPercent": -2,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 3,
-                "Width": 1,
-                "Weight": 2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 120000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Arm Plates (Right)",
-                "ShortName": "Right Arm",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Right Arm Plates. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_ass_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_ass.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 40,
-                "MaxDurability": 40,
-                "armorClass": 5,
-                "armorColliders": [
-                    "PelvisBack"
-                ],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -3,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 2,
-                "Width": 2,
-                "Weight": 2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 50000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Rear Armor Pads",
-                "ShortName": "Rear",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Rear Armor Pads. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_backpack_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_backpack.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 30,
-                "MaxDurability": 30,
-                "armorClass": 3,
-                "armorColliders": [
-                    "SpineDown",
-                    "SpineTop",
-                    "NeckBack"
-                ],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -3,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 3,
-                "Width": 2,
-                "Weight": 3
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 120000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Backpack",
-                "ShortName": "Backpack",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Backpack (Does not actually hold items). The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_extra_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_extra.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 80,
-                "MaxDurability": 80,
-                "armorClass": 4,
-                "armorColliders": [
-                    "RibcageLow",
-                    "RibcageUp",
-                    "SpineDown",
-                    "SpineTop",
-                    "LeftSideChestDown",
-                    "RightSideChestDown",
-                    "Pelvis",
-                    "LeftSideChestUp",
-                    "RightSideChestUp"
-                ],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -4,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 2,
-                "Width": 2,
-                "Weight": 8
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 120000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Extra Under Armor",
-                "ShortName": "Under",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Extra Under Armor. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_lower_leg_left_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_lower_leg_left.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 20,
-                "MaxDurability": 20,
-                "armorClass": 6,
-                "armorColliders": [
-                    "LeftCalf"
-                ],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -4,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 3,
-                "Width": 1,
-                "Weight": 3
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 40000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Leg Armor Plates (Left)",
-                "ShortName": "Left Leg",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Left Leg Armor Plates. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_lower_leg_right_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_lower_leg_right.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 20,
-                "MaxDurability": 20,
-                "armorClass": 6,
-                "armorColliders": [
-                    "RightCalf"
-                ],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -4,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 3,
-                "Width": 1,
-                "Weight": 3
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 40000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Leg Armor Plates (Right)",
-                "ShortName": "Right Leg",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Right Leg Armor Plates. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_thigh_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_thigh.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 60,
-                "MaxDurability": 60,
-                "armorClass": 6,
-                "armorColliders": [
-                    "LeftThigh",
-                    "RightThigh"
-                ],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -4,
-                "weaponErgonomicPenalty": -3,
-                "BluntThroughput": 0.0792,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 2,
-                "Width": 2,
-                "Weight": 4
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 80000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Thigh Armor Plates",
-                "ShortName": "Thigh",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Thigh Armor Plates. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_radio_base_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_radio_base.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "armorClass": 0,
-                "Durability": 0,
-                "MaxDurability": 0,
-                "armorColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0,
-                "BluntThroughput": 0,
-                "ArmorMaterial": "UHMWPE",
-                "ArmorType": "None",
-                "MaterialType": "BodyArmor",
-                "Height": 1,
-                "Width": 1,
-                "Weight": 0.2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 3000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Base",
-                "ShortName": "Radio Base",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Base. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_core_radio_antenna_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_core_radio_antenna.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "armorClass": 0,
-                "Durability": 0,
-                "MaxDurability": 0,
-                "armorColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0,
-                "BluntThroughput": 0,
-                "ArmorMaterial": "UHMWPE",
-                "ArmorType": "None",
-                "MaterialType": "BodyArmor",
-                "Height": 2,
-                "Width": 1,
-                "Weight": 0.2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 3000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Antenna",
-                "ShortName": "Radio Antenna",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Antenna. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_helm_tubegas_PETTAN": {
-        "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_helm_tubegas.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "armorClass": 0,
-                "Durability": 0,
-                "MaxDurability": 0,
-                "armorColliders": [],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": 0,
-                "weaponErgonomicPenalty": 0,
-                "BluntThroughput": 0,
-                "ArmorMaterial": "UHMWPE",
-                "ArmorType": "None",
-                "MaterialType": "BodyArmor",
-                "Height": 1,
-                "Width": 1,
-                "Weight": 0.2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 5000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Gas Mask Tube",
-                "ShortName": "Mask Tube",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Gas Mask Tube. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_armor_helm_ring_PETTAN": {
-        "clone": "5c0e66e2d174af02a96252f4",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_helm_ring.bundle",
-                    "rcid": ""
-                },
-                "RepairCost": 149,
-                "RepairSpeed": 10,
-                "RicochetParams": {
-                    "x": 0.9,
-                    "y": 0.4,
-                    "z": 50
-                },
-                "Durability": 60,
-                "MaxDurability": 60,
-                "armorClass": 6,
-                "armorColliders": [
-                    "NeckFront",
-                    "NeckBack"
-                ],
-                "mousePenalty": 0,
-                "speedPenaltyPercent": -5,
-                "weaponErgonomicPenalty": -4,
-                "BluntThroughput": 0,
-                "ArmorMaterial": "Titan",
-                "ArmorType": "Heavy",
-                "MaterialType": "BodyArmor",
-                "Height": 2,
-                "Width": 3,
-                "Weight": 4
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f704686f77447ec5d76d7",
-            "Price": 120000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Neck Protector",
-                "ShortName": "Neck Protector",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Neck Protector. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_helm_PETTAN": {
-        "clone": "5aa7e276e5b5b000171d0647",
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_helm_main.bundle",
-                    "rcid": ""
-                },
-                "Height": 2,
-                "Width": 2,
-                "BackgroundColor": "violet",
-                "Slots": [
-                    {
-                        "_name": "mod_equipment_000.001",
-                        "_id": "gear_juggernaut19_helm_PETTAN000",
-                        "_parent": "gear_juggernaut19_helm_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_visor_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_002.001",
-                        "_id": "gear_juggernaut19_helm_PETTANvisor",
-                        "_parent": "gear_juggernaut19_helm_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "gear_juggernaut19_armor_helm_tubegas_PETTAN"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_nvg",
-                        "_id": "gear_juggernaut19_helm_PETTANnvg",
-                        "_parent": "gear_juggernaut19_helm_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "5c0696830db834001d23f5da",
-                                        "5c0558060db834001b735271",
-                                        "5c066e3a0db834001b7353f0",
-                                        "57235b6f24597759bf5a30f1",
-                                        "5c110624d174af029e69734c"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_name": "mod_equipment_001",
-                        "_id": "gear_juggernaut19_helm_PETTAN_headset",
-                        "_parent": "gear_juggernaut19_helm_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Shift": 0,
-                                    "Filter": [
-                                        "5a16b9fffcdbcb0176308b34",
-                                        "5b432b965acfc47a8774094e",
-                                        "5aa2ba71e5b5b000137b758f",
-                                        "6033fa48ffd42c541047f728",
-                                        "5645bcc04bdc2d363b8b4572",
-                                        "5c165d832e2216398b5a7e36",
-                                        "5e4d34ca86f774264f758330",
-                                        "5f60cd6cf2bcbb675b00dac6",
-                                        "628e4e576d783146b124c64d"
-                                    ]
-                                }
-                            ]
-                        },
-                        "_required": false,
-                        "_mergeSlotWithChildren": false,
-                        "_proto": "55d30c4c4bdc2db4468b457e"
-                    },
-                    {
-                        "_id": "657bc246bbd440df880b2ddf",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Helmet_top",
-                        "_parent": "GEAR_HELMET_RHINO_ALTYN_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_helm_top"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_helm_top",
-                                    "armorColliders": [
-                                        "ParietalHead"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "657bc246bbd440df880b2de0",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Helmet_back",
-                        "_parent": "GEAR_HELMET_RHINO_ALTYN_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_helm_nape"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_helm_nape",
-                                    "armorColliders": [
-                                        "BackHead"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "657bc246bbd440df880b2de1",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Helmet_ears",
-                        "_parent": "GEAR_HELMET_RHINO_ALTYN_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_helm_ears"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_helm_ears",
-                                    "armorColliders": [
-                                        "Ears"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    }
-                ],
-                "Durability": 80,
-                "MaxDurability": 80,
-                "speedPenaltyPercent": 0,
-                "mousePenalty": 0,
-                "weaponErgonomicPenalty": 0,
-                "BlocksEarpiece": true,
-                "BlocksEyewear": false,
-                "BlocksHeadwear": false,
-                "BlocksFaceCover": false,
-                "Indestructibility": 0.99,
-                "MaterialType": "Helmet",
-                "ArmorMaterial": "ArmoredSteel",
-                "ArmorType": "Heavy",
-                "DeafStrength": "High",
-                "BluntThroughput": 0.12
-            }
-        },
-        "handbook": {
-            "ParentId": "5b47574386f77428ca22b330",
-            "Price": 250000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Helmet",
-                "ShortName": "Juggernaut",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Helmet. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_visor_PETTAN": {
-        "clone": "5c0e66e2d174af02a96252f4",
-        "enableCloneCompats": false,
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_helm_visor.bundle",
-                    "rcid": ""
-                },
-                "Height": 2,
-                "Width": 2,
-                "BackgroundColor": "violet",
-                "BlindnessProtection": 1,
-                "Durability": 80,
-                "MaxDurability": 80,
-                "armorClass": 6,
-                "armorColliders": [
-                    "HeadCommon",
-                    "Eyes",
-                    "Jaw"
-                ],
-                "MaterialType": "GlassVisor",
-                "ArmorMaterial": "Glass",
-                "ArmorType": "None",
-                "BluntThroughput": 0.12
-            }
-        },
-        "handbook": {
-            "ParentId": "5b47574386f77428ca22b330",
-            "Price": 120000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Helmet Visor",
-                "ShortName": "Juggernaut",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Helmet Visor. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
-    },
-    "gear_juggernaut19_gasmask_PETTAN": {
-        "clone": "5fd8d28367cb5e077335170f",
-        "enableCloneConflicts": false,
-        "enable": true,
-        "item": {
-            "_props": {
-                "Prefab": {
-                    "path": "equipment_jugger_mask.bundle",
-                    "rcid": ""
-                },
-                "ExaminedByDefault": true,
-                "Height": 2,
-                "Width": 2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b47574386f77428ca22b330",
-            "Price": 12000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Gas Mask",
-                "ShortName": "Juggernaut",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Gas Mask"
-            }
-        }
-    },
-    "gear_juggernaut19_plate_carrier_PETTAN": {
-        "clone": "64a5366719bab53bd203bf33",
-        "enable": true,
-        "item": {
-            "_props": {
-                "ExaminedByDefault": true,
-                "Height": 3,
-                "Width": 3,
-                "Prefab": {
-                    "path": "equipment_jug19_plate_carrier.bundle",
-                    "rcid": ""
-                },
-                "BlocksArmorVest": true,
-                "BackgroundColor": "violet",
-                "Grids": [
-                    {
-                        "_name": "1",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN01",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 1,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "2",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN02",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 2,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "3",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN03",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 0,
-                            "cellsV": -1,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "4",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN04",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 2,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "5",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN05",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 1,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "6",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN06",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 2,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "7",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN07",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 0,
-                            "cellsV": -1,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "8",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN08",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 2,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "9",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN09",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 2,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "10",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN10",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 0,
-                            "cellsV": -1,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "11",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN11",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 1,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "12",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN12",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "54009119af1c881c07000029"
-                                    ],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 2,
-                            "cellsV": 2,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "13",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN13",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 0,
-                            "cellsV": -1,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    },
-                    {
-                        "_name": "14",
-                        "_id": "gear_juggernaut19_plate_carrier_PETTAN14",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [],
-                                    "ExcludedFilter": [
-                                        "5448bf274bdc2dfc2f8b456a"
-                                    ]
-                                }
-                            ],
-                            "cellsH": 0,
-                            "cellsV": -1,
-                            "minCount": 0,
-                            "maxCount": 0,
-                            "maxWeight": 0,
-                            "isSortingTable": false
-                        },
-                        "_proto": "55d329c24bdc2d892f8b4567"
-                    }
-                ],
-                "RigLayoutName": "mppv",
-                "ArmorType": "Heavy",
-                "Slots": [
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0b",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Front_plate",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "656fa8d700d62bcd2e024084",
-                                        "656f9d5900d62bcd2e02407c",
-                                        "656fa99800d62bcd2e024088",
-                                        "656fae5f7c2d57afe200c0d7",
-                                        "656faf0ca0dce000a2020f77",
-                                        "656fa0fb498d1b7e3e071d9c",
-                                        "656fafe3498d1b7e3e071da4",
-                                        "656fa76500d62bcd2e024080",
-                                        "656fa25e94b480b8a500c0e0",
-                                        "656fad8c498d1b7e3e071da0",
-                                        "656fa61e94b480b8a500c0e8",
-                                        "656fb21fa0dce000a2020f7c",
-                                        "656fac30c6baea13cd07e10c",
-                                        "656fb0bd7c2d57afe200c0dc",
-                                        "656f9fa0498d1b7e3e071d98",
-                                        "656fa53d94b480b8a500c0e4",
-                                        "65573fa5655447403702a816",
-                                        "64afc71497cf3a403c01ff38",
-                                        "655746010177119f4a097ff7",
-                                        "64afdcb83efdfea28601d041"
-                                    ],
-                                    "Plate": "65573fa5655447403702a816",
-                                    "armorColliders": [],
-                                    "armorPlateColliders": [
-                                        "Plate_Granit_SAPI_chest"
-                                    ],
-                                    "locked": false
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": false
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0c",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Back_plate",
-                        "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "656f9d5900d62bcd2e02407c",
-                                        "656fa8d700d62bcd2e024084",
-                                        "656fae5f7c2d57afe200c0d7",
-                                        "656fa99800d62bcd2e024088",
-                                        "656fa0fb498d1b7e3e071d9c",
-                                        "656faf0ca0dce000a2020f77",
-                                        "656fa76500d62bcd2e024080",
-                                        "656fafe3498d1b7e3e071da4",
-                                        "656fa25e94b480b8a500c0e0",
-                                        "656fad8c498d1b7e3e071da0",
-                                        "656fb21fa0dce000a2020f7c",
-                                        "656fac30c6baea13cd07e10c",
-                                        "656fa61e94b480b8a500c0e8",
-                                        "656fb0bd7c2d57afe200c0dc",
-                                        "656f9fa0498d1b7e3e071d98",
-                                        "656fa53d94b480b8a500c0e4",
-                                        "65573fa5655447403702a816",
-                                        "64afc71497cf3a403c01ff38",
-                                        "655746010177119f4a097ff7",
-                                        "64afdcb83efdfea28601d041"
-                                    ],
-                                    "Plate": "65573fa5655447403702a816",
-                                    "armorColliders": [],
-                                    "armorPlateColliders": [
-                                        "Plate_Granit_SAPI_back"
-                                    ],
-                                    "locked": false
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": false
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0d",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_front",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_front"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_front",
-                                    "armorColliders": [
-                                        "RibcageLow",
-                                        "RibcageUp"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0e",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_back",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_back"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_back",
-                                    "armorColliders": [
-                                        "SpineDown",
-                                        "SpineTop"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d0f",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "Soft_armor_left",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_left_side"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_left_side",
-                                    "armorColliders": [
-                                        "LeftSideChestDown"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    },
-                    {
-                        "_id": "6573304d2cc8dfad2c0a3d10",
-                        "_mergeSlotWithChildren": true,
-                        "_name": "soft_armor_right",
-                        "_parent": "5e9dacf986f774054d6b89f4",
-                        "_props": {
-                            "filters": [
-                                {
-                                    "Filter": [
-                                        "MFAC_level6_soft_armor_right_side"
-                                    ],
-                                    "Plate": "MFAC_level6_soft_armor_right_side",
-                                    "armorColliders": [
-                                        "RightSideChestDown"
-                                    ],
-                                    "armorPlateColliders": [],
-                                    "locked": true
-                                }
-                            ]
-                        },
-                        "_proto": "64479fdf9731c8fadc0642c1",
-                        "_required": true
-                    }
-                ],
-                "Weight": 5.2
-            }
-        },
-        "handbook": {
-            "ParentId": "5b5f6f8786f77447ed563642",
-            "Price": 500000
-        },
-        "locales": {
-            "en": {
-                "Name": "<color=#f09b13><b>Duty Inc</b></color>Juggernaut Plate Carrier (Standalone)",
-                "ShortName": "<color=#f09b13><b>Duty Inc</b></color>",
-                "Description": "<color=#f09b13><b>Duty Inc</b></color> Plate Carrier. The tags on this equipment shows it to be manufactured in 2019."
-            }
-        }
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Armor Package (FULL)",
+        "ShortName": "FULL",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Armor Package (FULL). The tags on this equipment shows it to be manufactured in 2019. \nBest used with the special clothing as a set."
+      }
     }
+  },
+  "gear_juggernaut19_armor_core_PETTAN": {
+    "clone": "64a5366719bab53bd203bf33",
+    "enable": true,
+    "item": {
+      "_props": {
+        "ExaminedByDefault": true,
+        "Height": 3,
+        "Width": 3,
+        "MergesWithChildren": true,
+        "Prefab": {
+          "path": "equipment_jugger_core.bundle",
+          "rcid": ""
+        },
+        "Slots": [
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0b",
+            "_mergeSlotWithChildren": true,
+            "_name": "Front_plate",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "656fa8d700d62bcd2e024084",
+                    "656f9d5900d62bcd2e02407c",
+                    "656fa99800d62bcd2e024088",
+                    "656fae5f7c2d57afe200c0d7",
+                    "656faf0ca0dce000a2020f77",
+                    "656fa0fb498d1b7e3e071d9c",
+                    "656fafe3498d1b7e3e071da4",
+                    "656fa76500d62bcd2e024080",
+                    "656fa25e94b480b8a500c0e0",
+                    "656fad8c498d1b7e3e071da0",
+                    "656fa61e94b480b8a500c0e8",
+                    "656fb21fa0dce000a2020f7c",
+                    "656fac30c6baea13cd07e10c",
+                    "656fb0bd7c2d57afe200c0dc",
+                    "656f9fa0498d1b7e3e071d98",
+                    "656fa53d94b480b8a500c0e4",
+                    "65573fa5655447403702a816",
+                    "64afc71497cf3a403c01ff38",
+                    "655746010177119f4a097ff7",
+                    "64afdcb83efdfea28601d041"
+                  ],
+                  "Plate": "65573fa5655447403702a816",
+                  "armorColliders": [],
+                  "armorPlateColliders": ["Plate_Granit_SAPI_chest"],
+                  "locked": false
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": false
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0c",
+            "_mergeSlotWithChildren": true,
+            "_name": "Back_plate",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "656f9d5900d62bcd2e02407c",
+                    "656fa8d700d62bcd2e024084",
+                    "656fae5f7c2d57afe200c0d7",
+                    "656fa99800d62bcd2e024088",
+                    "656fa0fb498d1b7e3e071d9c",
+                    "656faf0ca0dce000a2020f77",
+                    "656fa76500d62bcd2e024080",
+                    "656fafe3498d1b7e3e071da4",
+                    "656fa25e94b480b8a500c0e0",
+                    "656fad8c498d1b7e3e071da0",
+                    "656fb21fa0dce000a2020f7c",
+                    "656fac30c6baea13cd07e10c",
+                    "656fa61e94b480b8a500c0e8",
+                    "656fb0bd7c2d57afe200c0dc",
+                    "656f9fa0498d1b7e3e071d98",
+                    "656fa53d94b480b8a500c0e4",
+                    "65573fa5655447403702a816",
+                    "64afc71497cf3a403c01ff38",
+                    "655746010177119f4a097ff7",
+                    "64afdcb83efdfea28601d041"
+                  ],
+                  "Plate": "65573fa5655447403702a816",
+                  "armorColliders": [],
+                  "armorPlateColliders": ["Plate_Granit_SAPI_back"],
+                  "locked": false
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": false
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0d",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_front",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_front"],
+                  "Plate": "MFAC_level6_soft_armor_front",
+                  "armorColliders": ["RibcageLow", "RibcageUp"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0e",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_back",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_back"],
+                  "Plate": "MFAC_level6_soft_armor_back",
+                  "armorColliders": ["SpineDown", "SpineTop"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0f",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_left",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_left_side"],
+                  "Plate": "MFAC_level6_soft_armor_left_side",
+                  "armorColliders": ["LeftSideChestDown"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d10",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_right",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_right_side"],
+                  "Plate": "MFAC_level6_soft_armor_right_side",
+                  "armorColliders": ["RightSideChestDown"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_name": "mod_equipment_000",
+            "_id": "gear_juggernaut19_armor_core_PETTAN000",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_core_extra_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_001",
+            "_id": "gear_juggernaut19_armor_core_PETTAN001",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_core_backpack_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_002",
+            "_id": "gear_juggernaut19_armor_core_PETTAN002",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_core_arms_left_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_003",
+            "_id": "gear_juggernaut19_armor_core_PETTAN003",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_core_arms_right_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_004",
+            "_id": "gear_juggernaut19_armor_core_PETTAN004",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_core_ass_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_005",
+            "_id": "gear_juggernaut19_armor_core_PETTAN005",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": [
+                    "gear_juggernaut19_armor_core_lower_leg_left_PETTAN"
+                  ]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_006",
+            "_id": "gear_juggernaut19_armor_core_PETTAN006",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": [
+                    "gear_juggernaut19_armor_core_lower_leg_right_PETTAN"
+                  ]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_007",
+            "_id": "gear_juggernaut19_armor_core_PETTAN007",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_core_thigh_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_008",
+            "_id": "gear_juggernaut19_armor_core_PETTAN008",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_core_radio_base_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_009",
+            "_id": "gear_juggernaut19_armor_core_PETTAN009",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_helm_ring_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_010",
+            "_id": "gear_juggernaut19_armor_core_PETTAN010",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": [
+                    "gear_juggernaut19_armor_core_radio_antenna_PETTAN"
+                  ]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          }
+        ],
+        "BlocksArmorVest": true,
+        "BackgroundColor": "violet",
+        "Grids": [
+          {
+            "_id": "gear_juggernaut19_armor_core_PETTANgriddy",
+            "_name": "1",
+            "_parent": "gear_juggernaut19_armor_core_PETTAN",
+            "_props": {
+              "cellsH": 6,
+              "cellsV": 10,
+              "filters": [
+                {
+                  "ExcludedFilter": [
+                    "5448bf274bdc2dfc2f8b456a",
+                    "gear_juggernaut19_helm_PETTAN",
+                    "gear_juggernaut19_visor_PETTAN",
+                    "gear_juggernaut19_gasmask_PETTAN",
+                    "gear_juggernaut19_armor_full_PETTAN",
+                    "gear_juggernaut19_armor_core_PETTAN",
+                    "gear_juggernaut19_armor_core_arms_left_PETTAN",
+                    "gear_juggernaut19_armor_core_arms_right_PETTAN",
+                    "gear_juggernaut19_armor_core_ass_PETTAN",
+                    "gear_juggernaut19_armor_core_backpack_PETTAN",
+                    "gear_juggernaut19_armor_core_extra_PETTAN",
+                    "gear_juggernaut19_armor_core_lower_leg_left_PETTAN",
+                    "gear_juggernaut19_armor_core_lower_leg_right_PETTAN",
+                    "gear_juggernaut19_armor_core_thigh_PETTAN",
+                    "gear_juggernaut19_armor_core_radio_base_PETTAN",
+                    "gear_juggernaut19_armor_core_radio_antenna_PETTAN",
+                    "gear_juggernaut19_armor_helm_tubegas_PETTAN",
+                    "gear_juggernaut19_armor_helm_ring_PETTAN",
+                    "64a5366719bab53bd203bf33",
+                    "5448e54d4bdc2dcc718b4568",
+                    "57bef4c42459772e8d35a53b",
+                    "5a341c4086f77401f2541505"
+                  ],
+                  "Filter": ["54009119af1c881c07000029"]
+                }
+              ],
+              "isSortingTable": false,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "minCount": 0
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          }
+        ],
+        "RigLayoutName": "",
+        "Weight": 5.2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f6f8786f77447ed563642",
+      "Price": 500000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Plate Carrier",
+        "ShortName": "Carrier",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Plate Carrier with attachments for multiple armor pieces.\nBest used with the special clothing as a set."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_arms_left_PETTAN": {
+    "enable": true,
+    "item": {
+      "_id": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+      "_name": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+      "_parent": "57bef4c42459772e8d35a53b",
+      "_type": "Item",
+      "_props": {
+        "BackgroundColor": "violet",
+        "Name": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+        "ShortName": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+        "Description": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+        "AnimationVariantsNumber": 0,
+        "BlindnessProtection": 0,
+        "BlocksEarpiece": false,
+        "BlocksEyewear": false,
+        "BlocksFaceCover": false,
+        "BlocksHeadwear": false,
+        "CanPutIntoDuringTheRaid": true,
+        "CanRequireOnRagfair": false,
+        "CanSellOnRagfair": true,
+        "CantRemoveFromSlotsDuringRaid": [],
+        "ConflictingItems": [],
+        "DeafStrength": "None",
+        "DiscardLimit": -1,
+        "DiscardingBlock": false,
+        "DropSoundType": "None",
+        "ExamineExperience": 4,
+        "ExamineTime": 1,
+        "ExaminedByDefault": true,
+        "ExtraSizeDown": 0,
+        "ExtraSizeForceAdd": false,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "FaceShieldComponent": false,
+        "FaceShieldMask": "NoMask",
+        "Grids": [],
+        "HasHinge": false,
+        "HideEntrails": false,
+        "Indestructibility": 0.9,
+        "InsuranceDisabled": false,
+        "IsAlwaysAvailableForInsurance": false,
+        "IsLockedafterEquip": false,
+        "IsSpecialSlotOnly": false,
+        "IsUnbuyable": false,
+        "IsUndiscardable": false,
+        "IsUngivable": false,
+        "IsUnremovable": false,
+        "IsUnsaleable": false,
+        "ItemSound": "gear_helmet",
+        "LootExperience": 20,
+        "MergesWithChildren": true,
+        "NotShownInSlot": false,
+        "UsePrefab": {
+          "path": "",
+          "rcid": ""
+        },
+        "QuestItem": false,
+        "QuestStashMaxCount": 0,
+        "RagFairCommissionModifier": 1,
+        "Slots": [],
+        "StackMaxSize": 1,
+        "StackObjectsCount": 1,
+        "Unlootable": false,
+        "UnlootableFromSide": [],
+        "UnlootableFromSlot": "FirstPrimaryWeapon",
+        "Prefab": {
+          "path": "equipment_jugger_core_arms_left.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": 6,
+        "armorColliders": ["LeftUpperArm", "LeftForearm"],
+        "mousePenalty": -1,
+        "speedPenaltyPercent": 2,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 3,
+        "Width": 1,
+        "Weight": 2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 120000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Arm Plates (Left)",
+        "ShortName": "Left Arm",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Left Arm Plates. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_arms_right_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_arms_right.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": 6,
+        "armorColliders": ["RightUpperArm", "RightForearm"],
+        "mousePenalty": -1,
+        "speedPenaltyPercent": -2,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 3,
+        "Width": 1,
+        "Weight": 2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 120000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Arm Plates (Right)",
+        "ShortName": "Right Arm",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Right Arm Plates. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_ass_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_ass.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 40,
+        "MaxDurability": 40,
+        "armorClass": 5,
+        "armorColliders": ["PelvisBack"],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -3,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 2,
+        "Width": 2,
+        "Weight": 2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 50000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Rear Armor Pads",
+        "ShortName": "Rear",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Rear Armor Pads. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_backpack_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_backpack.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 30,
+        "MaxDurability": 30,
+        "armorClass": 3,
+        "armorColliders": ["SpineDown", "SpineTop", "NeckBack"],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -3,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 3,
+        "Width": 2,
+        "Weight": 3
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 120000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Backpack",
+        "ShortName": "Backpack",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Backpack (Does not actually hold items). The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_extra_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_extra.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 80,
+        "MaxDurability": 80,
+        "armorClass": 4,
+        "armorColliders": [
+          "RibcageLow",
+          "RibcageUp",
+          "SpineDown",
+          "SpineTop",
+          "LeftSideChestDown",
+          "RightSideChestDown",
+          "Pelvis",
+          "LeftSideChestUp",
+          "RightSideChestUp"
+        ],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -4,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 2,
+        "Width": 2,
+        "Weight": 8
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 120000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Extra Under Armor",
+        "ShortName": "Under",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Extra Under Armor. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_lower_leg_left_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_lower_leg_left.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 20,
+        "MaxDurability": 20,
+        "armorClass": 6,
+        "armorColliders": ["LeftCalf"],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -4,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 3,
+        "Width": 1,
+        "Weight": 3
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 40000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Leg Armor Plates (Left)",
+        "ShortName": "Left Leg",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Left Leg Armor Plates. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_lower_leg_right_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_lower_leg_right.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 20,
+        "MaxDurability": 20,
+        "armorClass": 6,
+        "armorColliders": ["RightCalf"],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -4,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 3,
+        "Width": 1,
+        "Weight": 3
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 40000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Leg Armor Plates (Right)",
+        "ShortName": "Right Leg",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Right Leg Armor Plates. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_thigh_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_thigh.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 60,
+        "MaxDurability": 60,
+        "armorClass": 6,
+        "armorColliders": ["LeftThigh", "RightThigh"],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -4,
+        "weaponErgonomicPenalty": -3,
+        "BluntThroughput": 0.0792,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 2,
+        "Width": 2,
+        "Weight": 4
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 80000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Thigh Armor Plates",
+        "ShortName": "Thigh",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Thigh Armor Plates. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_radio_base_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_radio_base.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "armorClass": 0,
+        "Durability": 0,
+        "MaxDurability": 0,
+        "armorColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0,
+        "BluntThroughput": 0,
+        "ArmorMaterial": "UHMWPE",
+        "ArmorType": "None",
+        "MaterialType": "BodyArmor",
+        "Height": 1,
+        "Width": 1,
+        "Weight": 0.2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 3000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Base",
+        "ShortName": "Radio Base",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Base. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_core_radio_antenna_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_core_radio_antenna.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "armorClass": 0,
+        "Durability": 0,
+        "MaxDurability": 0,
+        "armorColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0,
+        "BluntThroughput": 0,
+        "ArmorMaterial": "UHMWPE",
+        "ArmorType": "None",
+        "MaterialType": "BodyArmor",
+        "Height": 2,
+        "Width": 1,
+        "Weight": 0.2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 3000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Antenna",
+        "ShortName": "Radio Antenna",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Radio Antenna. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_helm_tubegas_PETTAN": {
+    "clone": "gear_juggernaut19_armor_core_arms_left_PETTAN",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_helm_tubegas.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "armorClass": 0,
+        "Durability": 0,
+        "MaxDurability": 0,
+        "armorColliders": [],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": 0,
+        "weaponErgonomicPenalty": 0,
+        "BluntThroughput": 0,
+        "ArmorMaterial": "UHMWPE",
+        "ArmorType": "None",
+        "MaterialType": "BodyArmor",
+        "Height": 1,
+        "Width": 1,
+        "Weight": 0.2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 5000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Gas Mask Tube",
+        "ShortName": "Mask Tube",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Gas Mask Tube. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_armor_helm_ring_PETTAN": {
+    "clone": "5c0e66e2d174af02a96252f4",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_helm_ring.bundle",
+          "rcid": ""
+        },
+        "RepairCost": 149,
+        "RepairSpeed": 10,
+        "RicochetParams": {
+          "x": 0.9,
+          "y": 0.4,
+          "z": 50
+        },
+        "Durability": 60,
+        "MaxDurability": 60,
+        "armorClass": 6,
+        "armorColliders": ["NeckFront", "NeckBack"],
+        "mousePenalty": 0,
+        "speedPenaltyPercent": -5,
+        "weaponErgonomicPenalty": -4,
+        "BluntThroughput": 0,
+        "ArmorMaterial": "Titan",
+        "ArmorType": "Heavy",
+        "MaterialType": "BodyArmor",
+        "Height": 2,
+        "Width": 3,
+        "Weight": 4
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f704686f77447ec5d76d7",
+      "Price": 120000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Neck Protector",
+        "ShortName": "Neck Protector",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Neck Protector. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_helm_PETTAN": {
+    "clone": "5aa7e276e5b5b000171d0647",
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_helm_main.bundle",
+          "rcid": ""
+        },
+        "Height": 2,
+        "Width": 2,
+        "BackgroundColor": "violet",
+        "Slots": [
+          {
+            "_name": "mod_equipment_000.001",
+            "_id": "gear_juggernaut19_helm_PETTAN000",
+            "_parent": "gear_juggernaut19_helm_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_visor_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_002.001",
+            "_id": "gear_juggernaut19_helm_PETTANvisor",
+            "_parent": "gear_juggernaut19_helm_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": ["gear_juggernaut19_armor_helm_tubegas_PETTAN"]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_nvg",
+            "_id": "gear_juggernaut19_helm_PETTANnvg",
+            "_parent": "gear_juggernaut19_helm_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": [
+                    "5c0696830db834001d23f5da",
+                    "5c0558060db834001b735271",
+                    "5c066e3a0db834001b7353f0",
+                    "57235b6f24597759bf5a30f1",
+                    "5c110624d174af029e69734c"
+                  ]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_equipment_001",
+            "_id": "gear_juggernaut19_helm_PETTAN_headset",
+            "_parent": "gear_juggernaut19_helm_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Shift": 0,
+                  "Filter": [
+                    "5a16b9fffcdbcb0176308b34",
+                    "5b432b965acfc47a8774094e",
+                    "5aa2ba71e5b5b000137b758f",
+                    "6033fa48ffd42c541047f728",
+                    "5645bcc04bdc2d363b8b4572",
+                    "5c165d832e2216398b5a7e36",
+                    "5e4d34ca86f774264f758330",
+                    "5f60cd6cf2bcbb675b00dac6",
+                    "628e4e576d783146b124c64d"
+                  ]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_id": "657bc246bbd440df880b2ddf",
+            "_mergeSlotWithChildren": true,
+            "_name": "Helmet_top",
+            "_parent": "GEAR_HELMET_RHINO_ALTYN_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_helm_top"],
+                  "Plate": "MFAC_level6_soft_helm_top",
+                  "armorColliders": ["ParietalHead"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "657bc246bbd440df880b2de0",
+            "_mergeSlotWithChildren": true,
+            "_name": "Helmet_back",
+            "_parent": "GEAR_HELMET_RHINO_ALTYN_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_helm_nape"],
+                  "Plate": "MFAC_level6_soft_helm_nape",
+                  "armorColliders": ["BackHead"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "657bc246bbd440df880b2de1",
+            "_mergeSlotWithChildren": true,
+            "_name": "Helmet_ears",
+            "_parent": "GEAR_HELMET_RHINO_ALTYN_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_helm_ears"],
+                  "Plate": "MFAC_level6_soft_helm_ears",
+                  "armorColliders": ["Ears"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          }
+        ],
+        "Durability": 80,
+        "MaxDurability": 80,
+        "speedPenaltyPercent": 0,
+        "mousePenalty": 0,
+        "weaponErgonomicPenalty": 0,
+        "BlocksEarpiece": true,
+        "BlocksEyewear": false,
+        "BlocksHeadwear": false,
+        "BlocksFaceCover": false,
+        "Indestructibility": 0.99,
+        "MaterialType": "Helmet",
+        "ArmorMaterial": "ArmoredSteel",
+        "ArmorType": "Heavy",
+        "DeafStrength": "High",
+        "BluntThroughput": 0.12
+      }
+    },
+    "handbook": {
+      "ParentId": "5b47574386f77428ca22b330",
+      "Price": 250000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Helmet",
+        "ShortName": "Juggernaut",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Helmet. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_visor_PETTAN": {
+    "clone": "5c0e66e2d174af02a96252f4",
+    "enableCloneCompats": false,
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_helm_visor.bundle",
+          "rcid": ""
+        },
+        "Height": 2,
+        "Width": 2,
+        "BackgroundColor": "violet",
+        "BlindnessProtection": 1,
+        "Durability": 80,
+        "MaxDurability": 80,
+        "armorClass": 6,
+        "armorColliders": ["HeadCommon", "Eyes", "Jaw"],
+        "MaterialType": "GlassVisor",
+        "ArmorMaterial": "Glass",
+        "ArmorType": "None",
+        "BluntThroughput": 0.12
+      }
+    },
+    "handbook": {
+      "ParentId": "5b47574386f77428ca22b330",
+      "Price": 120000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Modular Helmet Visor",
+        "ShortName": "Juggernaut",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Helmet Visor. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  },
+  "gear_juggernaut19_gasmask_PETTAN": {
+    "clone": "5fd8d28367cb5e077335170f",
+    "enableCloneConflicts": false,
+    "enable": true,
+    "item": {
+      "_props": {
+        "Prefab": {
+          "path": "equipment_jugger_mask.bundle",
+          "rcid": ""
+        },
+        "ExaminedByDefault": true,
+        "Height": 2,
+        "Width": 2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b47574386f77428ca22b330",
+      "Price": 12000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Gas Mask",
+        "ShortName": "Juggernaut",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Juggernaut Gas Mask"
+      }
+    }
+  },
+  "gear_juggernaut19_plate_carrier_PETTAN": {
+    "clone": "64a5366719bab53bd203bf33",
+    "enable": true,
+    "item": {
+      "_props": {
+        "ExaminedByDefault": true,
+        "Height": 3,
+        "Width": 3,
+        "Prefab": {
+          "path": "equipment_jug19_plate_carrier.bundle",
+          "rcid": ""
+        },
+        "BlocksArmorVest": true,
+        "BackgroundColor": "violet",
+        "Grids": [
+          {
+            "_name": "1",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN01",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 1,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "2",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN02",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 2,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "3",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN03",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 0,
+              "cellsV": -1,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "4",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN04",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 2,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "5",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN05",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 1,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "6",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN06",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 2,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "7",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN07",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 0,
+              "cellsV": -1,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "8",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN08",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 2,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "9",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN09",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 2,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "10",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN10",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 0,
+              "cellsV": -1,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "11",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN11",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 1,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "12",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN12",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["54009119af1c881c07000029"],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 2,
+              "cellsV": 2,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "13",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN13",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 0,
+              "cellsV": -1,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          },
+          {
+            "_name": "14",
+            "_id": "gear_juggernaut19_plate_carrier_PETTAN14",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [],
+                  "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                }
+              ],
+              "cellsH": 0,
+              "cellsV": -1,
+              "minCount": 0,
+              "maxCount": 0,
+              "maxWeight": 0,
+              "isSortingTable": false
+            },
+            "_proto": "55d329c24bdc2d892f8b4567"
+          }
+        ],
+        "RigLayoutName": "mppv",
+        "ArmorType": "Heavy",
+        "Slots": [
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0b",
+            "_mergeSlotWithChildren": true,
+            "_name": "Front_plate",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "656fa8d700d62bcd2e024084",
+                    "656f9d5900d62bcd2e02407c",
+                    "656fa99800d62bcd2e024088",
+                    "656fae5f7c2d57afe200c0d7",
+                    "656faf0ca0dce000a2020f77",
+                    "656fa0fb498d1b7e3e071d9c",
+                    "656fafe3498d1b7e3e071da4",
+                    "656fa76500d62bcd2e024080",
+                    "656fa25e94b480b8a500c0e0",
+                    "656fad8c498d1b7e3e071da0",
+                    "656fa61e94b480b8a500c0e8",
+                    "656fb21fa0dce000a2020f7c",
+                    "656fac30c6baea13cd07e10c",
+                    "656fb0bd7c2d57afe200c0dc",
+                    "656f9fa0498d1b7e3e071d98",
+                    "656fa53d94b480b8a500c0e4",
+                    "65573fa5655447403702a816",
+                    "64afc71497cf3a403c01ff38",
+                    "655746010177119f4a097ff7",
+                    "64afdcb83efdfea28601d041"
+                  ],
+                  "Plate": "65573fa5655447403702a816",
+                  "armorColliders": [],
+                  "armorPlateColliders": ["Plate_Granit_SAPI_chest"],
+                  "locked": false
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": false
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0c",
+            "_mergeSlotWithChildren": true,
+            "_name": "Back_plate",
+            "_parent": "gear_juggernaut19_plate_carrier_PETTAN",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "656f9d5900d62bcd2e02407c",
+                    "656fa8d700d62bcd2e024084",
+                    "656fae5f7c2d57afe200c0d7",
+                    "656fa99800d62bcd2e024088",
+                    "656fa0fb498d1b7e3e071d9c",
+                    "656faf0ca0dce000a2020f77",
+                    "656fa76500d62bcd2e024080",
+                    "656fafe3498d1b7e3e071da4",
+                    "656fa25e94b480b8a500c0e0",
+                    "656fad8c498d1b7e3e071da0",
+                    "656fb21fa0dce000a2020f7c",
+                    "656fac30c6baea13cd07e10c",
+                    "656fa61e94b480b8a500c0e8",
+                    "656fb0bd7c2d57afe200c0dc",
+                    "656f9fa0498d1b7e3e071d98",
+                    "656fa53d94b480b8a500c0e4",
+                    "65573fa5655447403702a816",
+                    "64afc71497cf3a403c01ff38",
+                    "655746010177119f4a097ff7",
+                    "64afdcb83efdfea28601d041"
+                  ],
+                  "Plate": "65573fa5655447403702a816",
+                  "armorColliders": [],
+                  "armorPlateColliders": ["Plate_Granit_SAPI_back"],
+                  "locked": false
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": false
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0d",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_front",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_front"],
+                  "Plate": "MFAC_level6_soft_armor_front",
+                  "armorColliders": ["RibcageLow", "RibcageUp"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0e",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_back",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_back"],
+                  "Plate": "MFAC_level6_soft_armor_back",
+                  "armorColliders": ["SpineDown", "SpineTop"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d0f",
+            "_mergeSlotWithChildren": true,
+            "_name": "Soft_armor_left",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_left_side"],
+                  "Plate": "MFAC_level6_soft_armor_left_side",
+                  "armorColliders": ["LeftSideChestDown"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          },
+          {
+            "_id": "6573304d2cc8dfad2c0a3d10",
+            "_mergeSlotWithChildren": true,
+            "_name": "soft_armor_right",
+            "_parent": "5e9dacf986f774054d6b89f4",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": ["MFAC_level6_soft_armor_right_side"],
+                  "Plate": "MFAC_level6_soft_armor_right_side",
+                  "armorColliders": ["RightSideChestDown"],
+                  "armorPlateColliders": [],
+                  "locked": true
+                }
+              ]
+            },
+            "_proto": "64479fdf9731c8fadc0642c1",
+            "_required": true
+          }
+        ],
+        "Weight": 5.2
+      }
+    },
+    "handbook": {
+      "ParentId": "5b5f6f8786f77447ed563642",
+      "Price": 500000
+    },
+    "locales": {
+      "en": {
+        "Name": "<color=#f09b13><b>Duty Inc</b></color>Juggernaut Plate Carrier (Standalone)",
+        "ShortName": "<color=#f09b13><b>Duty Inc</b></color>",
+        "Description": "<color=#f09b13><b>Duty Inc</b></color> Plate Carrier. The tags on this equipment shows it to be manufactured in 2019."
+      }
+    }
+  }
 }

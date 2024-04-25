@@ -1,4 +1,4 @@
 export interface IWishlistActionData {
-    Action: string;
-    templateId: string;
+  Action: string;
+  templateId: string;
 }
