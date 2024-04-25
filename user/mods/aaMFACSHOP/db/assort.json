@@ -1,0 +1,68 @@
+{
+	"items": [
+        {
+            "_id": "Alice_hotrod",
+            "_tpl": "5751496424597720a27126da",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 1,
+                "UnlimitedCount": false
+            }
+        },
+		{
+            "_id": "Alice_maxnrg",
+            "_tpl": "5751435d24597720a27126d1",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 1,
+                "UnlimitedCount": false
+            }
+        },
+        {
+            "_id": "TeaforLABScard",
+            "_tpl": "5c94bbff86f7747ee735c08f",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "StackObjectsCount": 1,
+                "UnlimitedCount": false
+            }
+        }
+
+	],
+	"barter_scheme": {
+        "Alice_hotrod": [
+            [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 23000
+                }
+            ]
+        ],
+		"Alice_maxnrg": [
+            [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 23000
+                }
+            ]
+        ],
+        "TeaforLABScard": [
+            [
+                {
+                    "_tpl": "575062b524597720a31c09a1",
+                    "count": 5
+                }
+            ]
+        ]
+
+
+	},
+	"loyal_level_items": {
+        "Alice_hotrod": 1,
+		"Alice_maxnrg": 1,
+        "TeaforLABScard": 1
+	}
+}

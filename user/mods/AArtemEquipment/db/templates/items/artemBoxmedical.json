@@ -1,0 +1,97 @@
+{
+
+		"_id": "ARTEM_BOXMEDICAL",
+		"_name": "Abandoned Medical Box",
+    "_parent": "5795f317245977243854e041",
+		"_type": "Item",
+		"_props": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Width": 2,
+			"Height": 2,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Grids": [
+        {
+          "_id": "5909d4c186f7746ad34e805b",
+          "_name": "main",
+          "_parent": "ARTEM_BOXMEDICAL",
+          "_props": {
+            "cellsH": 8,
+            "cellsV": 8,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "57864c8c245977548867e7f1",
+                  "543be5664bdc2dd4348b4569"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 3,
+            "maxWeight": 0,
+            "minCount": 1
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "generic",
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "",
+      "NotShownInSlot": false,
+      "Prefab": {
+				"path": "artemmedbox.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "drawer_metal_looting",
+      "ShortName": "",
+      "Slots": [],
+      "SpawnFilter": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+				"path": "",
+        "rcid": ""
+      },
+      "Weight": 8
+    },
+    "_proto": "55d329c24bdc2d892f8b4567"
+  }
+
+

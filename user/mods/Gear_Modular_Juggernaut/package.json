@@ -1,0 +1,22 @@
+{
+    "name": "Gear_Modular_Juggernaut",
+    "version": "2.0.0",
+    "main": "src/mod.js",
+    "license": "CC BY NC ND 4.0 <Backend - Mighty_Condor University of Illinois/NCSA Open Source License>",
+    "author": "PETTAN",
+    "akiVersion": "3.8.x",
+    "isBundleMod": true,
+    "loadBefore": [],
+    "loadAfter": [
+        "aaMFACSHOP",
+        "Armor_Inserts_MFAC"
+    ],
+    "incompatibilities": [
+        "SPT-Realism"
+    ],
+    "contributors": [
+        "Backend - Mighty_Condor"
+    ],
+    "scripts": {},
+    "devDependencies": {}
+}

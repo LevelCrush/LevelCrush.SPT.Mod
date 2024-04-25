@@ -1,0 +1,305 @@
+{
+	"items": [
+
+		{
+			"_id": "AT233_car_PARENT",
+			"_tpl": "AT233_car",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 50
+			}
+		},
+				{
+					"_id": "AT233_PRESET_HANDGUARD",
+					"_tpl": "AT233_carbase",
+					"parentId": "AT233_car_PARENT",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "AT233_PRESET_MAGAZINE",
+					"_tpl": "AT233_carmag",
+					"parentId": "AT233_car_PARENT",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "AT233_PRESET_FOREGRIP",
+					"_tpl": "615d8fd3290d254f5e6b2edc",
+					"parentId": "AT233_PRESET_HANDGUARD",
+					"slotId": "mod_foregrip"
+				},
+				{
+					"_id": "AT233_PRESET_TACTICALRIGHT",
+					"_tpl": "5b7be47f5acfc400170e2dd2",
+					"parentId": "AT233_PRESET_HANDGUARD",
+					"slotId": "mod_mount_002"
+				},
+				{
+					"_id": "AT233_PRESET_TACTICALLEFT",
+					"_tpl": "AT233_shotmodbase",
+					"parentId": "AT233_PRESET_HANDGUARD",
+					"slotId": "mod_tactical"
+				},
+				{
+					"_id": "AT233_PRESET_LEFTMOD",
+					"_tpl": "AT233_shotmod03",
+					"parentId": "AT233_PRESET_TACTICALLEFT",
+					"slotId": "AT-shotmod"
+				},
+				{
+					"_id": "AT233_PRESET_BARREL",
+					"_tpl": "603372b4da11d6478d5a07ff",
+					"parentId": "AT233_PRESET_HANDGUARD",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "AT233_PRESET_SCOPE",
+					"_tpl": "AT233_carscop",
+					"parentId": "AT233_PRESET_HANDGUARD",
+					"slotId": "mod_scope"
+				},
+		{
+			"_id": "AT233_g2a5_PARENT",
+			"_tpl": "AT233_g2a5",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 50
+			}
+		},
+				{
+					"_id": "AT233_g2a5_PRESET_MAG",
+					"_tpl": "AT233_g2a5mag",
+					"parentId": "AT233_g2a5_PARENT",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_CORE",
+					"_tpl": "AT233_g2a5core",
+					"parentId": "AT233_g2a5_PARENT",
+					"slotId": "mod_mount"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_BASE",
+					"_tpl": "AT233_g2a5base",
+					"parentId": "AT233_g2a5_PARENT",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_mount_000",
+					"_tpl": "5b7be47f5acfc400170e2dd2",
+					"parentId": "AT233_g2a5_PRESET_CORE",
+					"slotId": "mod_mount_000"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_mount_001",
+					"_tpl": "5b7be47f5acfc400170e2dd2",
+					"parentId": "AT233_g2a5_PRESET_CORE",
+					"slotId": "mod_mount_001"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_mount_002",
+					"_tpl": "5b7be47f5acfc400170e2dd2",
+					"parentId": "AT233_g2a5_PRESET_CORE",
+					"slotId": "mod_mount_002"
+				},
+				{
+					"_id": "AT233_g2a5shotmodbase",
+					"_tpl": "AT233_shotmodbase",
+					"parentId": "AT233_g2a5_PRESET_CORE",
+					"slotId": "mod_tactical"
+				},
+				{
+					"_id": "AT233_g2a5shotmod",
+					"_tpl": "AT233_shotmod",
+					"parentId": "AT233_g2a5shotmodbase",
+					"slotId": "AT-shotmod"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_barrel",
+					"_tpl": "603372b4da11d6478d5a07ff",
+					"parentId": "AT233_g2a5_PRESET_CORE",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_scope",
+					"_tpl": "AT233_g2a5scope",
+					"parentId": "AT233_g2a5_PRESET_CORE",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "AT233_g2a5_PRESET_foregrip",
+					"_tpl": "588226d124597767ad33f787",
+					"parentId": "AT233_g2a5_PRESET_CORE",
+					"slotId": "mod_foregrip"
+				},
+		{
+			"_id": "AT233_r201_PARENT",
+			"_tpl": "AT233_r201",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 50
+			}
+		},
+				{
+					"_id": "AT233_r201_PRESET_r201base",
+					"_tpl": "AT233_r201base",
+					"parentId": "AT233_r201_PARENT",
+					"slotId": "weapon_tdi_kriss_vector_gen_2_1143x23_LOD0"
+				},
+				{
+					"_id": "r201lajibing",
+					"_tpl": "AT233_r201lajibing",
+					"parentId": "AT233_r201_PARENT",
+					"slotId": "weapon_tdi_kriss_vector_slide_1143x23_LOD0"
+				},
+				{
+					"_id": "AT233_r201_PRESET_r201mag01",
+					"_tpl": "AT233_r201mag",
+					"parentId": "AT233_r201_PARENT",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "AT233_r201_PRESET_201foregrip",
+					"_tpl": "588226d124597767ad33f787",
+					"parentId": "AT233_r201_PRESET_r201base",
+					"slotId": "mod_foregrip"
+				},
+				{
+					"_id": "AT233_r201_PRESET_201shotmodbase",
+					"_tpl": "AT233_shotmodbase",
+					"parentId": "AT233_r201_PRESET_r201base",
+					"slotId": "mod_tactical"
+				},
+				{
+					"_id": "AT233_r201_PRESET_01shotmod",
+					"_tpl": "AT233_shotmod03",
+					"parentId": "AT233_r201_PRESET_201shotmodbase",
+					"slotId": "AT-shotmod"
+				},
+				{
+					"_id": "AT233_r201_PRESET_201barrel",
+					"_tpl": "603372b4da11d6478d5a07ff",
+					"parentId": "AT233_r201_PRESET_r201base",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "AT233_r201_PRESET_201mod_mount_000",
+					"_tpl": "5b7be47f5acfc400170e2dd2",
+					"parentId": "AT233_r201_PRESET_r201base",
+					"slotId": "mod_mount_000"
+				},
+				{
+					"_id": "AT233_r201_PRESET_201mod_mount_001",
+					"_tpl": "5b7be47f5acfc400170e2dd2",
+					"parentId": "AT233_r201_PRESET_r201base",
+					"slotId": "mod_mount_001"
+				},
+				{
+					"_id": "AT233_r201_PRESET_201mod_mount_002",
+					"_tpl": "5b7be47f5acfc400170e2dd2",
+					"parentId": "AT233_r201_PRESET_r201base",
+					"slotId": "mod_mount_002"
+				},
+				{
+					"_id": "AT233_r201_PRESET_201scope",
+					"_tpl": "AT233_201scop",
+					"parentId": "AT233_r201_PRESET_r201base",
+					"slotId": "mod_scope"
+				},
+		{
+			"_id": "AT233_carmag",
+			"_tpl": "AT233_carmag",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999
+			}
+		},
+		
+		{
+			"_id": "AT233_r201mag",
+			"_tpl": "AT233_r201mag",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999
+			}
+		},
+		{
+			"_id": "AT233_g2a5mag",
+			"_tpl": "AT233_g2a5mag",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999
+			}
+		}
+	],
+	"barter_scheme": {
+
+		"AT233_car_PARENT": [
+			[
+				{
+					"count": 150000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"AT233_g2a5_PARENT": [
+			[
+				{
+					"count": 150000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"AT233_r201_PARENT": [
+			[
+				{
+					"count": 150000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"AT233_g2a5mag": [
+			[
+				{
+					"count": 5000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"AT233_r201mag": [
+			[
+				{
+					"count": 5000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"AT233_carmag": [
+			[
+				{
+					"count": 4000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"AT233_car_PARENT": 4,
+		"AT233_g2a5_PARENT": 4,
+		"AT233_r201_PARENT": 4,
+		"AT233_g2a5mag": 4,
+		"AT233_r201mag": 4,
+		"AT233_carmag": 4
+	}
+}

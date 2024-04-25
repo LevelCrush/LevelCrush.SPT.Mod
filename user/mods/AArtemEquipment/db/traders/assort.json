@@ -1,0 +1,520 @@
+{
+	"ArtemTrader": {
+	   "items": [  
+		   {
+			   "_id": "ARTEM_GHOSTMASK",
+			   "_tpl": "ARTEM_GHOSTMASK",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 75
+			   }
+		   },
+		   {
+			   "_id": "ARTEM_VEST1",
+			   "_tpl": "ARTEM_TACVEST1",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 1455
+			   }
+		    },
+			{
+				"_id": "Artem_vest1_softfront",
+				"_tpl": "6570e83223c1f638ef0b0ede",
+				"parentId": "ARTEM_VEST1",
+				"slotId": "Soft_armor_front"
+			},
+			{
+				"_id": "Artem_vest1_softback",
+				"_tpl": "6570e87c23c1f638ef0b0ee2",
+				"parentId": "ARTEM_VEST1",
+				"slotId": "Soft_armor_back"
+			},
+			{
+				"_id": "Artem_vest1_Groin",
+				"_tpl": "6570e90b3a5689d85f08db97",
+				"parentId": "ARTEM_VEST1",
+				"slotId": "Groin"
+			},
+			{
+				"_id": "Artem_vest1_Frontplate",
+				"_tpl": "656f9fa0498d1b7e3e071d98",
+				"parentId": "ARTEM_VEST1",
+				"slotId": "Front_plate"
+			},
+			{
+				"_id": "Artem_vest1_Backplate",
+				"_tpl": "656f9fa0498d1b7e3e071d98",
+				"parentId": "ARTEM_VEST1",
+				"slotId": "Back_plate"
+			},
+		   {
+			   "_id": "ARTEM_VEST3",
+			   "_tpl": "ARTEM_TACVEST3",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 1455
+			   }
+		    },
+			{
+				"_id": "b1877a2ef33b0dad91d1929e",
+				"_tpl": "6570e5100b57c03ec90b970a",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "Soft_armor_front"
+			},
+			{
+				"_id": "b699157097b13be79097eb06",
+				"_tpl": "65732df4d0acf75aea06c87b",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "Soft_armor_back"
+			},
+			{
+				"_id": "e4c2c3767906835b895c1df2",
+				"_tpl": "6570e5674cc0d2ab1e05edbb",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "Soft_armor_left"
+
+			},
+			{
+				"_id": "bad03bf35f601b563b127b7f",
+				"_tpl": "6570e59b0b57c03ec90b970e",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "soft_armor_right"
+			},
+			{
+				"_id": "cec76139ce326f5581191927",
+				"_tpl": "656f9fa0498d1b7e3e071d98",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "Front_plate"
+			},
+			{
+				"_id": "c3b24ae8eb1cef2e8dc81512",
+				"_tpl": "656f9fa0498d1b7e3e071d98",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "Back_plate"
+			},
+			{
+				"_id": "b4a2f8c87835012b834e2398",
+				"_tpl": "64afd81707e2cf40e903a316",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "Right_side_plate"
+			},
+			{
+				"_id": "0b5d88adf3e94f9ab9d4281c",
+				"_tpl": "64afd81707e2cf40e903a316",
+				"parentId": "ARTEM_VEST3",
+				"slotId": "Left_side_plate"
+			},
+		   {
+			   "_id": "ARTEM_VEST6",
+			   "_tpl": "ARTEM_TACVEST6",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 1455
+			   }
+		    },
+			{
+				"_id": "Artem_vest6_softfront",
+				"_tpl": "6570e83223c1f638ef0b0ede",
+				"parentId": "ARTEM_VEST6",
+				"slotId": "Soft_armor_front"
+			},
+			{
+				"_id": "Artem_vest6_softback",
+				"_tpl": "6570e87c23c1f638ef0b0ee2",
+				"parentId": "ARTEM_VEST6",
+				"slotId": "Soft_armor_back"
+			},
+			{
+				"_id": "Artem_vest6_Groin",
+				"_tpl": "6570e90b3a5689d85f08db97",
+				"parentId": "ARTEM_VEST6",
+				"slotId": "Groin"
+			},
+			{
+				"_id": "85b4ee7783693fe6dc1a3575",
+				"_tpl": "656f9fa0498d1b7e3e071d98",
+				"parentId": "ARTEM_VEST6",
+				"slotId": "Front_plate"
+			},
+			{
+				"_id": "1fcdd5f06f41847b8fd0a418",
+				"_tpl": "656f9fa0498d1b7e3e071d98",
+				"parentId": "ARTEM_VEST6",
+				"slotId": "Back_plate"
+			},
+		   {
+			   "_id": "ARTEM_BALLISTICMASK",
+			   "_tpl": "ARTEM_BALLISTICMASK",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 875
+			   }
+		   },
+		   {
+			   "_id": "ARTEM_GHOSTMASKB",
+			   "_tpl": "ARTEM_GHOSTMASKB",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 1510
+			   }
+		   },
+		   {
+			   "_id": "ARTEM_GHOSTMASKR",
+			   "_tpl": "ARTEM_GHOSTMASKR",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 1650
+			   }
+		   },
+		   {
+			   "_id": "ARTEM_NIKOMASK",
+			   "_tpl": "ARTEM_NIKOMASK",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 1662
+			   }
+		   },
+		   {
+			   "_id": "ARTEM_HELMET2",
+			   "_tpl": "ARTEM_TACHELMET2",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 952
+			   }
+		   },
+		   {
+            "_id": "ARTEM_TACHELMET2_top",
+            "_tpl": "6551fec55d0cf82e51014288",
+            "parentId": "ARTEM_HELMET2",
+            "slotId": "Helmet_top"
+        	},
+        	{
+            "_id": "ARTEM_TACHELMET2_back",
+            "_tpl": "655200ba0ef76cf7be09d528",
+            "parentId": "ARTEM_HELMET2",
+            "slotId": "Helmet_back"
+        	},
+		   {
+			   "_id": "ARTEM_HELMET3",
+			   "_tpl": "ARTEM_TACHELMET3",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 784
+			   }
+		   },
+		   {
+            "_id": "ARTEM_TACHELMET3_top",
+            "_tpl": "6551fec55d0cf82e51014288",
+            "parentId": "ARTEM_HELMET3",
+            "slotId": "Helmet_top"
+        	},
+        	{
+            "_id": "ARTEM_TACHELMET3_back",
+            "_tpl": "655200ba0ef76cf7be09d528",
+            "parentId": "ARTEM_HELMET3",
+            "slotId": "Helmet_back"
+        	},
+		   {
+			   "_id": "ARTEM_HELMET10",
+			   "_tpl": "ARTEM_TACHELMET10",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 918
+			   }
+		   },
+		   {
+            "_id": "ARTEM_TACHELMET10_top",
+            "_tpl": "6551fec55d0cf82e51014288",
+            "parentId": "ARTEM_HELMET10",
+            "slotId": "Helmet_top"
+        	},
+        	{
+            "_id": "ARTEM_TACHELMET10_back",
+            "_tpl": "655200ba0ef76cf7be09d528",
+            "parentId": "ARTEM_HELMET10",
+            "slotId": "Helmet_back"
+        	},
+		   {
+			   "_id": "ARTEM_HELMET11",
+			   "_tpl": "ARTEM_TACHELMET11",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 887
+			   }
+		   },
+		   {
+            "_id": "ARTEM_TACHELMET11_top",
+            "_tpl": "657fa009d4caf976440afe3a",
+            "parentId": "ARTEM_HELMET11",
+            "slotId": "Helmet_top"
+        	},
+        	{
+            "_id": "ARTEM_TACHELMET11_back",
+            "_tpl": "657fa04ac6679fefb3051e24",
+            "parentId": "ARTEM_HELMET11",
+            "slotId": "Helmet_back"
+        	},
+        	{
+            "_id": "ARTEM_TACHELMET11_ears",
+            "_tpl": "657fa07387e11c61f70bface",
+            "parentId": "ARTEM_HELMET11",
+            "slotId": "Helmet_ears"
+        	},
+		   {
+			   "_id": "ARTEM_HELMET12",
+			   "_tpl": "ARTEM_TACHELMET12",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 985
+			   }
+		   },
+		   {
+            "_id": "ARTEM_TACHELMET12_top",
+            "_tpl": "657baaf0b7e9ca9a02045c02",
+            "parentId": "ARTEM_HELMET12",
+            "slotId": "Helmet_top"
+        	},
+        	{
+            "_id": "ARTEM_TACHELMET12_back",
+            "_tpl": "657bab6ec6f689d3a205b85f",
+            "parentId": "ARTEM_HELMET12",
+            "slotId": "Helmet_back"
+        	},
+		   {
+			   "_id": "ARTEM_HELMET13",
+			   "_tpl": "ARTEM_TACHELMET13",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 985
+			   }
+		   },
+		   {
+            "_id": "ARTEM_TACHELMET13_top",
+            "_tpl": "657f9897f4c82973640b235e",
+            "parentId": "ARTEM_HELMET13",
+            "slotId": "Helmet_top"
+        	},
+        	{
+            "_id": "ARTEM_TACHELMET13_back",
+            "_tpl": "657f98fbada5fadd1f07a585",
+            "parentId": "ARTEM_HELMET13",
+            "slotId": "Helmet_back"
+        	},
+		   {
+			   "_id": "ARTEM_GASMASK1",
+			   "_tpl": "ARTEM_GASMASK1",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 1042
+			   }
+		   },
+		   {
+			   "_id": "ARTEM_BOXMEDICAL",
+			   "_tpl": "ARTEM_BOXMEDICAL",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 102
+			   }
+		   },
+		   {
+			   "_id": "ARTEM_BOXITEM",
+			   "_tpl": "ARTEM_BOXITEM",
+			   "parentId": "hideout",
+			   "slotId": "hideout",
+			   "upd": {
+				   "UnlimitedCount": false,
+				   "StackObjectsCount": 82
+			   }
+		   }
+	   ],
+	   "barter_scheme": {
+		   "ARTEM_GHOSTMASK": [
+			   [
+				   {
+					   "count": 2423,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_BALLISTICMASK": [
+			   [
+				   {
+					   "count": 78465,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_GHOSTMASKB": [
+			   [
+				   {
+					   "count": 2323,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_GHOSTMASKR": [
+			   [
+				   {
+					   "count": 2333,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_NIKOMASK": [
+			   [
+				   {
+					   "count": 2239,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_HELMET2": [
+			   [
+				   {
+					   "count": 101159,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_HELMET3": [
+			   [
+				   {
+					   "count": 104930,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_HELMET10": [
+			   [
+				   {
+					   "count": 104930,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_HELMET11": [
+			   [
+				   {
+					   "count": 122930,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_HELMET12": [
+			   [
+				   {
+					   "count": 51253,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_HELMET13": [
+			   [
+				   {
+					   "count": 104930,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_GASMASK1": [
+			   [
+				   {
+					   "count": 6293,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_BOXMEDICAL": [
+			   [
+				   {
+					   "count": 252172,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_BOXITEM": [
+			   [
+				   {
+					   "count": 2234249,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_VEST1": [
+			   [
+				   {
+					   "count": 147330,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_VEST6": [
+			   [
+				   {
+					   "count": 147330,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ],
+		   "ARTEM_VEST3": [
+			   [
+				   {
+					   "count": 154630,
+					   "_tpl": "5449016a4bdc2d6f028b456f"
+				   }
+			   ]
+		   ]
+	   },
+	   "loyal_level_items": {
+		   "ARTEM_GHOSTMASK": 1,
+		   "ARTEM_GHOSTMASKB": 1,
+		   "ARTEM_GHOSTMASKR": 1,
+		   "ARTEM_BALLISTICMASK": 2,
+		   "ARTEM_NIKOMASK": 1,
+		   "ARTEM_HELMET2": 2,
+		   "ARTEM_HELMET3": 2,
+		   "ARTEM_HELMET13": 2,
+		   "ARTEM_BOXMEDICAL": 1,
+		   "ARTEM_VEST3": 3,
+		   "ARTEM_VEST6": 2,
+		   "ARTEM_VEST1": 2,
+		   "ARTEM_BOXITEM": 4,
+		   "ARTEM_HELMET10": 3,
+		   "ARTEM_HELMET11": 3,
+		   "ARTEM_HELMET12": 2,
+		   "ARTEM_GASMASK1": 1
+	   }
+   }
+}

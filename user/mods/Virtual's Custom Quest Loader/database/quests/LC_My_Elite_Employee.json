@@ -1,0 +1,539 @@
+{
+  "LC_EVENT_1": {
+    "QuestName": "My Elite Employee - Part 1",
+    "_id": "LC_EVENT_1",
+    "acceptPlayerMessage": "LC_EVENT_1 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "LC_EVENT_1 changeQuestMessageText",
+    "completePlayerMessage": "LC_EVENT_1 completePlayerMessage",
+    "declinePlayerMessage": "LC_EVENT_1 declinePlayerMessage",
+    "description": "LC_EVENT_1 description",
+    "image": "/files/quest/icon/LC_EVENT_1_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "LC_EVENT_1 name",
+    "note": "LC_EVENT_1 note",
+    "restartable": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "LC_EVENT_1 startedMessageText",
+    "successMessageText": "LC_EVENT_1 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "Elimination",
+    "conditions": {
+      "Fail": [],
+      "AvailableForStart": [],
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "LaunchFlare",
+                "id": "LC_EVENT_1 TASK1",
+                "target": "LC_INTERCHANGE_EVENT_1_START",
+                "value": "1",
+                "dynamicLocale": false
+              }
+            ],
+            "id": "LC_EVENT_1 TASK1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_1 TASK1",
+          "index": 2,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "LC_EVENT_1 TASK2",
+                "savageRole": [],
+                "target": "Any",
+                "value": "0"
+              }
+            ],
+            "id": "LC_EVENT_1 TASK2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_1 TASK2",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "5",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "LC_EVENT_1-START-EQUIPMENT-1",
+          "index": 0,
+          "type": "Item",
+          "target": "LC_EVENT_1-START-EQUIPMENT-1",
+          "value": 1,
+          "items": [
+            {
+              "_id": "LC_EVENT_1-START-EQUIPMENT-1",
+              "_tpl": "624c0b3340357b5f566e8766",
+              "upd": {
+                "StackObjectCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Success": [
+        {
+          "id": "LC-EVENT1-EXPERIENCE-1",
+          "index": 0,
+          "type": "Experience",
+          "value": "50000"
+        }
+      ]
+    }
+  },
+  "LC_EVENT_2": {
+    "QuestName": "My Elite Employee - Part 2",
+    "_id": "LC_EVENT_2",
+    "acceptPlayerMessage": "LC_EVENT_2 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "LC_EVENT_2 changeQuestMessageText",
+    "completePlayerMessage": "LC_EVENT_2 completePlayerMessage",
+    "declinePlayerMessage": "LC_EVENT_2 declinePlayerMessage",
+    "description": "LC_EVENT_2 description",
+    "image": "/files/quest/icon/LC_EVENT_1_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "LC_EVENT_2 name",
+    "note": "LC_EVENT_2 note",
+    "restartable": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "LC_EVENT_2 startedMessageText",
+    "successMessageText": "LC_EVENT_2 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "Elimination",
+    "conditions": {
+      "Fail": [],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_1 TEXT",
+          "index": 1,
+          "parentId": "",
+          "status": [4],
+          "target": "LC_EVENT_1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK1 Find",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5447a9cd4bdc2dbd208b4567"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK1",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5447a9cd4bdc2dbd208b4567"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK2 Find",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5cc82d76e24e8d00134b4b83"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK2",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5cc82d76e24e8d00134b4b83"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK3 Find",
+          "index": 4,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5bd70322209c4d00d7167b8f", "5ba26383d4351e00334c93d9"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK3",
+          "index": 5,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5bd70322209c4d00d7167b8f", "5ba26383d4351e00334c93d9"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK4 Find",
+          "index": 6,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["57838ad32459774a17445cd2"],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK4",
+          "index": 7,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["57838ad32459774a17445cd2"],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK5 Find",
+          "index": 8,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5bb2475ed4351e00853264e3"],
+          "value": 3,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TASK5",
+          "index": 9,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5bb2475ed4351e00853264e3"],
+          "value": 3,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "LC_EVENT_2-START-EQUIPMENT-1",
+          "index": 0,
+          "type": "Item",
+          "target": "LC_EVENT_2-START-EQUIPMENT-1",
+          "value": 1,
+          "items": [
+            {
+              "_id": "LC_EVENT_2-START-EQUIPMENT-1",
+              "_tpl": "5addaffe86f77470b455f900",
+              "upd": {
+                "StackObjectCount": 1
+              }
+            }
+          ]
+        },
+        {
+          "findInRaid": true,
+          "id": "LC_EVENT_2-START-EQUIPMENT-2",
+          "index": 1,
+          "type": "Item",
+          "target": "LC_EVENT_2-START-EQUIPMENT-2",
+          "value": 1,
+          "items": [
+            {
+              "_id": "LC_EVENT_2-START-EQUIPMENT-2",
+              "_tpl": "5ad5d7d286f77450166e0a89",
+              "upd": {
+                "StackObjectCount": 1
+              }
+            }
+          ]
+        }
+      ],
+      "Success": [
+        {
+          "id": "LC-EVENT2-EXPERIENCE-1",
+          "index": 0,
+          "type": "Experience",
+          "value": "50000"
+        },
+        {
+          "id": "LC-EVENT2-REWARD-1",
+          "index": 1,
+          "type": "Item",
+          "target": "LC-EVENT2-REWARD-1-ITEM",
+          "value": "1",
+          "items": [
+            {
+              "_id": "LC-EVENT2-REWARD-1-ITEM",
+              "_tpl": "5b6d9ce188a4501afc1b2b25",
+              "upd": {
+                "StackObjectCount": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LC_EVENT_3": {
+    "QuestName": "My Elite Employee - Part 3",
+    "_id": "LC_EVENT_3",
+    "acceptPlayerMessage": "LC_EVENT_3 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "LC_EVENT_3 changeQuestMessageText",
+    "completePlayerMessage": "LC_EVENT_3 completePlayerMessage",
+    "declinePlayerMessage": "LC_EVENT_3 declinePlayerMessage",
+    "description": "LC_EVENT_3 description",
+    "image": "/files/quest/icon/LC_EVENT_1_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "LC_EVENT_3 name",
+    "note": "LC_EVENT_3 note",
+    "restartable": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "LC_EVENT_3 startedMessageText",
+    "successMessageText": "LC_EVENT_3 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "Elimination",
+    "conditions": {
+      "Fail": [],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TEXT",
+          "index": 1,
+          "parentId": "",
+          "status": [4],
+          "target": "LC_EVENT_2",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "LC_EVENT_3 TASK1",
+                "resetOnSessionEnd": true,
+                "savageRole": ["bossKilla"],
+                "target": "Savage",
+                "value": 1
+              }
+            ],
+            "id": "LC_EVENT_3 TASK1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_3 TASK1",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "LC_EVENT_3 TASK2",
+                "resetOnSessionEnd": true,
+                "savageRole": ["bossTagilla"],
+                "target": "Savage",
+                "value": 1
+              }
+            ],
+            "id": "LC_EVENT_3 TASK2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_3 TASK2",
+          "index": 1,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "LC_EVENT_3 TASK3",
+                "resetOnSessionEnd": true,
+                "savageRole": ["bossGluhar"],
+                "target": "Savage",
+                "value": 1
+              }
+            ],
+            "id": "LC_EVENT_3 TASK3"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_3 TASK3",
+          "index": 2,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "LC-EVENT3-EXPERIENCE-1",
+          "index": 0,
+          "type": "Experience",
+          "value": "50000"
+        },
+        {
+          "id": "LC-EVENT3-REWARD-1",
+          "index": 1,
+          "type": "Item",
+          "target": "LC-EVENT2-REWARD-1-ITEM",
+          "value": "1",
+          "items": [
+            {
+              "_id": "LC-EVENT2-REWARD-1-ITEM",
+              "_tpl": "5c0a840b86f7742ffa4f2482",
+              "upd": {
+                "StackObjectCount": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "order": [
+    "SITCoop",
+    "Virtual's Custom Quest Loader",
+    "AAAArtemTrader",
+    "AArtemEquipment",
+    "aaMFACSHOP",
+    "Armor_Inserts_MFAC",
+    "Guns_Titanfall2_AT233",
+    "Gear_MOdular_Juggernaut",
+    "Guns_Toy_Gun_Port_PETTAN",
+    "PaulovsSharedStashTrader",
+    "IhanaMies-LootValueBackend",
+    "DrakiaXYZ-LiveFleaPrices",
+    "Square-LiveBitcoinPrices-1.1.0",
+    "Skwizzy-NoDiscardLimit",
+    "skulltag-instantrepeatables-1.0.0",
+    "RaiRaiTheRaichu-AllTheClothes-1.5.0",
+    "WTT-HeadVoiceSelector",
+    "zSWAG",
+    "DewardianDev-AlgorithmicLevelProgression",
+    "DanW-SPTQuestingBots",
+    "zSolarint-SAIN-ServerMod"
+  ]
+}

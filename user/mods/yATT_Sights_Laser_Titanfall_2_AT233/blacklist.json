@@ -1,0 +1,14 @@
+{
+    "addtoconfigsitem": {
+        "blacklist": [
+            "AT233_201scop",
+            "AT233_carscop",
+            "AT233_shotmodbase"
+        ]
+    },
+    "addtoconfigsscavcase": {
+        "rewardItemBlacklist": [
+            "AT233_shotmodbase"
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+	"templates": {
+		"ARTEM_GHOSTMASK": {
+			"Name": "Skull Mask",
+			"ShortName": "Skull Mask",
+			"Description": "TF-141"
+		},
+		"ARTEM_BALLISTICMASK": {
+			"Name": "CA HAFM-KII Ballistic Face Mask",
+			"ShortName": "HAFM-KII Ballistic Mask",
+			"Description": "The Level 4 Ballsitic Face Mask has been designed to maximize comfort while proviing front facial protection."
+		},
+		"ARTEM_GHOSTMASKB": {
+			"Name": "Skull Mask(Black)",
+			"ShortName": "Skull Mask(B)",
+			"Description": "TF-141"
+		},
+		"ARTEM_GHOSTMASKR": {
+			"Name": "Skull Mask(Red)",
+			"ShortName": "Skull Mask(R)",
+			"Description": "TF-141"
+		},
+		"ARTEM_NIKOMASK": {
+			"Name": "Nikto Mask",
+			"ShortName": "Nikto Mask",
+			"Description": "Black Shadow Company"
+		},
+		"ARTEM_TACHELMET2": {
+			"Name": "DLP Tactical Extreme Helmet",
+			"ShortName": "DLP Tactical Extreme Helmet",
+			"Description": "Protect your skull from knocks and bangs with the ImpaX Extreme bump helmet from DLP Tactical. Cut in the familiar MICH / ACH Advanced Combat Helmet pattern, zero transition time is needed between the ImpaX Extreme bump helmet and the heavier ballistic equivalents. Perfect for high speed/ low drag operators who do not need bullet resistant protection or as a training/ simulation aid for when the heavier ballistic helmets are not desired."
+		},
+		"ARTEM_GASMASK1": {
+			"Name": "S10 - Gas Mask",
+			"ShortName": "S-10 Gasmask",
+			"Description": "Used for Biological warfare, but also when you fart under the blanket."
+		},
+		"ARTEM_TACHELMET3": {
+			"Name": "Ops-Core FAST Carbon High Cut Helmet (Dark Blue)",
+			"ShortName": "Ops-Core High Cut Helmet",
+			"Description": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping."
+		},
+		"ARTEM_TACHELMET10": {
+			"Name": "Ops-Core FAST Carbon High Cut Helmet (Tan)",
+			"ShortName": "Ops-Core High Cut Helmet",
+			"Description": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping."
+		},
+		"ARTEM_TACHELMET11": {
+			"Name": "Ops-Core FAST Carbon Low Cut Helmet (Roze)",
+			"ShortName": "Ops-Core Low Cut Helmet",
+			"Description": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping."
+		},
+		"ARTEM_TACHELMET12": {
+			"Name": "Tactical Bump Helmet",
+			"ShortName": "Tactical Bump Helmet (Grey)",
+			"Description": "The super lightweight Tactical Bump Helmet from Chase Tactical is a great platform for any helmet accessory you need on the job, from Night Vision accessories to flashlights, our Tactical Bump Helmet provides great versatility and protection even in the toughest conditions."
+		},
+		"ARTEM_TACHELMET13": {
+			"Name": "Ops-Core FAST MT Carbon Low Cut Helmet (Black)",
+			"ShortName": "Ops-Core Low Cut Helmet",
+			"Description": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping."
+		},
+		"ARTEM_TACVEST3": {
+			"Name": "KOMBAT Viking Molle Plate Carrier",
+			"ShortName": "KOMBAT Viking Molle Plate Carrier",
+			"Description": "The Kombat Viking Molle Battle Platform offers maximum load carrying capacity with a large number of features"
+		},
+		"ARTEM_TACVEST6": {
+			"Name": "CONDOR MOPC PLATE CARRIER",
+			"ShortName": "MOPC PLATE CARRIER",
+			"Description": "The Condor MOPC Fits Spartan Armor Systems™ 10″x12″ AR500 / AR550 / Armaply AR650 Shooter’s Cut armor plates, SAS IIIA Soft Armor, and our Level IV composites."
+		},
+		"ARTEM_TACVEST1": {
+			"Name": "Modular Scalable Vest - GEN II",
+			"ShortName": "MSV - GEN II",
+			"Description": "The Army MSV-GEN II includes both full Up Tactical and Concealable Vest components. It can be worn over the soldier’s uniform and is made up of the Concealable Components inserted into the Tactical Carrier."
+		},
+		"ARTEM_BOXMEDICAL": {
+			"Name": "Abandoned Medical Box (1944)",
+			"ShortName": "Abandoned Medical Box",
+			"Description": ""
+		},
+		"ARTEM_BOXITEM": {
+			"Name": "item Crate",
+			"ShortName": "Item Crate",
+			"Description": ""
+		}
+	}
+}

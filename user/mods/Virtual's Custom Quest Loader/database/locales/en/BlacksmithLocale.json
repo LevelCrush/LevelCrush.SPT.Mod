@@ -1,0 +1,16 @@
+{
+  "LCBS_INTRO_1 name": "Introduction. ",
+  "LCBS_INTRO_1 description": "Hello my name is Yuri and I am a blacksmith by trade. I need tools to apply my trade. Get them for me from those scavs and I will reward you handsomely. Good luck comrade.",
+  "LCBS_INTRO_1 text": "",
+  "LCBS_INTRO_1 acceptPlayerMessage": "Thank you for accepting",
+  "LCBS_INTRO_1 changeQuestMessageText": "Thank you. Change Quest Text",
+  "LCBS_INTRO_1 completePlayerMessage": "Well done. (Complete)",
+  "LCBS_INTRO_1 successMessageText": "Well done. (Success)",
+  "LCBS_INTRO_1 note": "Yep. Some note here",
+  "LCBS_INTRO_1 TASK1": "Turn in one found in raid Sledge Hammer",
+  "LCBS_INTRO_1 TASK2": "Turn in one found in raid wrench",
+  "LCBS_INTRO_1 TASK3": "Turn in two found in raid Kite",
+  "LCBS_INTRO_1 TASK4": "Turn in two found in raid Eagle",
+  "LCBS_INTRO_1 TASK5": "Turn in two found in raid Hawk",
+  "LCBS_INTRO_1 TASK6": "Eliminate 10 scavs"
+}

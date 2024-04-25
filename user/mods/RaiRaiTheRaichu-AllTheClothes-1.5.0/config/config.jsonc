@@ -1,0 +1,1400 @@
+{
+	"UnlockAllVoices": true,    // Allows you to select any voice (boss, scav, opposite faction, etc)
+	"UnlockAllHeads": true,     // Allows you to select any head (boss, scav, opposite faction, etc)
+	"UnlockFactionalClothing": true,    // Allows you to purchase the opposite faction's clothes from Ragman
+
+	"AllScavClothesFree": false,    // All clothing added by this mod can be unlocked with no requirements
+	"AllPMCClothesFree": false,     // All vanilla clothing sold by Ragman can be unlocked with no requirements
+
+	"UseRagmanInsteadOfFence": false,   // All scav/boss clothing will be sold by Ragman instead of Fence
+
+
+    // Tops
+	"wild_body": {  // Localized name: SCAV Top (var. 1)
+		"ragman": false,    // Sold by ragman? If false, Fence is used
+		"handsOverride": "hands_scav_wildbody",     // ID of hands to use in first person for this top
+
+		"loyaltyLevel": 0,  // What level of loyalty is needed by the trader (Fence/Ragman) to unlock
+		"profileLevel": 8,  // What level your character must be to purchase
+		"standing": 0,      // What your standing must be in order to purchase (untested)
+		"skillRequirements": [],    // Skills that are required to purchase (Vitality, Stress Resistance, etc). Does not seem to function
+		"questRequirements": [      // Quest ID(s) that must be completed to purchase the clothing
+			"596b455186f77457cb50eccb"
+		],
+		"itemRequirements": [       // Item ID(s) that must be paid to purchase the clothing (Untested, might only accept currencies)
+			{
+				"count": 80000,     // Amount required
+				"_tpl": "5449016a4bdc2d6f028b456f"      // ID of currency (in this case, Roubles)
+			}
+		]
+	},
+	"wild_body_3": {    // Localized name: SCAV Top (var. 2)
+		"ragman": false,
+		"handsOverride": "hands_scav_wildbody3",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 8,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"596b455186f77457cb50eccb"
+		],
+		"itemRequirements": [
+			{
+				"count": 80000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_1": {    // Localized name: SCAV Jacket
+		"ragman": false,
+		"handsOverride": "5cc2e68f14c02e28b47de290",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 12,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 120000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_2": {    // Localized name: SCAV Raincoat
+		"ragman": false,
+		"handsOverride": "hands_scav_wildbody2",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 18,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 180000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Wild_Dealmaker_body": {    // Localized name: Reshala's Leather Jacket
+		"ragman": false,
+		"handsOverride": "hands_boss_reshala",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 20,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+                "5d25e2c386f77443e7549029"
+            ],
+		"itemRequirements": [
+			{
+				"count": 1500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_security_body_1": {    // Localized name: GUARD Police Jacket
+		"ragman": false,
+		"handsOverride": "hands_scav_security1",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 15,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"596b455186f77457cb50eccb"
+		],
+		"itemRequirements": [
+			{
+				"count": 1500,
+				"_tpl": "569668774bdc2da2298b4568"
+			}
+		]
+	},
+	"wild_security_body_2": {    // Localized name: GUARD Security Sweater
+		"ragman": false,
+		"handsOverride": "hands_scav_security2",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 15,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"596b455186f77457cb50eccb"
+		],
+		"itemRequirements": [
+			{
+				"count": 1500,
+				"_tpl": "569668774bdc2da2298b4568"
+			}
+		]
+	},
+	"wild_pmcBot_body": {    // Localized name: RAIDER Jacket
+		"ragman": false,
+		"handsOverride": "hands_scav_scavelite",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 32,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e45e86f77408251c4bfa"
+		],
+		"itemRequirements": [
+			{
+				"count": 750000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_Shturman_body_nohead": {    // Localized name: Shturman's Parka
+		"ragman": false,
+		"handsOverride": "hands_boss_shturman",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e2ee86f77443e35162ea"
+		],
+		"itemRequirements": [
+			{
+				"count": 2500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_Shturman_body_nohead_alt": {    // Localized name: Shturman's Parka (Hood Down)
+		"ragman": false,
+		"handsOverride": "hands_boss_shturman",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e2ee86f77443e35162ea"
+		],
+		"itemRequirements": [
+			{
+				"count": 2500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_Gluhar_body": {    // Localized name: Glukhar's T-Shirt With PACA Top
+		"ragman": false,
+		"handsOverride": "hands_boss_glukhar",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 30,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e44f86f77443e625e385"
+		],
+		"itemRequirements": [
+			{
+				"count": 30000,
+				"_tpl": "5696686a4bdc2da3298b456a"
+			}
+		]
+	},
+	"Tshirt_security_TshirtTatu_01": {    // Localized name: GUARD Black T-Shirt
+		"ragman": false,
+		"handsOverride": "hands_scav_tatu1",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 5,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 50000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Tshirt_security_TshirtTatu_02": {    // Localized name: GUARD Black T-Shit (With Tatoos)
+		"ragman": false,
+		"handsOverride": "hands_scav_tatu2",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 5,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 50000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_security_Husky": {    // Localized name: GUARD Husky Hardshell Jacket
+		"ragman": false,
+		"handsOverride": "hands_scav_husky",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 23,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 230000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_security_Gorka4": {    // Localized name: GUARD Gorka 4 Top
+		"ragman": false,
+		"handsOverride": "hands_scav_gorka4",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 250000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"scav_kit_upper_meteor": {    // Localized name: SCAV Meteor Jacket
+		"ragman": false,
+		"handsOverride": "5df8eac086f77412640e2ea7",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 28,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 280000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_russia1": {    // Localized name: SCAV Russia Jacket
+		"ragman": false,
+		"handsOverride": "5e4bb49586f77406a313ec5a",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 34,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 2500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_BOSS_Sanitar": {    // Localized name: Sanitar's Medical Jacket
+		"ragman": false,
+		"handsOverride": "hands_boss_sanitar",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 28,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5edac63b930f5454f51e128b"
+		],
+		"itemRequirements": [
+			{
+				"count": 2800000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_motocross": {    // Localized name: SCAV Motocross Jacket
+		"ragman": false,
+		"handsOverride": "5e9da2dd86f774054e7d0f63",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 14,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5ae4490786f7744ca822adcc"
+		],
+		"itemRequirements": [
+			{
+				"count": 1000,
+				"_tpl": "569668774bdc2da2298b4568"
+			}
+		]
+	},
+	"top_cultist_01": {    // Localized name: Cultist Priest Top
+		"ragman": false,
+		"handsOverride": "hands_scav_cultist1",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 50,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"60e71c11d54b755a3b53eb65"
+		],
+		"itemRequirements": [
+			{
+				"count": 666,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"top_cultist_02": {    // Localized name: Cultist Warrior Top
+		"ragman": false,
+		"handsOverride": "hands_scav_cultist2",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 40,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5a27ba1c86f77461ea5a3c56"
+		],
+		"itemRequirements": [
+			{
+				"count": 6666666,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_rainparka": {    // Localized name: SCAV Rain Parka
+		"ragman": false,
+		"handsOverride": "5fd78fe9e3bfcf6cab4c9f54",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 7,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"59674cd986f7744ab26e32f2"
+		],
+		"itemRequirements": [
+			{
+				"count": 70000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_underarmour": {    // Localized name: SCAV Under Armour Jacket
+		"ragman": false,
+		"handsOverride": "5fd7901bdd870108a754c0e6",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 26,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5ae4495086f77443c122bc40"
+		],
+		"itemRequirements": [
+			{
+				"count": 260000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"top_boss_tagilla_nohead": {    // Localized name: Tagilla's Chest
+		"ragman": false,
+		"handsOverride": "hands_boss_tagilla",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 30,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"60c0c018f7afb4354815096a"
+		],
+		"itemRequirements": [
+			{
+				"count": 3500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_bomber": {    // Localized name: SCAV Bomber Jacket
+		"ragman": false,
+		"handsOverride": "618cf9540a5a59657e5f5677",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 29,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5ae4497b86f7744cf402ed00"
+		],
+		"itemRequirements": [
+			{
+				"count": 290000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_top_yellowcoat": {    // Localized name: SCAV Yellow Coat
+		"ragman": false,
+		"handsOverride": "6197aca964ae5436d76c1f98",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 21,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 210000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_BOSS_Blackknight": {    // Localized name: Knight's Quarter-Zip Shirt & Patches
+		"ragman": false,
+		"handsOverride": "hands_boss_blackknight",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 45,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"626bdcc3a371ee3a7a3514c5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_BOSS_BigPipe": {    // Localized name: Big Pipe's Quarter-Zip Shirt
+		"ragman": false,
+		"handsOverride": "hands_boss_big_pipe",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 45,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"626bdcc3a371ee3a7a3514c5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_BOSS_Birdeye": {    // Localized name: Birdeye's Sweater & Shemagh
+		"ragman": false,
+		"handsOverride": "hands_boss_birdeye",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 45,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"626bdcc3a371ee3a7a3514c5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_BOSS_Zryachi": {    // Localized name: Zryachiy's Ghillie Suit Top
+		"ragman": false,
+		"handsOverride": "hands_boss_zryachiy",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 46,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"625d700cc48e6c62a440fab5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_body_victory": {    // Localized name: SCAV "Victory" Jacket
+		"ragman": false,
+		"handsOverride": "6391c6205dbbdb3b1b049840",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"63a9ae24009ffc6a551631a5"
+		],
+		"itemRequirements": [
+			{
+				"count": 2500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+    "Top_BOSS_Kaban": {    // Localized name: Kaban's Pullover & Long Coat
+		"ragman": false,
+		"handsOverride": "hands_boss_kaban",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 40,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"64e7b971f9d6fa49d6769b44"
+		],
+		"itemRequirements": [
+			{
+				"count": 7500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+    "wild_body_feldparka": {    // Localized name: Bundeswehr Feldparka
+		"ragman": false,
+		"handsOverride": "64ac23c449d74fd5ec0a124e",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"639135e8c115f907b14700aa"
+		],
+		"itemRequirements": [
+			{
+				"count": 1000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Top_BOSS_Kolontai": {    // Localized name: Kollontay's Armored Blue Tiger Top
+		"ragman": false,
+		"handsOverride": "hands_boss_kolontai",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 30,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"6578eb36e5020875d64645cd"
+		],
+		"itemRequirements": [
+			{
+				"count": 8000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_security_body_bratva_1": {    // Localized name: SCAV Leather Mobster Jacket
+		"ragman": false,
+		"handsOverride": "hands_scav_bratva1",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 28,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"6572e876dc0d635f633a5714"
+		],
+		"itemRequirements": [
+			{
+				"count": 4000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_security_body_bratva_2": {    // Localized name: SCAV Leather Mobster Jacket (Zipped)
+		"ragman": false,
+		"handsOverride": "hands_scav_bratva2",
+
+		"loyaltyLevel": 0,
+		"profileLevel": 28,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"6572e876dc0d635f633a5714"
+		],
+		"itemRequirements": [
+			{
+				"count": 4000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	
+
+
+    // Pants
+	"wild_feet": {    // Localized name: SCAV Jeans
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 8,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 80000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_1": {    // Localized name: SCAV Military Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 12,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 120000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_2": {    // Localized name: SCAV Gorka Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 18,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 180000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Wild_Dealmaker_feet": {    // Localized name: Reshala's Kryptek Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 20,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e2c386f77443e7549029"
+		],
+		"itemRequirements": [
+			{
+				"count": 1500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_security_feet_1": {    // Localized name: GUARD MVD Pants (Gray-Blue Kamysh)
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 15,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"596b455186f77457cb50eccb"
+		],
+		"itemRequirements": [
+			{
+				"count": 1500,
+				"_tpl": "569668774bdc2da2298b4568"
+			}
+		]
+	},
+	"wild_pmcBot_feet": {    // Localized name: RAIDER Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 32,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e45e86f77408251c4bfa"
+		],
+		"itemRequirements": [
+			{
+				"count": 750000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_BOSS_Glukhar": {    // Localized name: Glukhar's Black Jeans
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 30,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e44f86f77443e625e385"
+		],
+		"itemRequirements": [
+			{
+				"count": 30000,
+				"_tpl": "5696686a4bdc2da3298b456a"
+			}
+		]
+	},
+	"Pants_BOSS_Shturman": {    // Localized name: Shturman's DPM Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e2ee86f77443e35162ea"
+		],
+		"itemRequirements": [
+			{
+				"count": 2500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_security_Gorka4": {    // Localized name: GUARD Gorka 4 Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 15,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5979f9ba86f7740f6c3fe9f2"
+		],
+		"itemRequirements": [
+			{
+				"count": 1500,
+				"_tpl": "5696686a4bdc2da3298b456a"
+			}
+		]
+	},
+	"Pants_security_Flora": {    // Localized name: GUARD Flora Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 15,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5979f9ba86f7740f6c3fe9f2"
+		],
+		"itemRequirements": [
+			{
+				"count": 1500,
+				"_tpl": "5696686a4bdc2da3298b456a"
+			}
+		]
+	},
+	"scav_kit_lower_sklon": {    // Localized name: SCAV Sklon Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 26,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5ae4495086f77443c122bc40"
+		],
+		"itemRequirements": [
+			{
+				"count": 260000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_BOSS_Sanitar": {    // Localized name: Sanitar's Rain Boots
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 28,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5edac63b930f5454f51e128b"
+		],
+		"itemRequirements": [
+			{
+				"count": 2800000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_sweatpants": {    // Localized name: SCAV Rain Boots
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 7,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 70000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_wasatch": {    // Localized name: SCAV Browning Wasatch Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 5,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 50000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_slimPants": {    // Localized name: SCAV Drystch Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 14,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5ae4490786f7744ca822adcc"
+		],
+		"itemRequirements": [
+			{
+				"count": 1000,
+				"_tpl": "569668774bdc2da2298b4568"
+			}
+		]
+	},
+	"pants_cultist_01": {    // Localized name: Cultist Pants 1
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 50,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"60e71c11d54b755a3b53eb65"
+		],
+		"itemRequirements": [
+			{
+				"count": 666,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"pants_cultist_02": {    // Localized name: Cultist Pants 2
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 40,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5a27ba1c86f77461ea5a3c56"
+		],
+		"itemRequirements": [
+			{
+				"count": 6666666,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_scavelite_taclite": {    // Localized name: RAIDER Taclite Pro Ripstop Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 32,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5d25e45e86f77408251c4bfa"
+		],
+		"itemRequirements": [
+			{
+				"count": 750000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"pants_boss_tagilla": {    // Localized name: Tagilla's Crye G3 Combat Pants (Multicam Black)
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 30,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"60c0c018f7afb4354815096a"
+		],
+		"itemRequirements": [
+			{
+				"count": 3500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_bomber": {    // Localized name: SCAV "Bro" Running Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 29,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5ae4497b86f7744cf402ed00"
+		],
+		"itemRequirements": [
+			{
+				"count": 325000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_pants_yellowcoat": {    // Localized name: SCAV Izlom Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 21,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [],
+		"itemRequirements": [
+			{
+				"count": 275000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Wild_Killa_feet": {    // Localized name: Adik Tracksuit Pants
+		"ragman": true,
+
+		"loyaltyLevel": 3,
+		"profileLevel": 48,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"5dc53acb86f77469c740c893"
+		],
+		"itemRequirements": [
+			{
+				"count": 4000000,
+                "_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_BOSS_Blackknight": {    // Localized name: Knight's Combat Pants & Ammo Pouch
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 45,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"626bdcc3a371ee3a7a3514c5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_BOSS_BigPipe": {    // Localized name: Big Pipe's Combat Pants & Grenade Belt
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 45,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"626bdcc3a371ee3a7a3514c5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_BOSS_Birdeye": {    // Localized name: Birdeye's Woodland Pants & Chemlight Pouch
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 45,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"626bdcc3a371ee3a7a3514c5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_BOSS_Zryachi": {    // Localized name: Zryachiy's Ghillie Suit Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 46,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"625d700cc48e6c62a440fab5"
+		],
+		"itemRequirements": [
+			{
+				"count": 5000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_feet_victory": {    // Localized name: SCAV "Victory" Jeans
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"63a9ae24009ffc6a551631a5"
+		],
+		"itemRequirements": [
+			{
+				"count": 2500000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+    "Pants_BOSS_Kaban": {    // Localized name: Kaban's XXXXL Sweatpants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"64e7b971f9d6fa49d6769b44"
+		],
+		"itemRequirements": [
+			{
+				"count": 3000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+    "wild_feet_feldparka": {    // Localized name: SCAV Faded Denim Jeans & Kneepad
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 25,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"639135e8c115f907b14700aa"
+		],
+		"itemRequirements": [
+			{
+				"count": 800000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"Pants_BOSS_Kolontai": {    // Localized name: Kollontay's Padded Camo Pants
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 30,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"6578eb36e5020875d64645cd"
+		],
+		"itemRequirements": [
+			{
+				"count": 8000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_security_feet_bratva_1": {    // Localized name: none
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 28,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"6572e876dc0d635f633a5714"
+		],
+		"itemRequirements": [
+			{
+				"count": 3000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+	"wild_security_feet_bratva_2": {    // Localized name: none
+		"ragman": false,
+
+		"loyaltyLevel": 0,
+		"profileLevel": 28,
+		"standing": 0,
+		"skillRequirements": [],
+		"questRequirements": [
+			"6572e876dc0d635f633a5714"
+		],
+		"itemRequirements": [
+			{
+				"count": 3000000,
+				"_tpl": "5449016a4bdc2d6f028b456f"
+			}
+		]
+	},
+
+
+
+
+    // New Entries (Do not edit anything below!)
+	"heads": {
+		"tagillaHead": {
+			"_id": "tagillaHead",
+			"_name": "tagillaHead",
+			"_parent": "5cc085e214c02e000c6bea67",
+			"_type": "Item",
+			"_props": {
+			  "Name": "tagillaHead",
+			  "ShortName": "tagillaHead",
+			  "Description": "tagillaHead",
+			  "Side": [
+				"Usec",
+				"Bear",
+				"Savage"
+			  ],
+			  "BodyPart": "Head",
+			  "Prefab": {
+				"path": "assets/head_boss_tagilla.skin.bundle",
+				"rcid": ""
+			  },
+			  "WatchPrefab": {
+				"path": "",
+				"rcid": ""
+			  },
+			  "IntegratedArmorVest": false,
+			  "WatchPosition": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			  },
+			  "WatchRotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			  }
+			},
+			"_proto": "5cde9ff17d6c8b0474535daa"
+		  }
+	},
+
+
+	"tops": {
+		"shturmanTop" : {
+            "_id": "wild_Shturman_body_nohead",
+            "_name": "wild_Shturman_body_nohead",
+            "_parent": "5cc0868e14c02e000c6bea68",
+            "_type": "Item",
+            "_props": {
+                "Name": "wild_Shturman_body",
+                "ShortName": "wild_Shturman_body",
+                "Description": "wild_Shturman_body",
+                "Side": [
+                    "Savage",
+                    "Usec",
+                    "Bear"
+                ],
+                "BodyPart": "Body",
+                "Prefab": {
+                    "path": "assets/top_boss_shturman.skin.bundle",
+                    "rcid": ""
+                },
+                "WatchPrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "IntegratedArmorVest": false,
+                "WatchPosition": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "WatchRotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+        "_proto": "5cdea33e7d6c8b0474535dac"
+        },
+
+		"shturmanTopAlt" : {
+            "_id": "wild_Shturman_body_nohead_alt",
+            "_name": "wild_Shturman_body_nohead_alt",
+            "_parent": "5cc0868e14c02e000c6bea68",
+            "_type": "Item",
+            "_props": {
+                "Name": "wild_Shturman_body",
+                "ShortName": "wild_Shturman_body",
+                "Description": "wild_Shturman_body",
+                "Side": [
+                    "Savage",
+                    "Usec",
+                    "Bear"
+                ],
+                "BodyPart": "Body",
+                "Prefab": {
+                    "path": "assets/top_boss_shturman_alt.skin.bundle",
+                    "rcid": ""
+                },
+                "WatchPrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "IntegratedArmorVest": false,
+                "WatchPosition": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "WatchRotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+        "_proto": "5cdea33e7d6c8b0474535dac"
+        },
+
+        "tagillaTop" : {
+            "_id": "top_boss_tagilla_nohead",
+            "_name": "top_boss_tagilla_nohead",
+            "_parent": "5cc0868e14c02e000c6bea68",
+            "_type": "Item",
+            "_props": {
+                "Name": "wild_Killa_body",
+                "ShortName": "wild_Killa_body",
+                "Description": "wild_Killa_body",
+                "Side": [
+                    "Savage",
+                    "Usec",
+                    "Bear"
+                ],
+                "BodyPart": "Body",
+                "Prefab": {
+                    "path": "assets/top_boss_tagilla.skin.bundle",
+                    "rcid": ""
+                },
+                "WatchPrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "IntegratedArmorVest": false,
+                "WatchPosition": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "WatchRotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+        "_proto": "5cdea33e7d6c8b0474535dac"
+        }
+	},
+
+
+	"kits": {
+		"shturmanKit" : 
+        {   
+            "_id": "wild_Shturman_body_nohead_kit",
+            "_name": "wild_Shturman_body_nohead_kit",
+            "_parent": "5cd944ca1388ce03a44dc2a4",
+            "_type": "Item",
+            "_props": 
+            {
+                "Name": "wild_Shturman_body_nohead",
+                "ShortName": "wild_Shturman_body_nohead",
+                "Description": "wild_Shturman_body_nohead",
+                "Side": ["Usec","Bear","Savage"],
+                "AvailableAsDefault": false,
+                "Body": "wild_Shturman_body_nohead",
+                "Hands": "hands_boss_shturman"
+            },
+            "_proto": "5cde9ec17d6c8b04723cf479"
+        },
+
+		"shturmanAltKit" : 
+        {   
+            "_id": "wild_Shturman_body_nohead_alt_kit",
+            "_name": "wild_Shturman_body_nohead_alt_kit",
+            "_parent": "5cd944ca1388ce03a44dc2a4",
+            "_type": "Item",
+            "_props": 
+            {
+                "Name": "wild_Shturman_body_nohead_alt",
+                "ShortName": "wild_Shturman_body_nohead_alt",
+                "Description": "wild_Shturman_body_nohead_alt",
+                "Side": ["Usec","Bear","Savage"],
+                "AvailableAsDefault": false,
+                "Body": "wild_Shturman_body_nohead_alt",
+                "Hands": "hands_boss_shturman"
+            },
+            "_proto": "5cde9ec17d6c8b04723cf479"
+        },
+
+        "tagillaKit" : 
+        {   
+            "_id": "top_boss_tagilla_nohead_kit",
+            "_name": "top_boss_tagilla_nohead_kit",
+            "_parent": "5cd944ca1388ce03a44dc2a4",
+            "_type": "Item",
+            "_props": 
+            {
+                "Name": "top_boss_tagilla_nohead",
+                "ShortName": "top_boss_tagilla_nohead",
+                "Description": "top_boss_tagilla_nohead",
+                "Side": ["Usec","Bear","Savage"],
+                "AvailableAsDefault": false,
+                "Body": "top_boss_tagilla_nohead",
+                "Hands": "hands_boss_tagilla"
+            },
+            "_proto": "5cde9ec17d6c8b04723cf479"
+        }
+	}
+}

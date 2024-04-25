@@ -1,0 +1,252 @@
+{
+    "manifest": [
+        {
+            "key": "assets_jugger.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps"
+            ]
+        },
+        {
+            "key": "jugger_assets_clothing_top.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps"
+            ]
+        },
+        {
+            "key": "jugger_assets_platecarrier.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps"
+            ]
+        },
+        {
+            "key": "clothing_jugg_bot.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "clothing_jugg_top.bundle",
+            "dependencyKeys": ["jugger_assets_platecarrier.bundle",
+                "jugger_assets_clothing_top.bundle",
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "clothing_jugg_top_hands.bundle",
+            "dependencyKeys": [
+                "jugger_assets_clothing_top.bundle",
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_full.bundle",
+            "dependencyKeys": [
+                "jugger_assets_platecarrier.bundle",
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_helm_main.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_helm_visor.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_mask.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core.bundle",
+            "dependencyKeys": [
+                "jugger_assets_platecarrier.bundle",
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_arms_left.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_arms_right.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_ass.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_backpack.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_extra.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_lower_leg_left.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_lower_leg_right.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_radio_antenna.bundle",
+            "dependencyKeys": [
+                "jugger_assets_platecarrier.bundle",
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_radio_base.bundle",
+            "dependencyKeys": [
+                "jugger_assets_platecarrier.bundle",
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_core_thigh.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_mask.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_helm_ring.bundle",
+            "dependencyKeys": [
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jugger_helm_tubegas.bundle",
+            "dependencyKeys": [
+                "jugger_assets_platecarrier.bundle",
+                "assets_jugger.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment_jug19_plate_carrier.bundle",
+            "dependencyKeys": [
+                "jugger_assets_platecarrier.bundle",
+                "assets/content/characters/character/skeleton.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        }
+    ]
+}

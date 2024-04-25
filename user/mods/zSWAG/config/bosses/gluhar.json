@@ -1,0 +1,271 @@
+{
+  "customs": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "factory": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "factory_night": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "groundzero": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "interchange": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": ["ZoneCenterBot"],
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "laboratory": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "lighthouse": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "reserve": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": [
+        "ZoneRailStrorage",
+        "ZonePTOR2",
+        "ZoneBarrack",
+        "ZoneSubStorage"
+      ],
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "shoreline": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "streets": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
+  "woods": [
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ]
+}

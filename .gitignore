@@ -7,3 +7,4 @@
 /user/mods/**/*.js
 /user/mods/**/*.js.map
 /user/mods/**/node_modules/*
+/user/mods/SITCoop/config/*
