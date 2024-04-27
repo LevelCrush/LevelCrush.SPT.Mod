@@ -1,0 +1,13 @@
+{
+  "LC_EVENT_4 name": "My Elite Employee Part 4",
+  "LC_EVENT_4 description": "Hello Mercenary! A little birdy told me that the mall off the interchange got a restock from Terragroup. The shelves are filled with food and the stores are just bursting with things for those with sticky fingers to grab. I think its a load of hogwash. If thats the case the place would be absolutely crawling with lowlifes like me! Do you think you can check it out for me? Just pop off a yellow flare at the power substation, if the rumors are true and maybe thin the herd a bit. Nothing crazy just a couple bodies in a corner to mark our claim. ( SWAG + Donuts is recommended to be set to Live Like)",
+  "LC_EVENT_4 text": "MEE Text",
+  "LC_EVENT_4 acceptPlayerMessage": "MEE Accept",
+  "LC_EVENT_4 changeQuestMessageText": "MEE changeQuestText",
+  "LC_EVENT_4 completePlayerMessage": "So the rumors are true! Interesting. Very Interesting.",
+  "LC_EVENT_4 successMessageText": "So the rumors are true! Interesting. Very Interesting.",
+  "LC_EVENT_4 note": "MEE Note Text",
+  "LC_EVENT_4 TASK1": "Use a signal flare (yellow) at the top of the power station (in the same raid)",
+  "LC_EVENT_4 TASK2": "Thin the herd. Eliminate 5 targets (in the same raid)",
+  "LC_EVENT_4 TASK3": "Survive and extract from Interchange"
+}

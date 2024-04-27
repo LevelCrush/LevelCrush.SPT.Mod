@@ -1,0 +1,42 @@
+{
+  "LC_EVENT_4": {
+    "QuestName": "My Elite Employee - Part 4",
+    "_id": "LC_EVENT_4",
+    "acceptPlayerMessage": "LC_EVENT_4 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "LC_EVENT_4 changeQuestMessageText",
+    "completePlayerMessage": "LC_EVENT_4 completePlayerMessage",
+    "declinePlayerMessage": "LC_EVENT_4 declinePlayerMessage",
+    "description": "LC_EVENT_4 description",
+    "image": "/files/quest/icon/LC_EVENT_4_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "LC_EVENT_4 name",
+    "note": "LC_EVENT_4 note",
+    "restartable": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "LC_EVENT_4 startedMessageText",
+    "successMessageText": "LC_EVENT_4 successMessageText",
+    "traderId": "58330581ace78e27b8b10cee",
+    "type": "Expl",
+    "conditions": {
+      "Fail": [],
+      "AvailableForStart": [],
+      "AvailableForFinish": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "LC-EVENT4-EXPERIENCE-1",
+          "index": 0,
+          "type": "Experience",
+          "value": "50000"
+        }
+      ]
+    }
+  }
+}
