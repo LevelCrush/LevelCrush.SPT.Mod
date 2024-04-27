@@ -29,11 +29,11 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "LC_EVENT_1 TEXT",
+          "id": "LC_EVENT_4 TEXT",
           "index": 1,
           "parentId": "",
           "status": [4],
-          "target": "LC_EVENT_1",
+          "target": "LC_EVENT_4",
           "visibilityConditions": []
         }
       ],
