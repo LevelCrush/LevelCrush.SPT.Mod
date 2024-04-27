@@ -19,7 +19,7 @@
       "LaboratoryBotLimit": 10,
       "LighthouseBotLimit": 9,
       "ReserveBotLimit": 9,
-      "ShorelineBotLimit": 9,
+      "ShorelineBotLimit": 6,
       "WoodsBotLimit": 9,
       "CustomsBotLimit": 9,
       "TarkovStreetsBotLimit": 10,

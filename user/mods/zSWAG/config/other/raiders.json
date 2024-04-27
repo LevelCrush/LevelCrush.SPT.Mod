@@ -260,10 +260,26 @@
   "shoreline": [
     {
       "BossChance": 100,
-      "BossEscortAmount": "2,2,2,2,3",
+      "BossEscortAmount": "2",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
-      "BossZone": null,
+      "BossZone": ["ZoneSanatorium1"],
+      "Time": 1
+    },
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "2",
+      "BossEscortType": "pmcbot",
+      "BossName": "pmcbot",
+      "BossZone": ["ZoneSanatorium2"],
+      "Time": 1
+    },
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "2",
+      "BossEscortType": "pmcbot",
+      "BossName": "pmcbot",
+      "BossZone": ["ZoneGreenHouses"],
       "Time": 1
     }
   ],
