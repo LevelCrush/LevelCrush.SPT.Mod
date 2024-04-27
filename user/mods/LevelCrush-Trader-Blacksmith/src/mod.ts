@@ -20,6 +20,7 @@ import { FluentAssortConstructor } from "./fluentTraderAssortCreator";
 import { Money } from "@spt-aki/models/enums/Money";
 import { Traders } from "@spt-aki/models/enums/Traders";
 import { HashUtil } from "@spt-aki/utils/HashUtil";
+import Scanner from "./scanner";
 
 class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
   private mod: string;
@@ -97,6 +98,40 @@ class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
 
     // Add new trader to the trader dictionary in DatabaseServer - has no assorts (items) yet
     this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil);
+
+    const items = tables.templates.items;
+    const hideout = tables.hideout;
+    const prices = tables.templates.prices;
+
+    if (items && hideout && prices) {
+      this.logger.debug("Blacksmith has started to scan");
+
+      let scanner = new Scanner();
+      let trader_map = scanner.required_items_for_crafts(
+        items,
+        prices,
+        hideout
+      );
+
+      console.log(trader_map);
+
+      for (const trader_level in trader_map) {
+        const trader_level_parsed = parseInt(trader_level);
+        for (const item_id in trader_map[trader_level]) {
+          const price = trader_map[trader_level][item_id];
+          this.fluentTraderAssortHeper
+            .createSingleAssortItem(item_id)
+            .addUnlimitedStackCount()
+            .addMoneyCost(Money.ROUBLES, price)
+            .addLoyaltyLevel(trader_level_parsed)
+            .export(tables.traders[baseJson._id]);
+        }
+      }
+
+      this.logger.debug("Blacksmith has stopped scanning");
+    } else {
+      this.logger.debug("Blacksmith is skipping on scanning");
+    }
 
     // Add trader to locale file, ensures trader text shows properly on screen
     // WARNING: adds the same text to ALL locales (e.g. chinese/french/english)
