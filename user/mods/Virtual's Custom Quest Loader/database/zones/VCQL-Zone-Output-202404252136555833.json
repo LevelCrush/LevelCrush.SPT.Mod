@@ -1,27 +1,5 @@
 [
   {
-    "ZoneId": "Welcome to Tarkov Zone 2",
-    "ZoneName": "Welcome to Tarkov Zone 2",
-    "ZoneLocation": "Sandbox",
-    "ZoneType": "visit",
-    "FlareType": "",
-    "Position": {
-      "X": "215.0956",
-      "Y": "16.01762",
-      "Z": "38.24778"
-    },
-    "Rotation": {
-      "X": "0",
-      "Y": "0",
-      "Z": "0"
-    },
-    "Scale": {
-      "X": "4",
-      "Y": "3",
-      "Z": "3"
-    }
-  },
-  {
     "ZoneId": "Welcome to Tarkov 1",
     "ZoneName": "Welcome to Tarkov 1",
     "ZoneLocation": "Sandbox",

@@ -6,6 +6,7 @@
   "changeQuestMessageText": "LC_WTT_P1 changeQuestMessageText",
   "completePlayerMessage": "LC_WTT_P1 completePlayerMessage",
   "conditions": {
+    "AvailableForStart": [],
     "AvailableForFinish": [
       {
         "id": "LC_WTT_P1 TASK1",
@@ -17,7 +18,7 @@
               "conditionType": "VisitPlace",
               "dynamicLocale": false,
               "id": "LC_WTT_P1 TASK1 Visit",
-              "target": "room206_water",
+              "target": "Welcome to Tarkov 1",
               "value": 1
             }
           ],
@@ -65,13 +66,12 @@
         "visibilityConditions": [
           {
             "conditionType": "CompleteCondition",
-            "id": "LC_WTT_P1 TASK1 Visit",
+            "id": "LC_WTT_P1 TASK1 Visit Visibility",
             "target": "LC_WTT_P1 TASK1"
           }
         ]
       }
     ],
-    "AvailableForStart": [],
     "Fail": []
   },
   "declinePlayerMessage": "LC_WTT_P1 declinePlayerMessage",
