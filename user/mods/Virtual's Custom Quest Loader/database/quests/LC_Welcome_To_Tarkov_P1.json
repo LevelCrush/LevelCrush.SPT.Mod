@@ -1,168 +1,163 @@
 {
-    "QuestName": "Welcome To Tarkov Part 1",
-    "_id": "LC_WTT_P1",
-    "acceptPlayerMessage": "LC_WTT_P1 acceptPlayerMessage",
-    "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "LC_WTT_P1 changeQuestMessageText",
-    "completePlayerMessage": "LC_WTT_P1 completePlayerMessage",
-    "conditions": {
-        "AvailableForFinish": [
+  "QuestName": "Welcome To Tarkov Part 1",
+  "_id": "LC_WTT_P1",
+  "acceptPlayerMessage": "LC_WTT_P1 acceptPlayerMessage",
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "LC_WTT_P1 changeQuestMessageText",
+  "completePlayerMessage": "LC_WTT_P1 completePlayerMessage",
+  "conditions": {
+    "AvailableForFinish": [
+      {
+        "id": "LC_WTT_P1 TASK1",
+        "completeInSeconds": 0,
+        "conditionType": "CounterCreator",
+        "counter": {
+          "conditions": [
             {
-                "id": "LC_WTT_P1 TASK1",
-                "completeInSeconds": 0,
-                "conditionType": "CounterCreator",
-                "counter": {
-                    "conditions": [
-                        {
-                            "conditionType": "VisitPlace",
-                            "dynamicLocale": false,
-                            "id": "LC_WTT_P1 TASK1 Visit",
-                            "target": "room206_water",
-                            "value": 1
-                        }
-                    ],
-                    "id": "LC_WTT_P1 TASK1 Vist Counter"
-                },
-                "doNotResetIfCounterCompleted": false,
-                "dynamicLocale": false,
-                "globalQuestCounterId": "",
-                "index": 0,
-                "oneSessionOnly": false,
-                "parentId": "",
-                "type": "Exploration",
-                "value": 1,
-                "visibilityConditions": []
-            },
-            {
-                "completeInSeconds": 0,
-                "conditionType": "CounterCreator",
-                "counter": {
-                    "conditions": [
-                        {
-                            "conditionType": "Location",
-                            "dynamicLocale": false,
-                            "id": "LC_WTT_P1 TASK2",
-                            "target": [
-                                "Sandbox"
-                            ]
-                        },
-                        {
-                            "conditionType": "ExitStatus",
-                            "dynamicLocale": false,
-                            "id": "LC_WTT_P1 TASK2 survive",
-                            "status": [
-                                "Survived",
-                                "Runner"
-                            ]
-                        }
-                    ],
-                    "id": "LC_WTT_P1 TASK2"
-                },
-                "doNotResetIfCounterCompleted": false,
-                "dynamicLocale": false,
-                "globalQuestCounterId": "",
-                "id": "LC_WTT_P1 Task2",
-                "index": 1,
-                "oneSessionOnly": false,
-                "parentId": "",
-                "type": "Completion",
-                "value": 1,
-                "visibilityConditions": [
-                    {
-                        "conditionType": "CompleteCondition",
-                        "id": "LC_WTT_P1 TASK1 Visit",
-                        "target": "LC_WTT_P1 TASK1"
-                    }
-                ]
+              "conditionType": "VisitPlace",
+              "dynamicLocale": false,
+              "id": "LC_WTT_P1 TASK1 Visit",
+              "target": "room206_water",
+              "value": 1
             }
-        ],
-        "AvailableForStart": [],
-        "Fail": []
-    },
-    "declinePlayerMessage": "LC_WTT_P1 declinePlayerMessage",
-    "description": "LC_WTT_P1 description",
-    "failMessageText": "LC_WTT_P1 failMessageText",
-    "image": "/files/quest/icon/5968a09a86f7740d137ebfc5.jpg",
-    "instantComplete": false,
-    "isKey": false,
-    "location": "Sandbox",
-    "name": "LC_WTT_P1 name",
-    "note": "LC_WTT_P1 note",
-    "restartable": false,
-    "rewards": {
-        "Fail": [],
-        "Started": [],
-        "Success": [
+          ],
+          "id": "LC_WTT_P1 TASK1 Vist Counter"
+        },
+        "doNotResetIfCounterCompleted": false,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "index": 0,
+        "oneSessionOnly": false,
+        "parentId": "",
+        "type": "Exploration",
+        "value": 1,
+        "visibilityConditions": []
+      },
+      {
+        "completeInSeconds": 0,
+        "conditionType": "CounterCreator",
+        "counter": {
+          "conditions": [
             {
-                "id": "LC_WWT_P1_Experience_1",
-                "index": 0,
-                "type": "Experience",
-                "value": "1500"
+              "conditionType": "Location",
+              "dynamicLocale": false,
+              "id": "LC_WTT_P1 TASK2",
+              "target": ["Sandbox"]
             },
             {
-                "findInRaid": true,
-                "id": "WWT_Reward_P1_0",
-                "index": 1,
-                "items": [
-                    {
-                        "_id": "WWT_P1_Reward_Roubles",
-                        "_tpl": "5449016a4bdc2d6f028b456f",
-                        "upd": {
-                            "StackObjectsCount": 10000
-                        }
-                    }
-                ],
-                "target": "WWT_P1_Reward_Roubles",
-                "type": "Item",
-                "value": "10000"
-            },
-            {
-                "findInRaid": true,
-                "id": "WWT_Reward_P1_1",
-                "index": 2,
-                "items": [
-                    {
-                        "_id": "Salewa",
-                        "_tpl": "544fb45d4bdc2dee738b4568",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ],
-                "target": "Salewa",
-                "type": "Item",
-                "value": "1"
-            },
-            {
-                "findInRaid": true,
-                "id": "WWT_Reward_P1_2",
-                "index": 3,
-                "items": [
-                    {
-                        "_id": "Paca_Reward",
-                        "_tpl": "609e8540d5c319764c2bc2e9",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ],
-                "target": "Paca_Reward",
-                "type": "Item",
-                "value": "1"
-            },
-            {
-                "id": "WWT_Reward_P1_Ragman_TS",
-                "index": 4,
-                "target": "5ac3b934156ae10c4430e83c",
-                "type": "TraderStanding",
-                "value": "0.03"
+              "conditionType": "ExitStatus",
+              "dynamicLocale": false,
+              "id": "LC_WTT_P1 TASK2 survive",
+              "status": ["Survived", "Runner"]
             }
+          ],
+          "id": "LC_WTT_P1 TASK2"
+        },
+        "doNotResetIfCounterCompleted": false,
+        "dynamicLocale": false,
+        "globalQuestCounterId": "",
+        "id": "LC_WTT_P1 Task2",
+        "index": 1,
+        "oneSessionOnly": false,
+        "parentId": "",
+        "type": "Completion",
+        "value": 1,
+        "visibilityConditions": [
+          {
+            "conditionType": "CompleteCondition",
+            "id": "LC_WTT_P1 TASK1 Visit",
+            "target": "LC_WTT_P1 TASK1"
+          }
         ]
-    },
-    "secretQuest": false,
-    "side": "Pmc",
-    "startedMessageText": "LC_WTT_P1 startedMessageText",
-    "successMessageText": "LC_WTT_P1 successMessageText",
-    "traderId": "5ac3b934156ae10c4430e83c",
-    "type": "PickUp"
+      }
+    ],
+    "AvailableForStart": [],
+    "Fail": []
+  },
+  "declinePlayerMessage": "LC_WTT_P1 declinePlayerMessage",
+  "description": "LC_WTT_P1 description",
+  "failMessageText": "LC_WTT_P1 failMessageText",
+  "image": "/files/quest/icon/5968a09a86f7740d137ebfc5.jpg",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "Sandbox",
+  "name": "LC_WTT_P1 name",
+  "note": "LC_WTT_P1 note",
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [],
+    "Success": [
+      {
+        "id": "LC_WWT_P1_Experience_1",
+        "index": 0,
+        "type": "Experience",
+        "value": "1500"
+      },
+      {
+        "findInRaid": true,
+        "id": "WWT_Reward_P1_0",
+        "index": 1,
+        "items": [
+          {
+            "_id": "WWT_P1_Reward_Roubles",
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "upd": {
+              "StackObjectsCount": 10000
+            }
+          }
+        ],
+        "target": "WWT_P1_Reward_Roubles",
+        "type": "Item",
+        "value": "10000"
+      },
+      {
+        "findInRaid": true,
+        "id": "WWT_Reward_P1_1",
+        "index": 2,
+        "items": [
+          {
+            "_id": "Salewa",
+            "_tpl": "544fb45d4bdc2dee738b4568",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "target": "Salewa",
+        "type": "Item",
+        "value": "1"
+      },
+      {
+        "findInRaid": true,
+        "id": "WWT_Reward_P1_2",
+        "index": 3,
+        "items": [
+          {
+            "_id": "Paca_Reward",
+            "_tpl": "609e8540d5c319764c2bc2e9",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "target": "Paca_Reward",
+        "type": "Item",
+        "value": "1"
+      },
+      {
+        "id": "WWT_Reward_P1_Ragman_TS",
+        "index": 4,
+        "target": "5ac3b934156ae10c4430e83c",
+        "type": "TraderStanding",
+        "value": "0.03"
+      }
+    ]
+  },
+  "secretQuest": false,
+  "side": "Pmc",
+  "startedMessageText": "LC_WTT_P1 startedMessageText",
+  "successMessageText": "LC_WTT_P1 successMessageText",
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "type": "PickUp"
 }
