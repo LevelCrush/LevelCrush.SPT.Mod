@@ -10,3 +10,4 @@
 /user/mods/SITCoop/config/*
 /user/mods/DrakiaXYZ-LiveFleaPrices/config/prices.json
 !/user/mods/RemotePlugins/dist/*
+/user/mods/**/log/*.csv
