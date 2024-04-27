@@ -42,10 +42,26 @@
   "interchange": [
     {
       "BossChance": 100,
-      "BossEscortAmount": "1,2",
+      "BossEscortAmount": "2",
       "BossEscortType": "exusec",
       "BossName": "exusec",
       "BossZone": null,
+      "Time": 1
+    },
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "2",
+      "BossEscortType": "exusec",
+      "BossName": "exusec",
+      "BossZone": null,
+      "Time": 1
+    },
+    {
+      "BossChance": 100,
+      "BossEscortAmount": "2",
+      "BossEscortType": "exusec",
+      "BossName": "exusec",
+      "BossZone": ["ZoneOLI"],
       "Time": 1
     }
   ],

@@ -3,7 +3,7 @@
     "Name": "live-like",
     "PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 6,
+      "InterchangeBotLimit": 3,
       "LaboratoryBotLimit": 4,
       "LighthouseBotLimit": 9,
       "ReserveBotLimit": 9,
