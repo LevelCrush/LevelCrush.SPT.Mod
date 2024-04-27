@@ -45,7 +45,7 @@
       "BossEscortAmount": "0",
       "BossEscortType": "followerbully",
       "BossName": "bosstagilla",
-      "BossZone": ["ZoneOLI", "ZoneIDEA"],
+      "BossZone": null,
       "Time": -1
     }
   ],

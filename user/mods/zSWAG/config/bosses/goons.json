@@ -96,7 +96,7 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": ["ZoneCenter"]
+      "BossZone": ["ZoneCenter", "ZoneGoshan", "ZoneOli", "ZoneIDEA"]
     }
   ],
   "laboratory": [
