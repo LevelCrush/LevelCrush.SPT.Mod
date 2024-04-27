@@ -19,12 +19,104 @@
     "side": "Pmc",
     "startedMessageText": "LC_EVENT_4 startedMessageText",
     "successMessageText": "LC_EVENT_4 successMessageText",
-    "traderId": "58330581ace78e27b8b10cee",
-    "type": "Expl",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "Exploration",
     "conditions": {
       "Fail": [],
-      "AvailableForStart": [],
-      "AvailableForFinish": []
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_2 TEXT",
+          "index": 1,
+          "parentId": "",
+          "status": [4],
+          "target": "LC_EVENT_2",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "LC_EVENT_4 TASK1 Visit",
+                "target": "LC Event MEE P4_Z1",
+                "value": 1
+              }
+            ],
+            "id": "LC_EVENT_4 TASK1 Visit Counter"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_4 TASK1",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "LC_EVENT_4 TASK2 Visit",
+                "target": "LC Event MEE P4_Z2",
+                "value": 1
+              }
+            ],
+            "id": "LC_EVENT_4 TASK2 Counter"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_4 TASK2",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "LC_EVENT_4 TASK3 Visit",
+                "target": "LC Event MEE P4_Z3",
+                "value": 1
+              }
+            ],
+            "id": "LC_EVENT_4 TASK3 Counter"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_EVENT_4 TASK3",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
     },
     "rewards": {
       "Fail": [],
