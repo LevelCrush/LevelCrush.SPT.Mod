@@ -57,6 +57,14 @@
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
       "BossZone": null
+    },
+    {
+      "BossName": "arenafighterevent",
+      "BossChance": 100,
+      "Time": 1,
+      "BossEscortAmount": "3,4",
+      "BossEscortType": "arenafighterevent",
+      "BossZone": null
     }
   ],
   "lighthouse": [

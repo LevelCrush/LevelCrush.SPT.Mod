@@ -45,7 +45,7 @@
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
-      "BossZone": ["ZoneGoshan"],
+      "BossZone": ["ZoneGoshan", "ZoneOLI", "ZoneIDEA", "ZoneCenter"],
       "Time": -1
     }
   ],
