@@ -33,7 +33,9 @@ export class Scanner {
     // areas we are targeting in our scanner
     // 10 = Workbench
     // 7 = Medstation
-    const allowed_areas = [10, 7];
+    // 11 = Intel Center
+    // 8 =  Nutrition Unit
+    const allowed_areas = [10, 7, 11, 8];
 
     // scan production recipes
     for (const recipe of hideout.production) {
@@ -72,10 +74,12 @@ export class Scanner {
         const recipe = recipe_items[item_id];
         const has_price = typeof prices[item_id] !== "undefined" ? true : false;
         const target_price = has_price ? prices[item_id] : 999999;
-        if (is_quest_locked) {
-          levels["4"][item_id] = target_price;
-        } else {
-          levels[craft_required_level + ""][item_id] = target_price;
+        if (has_price) {
+          if (is_quest_locked) {
+            levels["4"][item_id] = target_price;
+          } else {
+            levels[craft_required_level + ""][item_id] = target_price;
+          }
         }
         global_item_tracker[item_id] = true;
       }

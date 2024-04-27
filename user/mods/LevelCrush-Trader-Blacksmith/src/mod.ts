@@ -113,7 +113,7 @@ class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         hideout
       );
 
-      console.log(trader_map);
+      //console.log(trader_map);
 
       for (const trader_level in trader_map) {
         const trader_level_parsed = parseInt(trader_level);
