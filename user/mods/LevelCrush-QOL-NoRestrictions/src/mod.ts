@@ -77,6 +77,7 @@ class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
         restriction["MaxInLobby"] = 999999;
         restriction["MaxInRaid"] = 999999;
       }
+      this.logger.debug("Done Lifting Restrictions on all items");
     }
 
     this.logger.debug(`[${this.mod}] postDb Loaded`);

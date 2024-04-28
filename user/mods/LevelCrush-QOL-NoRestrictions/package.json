@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "main": "src/mod.js",
   "license": "MIT",
-  "author": "Crackbone",
+  "author": "Primal-13",
   "akiVersion": "~3.8.x",
   "loadBefore": [],
   "loadAfter": [],
