@@ -157,7 +157,7 @@ class LC_QOL_Inertia implements IPreAkiLoadMod, IPostDBLoadMod {
     inertia: IDatabaseTables["globals"]["config"]["Inertia"]
   ) {
     console.log(this.modPath, "/config/" + name + ".json");
-    const serialized = JSON.stringify(inertia);
+    const serialized = JSON.stringify(inertia, null, 2);
     const writer = fs.writeFile(
       path.join(this.modPath, "/config/" + name + ".json"),
       serialized,

@@ -12,6 +12,7 @@ import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
 import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
 import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
 import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { HashUtil } from "@spt-aki/utils/HashUtil";
 
 class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
   private mod: string;
