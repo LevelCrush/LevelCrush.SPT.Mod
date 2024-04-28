@@ -222,7 +222,7 @@
                 "id": "LC_Blacksmith_1 TASK6",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "any",
+                "target": "Any",
                 "value": 1
               }
             ],
