@@ -1,6 +1,6 @@
 {
   "Blacksmith Quest 1": {
-    "QuestName": "Blacksmith WIP",
+    "QuestName": "Meet and Greet - Part 1",
     "_id": "LC_Blacksmith_1",
     "acceptPlayerMessage": "LC_Blacksmith_1 acceptPlayerMessage",
     "canShowNotificationsInGame": true,
@@ -19,7 +19,7 @@
     "side": "Pmc",
     "startedMessageText": "LC_Blacksmith_1 startedMessageText",
     "successMessageText": "LC_Blacksmith_1 successMessageText",
-    "traderId": "Blacksmithy123",
+    "traderId": "LevelCrushBlacksmith",
     "type": "Elimination",
     "conditions": {
       "Fail": [],

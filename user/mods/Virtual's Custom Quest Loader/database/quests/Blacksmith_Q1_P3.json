@@ -1,0 +1,177 @@
+{
+    "Blacksmith Quest 1": {
+      "QuestName": "Meet and Greet - Part 3",
+      "_id": "LC_Blacksmith_3",
+      "acceptPlayerMessage": "LC_Blacksmith_3 acceptPlayerMessage",
+      "canShowNotificationsInGame": true,
+      "changeQuestMessageText": "LC_Blacksmith_3 changeQuestMessageText",
+      "completePlayerMessage": "LC_Blacksmith_3 completePlayerMessage",
+      "declinePlayerMessage": "LC_Blacksmith_3 declinePlayerMessage",
+      "description": "LC_Blacksmith_3 description",
+      "image": "/files/quest/icon/LC_Blacksmith_1_thumbnail.png",
+      "instantComplete": false,
+      "isKey": false,
+      "location": "any",
+      "name": "LC_Blacksmith_3 name",
+      "note": "LC_Blacksmith_3 note",
+      "restartable": false,
+      "secretQuest": false,
+      "side": "Pmc",
+      "startedMessageText": "LC_Blacksmith_3 startedMessageText",
+      "successMessageText": "LC_Blacksmith_3 successMessageText",
+      "traderId": "LevelCrushBlacksmith",
+      "type": "Elimination",
+      "conditions": {
+        "Fail": [],
+        "AvailableForStart": [
+            {
+                "availableAfter": 0,
+                "conditionType": "Quest",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "LC_Blacksmith_2 text",
+                "index": 1,
+                "parentId": "",
+                "status": [4],
+                "target": "LC_Blacksmith_2",
+                "visibilityConditions": []
+              }
+        ],
+        "AvailableForFinish": [
+            {
+                "completeInSeconds": 0,
+                "conditionType": "CounterCreator",
+                "counter": {
+                  "conditions": [
+                    {
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "dynamicLocale": false,
+                      "id": "LC_Blacksmith_3 TASK1",
+                      "resetOnSessionEnd": false,
+                      "savageRole": [],
+                      "target": "AnyPmc",
+                      "value": 1,
+                      "weapon": ["59d6088586f774275f37482f"]
+                    }
+                  ],
+                  "id": "LC_Blacksmith_3 TASK1"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "LC_Blacksmith_3 TASK1",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "Elimination",
+                "value": 5,
+                "visibilityConditions": []
+              },
+              {
+                "completeInSeconds": 0,
+                "conditionType": "CounterCreator",
+                "counter": {
+                  "conditions": [
+                    {
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "dynamicLocale": false,
+                      "id": "LC_Blacksmith_3 TASK2",
+                      "resetOnSessionEnd": false,
+                      "savageRole": [],
+                      "target": "AnyPmc",
+                      "value": 1,
+                      "weapon": ["59e6687d86f77411d949b251"]
+                    }
+                  ],
+                  "id": "LC_Blacksmith_3 TASK2"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "LC_Blacksmith_3 TASK2",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "Elimination",
+                "value": 5,
+                "visibilityConditions": []
+              },
+              {
+                "completeInSeconds": 0,
+                "conditionType": "CounterCreator",
+                "counter": {
+                  "conditions": [
+                    {
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "dynamicLocale": false,
+                      "id": "LC_Blacksmith_3 TASK3",
+                      "resetOnSessionEnd": false,
+                      "savageRole": [],
+                      "target": "AnyPmc",
+                      "value": 1,
+                      "weapon": ["5d2f0d8048f0356c925bc3b0"]
+                    }
+                  ],
+                  "id": "LC_Blacksmith_3 TASK3"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "LC_Blacksmith_3 TASK3",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "Elimination",
+                "value": 5,
+                "visibilityConditions": []
+              },
+              {
+                "completeInSeconds": 0,
+                "conditionType": "CounterCreator",
+                "counter": {
+                  "conditions": [
+                    {
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "dynamicLocale": false,
+                      "id": "LC_Blacksmith_3 TASK4",
+                      "resetOnSessionEnd": false,
+                      "savageRole": [],
+                      "target": "AnyPmc",
+                      "value": 1,
+                      "weapon": ["5d43021ca4b9362eab4b5e25"]
+                    }
+                  ],
+                  "id": "LC_Blacksmith_3 TASK4"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "LC_Blacksmith_3 TASK4",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "Elimination",
+                "value": 5,
+                "visibilityConditions": []
+              }
+        ]
+      },
+      "rewards": {
+        "Fail": [],
+        "Started": [],
+        "Success": [
+          {
+            "id": "LC-Blacksmith2-EXPERIENCE-1",
+            "index": 0,
+            "type": "Experience",
+            "value": "25000"
+          }
+        ]
+      }
+    }
+  }
+  
