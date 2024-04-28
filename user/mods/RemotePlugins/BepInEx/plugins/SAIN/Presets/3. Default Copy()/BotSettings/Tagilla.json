@@ -1,7 +1,7 @@
 {
-  "Name": "BigPipe",
-  "WildSpawnType": "followerBigPipe",
-  "DifficultyModifier": 0.66,
+  "Name": "Tagilla",
+  "WildSpawnType": "bossTagilla",
+  "DifficultyModifier": 0.5,
   "Settings": {
     "easy": {
       "Aiming": {
@@ -28,7 +28,7 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -87,7 +87,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": false
+        "EnableExtracts": true
       },
       "Move": {},
       "Patrol": {},
@@ -133,7 +133,7 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -152,7 +152,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 100.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -182,7 +182,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 2.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -192,7 +192,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": false
+        "EnableExtracts": true
       },
       "Move": {},
       "Patrol": {},
@@ -238,7 +238,7 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -257,7 +257,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 125.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -287,7 +287,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 2.5,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -297,7 +297,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": false
+        "EnableExtracts": true
       },
       "Move": {},
       "Patrol": {},
@@ -343,7 +343,7 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
@@ -362,7 +362,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -392,7 +392,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 3.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -402,7 +402,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": false
+        "EnableExtracts": true
       },
       "Move": {},
       "Patrol": {},

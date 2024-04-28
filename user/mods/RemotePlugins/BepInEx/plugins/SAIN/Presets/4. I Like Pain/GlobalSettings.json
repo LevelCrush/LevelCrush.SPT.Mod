@@ -1,6 +1,6 @@
 {
   "General": {
-    "PerformanceMode": false,
+    "PerformanceMode": true,
     "GlobalDifficultyModifier": 1.35,
     "BotsUseGrenades": true,
     "HeadShotProtection": true,
@@ -99,7 +99,7 @@
     "MinLootValException": 1000000.0
   },
   "Mind": {
-    "GlobalAggression": 1.0
+    "GlobalAggression": 2.34
   },
   "NoBushESP": {
     "NoBushESPToggle": true,

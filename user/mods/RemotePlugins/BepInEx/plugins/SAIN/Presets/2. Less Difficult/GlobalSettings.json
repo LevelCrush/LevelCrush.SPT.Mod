@@ -1,11 +1,11 @@
 {
   "General": {
-    "PerformanceMode": false,
+    "PerformanceMode": true,
     "GlobalDifficultyModifier": 0.75,
-    "BotsUseGrenades": true,
+    "BotsUseGrenades": false,
     "HeadShotProtection": true,
     "NotLookingToggle": true,
-    "NotLookingTimeLimit": 4.0,
+    "NotLookingTimeLimit": 6.01,
     "NotLookingAngle": 45.0,
     "NotLookingVisionSpeedModifier": 1.1,
     "NotLookingAccuracyAmount": 0.33,
@@ -15,7 +15,7 @@
     "SAINCombatSoloLayerPriority": 20
   },
   "Aiming": {
-    "AccuracySpreadMultiGlobal": 1.5,
+    "AccuracySpreadMultiGlobal": 3.0,
     "FasterCQBReactionsGlobal": false
   },
   "Cover": {
