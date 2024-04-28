@@ -19,7 +19,7 @@
         "side": "Pmc",
         "startedMessageText": "LC_Blacksmith_4 startedMessageText",
         "successMessageText": "LC_Blacksmith_4 successMessageText",
-        "traderId": "Blacksmithy123",
+        "traderId": "LevelCrushBlacksmith",
         "type": "Elimination",
         "conditions": {
             "Fail": [],
