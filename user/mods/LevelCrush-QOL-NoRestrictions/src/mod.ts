@@ -13,14 +13,7 @@ import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
 import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
 import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 
-// New trader settings
-
-import { Money } from "@spt-aki/models/enums/Money";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { IRestrictionsInRaid } from "@spt-aki/models/eft/common/IGlobals";
-
-class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
+class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
   private mod: string;
   private logger: ILogger;
 
@@ -84,4 +77,4 @@ class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
   }
 }
 
-module.exports = { mod: new BlacksmithTrader() };
+module.exports = { mod: new LC_QOL_NoRestrictions() };

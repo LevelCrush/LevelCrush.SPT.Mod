@@ -1,0 +1,17 @@
+{
+  "SideTime": { "x": 0, "y": 0, "z": 0 },
+  "SpeedInertiaAfterJump": { "x": 1, "y": 1.55, "z": 0 },
+  "SprintAccelerationLimits": { "x": 1, "y": 0, "z": 0 },
+  "SprintBrakeInertia": { "x": 0, "y": 0, "z": 0 },
+  "TiltAcceleration": { "x": 1, "y": 1, "z": 0 },
+  "TiltInertiaMaxSpeed": { "x": 3, "y": 3, "z": 0 },
+  "TiltMaxSideBackSpeed": { "x": 1.2, "y": 0.8, "z": 0 },
+  "TiltStartSideBackSpeed": { "x": 0.8, "y": 0.5, "z": 0 },
+  "WalkInertia": { "x": 0.0, "y": 0, "z": 0 },
+  "BaseJumpPenalty": 0.05,
+  "BaseJumpPenaltyDuration": 0.2,
+  "InertiaLimits": { "x": 0, "y": 0, "z": 0.5 },
+  "InertiaLimitsStep": 0.025,
+  "InertiaTiltCurveMax": { "x": 1, "y": 0.06, "z": 0 },
+  "InertiaTiltCurveMin": { "x": 0, "y": 0.22, "z": 0 }
+}
