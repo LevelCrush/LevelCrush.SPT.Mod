@@ -1,6 +1,6 @@
 {
     "Blacksmith Quest 1": {
-      "QuestName": "Meet and Greet - Part 2",
+      "QuestName": "Meet and Greet - Part 3",
       "_id": "LC_Blacksmith_3",
       "acceptPlayerMessage": "LC_Blacksmith_3 acceptPlayerMessage",
       "canShowNotificationsInGame": true,
@@ -29,11 +29,11 @@
                 "conditionType": "Quest",
                 "dynamicLocale": false,
                 "globalQuestCounterId": "",
-                "id": "LC_Blacksmith_3 text",
+                "id": "LC_Blacksmith_2 text",
                 "index": 1,
                 "parentId": "",
                 "status": [4],
-                "target": "LC_Blacksmith_3",
+                "target": "LC_Blacksmith_2",
                 "visibilityConditions": []
               }
         ],
