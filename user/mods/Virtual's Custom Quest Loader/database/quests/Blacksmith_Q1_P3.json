@@ -169,6 +169,13 @@
             "index": 0,
             "type": "Experience",
             "value": "25000"
+          },
+          {
+            "id": "MAG_Reward_P3_Blacksmith_TS",
+            "index": 4,
+            "target": "LevelCrushBlacksmith",
+            "type": "TraderStanding",
+            "value": "0.10"
           }
         ]
       }
