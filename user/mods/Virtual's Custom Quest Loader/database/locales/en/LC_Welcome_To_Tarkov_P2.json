@@ -1,0 +1,12 @@
+{
+    "LC_WTT_P2 name": "Welcome To Tarkov Part 2",
+    "LC_WTT_P2 description": "The last guy i sent to scout the AGS and KORDS didnt come back and apparently he was one of my guys brother.Last I heard he was spotted by someone near mira ave.  If thats true I'm pretty sure what happened but I gotta double check, ya know? Oh and hey if you do find the guy. Make sure to check his pockets for a green flare.  You might not make it out of there if you don't.",
+    "LC_WTT_P2 text": "MEE4 Text",
+    "LC_WTT_P2 acceptPlayerMessage": "MEE4 Accept",
+    "LC_WTT_P2 changeQuestMessageText": "MEE4 changeQuestText",
+    "LC_WTT_P2 completePlayerMessage": "Ah so he was there huh? I'll let his brother know",
+    "LC_WTT_P2 successMessageText": "Ah so he was there huh? I'll let his brother know",
+    "LC_WTT_P2 note": "MEE4 Note Text",
+    "LC_WTT_P2 TASK1": "Find the body next to Mira Ave",
+    "LC_WTT_P2 TASK2": "Launch Flare in Mira ave Flare signal area and extract there"
+}
