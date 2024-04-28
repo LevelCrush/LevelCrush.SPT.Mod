@@ -1,27 +1,5 @@
 [
   {
-    "ZoneId": "Welcome to Tarkov Pt 4",
-    "ZoneName": "Welcome to Tarkov Pt 4",
-    "ZoneLocation": "Woods",
-    "ZoneType": "visit",
-    "FlareType": "",
-    "Position": {
-      "X": "437.4804",
-      "Y": "-11.01951",
-      "Z": "63.75873"
-    },
-    "Rotation": {
-      "X": "0",
-      "Y": "0",
-      "Z": "0"
-    },
-    "Scale": {
-      "X": "2",
-      "Y": "2",
-      "Z": "5"
-    }
-  },
-  {
     "ZoneId": "Welcome to Tarkov Pt 3",
     "ZoneName": "Welcome to Tarkov Pt 3",
     "ZoneLocation": "Woods",

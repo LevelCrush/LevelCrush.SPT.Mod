@@ -1,0 +1,12 @@
+{
+    "LC_WTT_P1 name": "Welcome To Tarkov Part 1",
+    "LC_WTT_P1 description": "Haven't made up my mind about you yet but welome to the shit. I've heard theres a basement entrance to the Nakatani corperate building. Find it for me and maybe after getting to know each other we can talk.",
+    "LC_WTT_P1 text": "MEE4 Text",
+    "LC_WTT_P1 acceptPlayerMessage": "MEE4 Accept",
+    "LC_WTT_P1 changeQuestMessageText": "MEE4 changeQuestText",
+    "LC_WTT_P1 completePlayerMessage": "I appreciate it. I'll get in contact with you later on.",
+    "LC_WTT_P1 successMessageText": "I appreciate it. I'll get in contact with you later on.",
+    "LC_WTT_P1 note": "MEE4 Note Text",
+    "LC_WTT_P1 TASK1": "Locate the Nakatani Corporate Office.",
+    "LC_WTT_P1 TASK2": "Survive and extract"
+}
