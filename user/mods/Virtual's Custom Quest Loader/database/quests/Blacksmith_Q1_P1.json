@@ -1,5 +1,5 @@
 {
-  "Blacksmith Quest 1": {
+  "LC_Blacksmith_1": {
     "QuestName": "Meet and Greet - Part 1",
     "_id": "LC_Blacksmith_1",
     "acceptPlayerMessage": "LC_Blacksmith_1 acceptPlayerMessage",
@@ -38,7 +38,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["63a0b208f444d32d6f03ea1e"],
+          "target": [
+            "63a0b208f444d32d6f03ea1e"
+          ],
           "value": 3,
           "visibilityConditions": []
         },
@@ -54,7 +56,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["63a0b208f444d32d6f03ea1e"],
+          "target": [
+            "63a0b208f444d32d6f03ea1e"
+          ],
           "value": 3,
           "visibilityConditions": []
         },
@@ -71,7 +75,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["590c311186f77424d1667482"],
+          "target": [
+            "590c311186f77424d1667482"
+          ],
           "value": 5,
           "visibilityConditions": []
         },
@@ -87,7 +93,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["590c311186f77424d1667482"],
+          "target": [
+            "590c311186f77424d1667482"
+          ],
           "value": 5,
           "visibilityConditions": []
         },
@@ -104,7 +112,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["590c5a7286f7747884343aea"],
+          "target": [
+            "590c5a7286f7747884343aea"
+          ],
           "value": 10,
           "visibilityConditions": []
         },
@@ -120,7 +130,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["590c5a7286f7747884343aea"],
+          "target": [
+            "590c5a7286f7747884343aea"
+          ],
           "value": 10,
           "visibilityConditions": []
         },
@@ -137,7 +149,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5d6fc78386f77449d825f9dc"],
+          "target": [
+            "5d6fc78386f77449d825f9dc"
+          ],
           "value": 10,
           "visibilityConditions": []
         },
@@ -153,7 +167,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5d6fc78386f77449d825f9dc"],
+          "target": [
+            "5d6fc78386f77449d825f9dc"
+          ],
           "value": 10,
           "visibilityConditions": []
         },
@@ -170,7 +186,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5d6fc87386f77449db3db94e"],
+          "target": [
+            "5d6fc87386f77449db3db94e"
+          ],
           "value": 10,
           "visibilityConditions": []
         },
@@ -186,24 +204,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5d6fc87386f77449db3db94e"],
-          "value": 10,
-          "visibilityConditions": []
-        },
-
-        {
-          "conditionType": "HandoverItem",
-          "dogtagLevel": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "LC_Blacksmith_1 TASK6",
-          "index": 9,
-          "isEncoded": false,
-          "maxDurability": 100,
-          "minDurability": 0,
-          "onlyFoundInRaid": true,
-          "parentId": "",
-          "target": ["5734779624597737e04bf329"],
+          "target": [
+            "5d6fc87386f77449db3db94e"
+          ],
           "value": 10,
           "visibilityConditions": []
         },
@@ -219,7 +222,7 @@
                 "id": "LC_Blacksmith_1 TASK6",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "any",
+                "target": "Any",
                 "value": 1
               }
             ],
