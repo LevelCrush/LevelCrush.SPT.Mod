@@ -51,11 +51,18 @@
                                 "dynamicLocale": false,
                                 "id": "LC_Blacksmith_4 TASK1",
                                 "resetOnSessionEnd": false,
-                                "savageRole": [],
-                                "target": "AnyPmc",
-                                "value": 1,
-                                "weapon": [
-                                    "59d6088586f774275f37482f"
+                                "savageRole": ["bossKojaniy"],
+                                "target": "Savage",
+                                "value": 1
+                            },
+                            {
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                    [
+                                        "5ab8dced86f774646209ec87"
+                                    ]
                                 ]
                             }
                         ],
@@ -69,7 +76,7 @@
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 5,
+                    "value": 1,
                     "visibilityConditions": []
                 },
                 {
@@ -85,9 +92,9 @@
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
-                        "5734779624597737e04bf329"
+                        "5c46fbd72e2216398b5a8c9c"
                     ],
-                    "value": 10,
+                    "value": 1,
                     "visibilityConditions": []
                 },
                 {
@@ -101,11 +108,18 @@
                                 "dynamicLocale": false,
                                 "id": "LC_Blacksmith_4 TASK3",
                                 "resetOnSessionEnd": false,
-                                "savageRole": [],
-                                "target": "AnyPmc",
-                                "value": 1,
-                                "weapon": [
-                                    "59d6088586f774275f37482f"
+                                "savageRole": ["bossKilla"],
+                                "target": "Savage",
+                                "value": 1
+                            },
+                            {
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                    [
+                                        "56e335e4d2720b6c058b456d"
+                                    ]
                                 ]
                             }
                         ],
@@ -119,7 +133,7 @@
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 5,
+                    "value": 1,
                     "visibilityConditions": []
                 },
                 {
@@ -135,9 +149,9 @@
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
-                        "5734779624597737e04bf329"
+                        "5c0e541586f7747fa54205c9"
                     ],
-                    "value": 10,
+                    "value": 1,
                     "visibilityConditions": []
                 },
                 {
@@ -151,11 +165,20 @@
                                 "dynamicLocale": false,
                                 "id": "LC_Blacksmith_4 TASK5",
                                 "resetOnSessionEnd": false,
-                                "savageRole": [],
-                                "target": "AnyPmc",
-                                "value": 1,
-                                "weapon": [
-                                    "59d6088586f774275f37482f"
+                                "savageRole": ["bossGluhar"],
+                                "target": "Savage",
+                                "value": 1
+                                
+                            }
+                            ,
+                            {
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                    [
+                                        "5648a7494bdc2d9d488b4583"
+                                    ]
                                 ]
                             }
                         ],
@@ -185,6 +208,6 @@
                     "value": "25000"
                 }
             ]
-            }
         }
     }
+}
