@@ -1,17 +1,12 @@
 {
-  "SelectedPreset": "3. Default Copy()",
+  "SelectedPreset": "3. Default",
   "DefaultPreset": "3. Default",
   "AdvancedBotConfigs": true,
-  "ConfigScaling": 1.0,
   "GlobalDebugMode": false,
-  "DebugExternal": false,
   "DrawDebugGizmos": false,
-  "DrawDebugLabels": false,
+  "ConfigScaling": 1.0,
   "CollectBotLayerBrainInfo": false,
   "DebugDrawProjectionPoints": false,
   "DebugEnablePathTester": false,
-  "DebugDrawSafePaths": false,
-  "DebugSearchGizmos": false,
-  "DebugMovementPlan": false,
-  "DebugHearing": false
+  "DebugDrawSafePaths": false
 }
