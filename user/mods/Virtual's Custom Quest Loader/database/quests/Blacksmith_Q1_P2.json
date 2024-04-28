@@ -29,11 +29,11 @@
                 "conditionType": "Quest",
                 "dynamicLocale": false,
                 "globalQuestCounterId": "",
-                "id": "LC_Blacksmith_2 text",
+                "id": "LC_Blacksmith_1 text",
                 "index": 1,
                 "parentId": "",
                 "status": [4],
-                "target": "LC_Blacksmith_2",
+                "target": "LC_Blacksmith_1",
                 "visibilityConditions": []
               }
         ],
