@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "_id": "AT233_carscop",
+      "_tpl": "AT233_carscop",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 20
+      }
+    },
+    {
+      "_id": "AT233_201scop",
+      "_tpl": "AT233_201scop",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999
+      }
+    },
+    {
+      "_id": "AT233_shotmodbase001",
+      "_tpl": "AT233_shotmodbase",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999
+      }
+    },
+    {
+      "_id": "AT233_shotmod001",
+      "_tpl": "AT233_shotmod",
+      "parentId": "AT233_shotmodbase001",
+      "slotId": "AT-shotmod"
+    },
+    {
+      "_id": "AT233_shotmodbase002",
+      "_tpl": "AT233_shotmodbase",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999
+      }
+    },
+    {
+      "_id": "AT233_shotmod002",
+      "_tpl": "AT233_shotmod02",
+      "parentId": "AT233_shotmodbase002",
+      "slotId": "AT-shotmod"
+    },
+    {
+      "_id": "AT233_shotmodbase003",
+      "_tpl": "AT233_shotmodbase",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999
+      }
+    },
+    {
+      "_id": "AT233_shotmod003",
+      "_tpl": "AT233_shotmod03",
+      "parentId": "AT233_shotmodbase003",
+      "slotId": "AT-shotmod"
+    },
+    {
+      "_id": "AT233_shotmodbase004",
+      "_tpl": "AT233_shotmodbase",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999
+      }
+    },
+    {
+      "_id": "AT233_shotmod004",
+      "_tpl": "AT233_breakershot",
+      "parentId": "AT233_shotmodbase004",
+      "slotId": "AT-shotmod"
+    }
+  ],
+  "barter_scheme": {
+    "AT233_201scop": [
+      [
+        {
+          "count": 50000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "AT233_carscop": [
+      [
+        {
+          "count": 50000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "AT233_shotmodbase001": [
+      [
+        {
+          "count": 4000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "AT233_shotmodbase002": [
+      [
+        {
+          "count": 4000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "AT233_shotmodbase003": [
+      [
+        {
+          "count": 4000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "AT233_shotmodbase004": [
+      [
+        {
+          "count": 4000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ]
+  },
+  "loyal_level_items": {
+    "AT233_shotmodbase001": 4,
+    "AT233_shotmodbase002": 4,
+    "AT233_shotmodbase003": 4,
+    "AT233_shotmodbase004": 4,
+    "AT233_carscop": 4,
+    "AT233_201scop": 4
+  }
+}

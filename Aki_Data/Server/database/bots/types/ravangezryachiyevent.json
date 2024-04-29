@@ -2067,9 +2067,7 @@
     },
     "standingForKill": 0
   },
-  "firstName": [
-    "Костян"
-  ],
+  "firstName": ["Костян"],
   "generation": {
     "items": {
       "backpackLoot": {
@@ -2258,93 +2256,43 @@
     },
     "mods": {
       "5f5f41476bdad616ad46d631": {
-        "Back_plate": [
-          "657b2797c3dbcb01d60c35ea",
-          "657b28d25f444d6dff0c6c77"
-        ],
-        "Collar": [
-          "65731b666e709cddd001ec43"
-        ],
-        "Front_plate": [
-          "656f664200d62bcd2e024077",
-          "656f66b5c6baea13cd07e108"
-        ],
-        "Groin": [
-          "65731b716e709cddd001ec47"
-        ],
-        "Groin_back": [
-          "65731b6b6042b0f210020ef6"
-        ],
-        "Left_side_plate": [
-          "654a4f8bc721968a4404ef18"
-        ],
-        "Right_side_plate": [
-          "654a4f8bc721968a4404ef18"
-        ],
-        "Soft_armor_back": [
-          "65731b4fcea9255e2102360e"
-        ],
-        "Soft_armor_front": [
-          "65731b46cea9255e2102360a"
-        ],
-        "Soft_armor_left": [
-          "65731b576e709cddd001ec3f"
-        ],
-        "soft_armor_right": [
-          "65731b60ff6dc44a7d068c4a"
-        ]
+        "Back_plate": ["657b2797c3dbcb01d60c35ea", "657b28d25f444d6dff0c6c77"],
+        "Collar": ["65731b666e709cddd001ec43"],
+        "Front_plate": ["656f664200d62bcd2e024077", "656f66b5c6baea13cd07e108"],
+        "Groin": ["65731b716e709cddd001ec47"],
+        "Groin_back": ["65731b6b6042b0f210020ef6"],
+        "Left_side_plate": ["654a4f8bc721968a4404ef18"],
+        "Right_side_plate": ["654a4f8bc721968a4404ef18"],
+        "Soft_armor_back": ["65731b4fcea9255e2102360e"],
+        "Soft_armor_front": ["65731b46cea9255e2102360a"],
+        "Soft_armor_left": ["65731b576e709cddd001ec3f"],
+        "soft_armor_right": ["65731b60ff6dc44a7d068c4a"]
       },
       "602e3f1254072b51b239f713": {
-        "mod_stock_000": [
-          "602e620f9b513876d4338d9a"
-        ]
+        "mod_stock_000": ["602e620f9b513876d4338d9a"]
       },
       "602e63fb6335467b0c5ac94d": {
-        "mod_barrel": [
-          "603372b4da11d6478d5a07ff"
-        ],
-        "mod_handguard": [
-          "6034e3cb0ddce744014cb870"
-        ],
-        "mod_sight_rear": [
-          "5bc09a18d4351e003562b68e"
-        ]
+        "mod_barrel": ["603372b4da11d6478d5a07ff"],
+        "mod_handguard": ["6034e3cb0ddce744014cb870"],
+        "mod_sight_rear": ["5bc09a18d4351e003562b68e"]
       },
       "603372b4da11d6478d5a07ff": {
-        "mod_muzzle": [
-          "5c6165902e22160010261b28"
-        ]
+        "mod_muzzle": ["5c6165902e22160010261b28"]
       },
       "60339954d62c9b14ed777c06": {
-        "mod_charge": [
-          "6033749e88382f4fab3fd2c5"
-        ],
-        "mod_magazine": [
-          "5a7ad2e851dfba0016153692"
-        ],
-        "mod_pistol_grip": [
-          "57c55efc2459772d2c6271e7"
-        ],
-        "mod_reciever": [
-          "602e63fb6335467b0c5ac94d"
-        ],
-        "mod_stock_001": [
-          "602e3f1254072b51b239f713"
-        ],
-        "mod_tactical_000": [
-          "602f85fd9b513876d4338d9c"
-        ]
+        "mod_charge": ["6033749e88382f4fab3fd2c5"],
+        "mod_magazine": ["5a7ad2e851dfba0016153692"],
+        "mod_pistol_grip": ["57c55efc2459772d2c6271e7"],
+        "mod_reciever": ["602e63fb6335467b0c5ac94d"],
+        "mod_stock_001": ["602e3f1254072b51b239f713"],
+        "mod_tactical_000": ["602f85fd9b513876d4338d9c"]
       },
       "6034e3cb0ddce744014cb870": {
-        "mod_sight_front": [
-          "5bc09a30d4351e00367fb7c8"
-        ]
+        "mod_sight_front": ["5bc09a30d4351e00367fb7c8"]
       }
     }
   },
-  "lastName": [
-    "Планчик"
-  ],
+  "lastName": ["Планчик"],
   "skills": {
     "Common": {
       "BotReload": {

@@ -1,0 +1,29 @@
+{
+  "name": "paulovs-shared-stash-trader",
+  "version": "1.1.0",
+  "main": "src/PaulovsSharedStashTrader.js",
+  "license": "MIT",
+  "author": "Paulov",
+  "akiVersion": "~3.8",
+  "engines": {
+    "node": "20.11.1"
+  },
+  "scripts": {
+    "setup": "npm i",
+    "build": "node ./packageBuild.ts"
+  },
+  "devDependencies": {
+    "@types/node": "18.18.4",
+    "@typescript-eslint/eslint-plugin": "6.7.5",
+    "@typescript-eslint/parser": "6.7.5",
+    "archiver": "^6.0",
+    "eslint": "8.51.0",
+    "fs-extra": "^11.1",
+    "ignore": "^5.2",
+    "os": "^0.1",
+    "tsyringe": "4.8.0",
+    "typescript": "5.2.2",
+    "winston": "3.11.0"
+  },
+  "dependencies": {}
+}

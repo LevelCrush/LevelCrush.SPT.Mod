@@ -1,0 +1,24 @@
+[
+  {
+    "ZoneId": "LC Event MEE P4_Z3",
+    "ZoneName": "LC Event MEE P4_Z3",
+    "ZoneLocation": "Interchange",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "95.03826",
+      "Y": "36.56974",
+      "Z": "48.35608"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "9.75",
+      "Y": "3.5",
+      "Z": "32.25"
+    }
+  }
+]

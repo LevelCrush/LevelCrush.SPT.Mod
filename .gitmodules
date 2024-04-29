@@ -1,0 +1,3 @@
+[submodule "user/mods/SIT-Social-Features"]
+	path = user/mods/SIT-Social-Features
+	url = https://code.levelcrush.com/LevelCrush/SIT-Social-Features.git

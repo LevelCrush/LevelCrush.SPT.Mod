@@ -1,0 +1,220 @@
+{
+    "LC_Blacksmith_4": {
+        "QuestName": "Meet and Greet - Part 4",
+        "_id": "LC_Blacksmith_4",
+        "acceptPlayerMessage": "LC_Blacksmith_4 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "LC_Blacksmith_4 changeQuestMessageText",
+        "completePlayerMessage": "LC_Blacksmith_4 completePlayerMessage",
+        "declinePlayerMessage": "LC_Blacksmith_4 declinePlayerMessage",
+        "description": "LC_Blacksmith_4 description",
+        "image": "/files/quest/icon/LC_Blacksmith_1_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "LC_Blacksmith_4 name",
+        "note": "LC_Blacksmith_4 note",
+        "restartable": false,
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "LC_Blacksmith_4 startedMessageText",
+        "successMessageText": "LC_Blacksmith_4 successMessageText",
+        "traderId": "LevelCrushBlacksmith",
+        "type": "Elimination",
+        "conditions": {
+            "Fail": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Blacksmith_3 text",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "LC_Blacksmith_3",
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "dynamicLocale": false,
+                                "id": "LC_Blacksmith_4 TASK1",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossKojaniy"],
+                                "target": "Savage",
+                                "value": 1
+                            },
+                            {
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                    [
+                                        "5ab8dced86f774646209ec87"
+                                    ]
+                                ]
+                            }
+                        ],
+                        "id": "LC_Blacksmith_4 TASK1"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Blacksmith_4 TASK1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Blacksmith_4 TASK2",
+                    "index": 9,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5c46fbd72e2216398b5a8c9c"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "dynamicLocale": false,
+                                "id": "LC_Blacksmith_4 TASK3",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossKilla"],
+                                "target": "Savage",
+                                "value": 1
+                            },
+                            {
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                    [
+                                        "56e335e4d2720b6c058b456d"
+                                    ]
+                                ]
+                            }
+                        ],
+                        "id": "LC_Blacksmith_4 TASK3"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Blacksmith_4 TASK3",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Blacksmith_4 TASK4",
+                    "index": 9,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5c0e541586f7747fa54205c9"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "dynamicLocale": false,
+                                "id": "LC_Blacksmith_4 TASK5",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossGluhar"],
+                                "target": "Savage",
+                                "value": 1
+                                
+                            }
+                            ,
+                            {
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                    [
+                                        "5648a7494bdc2d9d488b4583"
+                                    ]
+                                ]
+                            }
+                        ],
+                        "id": "LC_Blacksmith_4 TASK5"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Blacksmith_4 TASK5",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ]
+        },
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "LC-Blacksmith2-EXPERIENCE-1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "25000"
+                },
+                {
+                  "id": "MAG_Reward_P4_Blacksmith_TS",
+                  "index": 4,
+                  "target": "LevelCrushBlacksmith",
+                  "type": "TraderStanding",
+                  "value": "0.10"
+                }
+            ]
+        }
+    }
+}

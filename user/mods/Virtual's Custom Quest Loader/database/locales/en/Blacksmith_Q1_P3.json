@@ -1,0 +1,14 @@
+{
+    "LC_Blacksmith_3 name": "Meet and Greet - Part 3",
+    "LC_Blacksmith_3 description": "You have proven to me that you can make some decent quality things Kiddo. However making and using are two different things. I may hunker in here and only create but even I have enemies. Think you can rough a few of those PMCs up with your ammo? In fact lets make this fun! Use these weapons to do it! Oh I look forward to hearing all about it on your next visit.",
+    "LC_Blacksmith_3 text": "BQ1 Text",
+    "LC_Blacksmith_3 acceptPlayerMessage": "BQ1 Accept",
+    "LC_Blacksmith_3 changeQuestMessageText": "BQ1 changeQuestText",
+    "LC_Blacksmith_3 completePlayerMessage": "Nice shootin Kiddo. Here is your reward as promised.",
+    "LC_Blacksmith_3 successMessageText": "Nice shootin Kiddo. Here is your reward as promised.",
+    "LC_Blacksmith_3 note": "BQ1 Note Text",
+    "LC_Blacksmith_3 TASK1": "Kill 5 PMCs using a Kalashnikov AKM 7.62x39 assault rifle",
+    "LC_Blacksmith_3 TASK2": "Kill 5 PMCs using a Molot Arms VPO-209 .366 TKM carbine",
+    "LC_Blacksmith_3 TASK3": "Kill 5 PMCs using a HK MP5K 9x19 submachine gun",
+    "LC_Blacksmith_3 TASK4": "Kill 5 PMCs using a Lone Star TX-15 DML 5.56x45 carbine"
+}

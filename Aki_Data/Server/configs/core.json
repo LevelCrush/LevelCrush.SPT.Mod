@@ -1,33 +1,33 @@
 {
-    "akiVersion": "3.8.0",
-    "projectName": "SPT-AKI",
-    "compatibleTarkovVersion": "0.14.1.29197",
-    "serverName": "SPT Server",
-    "profileSaveIntervalSeconds": 15,
-    "sptFriendNickname": "SPT",
-    "bsgLogging": {
-        "verbosity": 6,
-        "sendToServer": false
-    },
-    "release": {
-        "betaDisclaimerTimeoutDelay": 30
-    },
-    "fixes": {
-        "fixShotgunDispersion": true,
-        "removeModItemsFromProfile": false,
-        "fixProfileBreakingInventoryItemIssues": false
-    },
-    "features": {
-        "autoInstallModDependencies": false,
-        "compressProfile": false,
-        "chatbotFeatures": {
-            "sptFriendEnabled": true,
-            "commandoEnabled": true,
-            "commandoFeatures": {
-                "giveCommandEnabled": true
-            }
-        }
-    },
-    "commit": "2dd4d914382657378d9cdec173039d771fe33220",
-    "buildTime": 1712007038941
+  "akiVersion": "3.8.0",
+  "projectName": "SPT-AKI",
+  "compatibleTarkovVersion": "0.14.1.29197",
+  "serverName": "Level Crush",
+  "profileSaveIntervalSeconds": 15,
+  "sptFriendNickname": "SPT",
+  "bsgLogging": {
+    "verbosity": 6,
+    "sendToServer": false
+  },
+  "release": {
+    "betaDisclaimerTimeoutDelay": 30
+  },
+  "fixes": {
+    "fixShotgunDispersion": true,
+    "removeModItemsFromProfile": false,
+    "fixProfileBreakingInventoryItemIssues": false
+  },
+  "features": {
+    "autoInstallModDependencies": true,
+    "compressProfile": false,
+    "chatbotFeatures": {
+      "sptFriendEnabled": true,
+      "commandoEnabled": true,
+      "commandoFeatures": {
+        "giveCommandEnabled": true
+      }
+    }
+  },
+  "commit": "2dd4d914382657378d9cdec173039d771fe33220",
+  "buildTime": 1712007038941
 }

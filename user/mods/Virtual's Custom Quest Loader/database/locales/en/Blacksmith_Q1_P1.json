@@ -1,0 +1,21 @@
+{
+    "LC_Blacksmith_1 name": "Meet and Greet - Part 1",
+      "LC_Blacksmith_1 description": "Hello Kiddo. I've heard you've been making quite a mess of things around here. I can provide you with materials that you can turn into other whatever you need. However I would like to be able to work comfortably. With that said, get me some tools and I will teach you a thing or two.",
+      "LC_Blacksmith_1 text": "BQ1 Text",
+      "LC_Blacksmith_1 acceptPlayerMessage": "BQ1 Accept",
+      "LC_Blacksmith_1 changeQuestMessageText": "BQ1 changeQuestText",
+      "LC_Blacksmith_1 completePlayerMessage": "Gee thanks kiddo. Your reward as promised.",
+      "LC_Blacksmith_1 successMessageText": "Gee thanks kiddo. Your reward as promised.",
+      "LC_Blacksmith_1 note": "BQ1 Note Text",
+      "LC_Blacksmith_1 TASK1": "Hand in 3 found in raid Sledgehammer",
+      "LC_Blacksmith_1 TASK1 Find": "Find 3 found in raid Sledgehammer",
+      "LC_Blacksmith_1 TASK2": "Hand in 5 found in raid Wrenches",
+      "LC_Blacksmith_1 TASK2 Find": "Find in 5 found in raid Wrenches",
+      "LC_Blacksmith_1 TASK3": "Hand in 10 found in raid Kite Gunpowder",
+      "LC_Blacksmith_1 TASK3 Find": "Find 10 found in raid Kite Gunpowder",
+      "LC_Blacksmith_1 TASK4": "Hand in 10 found in raid Eagle Gunpowder",
+      "LC_Blacksmith_1 TASK4 Find": "Find 10 found in raid Eagle Gunpowder",
+      "LC_Blacksmith_1 TASK5": "Hand in 10 found in raid Hawk Gunpowder",
+      "LC_Blacksmith_1 TASK5 Find": "Find 10 found in raid Hawk Gunpowder",
+      "LC_Blacksmith_1 TASK6": "Eliminate 20 targets accross the Tarkov Territories"
+    }

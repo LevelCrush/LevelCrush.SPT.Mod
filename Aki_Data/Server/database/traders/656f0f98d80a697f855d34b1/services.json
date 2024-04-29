@@ -1,11 +1,11 @@
 [
-	{
-		"serviceType": "BtrItemsDelivery"
-	},
-	{
-		"serviceType": "PlayerTaxi"
-	},
-	{
-		"serviceType": "BtrBotCover"
-	}
+  {
+    "serviceType": "BtrItemsDelivery"
+  },
+  {
+    "serviceType": "PlayerTaxi"
+  },
+  {
+    "serviceType": "BtrBotCover"
+  }
 ]

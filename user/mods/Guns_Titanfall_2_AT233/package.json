@@ -1,0 +1,24 @@
+{
+  "name": "Guns_Titanfall_2_AT233",
+  "version": "2.0.0",
+  "main": "src/mod.js",
+  "license": "<PETTAN><Model/BUNDLES - AT233 - MIT><Backend - Mighty_Condor - University of Illinois/NCSA Open Source License>",
+  "author": "PETTAN",
+  "akiVersion": "3.8.x",
+  "isBundleMod": true,
+  "loadBefore": [
+    "yATT_Sights_Laser_Titanfall_2_AT233"
+  ],
+  "loadAfter": [
+    "aaMFACSHOP"
+  ],
+  "incompatibilities": [
+    "SPT-Realism"
+  ],
+  "contributors": [
+    "Bundles - AT233",
+    "Backend - Mighty_Condor"
+  ],
+  "scripts": {},
+  "devDependencies": {}
+}

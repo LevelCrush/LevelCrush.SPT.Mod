@@ -1,0 +1,15 @@
+{
+    "LC_Blacksmith_4 name": "Meet and Greet - Part 4",
+    "LC_Blacksmith_4 description": "Time to put it all together Kiddo! Have a good time with this.",
+    "LC_Blacksmith_4 text": "BQ1 Text",
+    "LC_Blacksmith_4 acceptPlayerMessage": "BQ1 Accept",
+    "LC_Blacksmith_4 changeQuestMessageText": "BQ1 changeQuestText",
+    "LC_Blacksmith_4 completePlayerMessage": "Ha! Well done. More to come soon.",
+    "LC_Blacksmith_4 successMessageText": "Ha! Well done. More to come soon.",
+    "LC_Blacksmith_4 note": "BQ1 Note Text",
+    "LC_Blacksmith_4 TASK1": "Wearing an ANA Tactical M2 plate carrier (Digital Flora) kill Shturman",
+    "LC_Blacksmith_4 TASK2": "Turn in Shturman's SVDS",
+    "LC_Blacksmith_4 TASK3": "Wearing a Scav backpack kill Killa",
+    "LC_Blacksmith_4 TASK4": "Turn in Killa's Armor",
+    "LC_Blacksmith_4 TASK5": "Wearing a PACA Soft Armor kill Glukhar"
+}
