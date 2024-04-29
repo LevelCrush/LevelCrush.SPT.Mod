@@ -18,7 +18,7 @@
     "fixProfileBreakingInventoryItemIssues": false
   },
   "features": {
-    "autoInstallModDependencies": false,
+    "autoInstallModDependencies": true,
     "compressProfile": false,
     "chatbotFeatures": {
       "sptFriendEnabled": true,

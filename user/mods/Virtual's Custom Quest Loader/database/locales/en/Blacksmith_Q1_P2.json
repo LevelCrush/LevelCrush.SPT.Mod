@@ -1,0 +1,18 @@
+{
+    "LC_Blacksmith_2 name": "Meet and Greet - Part 2",
+      "LC_Blacksmith_2 description": "Your first job went pretty smoothly kiddo. I think I might just be able to make a worthy apprentice out of you yet. It is important to scavenge from the land as much as you can, but it is equally important to remember you can mold some of the more raw materials. Here is a list of some of the more common crafted items. Give them to me so I can ensure your quality is up to snuff. Get to it kiddo!",
+      "LC_Blacksmith_2 text": "BQ1 Text",
+      "LC_Blacksmith_2 acceptPlayerMessage": "BQ1 Accept",
+      "LC_Blacksmith_2 changeQuestMessageText": "BQ1 changeQuestText",
+      "LC_Blacksmith_2 completePlayerMessage": "Looks good kiddo! We will make something of you yet.",
+      "LC_Blacksmith_2 successMessageText": "Looks good kiddo! We will make something of you yet.",
+      "LC_Blacksmith_2 note": "BQ1 Note Text",
+      "LC_Blacksmith_2 TASK1": "Hand in 10 found in raid or crafted Printed Circuit Boards",
+      "LC_Blacksmith_2 TASK1 Find": "Find 10 found in raid or crafted Printed Circuit Boards",
+      "LC_Blacksmith_2 TASK2": "Hand in 2 found in raid or crafted Gas Analyzers",
+      "LC_Blacksmith_2 TASK2 Find": "Find in 2 found in raid or crafted Gas Analyzers",
+      "LC_Blacksmith_2 TASK3": "Hand in 1 found in raid or crafted Greenbat Lithium Ion Battery",
+      "LC_Blacksmith_2 TASK3 Find": "Find 1 found in raid or crafted Greenbat Lithium Ion Battery",
+      "LC_Blacksmith_2 TASK4": "Hand in 300 found in raid or crafted 7.62x39mm PS gzh ammo",
+      "LC_Blacksmith_2 TASK4 Find": "Find 300 found in raid or crafted 7.62x39mm PS gzh ammo"
+}
