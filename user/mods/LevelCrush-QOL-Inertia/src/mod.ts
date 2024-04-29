@@ -130,7 +130,7 @@ class LC_QOL_Inertia implements IPreAkiLoadMod, IPostDBLoadMod {
         JSON.stringify(this.databaseServer.getTables().globals.config.Inertia)
       );
       this.interval_monitor_inertia();
-    }, 60 * 1000); /// every 300 seconds output inertia
+    }, 3600 * 1000); /// every 300 seconds output inertia
   }
 
   /// savethe passed inertia as a factory (default)
