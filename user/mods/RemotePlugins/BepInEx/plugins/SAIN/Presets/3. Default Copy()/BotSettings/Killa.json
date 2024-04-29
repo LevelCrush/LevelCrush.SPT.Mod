@@ -1,7 +1,7 @@
 {
-  "Name": "BigPipe",
-  "WildSpawnType": "followerBigPipe",
-  "DifficultyModifier": 0.66,
+  "Name": "Killa",
+  "WildSpawnType": "bossKilla",
+  "DifficultyModifier": 0.75,
   "Settings": {
     "easy": {
       "Aiming": {
@@ -12,7 +12,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -28,11 +28,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.138,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -117,7 +117,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -133,11 +133,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.133,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -152,7 +152,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 100.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -182,7 +182,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.5,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -222,7 +222,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -238,11 +238,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.135,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -257,7 +257,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 125.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -287,7 +287,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 2.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -327,7 +327,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -343,11 +343,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 137.0,
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.131,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -362,7 +362,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -392,7 +392,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 3.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,

@@ -1,7 +1,7 @@
 {
-  "Name": "BigPipe",
-  "WildSpawnType": "followerBigPipe",
-  "DifficultyModifier": 0.66,
+  "Name": "Gluhar Guard Scout",
+  "WildSpawnType": "followerGluharScout",
+  "DifficultyModifier": 0.5,
   "Settings": {
     "easy": {
       "Aiming": {
@@ -12,7 +12,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -28,11 +28,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 142.0,
         "GainSightCoef": 0.1,
-        "ScatteringPerMeter": 0.1,
+        "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.138,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -40,7 +40,7 @@
         "TimeSinceSeenBeforeThrow": 3.0,
         "DELTA_NEXT_ATTEMPT": 2.0,
         "MIN_DIST_NOT_TO_THROW": 8.0,
-        "GrenadePrecision": 0.05,
+        "GrenadePrecision": 0.01,
         "MIN_THROW_GRENADE_DIST": 8.0,
         "CHANCE_TO_NOTIFY_ENEMY_GR_100": 100.0,
         "DELTA_GRENADE_START_TIME": 0.0,
@@ -103,8 +103,8 @@
         "FireratMulti": 1.35,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1,
-        "BASE_AUTOMATIC_TIME": 0.4,
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     },
@@ -117,7 +117,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -133,11 +133,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 142.0,
         "GainSightCoef": 0.1,
-        "ScatteringPerMeter": 0.1,
+        "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.133,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -145,14 +145,14 @@
         "TimeSinceSeenBeforeThrow": 3.0,
         "DELTA_NEXT_ATTEMPT": 2.0,
         "MIN_DIST_NOT_TO_THROW": 8.0,
-        "GrenadePrecision": 0.05,
+        "GrenadePrecision": 0.01,
         "MIN_THROW_GRENADE_DIST": 8.0,
         "CHANCE_TO_NOTIFY_ENEMY_GR_100": 100.0,
         "DELTA_GRENADE_START_TIME": 0.0,
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 100.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -182,7 +182,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.5,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -208,8 +208,8 @@
         "FireratMulti": 1.35,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1,
-        "BASE_AUTOMATIC_TIME": 0.4,
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     },
@@ -222,7 +222,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -238,11 +238,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 142.0,
         "GainSightCoef": 0.1,
-        "ScatteringPerMeter": 0.1,
+        "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.135,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -250,14 +250,14 @@
         "TimeSinceSeenBeforeThrow": 3.0,
         "DELTA_NEXT_ATTEMPT": 2.0,
         "MIN_DIST_NOT_TO_THROW": 8.0,
-        "GrenadePrecision": 0.05,
+        "GrenadePrecision": 0.01,
         "MIN_THROW_GRENADE_DIST": 8.0,
         "CHANCE_TO_NOTIFY_ENEMY_GR_100": 100.0,
         "DELTA_GRENADE_START_TIME": 0.0,
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 125.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -287,7 +287,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 2.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -313,8 +313,8 @@
         "FireratMulti": 1.35,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1,
-        "BASE_AUTOMATIC_TIME": 0.4,
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     },
@@ -327,7 +327,7 @@
         "AccuracySpreadMulti": 1.0,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
-        "MAX_AIM_TIME": 0.3,
+        "MAX_AIM_TIME": 1.5,
         "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
@@ -343,11 +343,11 @@
       "Change": {},
       "Core": {
         "VisibleAngle": 160.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 142.0,
         "GainSightCoef": 0.1,
-        "ScatteringPerMeter": 0.1,
+        "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.131,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -355,14 +355,14 @@
         "TimeSinceSeenBeforeThrow": 3.0,
         "DELTA_NEXT_ATTEMPT": 2.0,
         "MIN_DIST_NOT_TO_THROW": 8.0,
-        "GrenadePrecision": 0.05,
+        "GrenadePrecision": 0.01,
         "MIN_THROW_GRENADE_DIST": 8.0,
         "CHANCE_TO_NOTIFY_ENEMY_GR_100": 100.0,
         "DELTA_GRENADE_START_TIME": 0.0,
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -392,7 +392,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 3.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -418,8 +418,8 @@
         "FireratMulti": 1.35,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1,
-        "BASE_AUTOMATIC_TIME": 0.4,
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     }
