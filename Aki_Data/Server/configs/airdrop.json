@@ -1,10 +1,10 @@
 {
   "airdropChancePercent": {
     "bigmap": 25,
-    "woods": 25,
+    "woods": 100,
     "lighthouse": 20,
-    "shoreline": 20,
-    "interchange": 20,
+    "shoreline": 100,
+    "interchange": 100,
     "reserve": 20,
     "tarkovStreets": 20,
     "sandbox": 20
@@ -19,7 +19,7 @@
   "airdropMaxStartTimeSeconds": 300,
   "planeMinFlyHeight": 400,
   "planeMaxFlyHeight": 500,
-  "planeVolume": 0.5,
+  "planeVolume": 0.25,
   "planeSpeed": 65,
   "crateFallSpeed": 3,
   "containerIds": {
@@ -123,8 +123,8 @@
           "max": 500
         }
       },
-      "armorLevelWhitelist": [0, 4, 5, 6],
-      "allowBossItems": false
+      "armorLevelWhitelist": [0, 5, 6],
+      "allowBossItems": true
     },
     "weaponArmor": {
       "weaponPresetCount": {
@@ -191,8 +191,8 @@
           "max": 25
         }
       },
-      "armorLevelWhitelist": [0, 3, 4, 5, 6],
-      "allowBossItems": false
+      "armorLevelWhitelist": [0, 5, 6],
+      "allowBossItems": true
     },
     "foodMedical": {
       "weaponPresetCount": {
@@ -268,7 +268,7 @@
         }
       },
       "armorLevelWhitelist": [0],
-      "allowBossItems": false
+      "allowBossItems": true
     },
     "barter": {
       "weaponPresetCount": {
@@ -345,7 +345,7 @@
         }
       },
       "armorLevelWhitelist": [0],
-      "allowBossItems": false
+      "allowBossItems": true
     }
   }
 }
