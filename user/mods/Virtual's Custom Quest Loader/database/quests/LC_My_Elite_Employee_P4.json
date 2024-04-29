@@ -53,7 +53,7 @@
             ],
             "id": "LC_EVENT_4 TASK1 Visit Counter"
           },
-          "doNotResetIfCounterCompleted": false,
+          "doNotResetIfCounterCompleted": true,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
           "id": "LC_EVENT_4 TASK1",
@@ -79,7 +79,7 @@
             ],
             "id": "LC_EVENT_4 TASK2 Counter"
           },
-          "doNotResetIfCounterCompleted": false,
+          "doNotResetIfCounterCompleted": true,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
           "id": "LC_EVENT_4 TASK2",
@@ -105,7 +105,7 @@
             ],
             "id": "LC_EVENT_4 TASK3 Counter"
           },
-          "doNotResetIfCounterCompleted": false,
+          "doNotResetIfCounterCompleted": true,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
           "id": "LC_EVENT_4 TASK3",

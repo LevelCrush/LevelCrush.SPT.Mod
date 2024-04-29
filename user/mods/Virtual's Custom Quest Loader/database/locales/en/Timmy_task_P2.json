@@ -1,0 +1,12 @@
+{
+    "LC_Smelly_Scav_2 name": "A Smelly Scav - Part 2",
+    "LC_Smelly_Scav_2 description": "hey... So you remember our dear friend well he and the shipment of medication he was put in somehow found there way to reserve can you go back and put him back on the train or something but with how long his body has been their with those supply's. Just watch yourself out there",
+    "LC_Smelly_Scav_2 text": "BQ1 Text",
+    "LC_Smelly_Scav_2 acceptPlayerMessage": "BQ1 Accept",
+    "LC_Smelly_Scav_2 changeQuestMessageText": "BQ1 changeQuestText",
+    "LC_Smelly_Scav_2 completePlayerMessage": "Well done your reward as promised.",
+    "LC_Smelly_Scav_2 successMessageText": "Well done your reward as promised.",
+    "LC_Smelly_Scav_2 note": "BQ1 Note Text",
+    "LC_Smelly_Scav_2 TASK1": "Eliminate Sanitar",
+    "LC_Smelly_Scav_2 TASK2": "Survive and Extract through the Train Exfil on Reserve"
+}

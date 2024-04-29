@@ -185,7 +185,7 @@ class LC_QOL_Inertia implements IPreAkiLoadMod, IPostDBLoadMod {
     tables.globals.config.Inertia = merged;
 
     if (forceSet) {
-      //this.databaseServer.setTables(tables);
+      this.databaseServer.setTables(tables);
       this.is_processing = false;
     }
   }

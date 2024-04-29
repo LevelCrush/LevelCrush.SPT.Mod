@@ -1,5 +1,5 @@
 {
-    "Blacksmith Quest 1": {
+  "LC_Blacksmith_2": {
       "QuestName": "Meet and Greet - Part 2",
       "_id": "LC_Blacksmith_2",
       "acceptPlayerMessage": "LC_Blacksmith_2 acceptPlayerMessage",
@@ -181,6 +181,13 @@
             "index": 0,
             "type": "Experience",
             "value": "25000"
+          },
+          {
+            "id": "MAG_Reward_P2_Blacksmith_TS",
+            "index": 4,
+            "target": "LevelCrushBlacksmith",
+            "type": "TraderStanding",
+            "value": "0.10"
           }
         ]
       }
