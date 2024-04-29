@@ -12,3 +12,5 @@
 !/user/mods/RemotePlugins/dist/*
 /user/mods/**/log/*.csv
 /user/mods/**/package-lock.json
+/Aki_Data/@pnpm/*
+/Aki_DAata/configs/http.json
