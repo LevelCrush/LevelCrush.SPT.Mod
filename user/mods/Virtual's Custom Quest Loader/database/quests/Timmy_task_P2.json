@@ -1,0 +1,94 @@
+{
+    "LC_Smelly_Scav_2": {
+        "QuestName": "A Smelly Scav - Part 2",
+        "_id": "LC_Smelly_Scav_2",
+        "acceptPlayerMessage": "LC_Smelly_Scav_2 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "LC_Smelly_Scav_2 changeQuestMessageText",
+        "completePlayerMessage": "LC_Smelly_Scav_2 completePlayerMessage",
+        "traderId": "54cb57776803fa99248b456e",
+        "conditions": {
+            "AvailableForStart": [
+                
+            ],
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "dynamicLocale": false,
+                                "id": "LC_Smelly_Scav_2 TASK1",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "BossSanitar"
+                                ],
+                                "target": "Savage",
+                                "value": 1
+                            }
+                        ],
+                        "id": "LC_Smelly_Scav_2 TASK1"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Smelly_Scav_2 TASK1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitName",
+                                "dynamicLocale": false,
+                                "exitName": "EXFIL_Train",
+                                "id": "LC_Smelly_Scav_2 TASK2_Exract"
+                            },
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "LC_Smelly_Scav_2 TASK2_survive",
+                                "status": [
+                                    "Survived"
+                                ]
+                            }
+                        ],
+                        "id": "LC_Smelly_Scav_2 TASK2"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_Smelly_Scav_2 TASK2",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "rewards": {
+                "Fail": [],
+                "Started": [],
+                "Success": [
+                    {
+                        "id": "LC-Smelly-Scav-EXPERIENCE-2",
+                        "index": 0,
+                        "type": "Experience",
+                        "value": "15000"
+                    }
+                ]
+            }
+        }
+    }
+}
