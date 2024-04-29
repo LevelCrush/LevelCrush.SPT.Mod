@@ -3664,5 +3664,235 @@
       "collectionTimeHours": 72,
       "messageText": "Thank you for purchasing of the first book in EFT series by A, Kontorovich. We are glad to give you this theme package with ingame items."
     }
+  },
+  "LilPush": {
+    "items": [
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Ammo_L191",
+        "_tpl": "58dd3ad986f77403051cba8f",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main",
+        "upd": {
+          "StackObjectsCount": 60
+        }
+      },
+      {
+        "_id": "LC_P90_Mag",
+        "_tpl": "5cc70093e4a949033c734312",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Weapon",
+        "_tpl": "5cc82d76e24e8d00134b4b83",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_barrel",
+        "_tpl": "5cc701aae4a949000e1ea45c",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Upper_Reciever",
+        "_tpl": "5cc7015ae4a949001152b4c6",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Charging_Handle",
+        "_tpl": "5cc6ea78e4a949000e1ea3c1",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Buttpad",
+        "_tpl": "5cc700cae4a949035e43ba72",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Flashhider",
+        "_tpl": "5cc82796e24e8d000f5859a8",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Upper_Reciever",
+        "_tpl": "5cc70102e4a949035e43ba74",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Stock",
+        "_tpl": "5cc700b9e4a949000f0f0f25",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Mag",
+        "_tpl": "5cc70093e4a949033c734312",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Weapon",
+        "_tpl": "5cc82d76e24e8d00134b4b83",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_barrel",
+        "_tpl": "5cc701aae4a949000e1ea45c",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Upper_Reciever",
+        "_tpl": "5cc7015ae4a949001152b4c6",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Charging_Handle",
+        "_tpl": "5cc6ea78e4a949000e1ea3c1",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Buttpad",
+        "_tpl": "5cc700cae4a949035e43ba72",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Flashhider",
+        "_tpl": "5cc82796e24e8d000f5859a8",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Upper_Reciever",
+        "_tpl": "5cc70102e4a949035e43ba74",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Stock",
+        "_tpl": "5cc700b9e4a949000f0f0f25",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Suppressor",
+        "_tpl": "5cebec00d7f00c065c53522a",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Suppressor",
+        "_tpl": "5cebec00d7f00c065c53522a",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Spectre",
+        "_tpl": "57ac965c24597706be5f975c",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      },
+      {
+        "_id": "LC_P90_Spectre",
+        "_tpl": "57ac965c24597706be5f975c",
+        "parentId": "LC_Gift_Push",
+        "slotId": "main"
+      }
+    ],
+    "sender": "System",
+    "associatedEvent": "Promo",
+    "collectionTimeHours": 72,
+    "messageText": "<ch>Thank you for activating the code.</ch><cz>Thank you for activating the code.</cz><en>Thank you for activating the code.</en><fr>Thank you for activating the code.</fr><ge>Thank you for activating the code.</ge><hu>Thank you for activating the code.</hu><it>Thank you for activating the code.</it><jp>Thank you for activating the code.</jp><kr>Thank you for activating the code.</kr><pl>Thank you for activating the code.</pl><po>Thank you for activating the code.</po><sk>Thank you for activating the code.</sk><es>Thank you for activating the code.</es><es-mx>Thank you for activating the code.</es-mx><tu>Thank you for activating the code.</tu><ru>Thank you for activating the code.</ru><ro>Thank you for activating the code.</ro>"
   }
 }
