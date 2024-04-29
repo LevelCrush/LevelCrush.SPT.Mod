@@ -21,11 +21,15 @@
     "Presets": [
       {
         "Name": "starting-pmcs-only-live-like",
-        "Weight": 25
+        "Weight": 35
       },
       {
         "Name": "starting-pmcs-only-live-like-alt",
         "Weight": 25
+      },
+      {
+        "Name": "starting-pmcs-only-late-scavs",
+        "Weight": 10
       }
     ]
   },
@@ -46,52 +50,20 @@
     "RandomScenarioConfig": "I Like Pain (Random)",
     "Presets": [
       {
-        "Name": "morepmcs",
-        "Weight": 549
-      },
-      {
-        "Name": "morescavs",
-        "Weight": 392
-      },
-      {
-        "Name": "boss-mania",
-        "Weight": 101
-      },
-      {
         "Name": "crazyraids",
-        "Weight": 202
+        "Weight": 50
       },
       {
         "Name": "impossibleraids",
-        "Weight": 202
+        "Weight": 25
       },
       {
-        "Name": "live-like",
-        "Weight": 942
+        "Name": "morepmcs",
+        "Weight": 15
       },
       {
-        "Name": "live-like-alt",
-        "Weight": 942
-      },
-      {
-        "Name": "live-like-alt-2",
-        "Weight": 942
-      },
-      {
-        "Name": "no-starting-pmcs",
-        "Weight": 471
-      },
-      {
-        "Name": "starting-pmcs-only-live-like",
-        "Weight": 235
-      },
-      {
-        "Name": "starting-pmcs-only-live-like-alt",
-        "Weight": 235
-      },
-      {
-        "Name": "starting-pmcs-only-morescavs",
-        "Weight": 235
+        "Name": "morescavs",
+        "Weight": 15
       }
     ]
   },

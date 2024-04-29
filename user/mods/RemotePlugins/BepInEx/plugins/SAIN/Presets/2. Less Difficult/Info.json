@@ -2,6 +2,9 @@
   "Name": "2. Less Difficult",
   "Description": "Bots react more slowly, and are less accurate than usual.",
   "Creator": "Solarint",
-  "SAINVersion": "2.1.12",
-  "DateCreated": "10/12/2023 3:23:21 PM"
+  "SAINVersion": "2.2.0",
+  "DateCreated": "4/28/2024 1:23:19 PM",
+  "IsCustom": false,
+  "PresetCopiedFrom": "",
+  "CanEditName": false
 }
