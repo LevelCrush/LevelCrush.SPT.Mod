@@ -16,9 +16,7 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": [
-        "ZoneScavBase"
-      ]
+      "BossZone": ["ZoneScavBase"]
     }
   ],
   "factory": [
@@ -98,7 +96,7 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": null
+      "BossZone": ["ZoneOLI", "ZoneCenter", "ZoneGoshan", "ZoneIDEA"]
     }
   ],
   "laboratory": [
@@ -138,10 +136,7 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": [
-        "Zone_Chalet",
-        "Zone_TreatmentContainers"
-      ]
+      "BossZone": ["Zone_Chalet", "Zone_TreatmentContainers"]
     }
   ],
   "reserve": [
@@ -181,9 +176,7 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": [
-        "ZoneMeteoStation"
-      ]
+      "BossZone": ["ZoneMeteoStation"]
     }
   ],
   "streets": [
@@ -223,9 +216,7 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": [
-        "ZoneScavBase2"
-      ]
+      "BossZone": ["ZoneScavBase2"]
     }
   ]
 }
