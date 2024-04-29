@@ -6,12 +6,7 @@
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
-      "BossZone": [
-        "ZoneCustoms",
-        "ZoneWade",
-        "ZoneCrossRoad",
-        "ZoneOldAZS"
-      ]
+      "BossZone": ["ZoneCustoms", "ZoneWade", "ZoneCrossRoad", "ZoneOldAZS"]
     }
   ],
   "factory": [
@@ -31,9 +26,7 @@
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 1,
-      "BossZone": [
-        "BotZone"
-      ]
+      "BossZone": ["BotZone"]
     },
     {
       "BossName": "sectantpriest",
@@ -41,9 +34,7 @@
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 300,
-      "BossZone": [
-        "BotZone"
-      ]
+      "BossZone": ["BotZone"]
     },
     {
       "BossName": "sectantpriest",
@@ -51,9 +42,7 @@
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 600,
-      "BossZone": [
-        "BotZone"
-      ]
+      "BossZone": ["BotZone"]
     },
     {
       "BossName": "sectantpriest",
@@ -61,9 +50,7 @@
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 900,
-      "BossZone": [
-        "BotZone"
-      ]
+      "BossZone": ["BotZone"]
     }
   ],
   "groundzero": [
@@ -79,7 +66,7 @@
   "interchange": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 15,
+      "BossChance": 100,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -123,9 +110,7 @@
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "3",
       "Time": 1,
-      "BossZone": [
-        "ZoneForestGasStation"
-      ]
+      "BossZone": ["ZoneForestGasStation"]
     },
     {
       "BossName": "sectantpriest",
@@ -133,9 +118,7 @@
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "3",
       "Time": 1,
-      "BossZone": [
-        "ZoneForestSpawn"
-      ]
+      "BossZone": ["ZoneForestSpawn"]
     }
   ],
   "streets": [
@@ -155,10 +138,7 @@
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "4",
       "Time": 1,
-      "BossZone": [
-        "ZoneMiniHouse",
-        "ZoneBrokenVill"
-      ]
+      "BossZone": ["ZoneMiniHouse", "ZoneBrokenVill"]
     }
   ]
 }
