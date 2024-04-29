@@ -1,7 +1,7 @@
 {
   "customs": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -11,7 +11,7 @@
   ],
   "factory": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -21,7 +21,7 @@
   ],
   "factory_night": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -31,7 +31,7 @@
   ],
   "groundzero": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -41,7 +41,7 @@
   ],
   "interchange": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -51,7 +51,7 @@
   ],
   "laboratory": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -61,7 +61,7 @@
   ],
   "lighthouse": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -71,7 +71,7 @@
   ],
   "reserve": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -81,14 +81,12 @@
   ],
   "shoreline": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
       "BossZone": [
-        "ZoneGreenHouses",
         "ZoneSanatorium1",
-        "ZoneGreenHouses",
         "ZoneSanatorium2",
         "ZonePort"
       ],
@@ -97,7 +95,7 @@
   ],
   "streets": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",
@@ -107,7 +105,7 @@
   ],
   "woods": [
     {
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",

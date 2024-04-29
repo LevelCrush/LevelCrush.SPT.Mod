@@ -1,7 +1,7 @@
 {
   "customs": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -25,7 +25,7 @@
   ],
   "factory": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -49,7 +49,7 @@
   ],
   "factory_night": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -73,7 +73,7 @@
   ],
   "groundzero": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -97,11 +97,11 @@
   ],
   "interchange": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
-      "BossZone": ["ZoneCenterBot"],
+      "BossZone": null,
       "Supports": [
         {
           "BossEscortAmount": "2",
@@ -121,7 +121,7 @@
   ],
   "laboratory": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -145,7 +145,7 @@
   ],
   "lighthouse": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -169,15 +169,14 @@
   ],
   "reserve": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
       "BossZone": [
         "ZoneRailStrorage",
         "ZonePTOR2",
-        "ZoneBarrack",
-        "ZoneSubStorage"
+        "ZoneBarrack"
       ],
       "Supports": [
         {
@@ -198,7 +197,7 @@
   ],
   "shoreline": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -222,7 +221,7 @@
   ],
   "streets": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",
@@ -246,7 +245,7 @@
   ],
   "woods": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followergluharassault",
       "BossName": "bossgluhar",

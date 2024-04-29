@@ -2,17 +2,22 @@
   "customs": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
-      "BossZone": ["ZoneScavBase"]
+      "BossZone": [
+        "ZoneCustoms",
+        "ZoneWade",
+        "ZoneCrossRoad",
+        "ZoneOldAZS"
+      ]
     }
   ],
   "factory": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -22,41 +27,49 @@
   "factory_night": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 55,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 1,
-      "BossZone": ["BotZone"]
+      "BossZone": [
+        "BotZone"
+      ]
     },
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 55,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 300,
-      "BossZone": ["BotZone"]
+      "BossZone": [
+        "BotZone"
+      ]
     },
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 55,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 600,
-      "BossZone": ["BotZone"]
+      "BossZone": [
+        "BotZone"
+      ]
     },
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 55,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "2",
       "Time": 900,
-      "BossZone": ["BotZone"]
+      "BossZone": [
+        "BotZone"
+      ]
     }
   ],
   "groundzero": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -66,17 +79,17 @@
   "interchange": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
-      "BossZone": ["ZoneRoad", "ZoneTrucks"]
+      "BossZone": null
     }
   ],
   "laboratory": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -86,7 +99,7 @@
   "lighthouse": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -96,7 +109,7 @@
   "reserve": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -106,25 +119,29 @@
   "shoreline": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "3",
       "Time": 1,
-      "BossZone": ["ZoneForestGasStation"]
+      "BossZone": [
+        "ZoneForestGasStation"
+      ]
     },
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "3",
       "Time": 1,
-      "BossZone": ["ZoneForestSpawn"]
+      "BossZone": [
+        "ZoneForestSpawn"
+      ]
     }
   ],
   "streets": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -134,11 +151,14 @@
   "woods": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 100,
+      "BossChance": 15,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "4",
       "Time": 1,
-      "BossZone": ["ZoneMiniHouse", "ZoneBrokenVill"]
+      "BossZone": [
+        "ZoneMiniHouse",
+        "ZoneBrokenVill"
+      ]
     }
   ]
 }

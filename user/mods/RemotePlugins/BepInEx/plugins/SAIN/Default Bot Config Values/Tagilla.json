@@ -128,7 +128,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1e-5,
+        "COEF_REPEATED_SEEN": 1E-05,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -486,21 +486,13 @@
         "BOSS_IGNORE_LOYALTY": false,
         "DEFAULT_BEAR_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
-        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn, Attack",
-        "FRIENDLY_BOT_TYPES": ["bossKilla", "assault"],
-        "WARN_BOT_TYPES": [],
-        "ENEMY_BOT_TYPES": [
-          "bossGluhar",
-
-          "sectantWarrior",
-          "sectantPriest",
-          "assault",
-          "sptBear",
-          "sptUsec",
-          "followerBigPipe",
-          "followerBirdEye",
-          "bossKnight"
+        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
+        "FRIENDLY_BOT_TYPES": [
+          "bossKilla",
+          "assault"
         ],
+        "WARN_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "assault",
           "marksman",
@@ -929,7 +921,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1e-5,
+        "COEF_REPEATED_SEEN": 1E-05,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -1287,21 +1279,13 @@
         "BOSS_IGNORE_LOYALTY": false,
         "DEFAULT_BEAR_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
-        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn, Attack",
-        "FRIENDLY_BOT_TYPES": ["bossKilla", "assault"],
-        "WARN_BOT_TYPES": [],
-        "ENEMY_BOT_TYPES": [
-          "bossGluhar",
-
-          "sectantWarrior",
-          "sectantPriest",
-          "assault",
-          "sptBear",
-          "sptUsec",
-          "followerBigPipe",
-          "followerBirdEye",
-          "bossKnight"
+        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
+        "FRIENDLY_BOT_TYPES": [
+          "bossKilla",
+          "assault"
         ],
+        "WARN_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "assault",
           "marksman",
@@ -1730,7 +1714,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1e-5,
+        "COEF_REPEATED_SEEN": 1E-05,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -2088,21 +2072,13 @@
         "BOSS_IGNORE_LOYALTY": false,
         "DEFAULT_BEAR_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
-        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn, Attack",
-        "FRIENDLY_BOT_TYPES": ["bossKilla", "assault"],
-        "WARN_BOT_TYPES": [],
-        "ENEMY_BOT_TYPES": [
-          "bossGluhar",
-
-          "sectantWarrior",
-          "sectantPriest",
-          "assault",
-          "sptBear",
-          "sptUsec",
-          "followerBigPipe",
-          "followerBirdEye",
-          "bossKnight"
+        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
+        "FRIENDLY_BOT_TYPES": [
+          "bossKilla",
+          "assault"
         ],
+        "WARN_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "assault",
           "marksman",
@@ -2531,7 +2507,7 @@
         "SEC_REPEATED_SEEN": 10.0,
         "DIST_SQRT_REPEATED_SEEN": 225.0,
         "DIST_REPEATED_SEEN": 15.0,
-        "COEF_REPEATED_SEEN": 1e-5,
+        "COEF_REPEATED_SEEN": 1E-05,
         "MAX_DIST_CLAMP_TO_SEEN_SPEED": 100.0,
         "NIGHT_VISION_ON": 100.0,
         "NIGHT_VISION_OFF": 110.0,
@@ -2890,20 +2866,12 @@
         "DEFAULT_BEAR_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Warn, Attack",
         "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
-        "FRIENDLY_BOT_TYPES": ["bossKilla", "assault"],
-        "WARN_BOT_TYPES": [],
-        "ENEMY_BOT_TYPES": [
-          "bossGluhar",
-
-          "sectantWarrior",
-          "sectantPriest",
-          "assault",
-          "sptBear",
-          "sptUsec",
-          "followerBigPipe",
-          "followerBirdEye",
-          "bossKnight"
+        "FRIENDLY_BOT_TYPES": [
+          "bossKilla",
+          "assault"
         ],
+        "WARN_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "assault",
           "marksman",

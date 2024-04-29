@@ -2,17 +2,20 @@
   "customs": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
-      "BossZone": ["ZoneFactoryCenter", "ZoneScavBase"]
+      "BossZone": [
+        "ZoneBrige",
+        "ZoneBlockPost"
+      ]
     }
   ],
   "factory": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -22,7 +25,7 @@
   "factory_night": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -32,7 +35,7 @@
   "groundzero": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -42,7 +45,7 @@
   "interchange": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -52,15 +55,7 @@
   "laboratory": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
-      "Time": 1,
-      "BossEscortAmount": "3,4",
-      "BossEscortType": "arenafighterevent",
-      "BossZone": null
-    },
-    {
-      "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -70,7 +65,7 @@
   "lighthouse": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -80,7 +75,7 @@
   "reserve": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -90,14 +85,13 @@
   "shoreline": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortType": "arenafighterevent",
       "BossEscortAmount": "3,4",
       "Time": 1,
       "BossZone": [
         "ZoneStartVillage",
         "ZoneGasStation",
-        "ZoneForestGasStation",
         "ZonePowerStation"
       ]
     }
@@ -105,7 +99,7 @@
   "streets": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -115,16 +109,15 @@
   "woods": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "BossEscortType": "arenafighterevent",
       "BossEscortAmount": "3,4",
       "Time": 1,
       "BossZone": [
-        "ZoneMiniHouse",
         "ZoneClearVill",
         "ZoneRoad",
-        "ZoneBrokenVill",
-        "ZoneScavBase2"
+        "ZoneHouse",
+        "ZoneBigRocks"
       ]
     }
   ]

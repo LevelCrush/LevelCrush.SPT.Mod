@@ -2,7 +2,7 @@
   "customs": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -16,13 +16,15 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": ["ZoneScavBase"]
+      "BossZone": [
+        "ZoneScavBase"
+      ]
     }
   ],
   "factory": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -42,7 +44,7 @@
   "factory_night": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -62,7 +64,7 @@
   "groundzero": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -82,7 +84,7 @@
   "interchange": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -96,13 +98,13 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": ["ZoneCenter", "ZoneGoshan", "ZoneOli", "ZoneIDEA"]
+      "BossZone": null
     }
   ],
   "laboratory": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -122,7 +124,7 @@
   "lighthouse": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -136,13 +138,16 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": ["Zone_Chalet", "Zone_TreatmentContainers"]
+      "BossZone": [
+        "Zone_Chalet",
+        "Zone_TreatmentContainers"
+      ]
     }
   ],
   "reserve": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -162,7 +167,7 @@
   "shoreline": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -176,13 +181,15 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": ["ZoneMeteoStation"]
+      "BossZone": [
+        "ZoneMeteoStation"
+      ]
     }
   ],
   "streets": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -202,7 +209,7 @@
   "woods": [
     {
       "BossName": "bossknight",
-      "BossChance": 100,
+      "BossChance": 20,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -216,7 +223,9 @@
           "BossEscortType": "followerbirdeye"
         }
       ],
-      "BossZone": ["ZoneScavBase2"]
+      "BossZone": [
+        "ZoneScavBase2"
+      ]
     }
   ]
 }

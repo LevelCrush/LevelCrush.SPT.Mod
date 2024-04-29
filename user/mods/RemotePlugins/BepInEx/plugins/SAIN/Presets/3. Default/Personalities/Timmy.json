@@ -3,9 +3,9 @@
   "Name": "Timmy",
   "Description": "A New Player, terrified of everything.",
   "Variables": {
-    "Enabled": false,
+    "Enabled": true,
     "CanShiftCoverPosition": true,
-    "ShiftCoverTimeMultiplier": 0.7,
+    "ShiftCoverTimeMultiplier": 0.66,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 25.0,
     "MaxLevel": 10.0,

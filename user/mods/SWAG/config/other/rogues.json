@@ -42,26 +42,10 @@
   "interchange": [
     {
       "BossChance": 100,
-      "BossEscortAmount": "2",
+      "BossEscortAmount": "1,2",
       "BossEscortType": "exusec",
       "BossName": "exusec",
       "BossZone": null,
-      "Time": 1
-    },
-    {
-      "BossChance": 100,
-      "BossEscortAmount": "2",
-      "BossEscortType": "exusec",
-      "BossName": "exusec",
-      "BossZone": null,
-      "Time": 1
-    },
-    {
-      "BossChance": 100,
-      "BossEscortAmount": "2",
-      "BossEscortType": "exusec",
-      "BossName": "exusec",
-      "BossZone": ["ZoneOLI"],
       "Time": 1
     }
   ],
@@ -81,7 +65,9 @@
       "BossEscortAmount": "1",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": ["Zone_Blockpost"],
+      "BossZone": [
+        "Zone_Blockpost"
+      ],
       "Time": 1
     },
     {
@@ -89,47 +75,59 @@
       "BossEscortAmount": "1,2",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": ["Zone_RoofContainers"],
+      "BossZone": [
+        "Zone_RoofContainers"
+      ],
       "Time": 1
     },
     {
-      "BossChance": 100,
+      "BossChance": 40,
       "BossEscortAmount": "1,1,2",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": ["Zone_TreatmentRocks"],
+      "BossZone": [
+        "Zone_TreatmentRocks"
+      ],
       "Time": 1
     },
     {
-      "BossChance": 100,
+      "BossChance": 40,
       "BossEscortAmount": "1,1,2",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": ["Zone_TreatmentBeach"],
+      "BossZone": [
+        "Zone_TreatmentBeach"
+      ],
       "Time": 1
     },
     {
-      "BossChance": 100,
+      "BossChance": 80,
       "BossEscortAmount": "0",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": ["Zone_RoofRocks"],
+      "BossZone": [
+        "Zone_RoofRocks"
+      ],
       "Time": 1
     },
     {
-      "BossChance": 100,
+      "BossChance": 80,
       "BossEscortAmount": "1",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": ["Zone_RoofBeach"],
+      "BossZone": [
+        "Zone_RoofBeach"
+      ],
       "Time": 1
     },
     {
-      "BossChance": 100,
+      "BossChance": 10,
       "BossEscortAmount": "1,2",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": ["Zone_Hellicopter"],
+      "BossZone": [
+        "Zone_Hellicopter"
+      ],
       "Time": 1
     }
   ],

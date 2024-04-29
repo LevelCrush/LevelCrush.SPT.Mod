@@ -3,7 +3,7 @@
   "Name": "Coward",
   "Description": "A player who is more passive and afraid than usual.",
   "Variables": {
-    "Enabled": false,
+    "Enabled": true,
     "CanShiftCoverPosition": false,
     "ShiftCoverTimeMultiplier": 1.0,
     "CanBeRandomlyAssigned": true,
@@ -82,7 +82,8 @@
       "Kaban Sniper",
       "Kolontay",
       "Kolontay Assault",
-      "Kolontay Security"
+      "Kolontay Security",
+      "BTR"
     ]
   }
 }

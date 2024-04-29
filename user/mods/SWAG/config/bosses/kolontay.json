@@ -2,7 +2,7 @@
   "customs": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -26,7 +26,7 @@
   "factory": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -50,7 +50,7 @@
   "factory_night": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -74,7 +74,7 @@
   "groundzero": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -98,7 +98,7 @@
   "interchange": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -122,7 +122,7 @@
   "laboratory": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -146,7 +146,7 @@
   "lighthouse": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -170,7 +170,7 @@
   "reserve": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -194,7 +194,7 @@
   "shoreline": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -218,7 +218,7 @@
   "streets": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -236,13 +236,16 @@
           "BossEscortType": "followergluharscout"
         }
       ],
-      "zone": ["ZoneClimova", "ZoneMvd"]
+      "BossZone": [
+        "ZoneClimova",
+        "ZoneMvd"
+      ]
     }
   ],
   "woods": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 100,
+      "BossChance": 35,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",

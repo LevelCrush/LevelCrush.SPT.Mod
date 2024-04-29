@@ -1,7 +1,7 @@
 {
   "customs": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -11,7 +11,7 @@
   ],
   "factory": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -21,7 +21,7 @@
   ],
   "factory_night": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -31,7 +31,7 @@
   ],
   "groundzero": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -41,7 +41,7 @@
   ],
   "interchange": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -51,7 +51,7 @@
   ],
   "laboratory": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -65,13 +65,15 @@
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
-      "BossZone": ["Zone_Island"],
+      "BossZone": [
+        "Zone_Island"
+      ],
       "Time": -1
     }
   ],
   "reserve": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -81,7 +83,7 @@
   ],
   "shoreline": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -91,7 +93,7 @@
   ],
   "streets": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",
@@ -101,7 +103,7 @@
   ],
   "woods": [
     {
-      "BossChance": 100,
+      "BossChance": 0,
       "BossEscortAmount": "2",
       "BossEscortType": "followerzryachiy",
       "BossName": "bosszryachiy",

@@ -1,7 +1,7 @@
 {
   "customs": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -11,7 +11,7 @@
   ],
   "factory": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -21,7 +21,7 @@
   ],
   "factory_night": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -31,7 +31,7 @@
   ],
   "groundzero": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -41,7 +41,7 @@
   ],
   "interchange": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -51,7 +51,7 @@
   ],
   "laboratory": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -61,7 +61,7 @@
   ],
   "lighthouse": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -71,7 +71,7 @@
   ],
   "reserve": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -81,7 +81,7 @@
   ],
   "shoreline": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -91,7 +91,7 @@
   ],
   "streets": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
@@ -101,11 +101,13 @@
   ],
   "woods": [
     {
-      "BossChance": 100,
+      "BossChance": 35,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkojaniy",
       "BossName": "bosskojaniy",
-      "BossZone": ["ZoneWoodCutter"],
+      "BossZone": [
+        "ZoneWoodCutter"
+      ],
       "Time": -1
     }
   ]

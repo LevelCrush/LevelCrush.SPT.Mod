@@ -1,7 +1,7 @@
 {
   "customs": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -11,7 +11,7 @@
   ],
   "factory": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -21,7 +21,7 @@
   ],
   "factory_night": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -31,7 +31,7 @@
   ],
   "groundzero": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -41,17 +41,23 @@
   ],
   "interchange": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
-      "BossZone": ["ZoneGoshan", "ZoneOLI", "ZoneIDEA", "ZoneCenter"],
+      "BossZone": [
+        "ZoneCenterBot",
+        "ZoneCenter",
+        "ZoneOLI",
+        "ZoneIDEA",
+        "ZoneGoshan"
+      ],
       "Time": -1
     }
   ],
   "laboratory": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -61,7 +67,7 @@
   ],
   "lighthouse": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -71,7 +77,7 @@
   ],
   "reserve": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -81,7 +87,7 @@
   ],
   "shoreline": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -91,7 +97,7 @@
   ],
   "streets": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
@@ -101,7 +107,7 @@
   ],
   "woods": [
     {
-      "BossChance": 100,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
