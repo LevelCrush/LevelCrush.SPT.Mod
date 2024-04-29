@@ -10,5 +10,5 @@
   "blacklistedEquipment": ["SpecialSlot1", "SpecialSlot2", "SpecialSlot3"],
   "slotIdsToAlwaysRemove": ["cartridges", "patron_in_weapon"],
   "returnTimeOverrideSeconds": 0,
-  "runIntervalSeconds": 600
+  "runIntervalSeconds": 3600
 }
