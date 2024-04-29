@@ -58,7 +58,7 @@
     },
     {
       "BossChance": 100,
-      "BossEscortAmount": "2",
+      "BossEscortAmount": "3",
       "BossEscortType": "exusec",
       "BossName": "exusec",
       "BossZone": ["ZoneOLI"],
