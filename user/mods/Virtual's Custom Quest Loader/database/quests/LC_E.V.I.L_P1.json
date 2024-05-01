@@ -82,7 +82,7 @@
         "declinePlayerMessage": "LC_E.V.I.L_P1 declinePlayerMessage",
         "description": "LC_E.V.I.L_P1 description",
         "failMessageText": "LC_E.V.I.L_P1 failMessageText",
-        "image": "",
+        "image": "/files/quest/icon/Evil_Thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -99,8 +99,15 @@
                 "value": "20000"
               },
               {
-                "id": "EVIL_Reward_P1_Artem_TS",
+                "id": "EVIL_Reward_Skill",
                 "index": 1,
+                "target": "Sniper",
+                "type": "Skill",
+                "value": "500"
+              },
+              {
+                "id": "EVIL_Reward_P1_Artem_TS",
+                "index": 2,
                 "target": "ArtemTrader",
                 "type": "TraderStanding",
                 "value": "0.05"
@@ -111,6 +118,6 @@
         "startedMessageText": "LC_E.V.I.L_P1 startedMessageText",
         "successMessageText": "LC_E.V.I.L_P1 successMessageText",
         "traderId": "ArtemTrader",
-        "type": "Completion"
+        "type": "Elimination"
     }
 }
