@@ -1,0 +1,1008 @@
+{
+	"ItemPresets": {
+		"MIRA_weapon_colt_m16a4_556x45_presetID": {
+			"_id": "MIRA_weapon_colt_m16a4_556x45_presetID",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "m16a4_PRESET",
+			"_encyclopedia": "MIRA_weapon_colt_m16a4_556x45",
+			"_parent": "1488ccbabababa0000000001",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000001",
+					"_tpl": "MIRA_weapon_colt_m16a4_556x45"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_pg",
+					"_tpl": "55d4b9964bdc2d1d4e8b456e",
+					"parentId": "1488ccbabababa0000000001",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_mag",
+					"_tpl": "55d4887d4bdc2d962f8b4570",
+					"parentId": "1488ccbabababa0000000001",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_bt",
+					"_tpl": "5a33ca0fc4a282000d72292f",
+					"parentId": "1488ccbabababa0000000001",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_dh",
+					"_tpl": "55d44fd14bdc2d962f8b456e",
+					"parentId": "1488ccbabababa0000000001",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_ur",
+					"_tpl": "55d355e64bdc2d962f8b4569",
+					"parentId": "1488ccbabababa0000000001",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_ba",
+					"_tpl": "MIRA_barrel_ar15_m16_20in",
+					"parentId": "1488ccbabababa0000000001_ur",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_hg",
+					"_tpl": "MIRA_handguard_ar15_colt_usgi_a2",
+					"parentId": "1488ccbabababa0000000001_ur",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_or",
+					"_tpl": "5ae30bad5acfc400185c2dc4",
+					"parentId": "1488ccbabababa0000000001_ur",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_st",
+					"_tpl": "MIRA_stock_ar15_colt_usgi_a2",
+					"parentId": "1488ccbabababa0000000001_bt",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_ns",
+					"_tpl": "544a38634bdc2d58388b4568",
+					"parentId": "1488ccbabababa0000000001_ba",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000001_gb",
+					"_tpl": "5ae30e795acfc408fb139a0b",
+					"parentId": "1488ccbabababa0000000001_ba",
+					"slotId": "mod_gas_block"
+				}
+			]
+		},
+		"MIRA_weapon_colt_m16a4_carbine_presetID": {
+			"_id": "MIRA_weapon_colt_m16a4_carbine_presetID",
+			"_type": "Preset",
+			"_changeWeaponName": true,
+			"_name": "Carbine",
+			"_parent": "1488ccbabababa0000000002",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000002",
+					"_tpl": "MIRA_weapon_colt_m16a4_556x45"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_pistol_grip",
+					"_tpl": "MIRA_pistolgrip_ar15_colt_a1",
+					"parentId": "1488ccbabababa0000000002",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_magazine",
+					"_tpl": "55d4887d4bdc2d962f8b4570",
+					"parentId": "1488ccbabababa0000000002",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_reciever",
+					"_tpl": "MIRA_reciever_ar15_colt_m16a1_std",
+					"parentId": "1488ccbabababa0000000002",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_stock",
+					"_tpl": "5649be884bdc2d79388b4577",
+					"parentId": "1488ccbabababa0000000002",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_charge",
+					"_tpl": "55d44fd14bdc2d962f8b456e",
+					"parentId": "1488ccbabababa0000000002",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_scope",
+					"_tpl": "59db7e1086f77448be30ddf3",
+					"parentId": "1488ccbabababa0000000002_reciever",
+					"slotId": "mod_scope"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_barrel",
+					"_tpl": "55d35ee94bdc2d61338b4568",
+					"parentId": "1488ccbabababa0000000002_reciever",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_handguard",
+					"_tpl": "MIRA_handguard_ar15_colt_a1_carbine",
+					"parentId": "1488ccbabababa0000000002_reciever",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_sight_rear",
+					"_tpl": "MIRA_sight_rear_ar15_colt_m16a1_rear_sight_std",
+					"parentId": "1488ccbabababa0000000002_reciever",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_stock000",
+					"_tpl": "MIRA_stock_ar15_colt_car15",
+					"parentId": "1488ccbabababa0000000002_stock",
+					"slotId": "mod_stock_000"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_muzzle",
+					"_tpl": "544a38634bdc2d58388b4568",
+					"parentId": "1488ccbabababa0000000002_barrel",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000002_gas_block",
+					"_tpl": "5ae30e795acfc408fb139a0b",
+					"parentId": "1488ccbabababa0000000002_barrel",
+					"slotId": "mod_gas_block"
+				}
+			]
+		},
+		"MIRA_weapon_colt_m16a1_presetID": {
+			"_id": "MIRA_weapon_colt_m16a1_presetID",
+			"_type": "Preset",
+			"_changeWeaponName": true,
+			"_name": "A1 Retro",
+			"_parent": "1488ccbabababa0000000003",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000003",
+					"_tpl": "MIRA_weapon_colt_m16a4_556x45"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_pistol_grip",
+					"_tpl": "MIRA_pistolgrip_ar15_colt_a1",
+					"parentId": "1488ccbabababa0000000003",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_magazine",
+					"_tpl": "MIRA_mag_stanag_colt_ar15_std_556x45_20",
+					"parentId": "1488ccbabababa0000000003",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_reciever",
+					"_tpl": "MIRA_reciever_ar15_colt_m16a1_std",
+					"parentId": "1488ccbabababa0000000003",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_stock",
+					"_tpl": "5a33ca0fc4a282000d72292f",
+					"parentId": "1488ccbabababa0000000003",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_charge",
+					"_tpl": "55d44fd14bdc2d962f8b456e",
+					"parentId": "1488ccbabababa0000000003",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_barrel",
+					"_tpl": "MIRA_barrel_ar15_m16_20in",
+					"parentId": "1488ccbabababa0000000003_reciever",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_handguard",
+					"_tpl": "MIRA_handguard_ar15_colt_usgi_a1",
+					"parentId": "1488ccbabababa0000000003_reciever",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_sight_rear",
+					"_tpl": "MIRA_sight_rear_ar15_colt_m16a1_rear_sight_std",
+					"parentId": "1488ccbabababa0000000003_reciever",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_stock0",
+					"_tpl": "MIRA_stock_ar15_colt_usgi_a1",
+					"parentId": "1488ccbabababa0000000003_stock",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_muzzle",
+					"_tpl": "MIRA_muzzle_ar15_colt_xm16e1_556x45",
+					"parentId": "1488ccbabababa0000000003_barrel",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000003_gas_block",
+					"_tpl": "5ae30e795acfc408fb139a0b",
+					"parentId": "1488ccbabababa0000000003_barrel",
+					"slotId": "mod_gas_block"
+				}
+			]
+		},
+		"MIRA_weapon_colt_m16a4_bd_presetID": {
+			"_id": "MIRA_weapon_colt_m16a4_bd_presetID",
+			"_type": "Preset",
+			"_changeWeaponName": true,
+			"_name": "Blood Diamond",
+			"_parent": "1488ccbabababa0000000013",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000013",
+					"_tpl": "MIRA_weapon_colt_m16a4_556x45"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_pistol_grip",
+					"_tpl": "55d4b9964bdc2d1d4e8b456e",
+					"parentId": "1488ccbabababa0000000013",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_magazine",
+					"_tpl": "55d4887d4bdc2d962f8b4570",
+					"parentId": "1488ccbabababa0000000013",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_reciever",
+					"_tpl": "MIRA_reciever_ar15_colt_m16a1_std",
+					"parentId": "1488ccbabababa0000000013",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_stock",
+					"_tpl": "5649be884bdc2d79388b4577",
+					"parentId": "1488ccbabababa0000000013",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_charge",
+					"_tpl": "55d44fd14bdc2d962f8b456e",
+					"parentId": "1488ccbabababa0000000013",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_rail_mount",
+					"_tpl": "MIRA_mount_all_mla_rail_mount",
+					"parentId": "1488ccbabababa0000000013_reciever",
+					"slotId": "mod_scope"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_barrel",
+					"_tpl": "55d35ee94bdc2d61338b4568",
+					"parentId": "1488ccbabababa0000000013_reciever",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_handguard",
+					"_tpl": "5ae30db85acfc408fb139a05",
+					"parentId": "1488ccbabababa0000000013_reciever",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_sight_rear",
+					"_tpl": "MIRA_sight_rear_ar15_colt_m16a1_rear_sight_std",
+					"parentId": "1488ccbabababa0000000013_reciever",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_stock000",
+					"_tpl": "MIRA_stock_ar15_colt_car15",
+					"parentId": "1488ccbabababa0000000013_stock",
+					"slotId": "mod_stock_000"
+				},
+				{
+					"_id": "1488ccbabababa0000000013lmm",
+					"_tpl": "5c7d55f52e221644f31bff6a",
+					"parentId": "1488ccbabababa0000000013_rail_mount",
+					"slotId": "mod_scope"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_muzzle",
+					"_tpl": "56ea6fafd2720b844b8b4593",
+					"parentId": "1488ccbabababa0000000013_barrel",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_gas_block",
+					"_tpl": "5ae30e795acfc408fb139a0b",
+					"parentId": "1488ccbabababa0000000013_barrel",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000013_lowerhandguard",
+					"_tpl": "637f57a68d137b27f70c4968",
+					"parentId": "1488ccbabababa0000000013_handguard",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000013aimpoint",
+					"_tpl": "61659f79d92c473c770213ee",
+					"parentId": "1488ccbabababa0000000013lmm",
+					"slotId": "mod_scope"
+				}
+			]
+		},
+		"MIRA_weapon_416C_PRESETID": {
+			"_id": "MIRA_weapon_416C_PRESETID",
+			"_type": "Preset",
+			"_changeWeaponName": true,
+			"_name": "Compact",
+			"_parent": "1488ccbabababa0000000006",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000006",
+					"_tpl": "5bb2475ed4351e00853264e3"
+				},
+				{
+					"_id": "MIRA416C_presetID_pistol_grip",
+					"_tpl": "5bb20e0ed4351e3bac1212dc",
+					"parentId": "1488ccbabababa0000000006",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "MIRA416C_presetID_magazine",
+					"_tpl": "5c05413a0db834001c390617",
+					"parentId": "1488ccbabababa0000000006",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "MIRA416C_presetID_reciever",
+					"_tpl": "5bb20d53d4351e4502010a69",
+					"parentId": "1488ccbabababa0000000006",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "MIRA416C_presetID_stock",
+					"_tpl": "MIRA_stock_416_hk_416c_std",
+					"parentId": "1488ccbabababa0000000006",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "MIRA416C_presetID_charge",
+					"_tpl": "5bb20dbcd4351e44f824c04e",
+					"parentId": "1488ccbabababa0000000006",
+					"slotId": "mod_charge"
+				},
+				{
+					"_id": "MIRA416C_presetID_barrel",
+					"_tpl": "MIRA_barrel_416_hk_228mm_556x45",
+					"parentId": "MIRA416C_presetID_reciever",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "MIRA416C_presetID_handguard",
+					"_tpl": "MIRA_handguard_416_hk_416c_quad_rail",
+					"parentId": "MIRA416C_presetID_reciever",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "MIRA416C_presetID_sight_rear",
+					"_tpl": "MIRA_sight_rear_416_hk_drum",
+					"parentId": "MIRA416C_presetID_reciever",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "MIRA416C_presetID_muzzle",
+					"_tpl": "544a38634bdc2d58388b4568",
+					"parentId": "MIRA416C_presetID_barrel",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "MIRA416C_presetID_gas_block",
+					"_tpl": "MIRA_gas_block_416_hk_416_std",
+					"parentId": "MIRA416C_presetID_barrel",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "MIRA416C_presetID_foregrip",
+					"_tpl": "5c87ca002e221600114cb150",
+					"parentId": "MIRA416C_presetID_handguard",
+					"slotId": "mod_foregrip"
+				},
+				{
+					"_id": "MIRA416C_presetID_sight_front",
+					"_tpl": "MIRA_sight_front_416_hk_drum",
+					"parentId": "MIRA416C_presetID_handguard",
+					"slotId": "mod_sight_front"
+				}
+			]
+		},
+
+		"MIRA_weapon_izhmash_svd_762x54_presetID": {
+			"_id": "MIRA_weapon_izhmash_svd_762x54_presetID",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "svdfs_PRESET",
+			"_encyclopedia": "MIRA_weapon_izhmash_svd_762x54",
+			"_parent": "1488ccbabababa0000000004",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000004",
+					"_tpl": "MIRA_weapon_izhmash_svd_762x54"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_st",
+					"_tpl": "MIRA_stock_svd_izhmash_svd_std",
+					"parentId": "1488ccbabababa0000000004",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_mag",
+					"_tpl": "5c471c442e221602b542a6f8",
+					"parentId": "1488ccbabababa0000000004",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_ba",
+					"_tpl": "MIRA_barrel_svd_izhmash_610mm_762x54",
+					"parentId": "1488ccbabababa0000000004",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_ns",
+					"_tpl": "MIRA_muzzle_svd_izhmash_svd_std_762x54",
+					"parentId": "1488ccbabababa0000000004_ba",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_of",
+					"_tpl": "5c471ba12e221602b3137d76",
+					"parentId": "1488ccbabababa0000000004_ns",
+					"slotId": "mod_sight_front"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_gb",
+					"_tpl": "5c471c842e221615214259b5",
+					"parentId": "1488ccbabababa0000000004_ba",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_ur",
+					"_tpl": "5c471bd12e221602b4129c3a",
+					"parentId": "1488ccbabababa0000000004",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_ub",
+					"_tpl": "5c471c2d2e22164bef5d077f",
+					"parentId": "1488ccbabababa0000000004",
+					"slotId": "mod_mount_001"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_hg",
+					"_tpl": "MIRA_handguard_svd_izhmash_svd_std",
+					"parentId": "1488ccbabababa0000000004_ub",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_or",
+					"_tpl": "5c471b7e2e2216152006e46c",
+					"parentId": "1488ccbabababa0000000004_ub",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_pso",
+					"_tpl": "5c82342f2e221644f31c060e",
+					"parentId": "1488ccbabababa0000000004",
+					"slotId": "mod_mount_002"
+				},
+				{
+					"_id": "1488ccbabababa0000000004_pso_ec",
+					"_tpl": "57f3a5ae2459772b0e0bf19e",
+					"parentId": "1488ccbabababa0000000004_pso",
+					"slotId": "mod_tactical"
+				}
+			]
+		},
+		"MIRA_weapon_izhmash_rpk74n_545x39_PRESETID": {
+			"_id": "MIRA_weapon_izhmash_rpk74n_545x39_PRESETID",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "RPK74N",
+			"_encyclopedia": "MIRA_weapon_izhmash_rpk74n_545x39",
+			"_parent": "1488ccbabababa0000000005",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000005",
+					"_tpl": "MIRA_weapon_izhmash_rpk74n_545x39"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_gb",
+					"_tpl": "59c6633186f7740cf0493bb9",
+					"parentId": "1488ccbabababa0000000005",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_hg",
+					"_tpl": "5648b0744bdc2d363b8b4578",
+					"parentId": "1488ccbabababa0000000005_gb",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_mb",
+					"_tpl": "MIRA_muzzle_ak74_izhmash_rpk_std_545x39",
+					"parentId": "1488ccbabababa0000000005",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_pg",
+					"_tpl": "57e3dba62459770f0c32322b",
+					"parentId": "1488ccbabababa0000000005",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_rec",
+					"_tpl": "5ac50da15acfc4001718d287",
+					"parentId": "1488ccbabababa0000000005",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_ro",
+					"_tpl": "5649b0544bdc2d1b2b8b458a",
+					"parentId": "1488ccbabababa0000000005",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_st",
+					"_tpl": "MIRA_stock_ak74_izhmash_rpk74_std_wood",
+					"parentId": "1488ccbabababa0000000005",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000005_mag",
+					"_tpl": "564ca9df4bdc2d35148b4569",
+					"parentId": "1488ccbabababa0000000005",
+					"slotId": "mod_magazine"
+				}
+			]
+		},
+		"MIRA_weapon_izhmash_akm_762x39_gold_preset": {
+			"_id": "MIRA_weapon_izhmash_akm_762x39_gold_preset",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "AKM Gold Default",
+			"_parent": "1488ccbabababa0000000007",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000007",
+					"_tpl": "MIRA_weapon_izhmash_akm_762x39_gold"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_st",
+					"_tpl": "MIRA_stock_ak_izhmash_akm_std_dark_wood",
+					"parentId": "1488ccbabababa0000000007",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_pg",
+					"_tpl": "MIRA_pistolgrip_ak_izhmash_akm_dark_wood",
+					"parentId": "1488ccbabababa0000000007",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_mag",
+					"_tpl": "MIRA_mag_ak_izhmash_ak_gold_55_762x39_30",
+					"parentId": "1488ccbabababa0000000007",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_gb",
+					"_tpl": "MIRA_gas_block_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000007",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_hg",
+					"_tpl": "MIRA_handguard_ak_izhmash_akm_std_dark_wood",
+					"parentId": "1488ccbabababa0000000007_gb",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_ns",
+					"_tpl": "MIRA_muzzle_ak_izhmash_akm_gold_762x39",
+					"parentId": "1488ccbabababa0000000007",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_ur",
+					"_tpl": "MIRA_reciever_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000007",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000007_or",
+					"_tpl": "MIRA_sight_rear_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000007",
+					"slotId": "mod_sight_rear"
+				}
+			],
+			"_encyclopedia": "MIRA_weapon_izhmash_akm_762x39_gold"
+		},
+		"MIRA_weapon_izhmash_akmn_762x39_gold_preset": {
+			"_id": "MIRA_weapon_izhmash_akmn_762x39_gold_preset",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "AKM Gold Default",
+			"_parent": "1488ccbabababa0000000008",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000008",
+					"_tpl": "MIRA_weapon_izhmash_akmn_762x39_gold"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_st",
+					"_tpl": "MIRA_stock_ak_izhmash_akm_std_dark_wood",
+					"parentId": "1488ccbabababa0000000008",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_pg",
+					"_tpl": "MIRA_pistolgrip_ak_izhmash_akm_dark_wood",
+					"parentId": "1488ccbabababa0000000008",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_mag",
+					"_tpl": "MIRA_mag_ak_izhmash_ak_gold_55_762x39_30",
+					"parentId": "1488ccbabababa0000000008",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_gb",
+					"_tpl": "MIRA_gas_block_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000008",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_hg",
+					"_tpl": "MIRA_handguard_ak_izhmash_akm_std_dark_wood",
+					"parentId": "1488ccbabababa0000000008_gb",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_ns",
+					"_tpl": "MIRA_muzzle_ak_izhmash_akm_gold_762x39",
+					"parentId": "1488ccbabababa0000000008",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_ur",
+					"_tpl": "MIRA_reciever_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000008",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000008_or",
+					"_tpl": "MIRA_sight_rear_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000008",
+					"slotId": "mod_sight_rear"
+				}
+			],
+			"_encyclopedia": "MIRA_weapon_izhmash_akmn_762x39_gold"
+		},
+		"MIRA_weapon_izhmash_akms_762x39_gold_preset": {
+			"_id": "MIRA_weapon_izhmash_akms_762x39_gold_preset",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "AKMS Gold Default",
+			"_parent": "1488ccbabababa0000000009",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000009",
+					"_tpl": "MIRA_weapon_izhmash_akms_762x39_gold"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_st",
+					"_tpl": "MIRA_stock_akms_izhmash_akmsn_gold",
+					"parentId": "1488ccbabababa0000000009",
+					"slotId": "mod_stock_akms"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_pg",
+					"_tpl": "MIRA_pistolgrip_ak_izhmash_akm_dark_wood",
+					"parentId": "1488ccbabababa0000000009",
+					"slotId": "mod_pistol_grip_akms"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_mag",
+					"_tpl": "MIRA_mag_ak_izhmash_ak_gold_55_762x39_30",
+					"parentId": "1488ccbabababa0000000009",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_gb",
+					"_tpl": "MIRA_gas_block_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000009",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_hg",
+					"_tpl": "MIRA_handguard_ak_izhmash_akm_std_dark_wood",
+					"parentId": "1488ccbabababa0000000009_gb",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_ns",
+					"_tpl": "MIRA_muzzle_ak_izhmash_akm_gold_762x39",
+					"parentId": "1488ccbabababa0000000009",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_ur",
+					"_tpl": "MIRA_reciever_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000009",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000009_or",
+					"_tpl": "MIRA_sight_rear_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000009",
+					"slotId": "mod_sight_rear"
+				}
+			],
+			"_encyclopedia": "MIRA_weapon_izhmash_akms_762x39_gold"
+		},
+		"MIRA_weapon_izhmash_akmsn_762x39_gold_preset": {
+			"_id": "MIRA_weapon_izhmash_akmsn_762x39_gold_preset",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "AKMSN Gold Default",
+			"_parent": "1488ccbabababa0000000010",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000010",
+					"_tpl": "MIRA_weapon_izhmash_akmsn_762x39_gold"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_st",
+					"_tpl": "MIRA_stock_akms_izhmash_akmsn_gold",
+					"parentId": "1488ccbabababa0000000010",
+					"slotId": "mod_stock_akms"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_pg",
+					"_tpl": "MIRA_pistolgrip_ak_izhmash_akm_dark_wood",
+					"parentId": "1488ccbabababa0000000010",
+					"slotId": "mod_pistol_grip_akms"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_mag",
+					"_tpl": "MIRA_mag_ak_izhmash_ak_gold_55_762x39_30",
+					"parentId": "1488ccbabababa0000000010",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_gb",
+					"_tpl": "MIRA_gas_block_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000010",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_hg",
+					"_tpl": "MIRA_handguard_ak_izhmash_akm_std_dark_wood",
+					"parentId": "1488ccbabababa0000000010_gb",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_ns",
+					"_tpl": "MIRA_muzzle_ak_izhmash_akm_gold_762x39",
+					"parentId": "1488ccbabababa0000000010",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_ur",
+					"_tpl": "MIRA_reciever_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000010",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000010_or",
+					"_tpl": "MIRA_sight_rear_ak_izhmash_akm_gold",
+					"parentId": "1488ccbabababa0000000010",
+					"slotId": "mod_sight_rear"
+				}
+			],
+			"_encyclopedia": "MIRA_weapon_izhmash_akmsn_762x39_gold"
+		},
+		"MIRA_weapon_izhmash_ak_762x39_preset": {
+			"_id": "MIRA_weapon_izhmash_ak_762x39_preset",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "AKN Default",
+			"_parent": "1488ccbabababa0000000011",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000011",
+					"_tpl": "MIRA_weapon_izhmash_ak_762x39"
+				},
+				{
+					"_id": "1488ccbabababa0000000011_pg",
+					"_tpl": "MIRA_pistolgrip_ak_izhmash_ak_wood",
+					"parentId": "1488ccbabababa0000000011",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000011_mag",
+					"_tpl": "59d625f086f774661516605d",
+					"parentId": "1488ccbabababa0000000011",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000011_st",
+					"_tpl": "MIRA_stock_ak_izhmash_ak_std_wood",
+					"parentId": "1488ccbabababa0000000011",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000011_ur",
+					"_tpl": "MIRA_reciever_ak_izhmash_ak_std",
+					"parentId": "1488ccbabababa0000000011",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000011_gb",
+					"_tpl": "59d64ec286f774171d1e0a42",
+					"parentId": "1488ccbabababa0000000011",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000011_hg",
+					"_tpl": "MIRA_handguard_ak_izhmash_ak_std_wood",
+					"parentId": "1488ccbabababa0000000011_gb",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000011_or",
+					"_tpl": "59d650cf86f7741b846413a4",
+					"parentId": "1488ccbabababa0000000011",
+					"slotId": "mod_sight_rear"
+				}
+			],
+			"_encyclopedia": "MIRA_weapon_izhmash_ak_762x39"
+		},
+		"MIRA_weapon_izhmash_ak_762x39_nodove_preset": {
+			"_id": "MIRA_weapon_izhmash_ak_762x39_nodove_preset",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "AK Default",
+			"_parent": "1488ccbabababa0000000012",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000012",
+					"_tpl": "MIRA_weapon_izhmash_ak_762x39_nodove"
+				},
+				{
+					"_id": "1488ccbabababa0000000012_pg",
+					"_tpl": "MIRA_pistolgrip_ak_izhmash_ak_wood",
+					"parentId": "1488ccbabababa0000000012",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488ccbabababa0000000012_mag",
+					"_tpl": "59d625f086f774661516605d",
+					"parentId": "1488ccbabababa0000000012",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000012_st",
+					"_tpl": "MIRA_stock_ak_izhmash_ak_std_wood",
+					"parentId": "1488ccbabababa0000000012",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000012_ur",
+					"_tpl": "MIRA_reciever_ak_izhmash_ak_std",
+					"parentId": "1488ccbabababa0000000012",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488ccbabababa0000000012_gb",
+					"_tpl": "59d64ec286f774171d1e0a42",
+					"parentId": "1488ccbabababa0000000012",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488ccbabababa0000000012_hg",
+					"_tpl": "MIRA_handguard_ak_izhmash_ak_std_wood",
+					"parentId": "1488ccbabababa0000000012_gb",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488ccbabababa0000000012_or",
+					"_tpl": "59d650cf86f7741b846413a4",
+					"parentId": "1488ccbabababa0000000012",
+					"slotId": "mod_sight_rear"
+				}
+			],
+			"_encyclopedia": "MIRA_weapon_izhmash_ak_762x39_nodove"
+		},
+		"MIRA_weapon_ai_awm_338lm_presetID": {
+			"_id": "MIRA_weapon_ai_awm_338lm_presetID",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "ai_awm_PRESET",
+			"_encyclopedia": "MIRA_weapon_ai_awm_338lm",
+			"_parent": "1488ccbabababa0000000014",
+			"_items": [
+				{
+					"_id": "1488ccbabababa0000000014",
+					"_tpl": "MIRA_weapon_ai_awm_338lm"
+				},
+				{
+					"_id": "1488ccbabababa0000000014_stock",
+					"_tpl": "MIRA_stock_awm_ai_awm",
+					"parentId": "1488ccbabababa0000000014",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488ccbabababa0000000014_mag",
+					"_tpl": "MIRA_magazine_awm_ai_86x70_5",
+					"parentId": "1488ccbabababa0000000014",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488ccbabababa0000000014_mnt",
+					"_tpl": "MIRA_mount_awm_ai_top_picatinny_rail",
+					"parentId": "1488ccbabababa0000000014",
+					"slotId": "mod_mount"
+				},
+				{
+					"_id": "1488ccbabababa0000000014_bar",
+					"_tpl": "MIRA_barrel_awm_ai_std_686mm",
+					"parentId": "1488ccbabababa0000000014",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488ccbabababa0000000014_mb",
+					"_tpl": "MIRA_muzzle_awm_ai_mb_86x70",
+					"parentId": "1488ccbabababa0000000014_bar",
+					"slotId": "mod_muzzle"
+				}
+			]
+		}
+	},
+	"config": {
+		"Mastering": [
+			{
+				"Name": "AWM",
+				"Templates": [
+					"MIRA_weapon_ai_awm_338lm"
+				],
+				"Level2": 200,
+				"Level3": 500
+			}
+		],
+		"Health": {
+			"Effects": {
+				"Stimulator": {
+					"Buffs": {}
+				}
+			}
+		}
+	}
+}

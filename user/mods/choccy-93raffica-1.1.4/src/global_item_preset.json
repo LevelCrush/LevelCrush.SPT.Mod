@@ -1,0 +1,77 @@
+{
+    "ItemPresets": {
+        "65f6ebe432bcdc33bef6bc13": {
+            "_changeWeaponName": true,
+            "_id": "65f6ebe432bcdc33bef6bc13",
+            "_items": [
+                {
+                    "_id": "65f6ebf0e60f3ae849be0ec1",
+                    "_tpl": "weapon_93_raffica",
+                    "upd": {
+                        "FireMode": {
+                          "FireMode": "single"
+                        }
+                    }
+                },
+                {
+                    "_id": "77a118a7f6da845a0beb0536",
+                    "_tpl": "mod_reciever_raffica_slide_sightless",
+                    "parentId": "65f6ebf0e60f3ae849be0ec1",
+                    "slotId": "mod_reciever"
+                },
+                {
+                    "_id": "bc6e822b98258cc8bf19dc84",
+                    "_tpl": "5cadc2e0ae9215051e1c21e7",
+                    "parentId": "65f6ebf0e60f3ae849be0ec1",
+                    "slotId": "mod_magazine"
+                },
+                {
+                    "_id": "7e9a9c2e7f841d33df27f025",
+                    "_tpl": "mod_barrel_ext_robocop",
+                    "parentId": "65f6ebf0e60f3ae849be0ec1",
+                    "slotId": "mod_tactical"
+                },
+                {
+                    "_id": "871d9682ad27b8b2b0deabe5",
+                    "_tpl": "mod_rear_sight_rbc_mount",
+                    "parentId": "77a118a7f6da845a0beb0536",
+                    "slotId": "mod_sight_rear"
+                }
+            ],
+            "_name": "M93R Auto 9",
+            "_parent": "65f6ebf0e60f3ae849be0ec1",
+            "_type": "Preset"
+        },
+        "65f6ebf8be47381f6d559201": {
+            "_changeWeaponName": false,
+            "_encyclopedia": "weapon_93_raffica",
+            "_id": "65f6ebf8be47381f6d559201",
+            "_items": [
+                {
+                    "_id": "65f6ebfeae0bf53ca25b960d",
+                    "_tpl": "weapon_93_raffica",
+                    "upd": {                        
+                        "FireMode": {
+                            "FireMode": "burst"
+                        }
+                    }
+                },
+                {
+                    "_id": "021ccc7a610d6880b8eed053",
+                    "_tpl": "mod_reciever_raffica_slide",
+                    "parentId": "65f6ebfeae0bf53ca25b960d",
+                    "slotId": "mod_reciever"
+                },
+                {
+                    "_id": "961cb2e06d4da6280a71c2b4",
+                    "_tpl": "5cadc2e0ae9215051e1c21e7",
+                    "parentId": "65f6ebfeae0bf53ca25b960d",
+                    "slotId": "mod_magazine"
+                }
+            ],
+            "_name": "M93R Stock",
+            "_parent": "65f6ebfeae0bf53ca25b960d",
+            "_type": "Preset"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "addtoconfigsitem": {
+        "blacklist": [
+        ]
+    },
+    "addtoconfigsscavcase": {
+        "rewardItemBlacklist": [
+        ]
+    }
+}

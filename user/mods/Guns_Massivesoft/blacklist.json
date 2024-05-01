@@ -1,0 +1,10 @@
+{
+    "addtoconfigsitem": {
+        "blacklist": [
+            "mag_JAK12_20rd_MASSIVESOFT"
+        ]
+    },
+    "addtoconfigsscavcase": {
+        "rewardItemBlacklist": []
+    }
+}

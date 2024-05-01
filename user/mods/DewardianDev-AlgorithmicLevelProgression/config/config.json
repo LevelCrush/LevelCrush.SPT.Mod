@@ -5,15 +5,9 @@
   "enableNonPMCBotChanges": true,
   "questUnlockedItemsShifted": true,
   "tradedItemsShifted": true,
-  "addCustomTraderItems": false,
-  "customTradersToExclude": [
-    "insertTheTraderNameToIgnoreTheirItems",
-    "CustomTradersNamesWillPrintToConsoleIfFoundAndaddCustomTraderItemsIsSetToTrue"
-  ],
-  "customBlacklist": [
-    "get id's from here https://db.sp-tarkov.com/search/",
-    "5example3208of34not8f83real8a1id"
-  ],
+  "addCustomTraderItems": true,
+  "customTradersToExclude": [],
+  "customBlacklist": [],
   "removePMCLootForLootingBots": false,
   "removeScavLootForLootingBots": false,
   "levelRange": {

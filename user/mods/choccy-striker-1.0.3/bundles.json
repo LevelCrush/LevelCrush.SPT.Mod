@@ -1,0 +1,67 @@
+{
+    "manifest": [
+        {
+            "key": "assets/weapons/striker12/client_assets.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/weapons/striker12/textures.bundle"
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/weapon_striker_12_container.bundle",
+            "dependencyKeys": [
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "assets/weapons/striker12/client_assets.bundle",
+                "assets/weapons/striker12/striker12_bank.bundle",
+                "assets/content/audio/weapons/generic"
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/striker12_bank.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/textures.bundle",
+            "dependencyKeys": [                
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/mod_stock_foldable_striker_12.bundle",
+            "dependencyKeys": [
+                "assets/weapons/striker12/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/mod_mount_piccatiny_rail_striker_12.bundle",
+            "dependencyKeys": [
+                "assets/weapons/striker12/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/mod_magazine_striker_12.bundle",
+            "dependencyKeys": [
+                "assets/weapons/striker12/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/mod_front_sight_striker_12.bundle",
+            "dependencyKeys": [
+                "assets/weapons/striker12/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "assets/weapons/striker12/mod_rear_sight_striker_12.bundle",
+            "dependencyKeys": [
+                "assets/weapons/striker12/client_assets.bundle"
+            ]
+        }
+    ]
+}

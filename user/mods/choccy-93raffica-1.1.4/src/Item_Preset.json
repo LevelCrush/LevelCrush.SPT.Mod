@@ -1,0 +1,260 @@
+{
+    "items": [
+        {
+            "_id": "preset_auto_9mm",
+            "_tpl": "weapon_93_raffica",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 2375,
+                "FireMode": {
+                    "FireMode": "burst"
+                }
+            }
+        },
+        {
+            "_id": "77a118a7f6da845a0beb0536",
+            "_tpl": "mod_reciever_raffica_slide_sightless",
+            "parentId": "preset_auto_9mm",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "bc6e822b98258cc8bf19dc84",
+            "_tpl": "5cadc2e0ae9215051e1c21e7",
+            "parentId": "preset_auto_9mm",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "7e9a9c2e7f841d33df27f025",
+            "_tpl": "mod_barrel_ext_robocop",
+            "parentId": "preset_auto_9mm",
+            "slotId": "mod_tactical"
+        },
+        {
+            "_id": "871d9682ad27b8b2b0deabe5",
+            "_tpl": "mod_rear_sight_rbc_mount",
+            "parentId": "77a118a7f6da845a0beb0536",
+            "slotId": "mod_sight_rear",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0
+                }
+            }
+        },
+        {
+            "_id": "preset_m93r_default",
+            "_tpl": "weapon_93_raffica",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 5732,
+                "FireMode": {
+                    "FireMode": "burst"
+                }
+            }
+        },
+        {
+            "_id": "021ccc7a610d6880b8eed053",
+            "_tpl": "mod_reciever_raffica_slide",
+            "parentId": "preset_m93r_default",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "961cb2e06d4da6280a71c2b4",
+            "_tpl": "5cadc2e0ae9215051e1c21e7",
+            "parentId": "preset_m93r_default",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "40721ba4fe4d275309cb5b92",
+            "_tpl": "mod_foregrip_angled_raffica",
+            "parentId": "preset_m93r_default",
+            "slotId": "mod_tactical"
+        },
+        {
+            "_id": "angled_grip",
+            "_tpl": "mod_foregrip_angled_raffica",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 2375
+            }
+        },
+        {
+            "_id": "stock_metal",
+            "_tpl": "mod_stock_metal_raffica",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 2375
+            }
+        },
+        {
+            "_id": "aurora_2_silencer",
+            "_tpl": "mod_silencer_gemtech_aurora_2",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 2375
+            }
+        },
+        {
+            "_id": "robocop_barrel_ext",
+            "_tpl": "mod_barrel_ext_robocop",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 2375
+            }
+        },
+        {
+            "_id": "regular_slide",
+            "_tpl": "mod_reciever_raffica_slide",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 2375
+            }
+        },
+        {
+            "_id": "sightless_slide",
+            "_tpl": "mod_reciever_raffica_slide_sightless",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {                
+                "UnlimitedCount": true,
+                "StackObjectsCount": 2375
+            }
+        },
+        {
+            "_id": "high_rise_rear_sight",
+            "_tpl": "mod_rear_sight_rbc_mount",
+            "parentId": "sightless_slide",
+            "slotId": "mod_sight_rear",
+            "upd": {
+                "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                        0
+                    ],
+                    "ScopesSelectedModes": [
+                        0
+                    ],
+                    "SelectedScope": 0
+                }
+            }
+        }
+    ],
+    "barter_scheme": {
+        "preset_auto_9mm": [
+            [
+                {
+                    "_tpl": "weapon_93_raffica",
+                    "count": 1
+                },
+                {
+                    "_tpl": "590c392f86f77444754deb29",
+                    "count": 2
+                },
+                {
+                    "_tpl": "59e35de086f7741778269d84",
+                    "count": 1
+                },
+                {
+                    "_tpl": "61bf7c024770ee6f9c6b8b53",
+                    "count": 2
+                }
+            ]
+        ],
+        "preset_m93r_default": [
+            [
+                {
+                    "_tpl": "5cadc190ae921500103bb3b6",
+                    "count": 1
+                },
+                {
+                    "_tpl": "5696686a4bdc2da3298b456a",
+                    "count": 216
+                }
+            ]
+        ],
+        "angled_grip": [
+            [
+                {
+                    "_tpl": "5696686a4bdc2da3298b456a",
+                    "count": 75
+                }
+            ]
+        ],
+        "stock_metal": [
+            [
+                {
+                    "_tpl": "5696686a4bdc2da3298b456a",
+                    "count": 104
+                }
+            ]
+        ],
+        "aurora_2_silencer": [
+            [
+                {
+                    "_tpl": "5696686a4bdc2da3298b456a",
+                    "count": 487
+                }
+            ]
+        ],
+        "robocop_barrel_ext": [
+            [
+                {
+                    "_tpl": "5c12613b86f7743bbe2c3f76",
+                    "count": 1
+                },
+                {
+                    "_tpl": "590a386e86f77429692b27ab",
+                    "count": 4
+                },
+                {
+                    "_tpl": "590c621186f774138d11ea29",
+                    "count": 1
+                }
+            ]
+        ],
+        "sightless_slide": [
+            [
+                {
+                    "_tpl": "5696686a4bdc2da3298b456a",
+                    "count": 67
+                }
+            ]
+        ],
+        "regular_slide": [
+            [
+                {
+                    "_tpl": "5696686a4bdc2da3298b456a",
+                    "count": 67
+                }
+            ]
+        ]
+    },
+    "loyal_level_items":{
+        "preset_auto_9mm": 1,
+        "preset_m93r_default": 1,
+        "angled_grip": 1,
+        "stock_metal": 1,
+        "aurora_2_silencer": 1,
+        "robocop_barrel_ext": 1,
+        "sightless_slide": 1,
+        "regular_slide": 1
+    }
+}
