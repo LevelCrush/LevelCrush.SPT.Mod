@@ -3,17 +3,45 @@
     "QuestName": "A Smelly Scav - Part 2",
     "_id": "LC_Smelly_Scav_2",
     "acceptPlayerMessage": "LC_Smelly_Scav_2 acceptPlayerMessage",
-    "declinePlayerMessage": "LC_EVENT_4 declinePlayerMessage",
-    "description": "LC_Smelly_Scav_2 description",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "LC_Smelly_Scav_2 changeQuestMessageText",
     "completePlayerMessage": "LC_Smelly_Scav_2 completePlayerMessage",
+    "declinePlayerMessage": "LC_Smelly_Scav_2 declinePlayerMessage",
+    "description": "LC_Smelly_Scav_2 description",
+    "image": "/files/quest/icon/LC_Smelly_Scav_2_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e5fad2720bc05b8b4567",
+    "name": "LC_Smelly_Scav_2 name",
+    "note": "LC_Smelly_Scav_2 note",
+    "restartable": false,
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "LC_Smelly_Scav_2 startedMessageText",
+    "successMessageText": "LC_Smelly_Scav_2 successMessageText",
     "traderId": "54cb57776803fa99248b456e",
-    "image": "/files/quest/icon/LC_EVENT_4_thumbnail.png",
+    "type": "Elimination",
     "conditions": {
-      "AvailableForStart": [],
+      "Fail": [],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "LC_Smelly_Scav_1 text",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "LC_Smelly_Scav_1",
+          "visibilityConditions": []
+        }
+      ],
       "AvailableForFinish": [
         {
+          "completeInSeconds": 0,
           "conditionType": "CounterCreator",
           "counter": {
             "conditions": [
@@ -21,14 +49,16 @@
                 "compareMethod": ">=",
                 "conditionType": "Kills",
                 "dynamicLocale": false,
-                "id": "LC_Smelly_Scav_2 TASK1 Kills",
+                "id": "LC_Smelly_Scav_2 TASK1",
                 "resetOnSessionEnd": false,
-                "savageRole": ["BossSanitar"],
+                "savageRole": [
+                  "bossSanitar"
+                ],
                 "target": "Savage",
                 "value": 1
               }
             ],
-            "id": "LC_Smelly_Scav_2 TASK1 Kill Counter"
+            "id": "LC_Smelly_Scav_2 TASK1"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
@@ -42,15 +72,11 @@
           "visibilityConditions": []
         },
         {
+          "completeInSeconds": 0,
           "conditionType": "CounterCreator",
           "counter": {
             "conditions": [
-              {
-                "conditionType": "ExitName",
-                "dynamicLocale": false,
-                "exitName": "EXFIL_Train",
-                "id": "LC_Smelly_Scav_2 TASK2_Exract"
-              },
+             
               {
                 "conditionType": "ExitStatus",
                 "dynamicLocale": false,
@@ -58,7 +84,7 @@
                 "status": ["Survived"]
               }
             ],
-            "id": "LC_Smelly_Scav_2 TASK2 Counter"
+            "id": "LC_Smelly_Scav_2 TASK2"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
@@ -78,11 +104,30 @@
       "Started": [],
       "Success": [
         {
-          "id": "LC-Smelly-Scav-EXPERIENCE-2",
+          "id": "LC-Smelly-Scav-Reward-EXP-2",
           "index": 0,
           "type": "Experience",
           "value": "15000"
+        },
+        {
+          "findInRaid": true,
+          "id": "LC-Smelly-Scav-Reward-item-1",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Injector_case",
+              "_tpl": "619cbf7d23893217ec30b689",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "Injector_case",
+          "type": "Item",
+          "unknown": true,
+          "value": "1"
         }
+        
       ]
     }
   }
