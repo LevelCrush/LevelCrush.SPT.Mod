@@ -1,0 +1,163 @@
+{
+  "_id": "ARTEM_TACHELMET18",
+  "_name": "",
+  "_parent": "5a341c4086f77401f2541505",
+  "_type": "Item",
+  "_props": {
+    "Name": "",
+    "ShortName": "",
+    "Description": "",
+    "Weight": 0.96,
+    "BackgroundColor": "default",
+    "Width": 2,
+    "Height": 2,
+    "StackMaxSize": 1,
+    "ItemSound": "gear_helmet",
+    "Prefab": {
+      "path": "artemtachelmet18.bundle",
+      "rcid": ""
+    },
+    "UsePrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "StackObjectsCount": 1,
+    "NotShownInSlot": false,
+    "ExaminedByDefault": true,
+    "ExamineTime": 1,
+    "IsUndiscardable": false,
+    "IsUnsaleable": false,
+    "IsUnbuyable": false,
+    "IsUngivable": false,
+    "IsLockedafterEquip": false,
+    "QuestItem": false,
+    "LootExperience": 20,
+    "ExamineExperience": 4,
+    "HideEntrails": false,
+    "RepairCost": 852,
+    "RepairSpeed": 10,
+    "ExtraSizeLeft": 0,
+    "ExtraSizeRight": 0,
+    "ExtraSizeUp": 0,
+    "ExtraSizeDown": 0,
+    "ExtraSizeForceAdd": false,
+    "MergesWithChildren": true,
+    "CanSellOnRagfair": true,
+    "CanRequireOnRagfair": false,
+    "ConflictingItems": [],
+    "Unlootable": false,
+    "UnlootableFromSlot": "FirstPrimaryWeapon",
+    "UnlootableFromSide": [],
+    "AnimationVariantsNumber": 0,
+    "DiscardingBlock": false,
+    "RagFairCommissionModifier": 1,
+    "IsAlwaysAvailableForInsurance": false,
+    "DiscardLimit": -1,
+    "DropSoundType": "None",
+    "InsuranceDisabled": false,
+    "QuestStashMaxCount": 0,
+    "IsSpecialSlotOnly": false,
+    "IsUnremovable": false,
+    "Grids": [],
+    "Slots": [
+      {
+        "_name": "mod_nvg",
+        "_id": "5ea17ca01412a1425304d1c3",
+        "_parent": "ARTEM_TACHELMET18",
+        "_props": {
+          "filters": [
+            {
+              "Shift": 0,
+              "Filter": [
+                "5ea18c84ecf1982c7712d9a2",
+                "5c0558060db834001b735271",
+                "5a16b8a9fcdbcb00165aa6ca"
+              ]
+            }
+          ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": false,
+        "_proto": "55d30c4c4bdc2db4468b457e"
+      },
+      {
+        "_name": "Helmet_top",
+        "_id": "657f9b81c6679fefb3051e1d",
+        "_parent": "ARTEM_TACHELMET18",
+        "_props": {
+          "filters": [
+            {
+              "locked": true,
+              "Plate": "657f9a55c6679fefb3051e19",
+              "Filter": [
+                "657f9a55c6679fefb3051e19"
+              ],
+              "armorColliders": [
+                "ParietalHead"
+              ],
+              "armorPlateColliders": [],
+              "bluntDamageReduceFromSoftArmor": false
+            }
+          ]
+        },
+        "_required": true,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "Helmet_back",
+        "_id": "657f9b81c6679fefb3051e1e",
+        "_parent": "ARTEM_TACHELMET18",
+        "_props": {
+          "filters": [
+            {
+              "locked": true,
+              "Plate": "657f9a94ada5fadd1f07a589",
+              "Filter": [
+                "657f9a94ada5fadd1f07a589"
+              ],
+              "armorColliders": [
+                "BackHead"
+              ],
+              "armorPlateColliders": [],
+              "bluntDamageReduceFromSoftArmor": false
+            }
+          ]
+        },
+        "_required": true,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      }
+    ],
+    "CanPutIntoDuringTheRaid": true,
+    "CantRemoveFromSlotsDuringRaid": [],
+    "BlocksEarpiece": false,
+    "BlocksEyewear": false,
+    "BlocksHeadwear": false,
+    "BlocksFaceCover": false,
+    "Durability": 0,
+    "MaxDurability": 0,
+    "armorClass": "0",
+    "Indestructibility": 0.9,
+    "FaceShieldComponent": false,
+    "FaceShieldMask": "NoMask",
+    "HasHinge": false,
+    "MaterialType": "Helmet",
+    "RicochetParams": {
+      "x": 0.9,
+      "y": 0.5,
+      "z": 70
+    },
+    "DeafStrength": "None",
+    "BluntThroughput": 0.1314,
+    "ArmorMaterial": "Combined",
+    "BlindnessProtection": 0,
+    "ArmorType": "Heavy",
+    "armorColliders": [],
+    "armorPlateColliders": [],
+    "speedPenaltyPercent": 0,
+    "mousePenalty": -1,
+    "weaponErgonomicPenalty": -1
+  },
+  "_proto": "5645bc214bdc2d363b8b4571"
+}

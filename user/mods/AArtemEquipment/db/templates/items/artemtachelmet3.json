@@ -81,6 +81,32 @@
         "_proto": "55d30c4c4bdc2db4468b457e"
       },
       {
+        "_name": "mod_equipment_001",
+        "_id": "60920d8d36b78c10f3e7b1d9",
+        "_parent": "ARTEM_TACHELMET3",
+        "_props": {
+            "filters": [
+                {
+                    "Shift": 0,
+                    "Filter": [
+                        "5a16b9fffcdbcb0176308b34",
+                        "5b432b965acfc47a8774094e",
+                        "5aa2ba71e5b5b000137b758f",
+                        "6033fa48ffd42c541047f728",
+                        "5645bcc04bdc2d363b8b4572",
+                        "5c165d832e2216398b5a7e36",
+                        "5e4d34ca86f774264f758330",
+                        "5f60cd6cf2bcbb675b00dac6",
+                        "628e4e576d783146b124c64d"
+                    ]
+                }
+            ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": false,
+        "_proto": "55d30c4c4bdc2db4468b457e"
+      },
+      {
         "_name": "Helmet_top",
         "_id": "657f9b81c6679fefb3051e1d",
         "_parent": "ARTEM_TACHELMET3",
@@ -89,8 +115,12 @@
             {
               "locked": true,
               "Plate": "657f9a55c6679fefb3051e19",
-              "Filter": ["657f9a55c6679fefb3051e19"],
-              "armorColliders": ["ParietalHead"],
+              "Filter": [
+                "657f9a55c6679fefb3051e19"
+              ],
+              "armorColliders": [
+                "ParietalHead"
+              ],
               "armorPlateColliders": [],
               "bluntDamageReduceFromSoftArmor": false
             }
@@ -109,8 +139,12 @@
             {
               "locked": true,
               "Plate": "657f9a94ada5fadd1f07a589",
-              "Filter": ["657f9a94ada5fadd1f07a589"],
-              "armorColliders": ["BackHead"],
+              "Filter": [
+                "657f9a94ada5fadd1f07a589"
+              ],
+              "armorColliders": [
+                "BackHead"
+              ],
               "armorPlateColliders": [],
               "bluntDamageReduceFromSoftArmor": false
             }
@@ -123,7 +157,7 @@
     ],
     "CanPutIntoDuringTheRaid": true,
     "CantRemoveFromSlotsDuringRaid": [],
-    "BlocksEarpiece": false,
+    "BlocksEarpiece": true,
     "BlocksEyewear": false,
     "BlocksHeadwear": false,
     "BlocksFaceCover": false,

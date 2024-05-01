@@ -89,8 +89,12 @@
             {
               "locked": true,
               "Plate": "657f9a55c6679fefb3051e19",
-              "Filter": ["657f9a55c6679fefb3051e19"],
-              "armorColliders": ["ParietalHead"],
+              "Filter": [
+                "657f9a55c6679fefb3051e19"
+              ],
+              "armorColliders": [
+                "ParietalHead"
+              ],
               "armorPlateColliders": [],
               "bluntDamageReduceFromSoftArmor": false
             }
@@ -109,8 +113,12 @@
             {
               "locked": true,
               "Plate": "657f9a94ada5fadd1f07a589",
-              "Filter": ["657f9a94ada5fadd1f07a589"],
-              "armorColliders": ["BackHead"],
+              "Filter": [
+                "657f9a94ada5fadd1f07a589"
+              ],
+              "armorColliders": [
+                "BackHead"
+              ],
               "armorPlateColliders": [],
               "bluntDamageReduceFromSoftArmor": false
             }
