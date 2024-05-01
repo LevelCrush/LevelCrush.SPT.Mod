@@ -25,17 +25,17 @@
       "woods": 5
     },
     "cultists": {
-      "customs": 10,
+      "customs": 100,
       "factory": 0,
-      "factory_night": 2,
+      "factory_night": 100,
       "groundzero": 0,
       "interchange": 0,
       "laboratory": 0,
       "lighthouse": 0,
       "reserve": 0,
-      "shoreline": 10,
+      "shoreline": 100,
       "streets": 0,
-      "woods": 12
+      "woods": 100
     },
     "raiders": {
       "customs": 0,
