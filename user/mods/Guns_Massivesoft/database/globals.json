@@ -1,0 +1,401 @@
+{
+	"ItemPresets": {
+		"M14_PRESET_DEFAULT": {
+			"_id": "M14_PRESET_DEFAULT",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "M14 Default",
+			"_encyclopedia": "weapon_M14_762x51_MASSIVESOFT",
+			"_parent": "1488cababababa0000000001",
+			"_items": [
+				{
+					"_id": "1488cababababa0000000001",
+					"_tpl": "weapon_M14_762x51_MASSIVESOFT"
+				},
+				{
+					"_id": "1488cababababa0000000001_BARREL",
+					"_tpl": "mod_barrel_M14_22_MASSIVESOFT",
+					"parentId": "1488cababababa0000000001",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488cababababa0000000001_MUZZLE",
+					"_tpl": "5addbb6e5acfc408fb1393fd",
+					"parentId": "1488cababababa0000000001_BARREL",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488cababababa0000000001_SIGHT_FRONT",
+					"_tpl": "5addba3e5acfc4001669f0ab",
+					"parentId": "1488cababababa0000000001_MUZZLE",
+					"slotId": "mod_sight_front"
+				},
+				{
+					"_id": "1488cababababa0000000001_STOCK",
+					"_tpl": "mod_stock_M14_wood_MASSIVESOFT",
+					"parentId": "1488cababababa0000000001",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488cababababa0000000001_MAGAZINE",
+					"_tpl": "5aaf8a0be5b5b00015693243",
+					"parentId": "1488cababababa0000000001",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488cababababa0000000001_SIGHT_REAR",
+					"_tpl": "5abcbb20d8ce87001773e258",
+					"parentId": "1488cababababa0000000001",
+					"slotId": "mod_sight_rear"
+				}
+			]
+		},
+		"M1911A1_PR_DEFAULT": {
+			"_id": "M1911A1_PR_DEFAULT",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "Colt M1911A1 (Centennial Edition) default",
+			"_encyclopedia": "weapon_M1911CE_1143x23_MASSIVESOFT",
+			"_parent": "1488cababababa0000000002",
+			"_items": [
+				{
+					"_id": "1488cababababa0000000002",
+					"_tpl": "weapon_M1911CE_1143x23_MASSIVESOFT"
+				},
+				{
+					"_id": "1488cababababa0000000002_CATCH",
+					"_tpl": "mod_aux_1911CE_slidelock_MASSIVESOFT",
+					"parentId": "1488cababababa0000000002",
+					"slotId": "mod_catch"
+				},
+				{
+					"_id": "1488cababababa0000000002_BARREL",
+					"_tpl": "mod_barrel_1911CE_MASSIVESOFT",
+					"parentId": "1488cababababa0000000002",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488cababababa0000000002_RECIEVER",
+					"_tpl": "mod_receiver_1911CE_slide_MASSIVESOFT",
+					"parentId": "1488cababababa0000000002",
+					"slotId": "mod_reciever"
+				},
+				{
+					"_id": "1488cababababa0000000002_SF",
+					"_tpl": "5e81ee213397a21db957f6a6",
+					"parentId": "1488cababababa0000000002_RECIEVER",
+					"slotId": "mod_sight_front"
+				},
+				{
+					"_id": "1488cababababa0000000002_SR",
+					"_tpl": "5e81ee4dcb2b95385c177582",
+					"parentId": "1488cababababa0000000002_RECIEVER",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488cababababa0000000002_TRIGGER",
+					"_tpl": "mod_aux_1911CE_trigger_MASSIVESOFT",
+					"parentId": "1488cababababa0000000002",
+					"slotId": "mod_trigger"
+				},
+				{
+					"_id": "1488cababababa0000000002_HAMMER",
+					"_tpl": "mod_aux_1911CE_hammer_MASSIVESOFT",
+					"parentId": "1488cababababa0000000002",
+					"slotId": "mod_hammer"
+				},
+				{
+					"_id": "1488cababababa0000000002_PGP",
+					"_tpl": "mod_pistolgrip_1911CE_side_MASSIVESOFT",
+					"parentId": "1488cababababa0000000002",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488cababababa0000000002_MAGZINE",
+					"_tpl": "mag_1911CE_7rd_MASSIVESOFT",
+					"parentId": "1488cababababa0000000002",
+					"slotId": "mod_magazine"
+				}
+			]
+		},
+		"TYPE64_762x25_DEFAULT": {
+			"_id": "TYPE64_762x25_DEFAULT",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "Type 64 Default",
+			"_encyclopedia": "weapon_TYPE64_762x25_MASSIVESOFT",
+			"_parent": "1488cababababa0000000003",
+			"_items": [
+				{
+					"_id": "1488cababababa0000000003",
+					"_tpl": "weapon_TYPE64_762x25_MASSIVESOFT"
+				},
+				{
+					"_id": "1488cababababa0000000003_magazine",
+					"_tpl": "mag_TYPE64_std_762x25_30_MASSIVESOFT",
+					"parentId": "1488cababababa0000000003",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488cababababa0000000003_stock",
+					"_tpl": "mod_stock_TYPE64_STD_MASSIVESOFT",
+					"parentId": "1488cababababa0000000003",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488cababababa0000000003_barrel",
+					"_tpl": "mod_barrel_TYPE64_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000003",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488cababababa0000000003_pistol_grip",
+					"_tpl": "mod_pistolgrip_TYPE64_STD_MASSIVESOFT",
+					"parentId": "1488cababababa0000000003",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488cababababa0000000003_reciever",
+					"_tpl": "mod_receiver_TYPE64_STD_MASSIVESOFT",
+					"parentId": "1488cababababa0000000003",
+					"slotId": "mod_reciever"
+				}
+			]
+		},
+		"V308_DEFAULT": {
+			"_id": "V308_DEFAULT",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "V308 Default",
+			"_encyclopedia": "weapon_v308_762x51_MASSIVESOFT",
+			"_parent": "1488cababababa0000000004",
+			"_items": [
+				{
+					"_id": "1488cababababa0000000004",
+					"_tpl": "weapon_v308_762x51_MASSIVESOFT"
+				},
+				{
+					"_id": "1488cababababa0000000004_magazine",
+					"_tpl": "mag_V308_10r_762x51_MASSIVESOFT",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488cababababa0000000004_sight_front",
+					"_tpl": "5fb6567747ce63734e3fa1dc",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_sight_front"
+				},
+				{
+					"_id": "1488cababababa0000000004_sight_rear",
+					"_tpl": "5fb6564947ce63734e3fa1da",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488cababababa0000000004_stock",
+					"_tpl": "5fb6558ad6f0b2136f2d7eb7",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488cababababa0000000004_barrel",
+					"_tpl": "mod_barrel_v308_185_MASSIVESOFT",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488cababababa0000000004_mount",
+					"_tpl": "mod_mounts_v308_rail_long_MASSIVESOFT",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_mount"
+				},
+				{
+					"_id": "1488cababababa0000000004_mount_001",
+					"_tpl": "5fce0f9b55375d18a253eff2",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_mount_001"
+				},
+				{
+					"_id": "1488cababababa0000000004_mount_002",
+					"_tpl": "5fce0f9b55375d18a253eff2",
+					"parentId": "1488cababababa0000000004",
+					"slotId": "mod_mount_002"
+				},
+				{
+					"_id": "1488cababababa0000000004_muzzle",
+					"_tpl": "5fb65424956329274326f316",
+					"parentId": "1488cababababa0000000004_barrel",
+					"slotId": "mod_muzzle"
+				}
+			]
+		},
+		"JAK12_DEFAULT": {
+			"_id": "JAK12_DEFAULT",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "JAK12 Default",
+			"_encyclopedia": "weapon_JAK12_12ga_MASSIVESOFT",
+			"_parent": "1488cababababa0000000005",
+			"_items": [
+				{
+					"_id": "1488cababababa0000000005",
+					"_tpl": "weapon_JAK12_12ga_MASSIVESOFT"
+				},
+				{
+					"_id": "1488cababababa0000000005_barrel",
+					"_tpl": "mod_barrel_JAK12_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005",
+					"slotId": "mod_barrel"
+				},
+				{
+					"_id": "1488cababababa0000000005_magazine",
+					"_tpl": "mag_JAK12_8rd_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488cababababa0000000005_handguard",
+					"_tpl": "mod_handguard_JAK12_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005",
+					"slotId": "mod_handguard"
+				},
+				{
+					"_id": "1488cababababa0000000005_sight_front",
+					"_tpl": "mod_sight_front_JAK12_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005",
+					"slotId": "mod_sight_front"
+				},
+				{
+					"_id": "1488cababababa0000000005_sight_rear",
+					"_tpl": "mod_sight_rear_JAK12_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488cababababa0000000005_stock",
+					"_tpl": "mod_stock_JAK12_buttpad_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488cababababa0000000005_muzzle",
+					"_tpl": "mod_muzzle_JAK12_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005_barrel",
+					"slotId": "mod_muzzle"
+				},
+				{
+					"_id": "1488cababababa0000000005_mount_000",
+					"_tpl": "mod_mount_JAK12_rail_bot_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005_handguard",
+					"slotId": "mod_mount_000"
+				},
+				{
+					"_id": "1488cababababa0000000005_mount_001",
+					"_tpl": "mod_mount_JAK12_rail_side_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005_handguard",
+					"slotId": "mod_mount_001"
+				},
+				{
+					"_id": "1488cababababa0000000005_mount_002",
+					"_tpl": "mod_mount_JAK12_rail_side_MASSIVESOFT",
+					"parentId": "1488cababababa0000000005_handguard",
+					"slotId": "mod_mount_002"
+				}
+			]
+		},
+		"QBZ03_DEFAULT": {
+			"_id": "QBZ03_DEFAULT",
+			"_type": "Preset",
+			"_changeWeaponName": false,
+			"_name": "QBZ03 Default",
+			"_encyclopedia": "weapon_QBZ03_std_MASSIVESOFT",
+			"_parent": "1488cababababa0000000006",
+			"_items": [
+				{
+					"_id": "1488cababababa0000000006",
+					"_tpl": "weapon_QBZ03_std_MASSIVESOFT"
+				},
+				{
+					"_id": "1488cababababa0000000006_magazine",
+					"_tpl": "55d4887d4bdc2d962f8b4570",
+					"parentId": "1488cababababa0000000006",
+					"slotId": "mod_magazine"
+				},
+				{
+					"_id": "1488cababababa0000000006_gas",
+					"_tpl": "mod_handguard_QBZ03_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000006",
+					"slotId": "mod_gas_block"
+				},
+				{
+					"_id": "1488cababababa0000000006_pistolg",
+					"_tpl": "mod_pistolgrip_QBZ03_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000006",
+					"slotId": "mod_pistol_grip"
+				},
+				{
+					"_id": "1488cababababa0000000006_stock",
+					"_tpl": "mod_stock_QBZ03_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000006",
+					"slotId": "mod_stock"
+				},
+				{
+					"_id": "1488cababababa0000000006_sr",
+					"_tpl": "mod_sight_rear_QBZ03_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000006",
+					"slotId": "mod_sight_rear"
+				},
+				{
+					"_id": "1488cababababa0000000006_muz",
+					"_tpl": "mod_muzzle_QBZ03_std_MASSIVESOFT",
+					"parentId": "1488cababababa0000000006",
+					"slotId": "mod_muzzle"
+				}
+			]
+		}
+	},
+	"config": {
+		"Mastering": [
+			{
+				"Name": "Type64",
+				"Templates": [
+					"weapon_TYPE64_762x25_MASSIVESOFT"
+				],
+				"Level2": 200,
+				"Level3": 400
+			},
+			{
+				"Name": "V308",
+				"Templates": [
+					"weapon_v308_762x51_MASSIVESOFT"
+				],
+				"Level2": 200,
+				"Level3": 400
+			},
+			{
+				"Name": "JAK12",
+				"Templates": [
+					"weapon_JAK12_12ga_MASSIVESOFT"
+				],
+				"Level2": 200,
+				"Level3": 400
+			},
+			{
+				"Name": "QBZ03",
+				"Templates": [
+					"weapon_QBZ03_std_MASSIVESOFT"
+				],
+				"Level2": 200,
+				"Level3": 400
+			}
+		],
+		"Health": {
+			"Effects": {
+				"Stimulator": {
+					"Buffs": {}
+				}
+			}
+		}
+	}
+}

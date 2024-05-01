@@ -1,0 +1,734 @@
+{
+    "items": [
+        {
+            "_id": "mag_1911CE_7rd_MASSIVESOFT",
+            "_tpl": "mag_1911CE_7rd_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "M1911A1_PR",
+            "_tpl": "weapon_M1911CE_1143x23_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "CATCH_M1911A1_PR",
+            "_tpl": "mod_aux_1911CE_slidelock_MASSIVESOFT",
+            "parentId": "M1911A1_PR",
+            "slotId": "mod_catch"
+        },
+        {
+            "_id": "BARREL_M1911A1_PR",
+            "_tpl": "mod_barrel_1911CE_MASSIVESOFT",
+            "parentId": "M1911A1_PR",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "RECIEVER_M1911A1_PR",
+            "_tpl": "mod_receiver_1911CE_slide_MASSIVESOFT",
+            "parentId": "M1911A1_PR",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "SF_M1911A1_PR",
+            "_tpl": "5e81ee213397a21db957f6a6",
+            "parentId": "RECIEVER_M1911A1_PR",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "SR_M1911A1_PR",
+            "_tpl": "5e81ee4dcb2b95385c177582",
+            "parentId": "RECIEVER_M1911A1_PR",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "TRIGGER_M1911A1_PR",
+            "_tpl": "mod_aux_1911CE_trigger_MASSIVESOFT",
+            "parentId": "M1911A1_PR",
+            "slotId": "mod_trigger"
+        },
+        {
+            "_id": "HAMMER_M1911A1_PR",
+            "_tpl": "mod_aux_1911CE_hammer_MASSIVESOFT",
+            "parentId": "M1911A1_PR",
+            "slotId": "mod_hammer"
+        },
+        {
+            "_id": "PGP_M1911A1_PR",
+            "_tpl": "mod_pistolgrip_1911CE_side_MASSIVESOFT",
+            "parentId": "M1911A1_PR",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "MAGZINE_M1911A1_PR",
+            "_tpl": "mag_1911CE_7rd_MASSIVESOFT",
+            "parentId": "M1911A1_PR",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "M14_PRESET_DEFAULT_PARENT",
+            "_tpl": "weapon_M14_762x51_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "M14_PRESET_DEFAULT_PARENT_BARREL",
+            "_tpl": "mod_barrel_M14_22_MASSIVESOFT",
+            "parentId": "M14_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "M14_PRESET_DEFAULT_PARENT_MUZZLE",
+            "_tpl": "5addbb6e5acfc408fb1393fd",
+            "parentId": "M14_PRESET_DEFAULT_PARENT_BARREL",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "M14_PRESET_DEFAULT_PARENT_SIGHT_FRONT",
+            "_tpl": "5addba3e5acfc4001669f0ab",
+            "parentId": "M14_PRESET_DEFAULT_PARENT_MUZZLE",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "M14_PRESET_DEFAULT_PARENT_STOCK",
+            "_tpl": "mod_stock_M14_wood_MASSIVESOFT",
+            "parentId": "M14_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "M14_PRESET_DEFAULT_PARENT_MAGAZINE",
+            "_tpl": "5aaf8a0be5b5b00015693243",
+            "parentId": "M14_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "M14_PRESET_DEFAULT_PARENT_SIGHT_REAR",
+            "_tpl": "5abcbb20d8ce87001773e258",
+            "parentId": "M14_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "TYPE64_PRESET_DEFAULT_PARENT",
+            "_tpl": "weapon_TYPE64_762x25_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "TYPE64_PRESET_magazine",
+            "_tpl": "mag_TYPE64_std_762x25_30_MASSIVESOFT",
+            "parentId": "TYPE64_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "TYPE64_PRESET_stock",
+            "_tpl": "mod_stock_TYPE64_STD_MASSIVESOFT",
+            "parentId": "TYPE64_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "TYPE64_PRESET_barrel",
+            "_tpl": "mod_barrel_TYPE64_std_MASSIVESOFT",
+            "parentId": "TYPE64_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "TYPE64_PRESET_pistol_grip",
+            "_tpl": "mod_pistolgrip_TYPE64_STD_MASSIVESOFT",
+            "parentId": "TYPE64_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "TYPE64_PRESET_reciever",
+            "_tpl": "mod_receiver_TYPE64_STD_MASSIVESOFT",
+            "parentId": "TYPE64_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_reciever"
+        },
+        {
+            "_id": "mag_TYPE64_std_762x25_30_MASSIVESOFT",
+            "_tpl": "mag_TYPE64_std_762x25_30_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mag_TYPE64_std_762x25_35_MASSIVESOFT",
+            "_tpl": "mag_TYPE64_std_762x25_35_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_barrel_TYPE64_LSG_MASSIVESOFT",
+            "_tpl": "mod_barrel_TYPE64_LSG_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_receiver_TYPE64_LSG_MASSIVESOFT",
+            "_tpl": "mod_receiver_TYPE64_LSG_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_handguard_TYPE64_L_MASSIVESOFT",
+            "_tpl": "mod_handguard_TYPE64_L_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_handguard_TYPE64_C_MASSIVESOFT",
+            "_tpl": "mod_handguard_TYPE64_C_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_stock_TYPE64_LSG_MASSIVESOFT",
+            "_tpl": "mod_stock_TYPE64_LSG_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_stock_TYPE64_QTUM_MASSIVESOFT",
+            "_tpl": "mod_stock_TYPE64_QTUM_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_pistolgrip_TYPE64_LSG_MASSIVESOFT",
+            "_tpl": "mod_pistolgrip_TYPE64_LSG_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_PARENT",
+            "_tpl": "weapon_v308_762x51_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_magazine",
+            "_tpl": "mag_V308_10r_762x51_MASSIVESOFT",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_sight_front",
+            "_tpl": "5fb6567747ce63734e3fa1dc",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_sight_rear",
+            "_tpl": "5fb6564947ce63734e3fa1da",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_stock",
+            "_tpl": "5fb6558ad6f0b2136f2d7eb7",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_barrel",
+            "_tpl": "mod_barrel_v308_185_MASSIVESOFT",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_mount",
+            "_tpl": "mod_mounts_v308_rail_long_MASSIVESOFT",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_mount"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_mount_001",
+            "_tpl": "5fce0f9b55375d18a253eff2",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_mount_001"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_mount_002",
+            "_tpl": "5fce0f9b55375d18a253eff2",
+            "parentId": "V308_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_mount_002"
+        },
+        {
+            "_id": "V308_PRESET_DEFAULT_muzzle",
+            "_tpl": "5fb65424956329274326f316",
+            "parentId": "V308_PRESET_DEFAULT_barrel",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "mod_barrel_v308_280_MASSIVESOFT",
+            "_tpl": "mod_barrel_v308_280_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mag_V308_10r_762x51_MASSIVESOFT",
+            "_tpl": "mag_V308_10r_762x51_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mag_V308_20r_762x51_MASSIVESOFT",
+            "_tpl": "mag_V308_20r_762x51_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mag_V308_50r_762x51_MASSIVESOFT",
+            "_tpl": "mag_V308_50r_762x51_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_PARENT",
+            "_tpl": "weapon_JAK12_12ga_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_barrel",
+            "_tpl": "mod_barrel_JAK12_std_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_barrel"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_magazine",
+            "_tpl": "mag_JAK12_8rd_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_handguard",
+            "_tpl": "mod_handguard_JAK12_std_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_handguard"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_sight_front",
+            "_tpl": "mod_sight_front_JAK12_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_sight_rear",
+            "_tpl": "mod_sight_rear_JAK12_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_stock",
+            "_tpl": "mod_stock_JAK12_buttpad_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_muzzle",
+            "_tpl": "mod_muzzle_JAK12_std_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_barrel",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_mount_000",
+            "_tpl": "mod_mount_JAK12_rail_bot_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_handguard",
+            "slotId": "mod_mount_000"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_mount_001",
+            "_tpl": "mod_mount_JAK12_rail_side_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_handguard",
+            "slotId": "mod_mount_001"
+        },
+        {
+            "_id": "JAK12_PRESET_DEFAULT_mount_002",
+            "_tpl": "mod_mount_JAK12_rail_side_MASSIVESOFT",
+            "parentId": "JAK12_PRESET_DEFAULT_handguard",
+            "slotId": "mod_mount_002"
+        },
+        {
+            "_id": "mag_JAK12_8rd_MASSIVESOFT",
+            "_tpl": "mag_JAK12_8rd_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "QBZ03_PRESET_DEFAULT_PARENT",
+            "_tpl": "weapon_QBZ03_std_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "QBZ03_PRESET_DEFAULT_magazine",
+            "_tpl": "55d4887d4bdc2d962f8b4570",
+            "parentId": "QBZ03_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_magazine"
+        },
+        {
+            "_id": "QBZ03_PRESET_DEFAULT_gas",
+            "_tpl": "mod_handguard_QBZ03_std_MASSIVESOFT",
+            "parentId": "QBZ03_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_gas_block"
+        },
+        {
+            "_id": "QBZ03_PRESET_DEFAULT_pistolg",
+            "_tpl": "mod_pistolgrip_QBZ03_std_MASSIVESOFT",
+            "parentId": "QBZ03_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_pistol_grip"
+        },
+        {
+            "_id": "QBZ03_PRESET_DEFAULT_stock",
+            "_tpl": "mod_stock_QBZ03_std_MASSIVESOFT",
+            "parentId": "QBZ03_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_stock"
+        },
+        {
+            "_id": "QBZ03_PRESET_DEFAULT_sr",
+            "_tpl": "mod_sight_rear_QBZ03_std_MASSIVESOFT",
+            "parentId": "QBZ03_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "QBZ03_PRESET_DEFAULT_muz",
+            "_tpl": "mod_muzzle_QBZ03_std_MASSIVESOFT",
+            "parentId": "QBZ03_PRESET_DEFAULT_PARENT",
+            "slotId": "mod_muzzle"
+        },
+        {
+            "_id": "mod_mount_QBZ03_rail_scope_MASSIVESOFT",
+            "_tpl": "mod_mount_QBZ03_rail_scope_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_stock_QBZ03_tubeADP_MASSIVESOFT",
+            "_tpl": "mod_stock_QBZ03_tubeADP_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        },
+        {
+            "_id": "mod_handguard_QBZ03_rail_MASSIVESOFT",
+            "_tpl": "mod_handguard_QBZ03_rail_MASSIVESOFT",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 50
+            }
+        }
+    ],
+    "barter_scheme": {
+        "mag_1911CE_7rd_MASSIVESOFT": [
+            [
+                {
+                    "count": 3000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "M1911A1_PR": [
+            [
+                {
+                    "count": 55000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "M14_PRESET_DEFAULT_PARENT": [
+            [
+                {
+                    "count": 90000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "TYPE64_PRESET_DEFAULT_PARENT": [
+            [
+                {
+                    "count": 42000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mag_TYPE64_std_762x25_30_MASSIVESOFT": [
+            [
+                {
+                    "count": 3000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mag_TYPE64_std_762x25_35_MASSIVESOFT": [
+            [
+                {
+                    "count": 4200,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_barrel_TYPE64_LSG_MASSIVESOFT": [
+            [
+                {
+                    "count": 25000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_receiver_TYPE64_LSG_MASSIVESOFT": [
+            [
+                {
+                    "count": 6000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_handguard_TYPE64_L_MASSIVESOFT": [
+            [
+                {
+                    "count": 16000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_handguard_TYPE64_C_MASSIVESOFT": [
+            [
+                {
+                    "count": 14000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_stock_TYPE64_LSG_MASSIVESOFT": [
+            [
+                {
+                    "count": 2200,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_stock_TYPE64_QTUM_MASSIVESOFT": [
+            [
+                {
+                    "count": 8000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_pistolgrip_TYPE64_LSG_MASSIVESOFT": [
+            [
+                {
+                    "count": 9000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "V308_PRESET_DEFAULT_PARENT": [
+            [
+                {
+                    "count": 90000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_barrel_v308_280_MASSIVESOFT": [
+            [
+                {
+                    "count": 11000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mag_V308_10r_762x51_MASSIVESOFT": [
+            [
+                {
+                    "count": 3000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mag_V308_20r_762x51_MASSIVESOFT": [
+            [
+                {
+                    "count": 5000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mag_V308_50r_762x51_MASSIVESOFT": [
+            [
+                {
+                    "count": 30294,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "JAK12_PRESET_DEFAULT_PARENT": [
+            [
+                {
+                    "count": 69000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mag_JAK12_8rd_MASSIVESOFT": [
+            [
+                {
+                    "count": 3000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "QBZ03_PRESET_DEFAULT_PARENT": [
+            [
+                {
+                    "count": 35000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_mount_QBZ03_rail_scope_MASSIVESOFT": [
+            [
+                {
+                    "count": 5000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_stock_QBZ03_tubeADP_MASSIVESOFT": [
+            [
+                {
+                    "count": 5000,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "mod_handguard_QBZ03_rail_MASSIVESOFT": [
+            [
+                {
+                    "count": 8300,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ]
+    },
+    "loyal_level_items": {
+        "mag_1911CE_7rd_MASSIVESOFT": 4,
+        "M1911A1_PR": 4,
+        "M14_PRESET_DEFAULT_PARENT": 4,
+        "TYPE64_PRESET_DEFAULT_PARENT": 4,
+        "mag_TYPE64_std_762x25_30_MASSIVESOFT": 4,
+        "mag_TYPE64_std_762x25_35_MASSIVESOFT": 4,
+        "mod_barrel_TYPE64_LSG_MASSIVESOFT": 4,
+        "mod_receiver_TYPE64_LSG_MASSIVESOFT": 4,
+        "mod_handguard_TYPE64_L_MASSIVESOFT": 4,
+        "mod_handguard_TYPE64_C_MASSIVESOFT": 4,
+        "mod_stock_TYPE64_LSG_MASSIVESOFT": 4,
+        "mod_stock_TYPE64_QTUM_MASSIVESOFT": 4,
+        "mod_pistolgrip_TYPE64_LSG_MASSIVESOFT": 4,
+        "V308_PRESET_DEFAULT_PARENT": 4,
+        "mod_barrel_v308_280_MASSIVESOFT": 4,
+        "mag_V308_10r_762x51_MASSIVESOFT": 4,
+        "mag_V308_20r_762x51_MASSIVESOFT": 4,
+        "mag_V308_50r_762x51_MASSIVESOFT": 4,
+        "JAK12_PRESET_DEFAULT_PARENT": 4,
+        "mag_JAK12_8rd_MASSIVESOFT": 4,
+        "QBZ03_PRESET_DEFAULT_PARENT": 4,
+        "mod_mount_QBZ03_rail_scope_MASSIVESOFT": 4,
+        "mod_stock_QBZ03_tubeADP_MASSIVESOFT": 4,
+        "mod_handguard_QBZ03_rail_MASSIVESOFT": 4
+    }
+}

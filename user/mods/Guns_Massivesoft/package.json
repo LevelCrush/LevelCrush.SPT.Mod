@@ -1,0 +1,22 @@
+{
+    "name": "Guns_Massivesoft",
+    "version": "2.0.1",
+    "main": "src/mod.js",
+    "license": "Bundles: Massivesoft - MIT Backend:University of Illinois/NCSA Open Source License",
+    "author": "PETTAN",
+    "akiVersion": "3.8.x",
+    "isBundleMod": true,
+    "loadBefore": [],
+    "loadAfter": [
+        "aaMFACSHOP"
+    ],
+    "incompatibilities": [
+        "SPT-Realism"
+    ],
+    "contributors": [
+        "Backend - Mighty_Condor",
+        "Bundles - Massivesoft"
+    ],
+    "scripts": {},
+    "devDependencies": {}
+}
