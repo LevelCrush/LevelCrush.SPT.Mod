@@ -1,0 +1,79 @@
+{
+    "ItemPresets": {        
+        "65f59db05d59d765e8cef3d7": {
+            "_changeWeaponName": false,
+            "_encyclopedia": "weapon_striker_12",
+            "_id": "65f59db05d59d765e8cef3d7",
+            "_items": [
+                {
+                    "_id": "65f59dbd1da2c4564a057192",
+                    "_tpl": "weapon_striker_12",
+                    "upd": {
+                        "Repairable": {
+                            "MaxDurability": 100,
+                            "Durability": 99.68153
+                        },
+                        "FireMode": {
+                            "FireMode": "single"
+                        }
+                    }
+                },
+                {
+                    "_id": "e3ef88f46d8e285227cffe45",
+                    "_tpl": "mod_magazine_striker_12",
+                    "parentId": "65f59dbd1da2c4564a057192",
+                    "slotId": "mod_magazine"
+                },
+                {
+                    "_id": "a702db60f496efd45f8e9483",
+                    "_tpl": "mod_stock_foldable_striker_12",
+                    "parentId": "65f59dbd1da2c4564a057192",
+                    "slotId": "mod_stock"
+                },
+                {
+                    "_id": "655e58f4b381ee68321dd08c",
+                    "_tpl": "mod_mount_piccatiny_rail_striker12",
+                    "parentId": "65f59dbd1da2c4564a057192",
+                    "slotId": "mod_mount"
+                },
+                {
+                    "_id": "00db83f6f4337583dfc1fa4d",
+                    "_tpl": "mod_front_sight_striker_12",
+                    "parentId": "65f59dbd1da2c4564a057192",
+                    "slotId": "mod_sight_front",
+                    "upd": {
+                        "Sight": {
+                            "ScopesCurrentCalibPointIndexes": [
+                                0
+                            ],
+                            "ScopesSelectedModes": [
+                                0
+                            ],
+                            "SelectedScope": 0
+                        }
+                    }
+                },
+                {
+                    "_id": "2854917141d662e500787806",
+                    "_tpl": "mod_rear_sight_striker_12",
+                    "parentId": "655e58f4b381ee68321dd08c",
+                    "slotId": "mod_sight_rear",
+                    "upd": {
+                        "Sight": {
+                            "ScopesCurrentCalibPointIndexes": [
+                                0
+                            ],
+                            "ScopesSelectedModes": [
+                                0
+                            ],
+                            "SelectedScope": 0
+                        }
+                    }
+                }
+            ],
+            "_name": "Armsel Striker",
+            "_parent": "65f59dbd1da2c4564a057192",
+            "_type": "Preset"
+        }
+    }
+}

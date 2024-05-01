@@ -1,0 +1,644 @@
+{
+	"21592d3fa4a2a0fa07fc5c2e": {
+		"itemTplToClone": "5dfa3d2b0dee1b22f862eade",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "assets/content/items/mods/silencers/silencer_qdc_kac_qdc_suppressor_556x45.bundle",
+				"rcid": ""
+			},
+			"Recoil": -10,
+			"Ergonomics": -20,
+			"HeatFactor": 1,
+			"Loudness": -26
+		},
+		"locales": {
+			"en": {
+				"name": "KAC QDC CQB 7.62x51 sound suppressor",
+				"shortName": "QDC CQB 762",
+				"description": "Knight's Armament Company QDC CQB 7.62 sound suppressor, which can be installed on compatible QDC Flash Suppressor Kit and QDC Muzzle Brake Kit muzzle devices."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 65500,
+		"handbookPriceRoubles": 24500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 438,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6878917c7adb7e17eb1273ce": {
+		"itemTplToClone": "5dfa3cd1b33c0951220c079b",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"Accuracy": 2,
+			"CoolFactor": 1,
+			"DurabilityBurnModificator": 0.98,
+			"Ergonomics": -1,
+			"ExaminedByDefault": true,
+			"HeatFactor": 0.99,
+			"Loudness": 0,
+			"Prefab": {
+				"path": "assets/content/items/mods/muzzle/muzzle_ar15_surefire_warcomp_556_556x45.bundle",
+				"rcid": ""
+			},
+			"RaidModdable": true,
+			"Recoil": -7,
+			"Slots": [
+				{
+					"_id": "1f9bd6b9281d0de7dd0a8055",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_muzzle",
+					"_parent": "6878917c7adb7e17eb1273ce",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"21cc9c10a1749109db74b288"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			],
+			"Velocity": 0.5,
+			"Weight": 0.064,
+			"Width": 1,
+			"muzzleModType": "brake"
+		},
+		"locales": {
+			"en": {
+				"name": "AR-10 Surefire Warcomp 7.62x51 Flash Hider",
+				"shortName": "Warcomp 762",
+				"description": "The WarComp flash hider for AR-10-type weapon systems, manufactured by SureFire."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16666,
+		"handbookPriceRoubles": 4800,
+		"addtoTraders": true,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5520,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"10c1dae2a05599e8a2b59cda": {
+		"itemTplToClone": "5dfa3cd1b33c0951220c079b",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"Accuracy": 3,
+			"CoolFactor": 1,
+			"DurabilityBurnModificator": 0.98,
+			"Ergonomics": -1,
+			"HeatFactor": 0.99,
+			"Loudness": 0,
+			"Prefab": {
+				"path": "assets/content/items/mods/muzzle/muzzle_ar15_surefire_sf3p_flash_hider_556x45.bundle",
+				"rcid": ""
+			},
+			"Recoil": -8,
+			"Slots": [
+				{
+					"_id": "fc5501e81f8ce056bde02cad",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_muzzle",
+					"_parent": "10c1dae2a05599e8a2b59cda",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"21cc9c10a1749109db74b288"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			],
+			"Velocity": 0.5,
+			"Weight": 0.064
+		},
+		"locales": {
+			"en": {
+				"name": "AR-10 Surefire SF3P 7.62x51 Flash Hider",
+				"shortName": "SF3P-762",
+				"description": "The SureFire SF3P-762 three-prong flash hider, which fits AR-10 weapons and variants, features a greatly reduced muzzle flash. The SF3P-762 also serves as a rock-solid mounting adapter for SureFire SOCOM Series 7.62mm Fast-Attach sound suppressors."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 19000,
+		"handbookPriceRoubles": 4800,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 7191,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"21cc9c10a1749109db74b288": {
+		"itemTplToClone": "5ea17bbc09aa976f2e7a51cd",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/silencers/silencer_socom_surefire_socom556_rc2_556x45.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SOCOM762-RC2 Mini 7.62x51 sound suppressor",
+				"shortName": "762-RC2 Mini",
+				"description": "The SureFire SOCOM556-RC2 Mini 7.62x51 sound suppressor, can only be installed on compatible SureFire muzzle devices."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 70000,
+		"handbookPriceRoubles": 49500,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 3223,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"e14eccdfdd902727fe268ed1": {
+		"itemTplToClone": "612e0d81290d254f5e6b291a",
+		"parentId": "FLASHHIDER",
+		"handbookParentId": "MOD_FLASHHIDER",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/LAPUA/sfmb338.bundle",
+				"rcid": ""
+			},
+			"Recoil": -9,
+			"Ergonomics": -1,
+			"HeatFactor": 1,
+			"Slots": [
+				{
+				  "_name": "mod_muzzle",
+				  "_id": "cc44222e6e82f324c9c72b6e",
+				  "_parent": "e14eccdfdd902727fe268ed1",
+				  "_props": {
+					"filters": [
+					  {
+						"Shift": 0,
+						"Filter": [
+						  "ba84e1c4ee4d504cb0bdbb0d"
+						]
+					  }
+					]
+				  },
+				  "_required": false,
+				  "_mergeSlotWithChildren": false,
+				  "_proto": "55d30c4c4bdc2db4468b457e"
+				}
+			  ]
+		},
+		"locales": {
+			"en": {
+				"name": "SureFire SFMB .338 LM muzzle brake",
+				"shortName": "SFMB 338",
+				"description": "SureFire SFMB muzzle brake suppressor adapters greatly reduce both recoil impulse and muzzle rise so that your weapon tracks straight back, keeping you on target for faster shot-to-shot recovery. Our proprietary Impulse Diffusion design minimizes side blast and rear-directed concussion effects. Precision machined from U.S. mill-certified heat-treated stainless steel bar stock and DLC-coated for extreme durability, they are available for a variety of weapon calibers and muzzle thread specs, and every SFMB serves as a rock-solid mounting adapter for SureFire’s combat-proven SOCOM Series Fast-Attach® suppressors. The SFMB design incorporates multiple bearing surfaces to ensure superior suppressor alignment. Blind pilot holes at the 3 o’ clock and 9 o’clock positions enable fine-tuning of recoil characteristics for individual shooting styles or ammunition characteristics."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 28470,
+		"handbookPriceRoubles": 12250,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 19875,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ba84e1c4ee4d504cb0bdbb0d": {
+		"itemTplToClone": "63877c99e785640d436458ea",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/LAPUA/socom338ti.bundle",
+				"rcid": ""
+			},
+			"Recoil": -15,
+			"Ergonomics": -24,
+			"HeatFactor": 1.1,
+			"Loudness": -32
+		},
+		"locales": {
+			"en": {
+				"name": "Surefire SOCOM338-Ti .338 LM sound suppressor",
+				"shortName": "SOCOM338-Ti",
+				"description": "The SOCOM338-Ti for .338 Lapua sniper rifles is a combat-ready suppressor hewn from high-grade titanium, one of the world’s lightest and most durable materials. Designed and built with extreme tolerances to ensure accuracy, it meets the demands of the most qualified precision sniper rifle shooters in the world. No one has tighter bore runout tolerances than we do, proving that this is the choice for the precision marksman. The SOCOM338 provides unsurpassed signature reduction, nominal and consistent shift in a weapon’s point of impact, and significantly reduced back pressure for consistent results. Expertly engineered, it gets you to where you want to go, no matter how far away it is."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 56250,
+		"handbookPriceRoubles": 26440,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 77540,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"40c62378fa93a829532ecc5e": {
+		"itemTplToClone": "5a34fe59c4a282000b1521a2",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/aac-m4-2000blk.bundle",
+				"rcid": ""
+			},
+			"Conflictingitems":[
+				"5a34fd2bc4a282329a73b4c5",
+				"618178aa1cb55961fa0fdc80",
+				"615d8e9867085e45ef1409c6"
+			],
+			"Recoil": -16,
+			"Ergonomics": -22,
+			"HeatFactor": 1.08,
+			"Loudness": -28,
+			"Weight": 0.515
+		},
+		"locales": {
+			"en": {
+				"name": "AAC M4-2000 5.56x45 sound suppressor",
+				"shortName": "M4-2000",
+				"description": "The M4-2000's extreme durability is maximized by CNC automated fusion welding of every high-temperature aerospace alloy component used in its construction- making 100% suppressed full-auto fire possible on barrels as short as 10 inches. The back-pressure lowering design of the silencer aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. As a final step, tapered-bore EDM technology is utilized to ensure precise bore alignment resulting in enhanced accuracy and maximum performance. By eliminating approximately 97% of the muzzle report, the M4-2000 preserves the hearing of the shooter and nearby support personnel, Eliminating muzzle flash in the harshest of environments."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44240,
+		"handbookPriceRoubles": 28750,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 389,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"6d9f22a75064ebb92b3ece1c": {
+		"itemTplToClone": "5a34fe59c4a282000b1521a2",
+		"parentId": "SILENCER",
+		"handbookParentId": "MOD_SUPPRESSOR",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/AR15/aac-m4-2000tan.bundle",
+				"rcid": ""
+			},
+			"Conflictingitems":[
+				"5a34fd2bc4a282329a73b4c5",
+				"618178aa1cb55961fa0fdc80",
+				"615d8e9867085e45ef1409c6"
+			],
+			"Recoil": -16,
+			"Ergonomics": -22,
+			"HeatFactor": 1.08,
+			"Loudness": -28,
+			"Weight": 0.515
+		},
+		"locales": {
+			"en": {
+				"name": "AAC M4-2000 5.56x45 sound suppressor (Tan)",
+				"shortName": "M4-2000",
+				"description": "The M4-2000's extreme durability is maximized by CNC automated fusion welding of every high-temperature aerospace alloy component used in its construction- making 100% suppressed full-auto fire possible on barrels as short as 10 inches. The back-pressure lowering design of the silencer aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. As a final step, tapered-bore EDM technology is utilized to ensure precise bore alignment resulting in enhanced accuracy and maximum performance. By eliminating approximately 97% of the muzzle report, the M4-2000 preserves the hearing of the shooter and nearby support personnel, Eliminating muzzle flash in the harshest of environments."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 44240,
+		"handbookPriceRoubles": 28750,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 389,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+}
