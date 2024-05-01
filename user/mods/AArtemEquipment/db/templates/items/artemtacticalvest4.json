@@ -1,0 +1,677 @@
+{
+
+  "_id": "ARTEM_TACVEST4",
+  "_name": "",
+  "_parent": "5448e5284bdc2dcb718b4567",
+  "_type": "Item",
+  "_props": {
+    "Name": "",
+    "ShortName": "",
+    "Description": "",
+    "Weight": 2.45,
+    "BackgroundColor": "default",
+    "Width": 4,
+    "Height": 3,
+    "StackMaxSize": 1,
+    "ItemSound": "gear_generic",
+    "Prefab": {
+      "path": "artemtacticalvest4.bundle",
+      "rcid": ""
+    },
+    "UsePrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "StackObjectsCount": 1,
+    "NotShownInSlot": false,
+    "ExaminedByDefault": true,
+    "ExamineTime": 1,
+    "IsUndiscardable": false,
+    "IsUnsaleable": false,
+    "IsUnbuyable": false,
+    "IsUngivable": false,
+    "IsLockedafterEquip": false,
+    "QuestItem": false,
+    "LootExperience": 60,
+    "ExamineExperience": 10,
+    "HideEntrails": true,
+    "RepairCost": 128,
+    "RepairSpeed": 0,
+    "ExtraSizeLeft": 0,
+    "ExtraSizeRight": 0,
+    "ExtraSizeUp": 0,
+    "ExtraSizeDown": 0,
+    "ExtraSizeForceAdd": false,
+    "MergesWithChildren": false,
+    "CanSellOnRagfair": true,
+    "CanRequireOnRagfair": false,
+    "ConflictingItems": [],
+    "Unlootable": false,
+    "UnlootableFromSlot": "FirstPrimaryWeapon",
+    "UnlootableFromSide": [],
+    "AnimationVariantsNumber": 0,
+    "DiscardingBlock": false,
+    "RagFairCommissionModifier": 1,
+    "IsAlwaysAvailableForInsurance": false,
+    "DiscardLimit": -1,
+    "DropSoundType": "None",
+    "InsuranceDisabled": false,
+    "QuestStashMaxCount": 0,
+    "IsSpecialSlotOnly": false,
+    "IsUnremovable": false,
+    "Grids": [
+      {
+        "_name": "1",
+        "_id": "5d5d87f786f77427997cfaf1",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "2",
+        "_id": "5d5d87f786f77427997cfaf2",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "3",
+        "_id": "5d5d87f786f77427997cfaf3",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "4",
+        "_id": "5d5d87f786f77427997cfaf4",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "5",
+        "_id": "5d5d87f786f77427997cfaf5",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "6",
+        "_id": "5d5d87f786f77427997cfaf6",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "7",
+        "_id": "5d5d87f786f77427997cfaf7",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "8",
+        "_id": "5d5d87f786f77427997cfaf8",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "9",
+        "_id": "5d5d87f786f77427997cfaf9",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "10",
+        "_id": "5d5d8b4e86f7742797262045",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 2,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "11",
+        "_id": "5d5d8b5b86f774393602d6cf",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "12",
+        "_id": "5d5d8b6086f77427997cfafb",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "13",
+        "_id": "5d5d8b6686f7744a7a274304",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "14",
+        "_id": "5d5d8b6c86f77439eb4c2c76",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      },
+      {
+        "_name": "15",
+        "_id": "5d5d8b7286f774279a21cbe6",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "54009119af1c881c07000029"
+              ],
+              "ExcludedFilter": [
+                "5448bf274bdc2dfc2f8b456a"
+              ]
+            }
+          ],
+          "cellsH": 1,
+          "cellsV": 1,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        },
+        "_proto": "55d329c24bdc2d892f8b4567"
+      }
+    ],
+    "Slots": [
+      {
+        "_name": "Front_plate",
+        "_id": "6570e63fab49e964120b4558",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": false,
+              "Plate": "656f9fa0498d1b7e3e071d98",
+              "Filter": [
+                "656f9d5900d62bcd2e02407c",
+                "656fa8d700d62bcd2e024084",
+                "656fae5f7c2d57afe200c0d7",
+                "656fa99800d62bcd2e024088",
+                "656faf0ca0dce000a2020f77",
+                "656fafe3498d1b7e3e071da4",
+                "656fa0fb498d1b7e3e071d9c",
+                "656fa76500d62bcd2e024080",
+                "656fa25e94b480b8a500c0e0",
+                "656fad8c498d1b7e3e071da0",
+                "656fa61e94b480b8a500c0e8",
+                "656fb21fa0dce000a2020f7c",
+                "656fac30c6baea13cd07e10c",
+                "656fb0bd7c2d57afe200c0dc",
+                "656fa53d94b480b8a500c0e4",
+                "656f9fa0498d1b7e3e071d98",
+                "65573fa5655447403702a816",
+                "64afc71497cf3a403c01ff38",
+                "655746010177119f4a097ff7",
+                "64afdcb83efdfea28601d041"
+              ],
+              "armorColliders": [],
+              "armorPlateColliders": [
+                "Plate_Granit_SAPI_chest"
+              ],
+              "bluntDamageReduceFromSoftArmor": true
+            }
+          ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "Back_plate",
+        "_id": "6570e67023c1f638ef0b0eda",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": false,
+              "Plate": "656f9fa0498d1b7e3e071d98",
+              "Filter": [
+                "656f9d5900d62bcd2e02407c",
+                "656fa8d700d62bcd2e024084",
+                "656fafe3498d1b7e3e071da4",
+                "656fa0fb498d1b7e3e071d9c",
+                "656faf0ca0dce000a2020f77",
+                "656fae5f7c2d57afe200c0d7",
+                "656fa99800d62bcd2e024088",
+                "656fa76500d62bcd2e024080",
+                "656fa25e94b480b8a500c0e0",
+                "656fa53d94b480b8a500c0e4",
+                "656fb0bd7c2d57afe200c0dc",
+                "656fb21fa0dce000a2020f7c",
+                "656fa61e94b480b8a500c0e8",
+                "656fad8c498d1b7e3e071da0",
+                "656fac30c6baea13cd07e10c",
+                "656f9fa0498d1b7e3e071d98",
+                "655746010177119f4a097ff7",
+                "64afdcb83efdfea28601d041",
+                "64afc71497cf3a403c01ff38",
+                "65573fa5655447403702a816"
+              ],
+              "armorColliders": [],
+              "armorPlateColliders": [
+                "Plate_Granit_SAPI_back"
+              ],
+              "bluntDamageReduceFromSoftArmor": true
+            }
+          ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "Left_side_plate",
+        "_id": "6570e6a7a6560e4ee50c2b0c",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": false,
+              "Plate": "",
+              "Filter": [
+                "6557458f83942d705f0c4962",
+                "64afdb577bb3bfe8fe03fd1d",
+                "64afd81707e2cf40e903a316"
+              ],
+              "armorColliders": [],
+              "armorPlateColliders": [
+                "Plate_Granit_SSAPI_side_left_high"
+              ],
+              "bluntDamageReduceFromSoftArmor": true
+            }
+          ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "Right_side_plate",
+        "_id": "6570e6c5a6560e4ee50c2b0d",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": false,
+              "Plate": "",
+              "Filter": [
+                "6557458f83942d705f0c4962",
+                "64afdb577bb3bfe8fe03fd1d",
+                "64afd81707e2cf40e903a316"
+              ],
+              "armorColliders": [],
+              "armorPlateColliders": [
+                "Plate_Granit_SSAPI_side_right_high"
+              ],
+              "bluntDamageReduceFromSoftArmor": true
+            }
+          ]
+        },
+        "_required": false,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "Soft_armor_front",
+        "_id": "6570e6fbab49e964120b455c",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": true,
+              "Plate": "6570e5100b57c03ec90b970a",
+              "Filter": [
+                "6570e5100b57c03ec90b970a"
+              ],
+              "armorColliders": [],
+              "armorPlateColliders": [
+                "Plate_Granit_SAPI_chest"
+              ],
+              "bluntDamageReduceFromSoftArmor": false
+            }
+          ]
+        },
+        "_required": true,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "Soft_armor_back",
+        "_id": "6570e71623c1f638ef0b0edb",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": true,
+              "Plate": "6570e479a6560e4ee50c2b02",
+              "Filter": [
+                "6570e479a6560e4ee50c2b02"
+              ],
+              "armorColliders": [],
+              "armorPlateColliders": [
+                "Plate_Granit_SAPI_back"
+              ],
+              "bluntDamageReduceFromSoftArmor": false
+            }
+          ]
+        },
+        "_required": true,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "Soft_armor_left",
+        "_id": "6570e73aa6560e4ee50c2b0f",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": true,
+              "Plate": "6570e5674cc0d2ab1e05edbb",
+              "Filter": [
+                "6570e5674cc0d2ab1e05edbb"
+              ],
+              "armorColliders": [
+                "LeftSideChestDown"
+              ],
+              "armorPlateColliders": [],
+              "bluntDamageReduceFromSoftArmor": false
+            }
+          ]
+        },
+        "_required": true,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      },
+      {
+        "_name": "soft_armor_right",
+        "_id": "6570e75a0b57c03ec90b9716",
+        "_parent": "ARTEM_TACVEST4",
+        "_props": {
+          "filters": [
+            {
+              "locked": true,
+              "Plate": "6570e59b0b57c03ec90b970e",
+              "Filter": [
+                "6570e59b0b57c03ec90b970e"
+              ],
+              "armorColliders": [
+                "RightSideChestDown"
+              ],
+              "armorPlateColliders": [],
+              "bluntDamageReduceFromSoftArmor": false
+            }
+          ]
+        },
+        "_required": true,
+        "_mergeSlotWithChildren": true,
+        "_proto": "64479fdf9731c8fadc0642c1"
+      }
+    ],
+    "CanPutIntoDuringTheRaid": true,
+    "CantRemoveFromSlotsDuringRaid": [],
+    "SearchSound": "looting_body_extended",
+    "BlocksArmorVest": true,
+    "RigLayoutName": "A18",
+    "armorZone": [],
+    "armorClass": 0,
+    "BluntThroughput": 0.35,
+    "ArmorMaterial": "Aramid",
+    "ArmorType": "Light",
+    "speedPenaltyPercent": -1,
+    "mousePenalty": 0,
+    "weaponErgonomicPenalty": -3
+  },
+  "_proto": "544a5caa4bdc2d1a388b4568"
+  }
+
+

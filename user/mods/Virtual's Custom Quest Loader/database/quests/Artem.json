@@ -20,7 +20,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["590c595c86f7747884343ad7"],
+          "target": [
+            "590c595c86f7747884343ad7"
+          ],
           "value": 3,
           "visibilityConditions": []
         },
@@ -36,7 +38,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": false,
           "parentId": "",
-          "target": ["5449016a4bdc2d6f028b456f"],
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
           "value": 15000,
           "visibilityConditions": []
         }
@@ -126,7 +130,9 @@
                 "compareMethod": ">=",
                 "conditionType": "Kills",
                 "id": "ARTT_1 TEXT",
-                "savageRole": ["exUsec"],
+                "savageRole": [
+                  "exUsec"
+                ],
                 "target": "Savage",
                 "value": "1"
               }
@@ -156,7 +162,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": false,
           "parentId": "",
-          "target": ["5751496424597720a27126da"],
+          "target": [
+            "5751496424597720a27126da"
+          ],
           "value": "5",
           "visibilityConditions": []
         }
@@ -181,7 +189,9 @@
           "id": "ARTT_1 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "INTROART_1",
           "visibilityConditions": []
         }
@@ -291,8 +301,12 @@
               "slotId": "mod_sight_rear",
               "upd": {
                 "Sight": {
-                  "ScopesCurrentCalibPointIndexes": [0],
-                  "ScopesSelectedModes": [0],
+                  "ScopesCurrentCalibPointIndexes": [
+                    0
+                  ],
+                  "ScopesSelectedModes": [
+                    0
+                  ],
                   "SelectedScope": 0
                 }
               }
@@ -304,8 +318,12 @@
               "slotId": "mod_sight_front",
               "upd": {
                 "Sight": {
-                  "ScopesCurrentCalibPointIndexes": [0],
-                  "ScopesSelectedModes": [0],
+                  "ScopesCurrentCalibPointIndexes": [
+                    0
+                  ],
+                  "ScopesSelectedModes": [
+                    0
+                  ],
                   "SelectedScope": 0
                 }
               }
@@ -354,7 +372,9 @@
               {
                 "conditionType": "Location",
                 "id": "ARTT_2",
-                "target": ["Woods"]
+                "target": [
+                  "Woods"
+                ]
               }
             ],
             "id": "ARTT_2 TEXT2"
@@ -382,7 +402,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5d02778e86f774203e7dedbe"],
+          "target": [
+            "5d02778e86f774203e7dedbe"
+          ],
           "value": "3",
           "visibilityConditions": []
         },
@@ -431,7 +453,9 @@
           "id": "ARTT_2 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_1",
           "visibilityConditions": []
         }
@@ -526,8 +550,12 @@
               "slotId": "mod_scope",
               "upd": {
                 "Sight": {
-                  "ScopesCurrentCalibPointIndexes": [0],
-                  "ScopesSelectedModes": [0],
+                  "ScopesCurrentCalibPointIndexes": [
+                    0
+                  ],
+                  "ScopesSelectedModes": [
+                    0
+                  ],
                   "SelectedScope": 0
                 }
               }
@@ -628,7 +656,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["59e35cbb86f7741778269d83"],
+          "target": [
+            "59e35cbb86f7741778269d83"
+          ],
           "value": "1",
           "visibilityConditions": []
         }
@@ -653,7 +683,9 @@
           "id": "ARTT_3 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_1",
           "visibilityConditions": []
         }
@@ -769,98 +801,260 @@
                 "weaponCaliber": [],
                 "weaponModsExclusive": [],
                 "weaponModsInclusive": [
-                  ["59bffc1f86f77435b128b872"],
-                  ["5a32a064c4a28200741e22de"],
-                  ["59bffbb386f77435b379b9c2"],
-                  ["54490a4d4bdc2dbc018b4573"],
-                  ["5b363dd25acfc4001a598fd2"],
-                  ["5b363dea5acfc4771e1c5e7e"],
-                  ["5b363e1b5acfc4771e1c5e80"],
-                  ["593d489686f7745c6255d58a"],
-                  ["5a27b6bec4a282000e496f78"],
-                  ["58aeac1b86f77457c419f475"],
-                  ["593d490386f7745ee97a1555"],
-                  ["55d6190f4bdc2d87028b4567"],
-                  ["59bfc5c886f7743bf6794e62"],
-                  ["57c44dd02459772d2e0ae249"],
-                  ["5a0d63621526d8dba31fe3bf"],
-                  ["5a34fe59c4a282000b1521a2"],
-                  ["5a9fb739a2750c003215717f"],
-                  ["5a9fbb84a2750c00137fa685"],
-                  ["5c4eecc32e221602b412b440"],
-                  ["57838c962459774a1651ec63"],
-                  ["5b86a0e586f7745b600ccb23"],
-                  ["593d493f86f7745e6b2ceb22"],
-                  ["564caa3d4bdc2d17108b458e"],
-                  ["57ffb0e42459777d047111c5"],
-                  ["59fb257e86f7742981561852"],
-                  ["5c7e8fab2e22165df16b889b"],
-                  ["5a33a8ebc4a282000c5a950d"],
-                  ["5a9fbb74a2750c0032157181"],
-                  ["5a9fbacda2750c00141e080f"],
-                  ["5c6165902e22160010261b28"],
-                  ["5abcc328d8ce8700194394f3"],
-                  ["5c7955c22e221644f31bfd5e"],
-                  ["5a7ad74e51dfba0015068f45"],
-                  ["5926d33d86f77410de68ebc0"],
-                  ["57da93632459771cb65bf83f"],
-                  ["57dbb57e2459774673234890"],
-                  ["5ba26ae8d4351e00367f9bdb"],
-                  ["56e05b06d2720bb2668b4586"],
-                  ["57f3c8cc2459773ec4480328"],
-                  ["55d614004bdc2d86028b4568"],
-                  ["571a28e524597720b4066567"],
-                  ["59c0ec5b86f77435b128bfca"],
-                  ["5d3ef698a4b9361182109872"],
-                  ["5caf187cae92157c28402e43"],
-                  ["5cebec00d7f00c065c53522a"],
-                  ["5d44064fa4b9361e4f6eb8b5"],
-                  ["5cff9e84d7ad1a049e54ed55"],
-                  ["5cff9e84d7ad1a049e54ed55"],
-                  ["5a9fbacda2750c00141e080f"],
-                  ["5a9fbb84a2750c00137fa685"],
-                  ["593d489686f7745c6255d58a"],
-                  ["5e208b9842457a4a7a33d074"],
-                  ["5dfa3cd1b33c0951220c079b"],
-                  ["5e01ea19e9dc277128008c0b"],
-                  ["5c7fb51d2e2216001219ce11"],
-                  ["5fbe7618d6fa9c00c571bb6c"],
-                  ["5fbe760793164a5b6278efc8"],
-                  ["5fc4b9b17283c4046c5814d7"],
-                  ["5f63407e1b231926f2329f15"],
-                  ["5ea17bbc09aa976f2e7a51cd"],
-                  ["60926df0132d4d12c81fd9df"],
-                  ["6171367e1cb55961fa0fdb36"],
-                  ["6130c4d51cb55961fa0fd49f"],
-                  ["602a97060ddce744014caf6f"],
-                  ["5de8f2d5b74cd90030650c72"],
-                  ["615d8f8567085e45ef1409ca"],
-                  ["58889c7324597754281f9439"],
-                  ["62811fa609427b40ab14e765"],
-                  ["626673016f1edc06f30cf6d5"],
-                  ["5dfa3d2b0dee1b22f862eade"],
-                  ["63877c99e785640d436458ea"],
-                  ["638612b607dfed1ccb7206ba"],
-                  ["634eba08f69c710e0108d386"],
-                  ["630f2982cdb9e392db0cbcc7"],
-                  ["62e2a7138e1ac9380579c122"],
-                  ["64c196ad26a15b84aa07132f"],
-                  ["652911e650dc782999054b9d"],
-                  ["64527a3a7da7133e5a09ca99"]
+                  [
+                    "59bffc1f86f77435b128b872"
+                  ],
+                  [
+                    "5a32a064c4a28200741e22de"
+                  ],
+                  [
+                    "59bffbb386f77435b379b9c2"
+                  ],
+                  [
+                    "54490a4d4bdc2dbc018b4573"
+                  ],
+                  [
+                    "5b363dd25acfc4001a598fd2"
+                  ],
+                  [
+                    "5b363dea5acfc4771e1c5e7e"
+                  ],
+                  [
+                    "5b363e1b5acfc4771e1c5e80"
+                  ],
+                  [
+                    "593d489686f7745c6255d58a"
+                  ],
+                  [
+                    "5a27b6bec4a282000e496f78"
+                  ],
+                  [
+                    "58aeac1b86f77457c419f475"
+                  ],
+                  [
+                    "593d490386f7745ee97a1555"
+                  ],
+                  [
+                    "55d6190f4bdc2d87028b4567"
+                  ],
+                  [
+                    "59bfc5c886f7743bf6794e62"
+                  ],
+                  [
+                    "57c44dd02459772d2e0ae249"
+                  ],
+                  [
+                    "5a0d63621526d8dba31fe3bf"
+                  ],
+                  [
+                    "5a34fe59c4a282000b1521a2"
+                  ],
+                  [
+                    "5a9fb739a2750c003215717f"
+                  ],
+                  [
+                    "5a9fbb84a2750c00137fa685"
+                  ],
+                  [
+                    "5c4eecc32e221602b412b440"
+                  ],
+                  [
+                    "57838c962459774a1651ec63"
+                  ],
+                  [
+                    "5b86a0e586f7745b600ccb23"
+                  ],
+                  [
+                    "593d493f86f7745e6b2ceb22"
+                  ],
+                  [
+                    "564caa3d4bdc2d17108b458e"
+                  ],
+                  [
+                    "57ffb0e42459777d047111c5"
+                  ],
+                  [
+                    "59fb257e86f7742981561852"
+                  ],
+                  [
+                    "5c7e8fab2e22165df16b889b"
+                  ],
+                  [
+                    "5a33a8ebc4a282000c5a950d"
+                  ],
+                  [
+                    "5a9fbb74a2750c0032157181"
+                  ],
+                  [
+                    "5a9fbacda2750c00141e080f"
+                  ],
+                  [
+                    "5c6165902e22160010261b28"
+                  ],
+                  [
+                    "5abcc328d8ce8700194394f3"
+                  ],
+                  [
+                    "5c7955c22e221644f31bfd5e"
+                  ],
+                  [
+                    "5a7ad74e51dfba0015068f45"
+                  ],
+                  [
+                    "5926d33d86f77410de68ebc0"
+                  ],
+                  [
+                    "57da93632459771cb65bf83f"
+                  ],
+                  [
+                    "57dbb57e2459774673234890"
+                  ],
+                  [
+                    "5ba26ae8d4351e00367f9bdb"
+                  ],
+                  [
+                    "56e05b06d2720bb2668b4586"
+                  ],
+                  [
+                    "57f3c8cc2459773ec4480328"
+                  ],
+                  [
+                    "55d614004bdc2d86028b4568"
+                  ],
+                  [
+                    "571a28e524597720b4066567"
+                  ],
+                  [
+                    "59c0ec5b86f77435b128bfca"
+                  ],
+                  [
+                    "5d3ef698a4b9361182109872"
+                  ],
+                  [
+                    "5caf187cae92157c28402e43"
+                  ],
+                  [
+                    "5cebec00d7f00c065c53522a"
+                  ],
+                  [
+                    "5d44064fa4b9361e4f6eb8b5"
+                  ],
+                  [
+                    "5cff9e84d7ad1a049e54ed55"
+                  ],
+                  [
+                    "5cff9e84d7ad1a049e54ed55"
+                  ],
+                  [
+                    "5a9fbacda2750c00141e080f"
+                  ],
+                  [
+                    "5a9fbb84a2750c00137fa685"
+                  ],
+                  [
+                    "593d489686f7745c6255d58a"
+                  ],
+                  [
+                    "5e208b9842457a4a7a33d074"
+                  ],
+                  [
+                    "5dfa3cd1b33c0951220c079b"
+                  ],
+                  [
+                    "5e01ea19e9dc277128008c0b"
+                  ],
+                  [
+                    "5c7fb51d2e2216001219ce11"
+                  ],
+                  [
+                    "5fbe7618d6fa9c00c571bb6c"
+                  ],
+                  [
+                    "5fbe760793164a5b6278efc8"
+                  ],
+                  [
+                    "5fc4b9b17283c4046c5814d7"
+                  ],
+                  [
+                    "5f63407e1b231926f2329f15"
+                  ],
+                  [
+                    "5ea17bbc09aa976f2e7a51cd"
+                  ],
+                  [
+                    "60926df0132d4d12c81fd9df"
+                  ],
+                  [
+                    "6171367e1cb55961fa0fdb36"
+                  ],
+                  [
+                    "6130c4d51cb55961fa0fd49f"
+                  ],
+                  [
+                    "602a97060ddce744014caf6f"
+                  ],
+                  [
+                    "5de8f2d5b74cd90030650c72"
+                  ],
+                  [
+                    "615d8f8567085e45ef1409ca"
+                  ],
+                  [
+                    "58889c7324597754281f9439"
+                  ],
+                  [
+                    "62811fa609427b40ab14e765"
+                  ],
+                  [
+                    "626673016f1edc06f30cf6d5"
+                  ],
+                  [
+                    "5dfa3d2b0dee1b22f862eade"
+                  ],
+                  [
+                    "63877c99e785640d436458ea"
+                  ],
+                  [
+                    "638612b607dfed1ccb7206ba"
+                  ],
+                  [
+                    "634eba08f69c710e0108d386"
+                  ],
+                  [
+                    "630f2982cdb9e392db0cbcc7"
+                  ],
+                  [
+                    "62e2a7138e1ac9380579c122"
+                  ],
+                  [
+                    "64c196ad26a15b84aa07132f"
+                  ],
+                  [
+                    "652911e650dc782999054b9d"
+                  ],
+                  [
+                    "64527a3a7da7133e5a09ca99"
+                  ]
                 ]
               },
               {
                 "conditionType": "Location",
                 "dynamicLocale": false,
                 "id": "59c50b8e86f1742fed319382",
-                "target": ["Shoreline"]
+                "target": [
+                  "Shoreline"
+                ]
               },
               {
                 "IncludeNotEquippedItems": false,
                 "conditionType": "Equipment",
                 "dynamicLocale": false,
                 "equipmentExclusive": [],
-                "equipmentInclusive": [["635267ab3c89e2112001f826"]],
+                "equipmentInclusive": [
+                  [
+                    "635267ab3c89e2112001f826"
+                  ]
+                ],
                 "id": "5c922b6486f77438522e0c35"
               }
             ],
@@ -912,7 +1106,9 @@
                 "conditionType": "Location",
                 "dynamicLocale": false,
                 "id": "ARTT_4 TASK2",
-                "target": ["Shoreline"]
+                "target": [
+                  "Shoreline"
+                ]
               }
             ],
             "id": "59674d5186f77446b872d5f6"
@@ -947,10 +1143,12 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "ART_3",
+          "id": "ARTT_3 TEXT",
           "index": 0,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ART_3",
           "visibilityConditions": []
         }
@@ -1181,7 +1379,9 @@
           "onlyFoundInRaid": false,
           "parentId": "",
           "plantTime": 6,
-          "target": ["5448fee04bdc2dbc018b4567"],
+          "target": [
+            "5448fee04bdc2dbc018b4567"
+          ],
           "value": "3",
           "visibilityConditions": [],
           "zoneId": "bomj_place"
@@ -1199,7 +1399,9 @@
           "onlyFoundInRaid": false,
           "parentId": "",
           "plantTime": 6,
-          "target": ["590c5f0d86f77413997acfab"],
+          "target": [
+            "590c5f0d86f77413997acfab"
+          ],
           "value": "2",
           "visibilityConditions": [],
           "zoneId": "bomj_place"
@@ -1225,7 +1427,9 @@
           "id": "ARTT_5 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_4",
           "visibilityConditions": []
         }
@@ -1437,14 +1641,18 @@
                   "to": 4
                 },
                 "id": "ARTT4_TEXT5",
-                "savageRole": ["sectantWarrior"],
+                "savageRole": [
+                  "sectantWarrior"
+                ],
                 "target": "Savage",
                 "value": "1"
               },
               {
                 "conditionType": "Location",
                 "id": "56f40101d2720b2a4d8b45d6",
-                "target": ["bigmap"]
+                "target": [
+                  "bigmap"
+                ]
               }
             ],
             "id": "ARTT_6 TASK1"
@@ -1472,14 +1680,18 @@
                   "to": 4
                 },
                 "id": "ARTT4_TEXT5",
-                "savageRole": ["sectantWarrior"],
+                "savageRole": [
+                  "sectantWarrior"
+                ],
                 "target": "Savage",
                 "value": "1"
               },
               {
                 "conditionType": "Location",
                 "id": "5704e3c2d2720bac5b8b4567",
-                "target": ["Woods"]
+                "target": [
+                  "Woods"
+                ]
               }
             ],
             "id": "ARTT_6 TASK2"
@@ -1507,14 +1719,18 @@
                   "to": 4
                 },
                 "id": "ARTT4_TEXT6",
-                "savageRole": ["sectantPriest"],
+                "savageRole": [
+                  "sectantPriest"
+                ],
                 "target": "Savage",
                 "value": "1"
               },
               {
                 "conditionType": "Location",
                 "id": "5704e554d2720bac5b8b456e",
-                "target": ["Shoreline"]
+                "target": [
+                  "Shoreline"
+                ]
               }
             ],
             "id": "ARTT_6 TASK3"
@@ -1527,7 +1743,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": "6",
+          "value": "3",
           "visibilityConditions": []
         }
       ],
@@ -1551,7 +1767,9 @@
           "id": "ARTT_6 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_4",
           "visibilityConditions": []
         }
@@ -1779,7 +1997,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5c12613b86f7743bbe2c3f76"],
+          "target": [
+            "5c12613b86f7743bbe2c3f76"
+          ],
           "value": "2",
           "visibilityConditions": []
         },
@@ -1795,7 +2015,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": false,
           "parentId": "",
-          "target": ["590c621186f774138d11ea29"],
+          "target": [
+            "590c621186f774138d11ea29"
+          ],
           "value": "3",
           "visibilityConditions": []
         },
@@ -1811,7 +2033,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": false,
           "parentId": "",
-          "target": ["5ac78a9b86f7741cca0bbd8d"],
+          "target": [
+            "5ac78a9b86f7741cca0bbd8d"
+          ],
           "value": "4",
           "visibilityConditions": []
         },
@@ -1827,7 +2051,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": false,
           "parentId": "",
-          "target": ["5b4391a586f7745321235ab2"],
+          "target": [
+            "5b4391a586f7745321235ab2"
+          ],
           "value": "3",
           "visibilityConditions": []
         }
@@ -1852,7 +2078,9 @@
           "id": "ARTT_7 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_5",
           "visibilityConditions": []
         }
@@ -1963,7 +2191,9 @@
                 "compareMethod": ">=",
                 "conditionType": "Kills",
                 "id": "ARTT_8 TASK1",
-                "savageRole": ["bossSanitar"],
+                "savageRole": [
+                  "bossSanitar"
+                ],
                 "target": "Savage",
                 "value": "1"
               }
@@ -2002,7 +2232,9 @@
           "id": "ARTT_8 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_7",
           "visibilityConditions": []
         }
@@ -2115,7 +2347,9 @@
           "onlyFoundInRaid": false,
           "parentId": "",
           "plantTime": 6,
-          "target": ["5991b51486f77447b112d44f"],
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
           "value": "1",
           "visibilityConditions": [],
           "zoneId": "ARTT_LIGHTHOUSE_MEDBED"
@@ -2165,7 +2399,9 @@
           "id": "ARTT_9 TEXT",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_8",
           "visibilityConditions": []
         }
@@ -2293,7 +2529,9 @@
                 "compareMethod": ">=",
                 "conditionType": "Kills",
                 "id": "ARTT_10 TASK1",
-                "savageRole": ["arenaFighterEvent"],
+                "savageRole": [
+                  "arenaFighterEvent"
+                ],
                 "target": "Savage",
                 "value": "1"
               }
@@ -2332,7 +2570,9 @@
           "id": "ARTT_10 TEXT1",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_8",
           "visibilityConditions": []
         }
@@ -2462,7 +2702,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5b4335ba86f7744d2837a264"],
+          "target": [
+            "5b4335ba86f7744d2837a264"
+          ],
           "value": "2",
           "visibilityConditions": []
         },
@@ -2478,7 +2720,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["619cc01e0a7c3a1a2731940c"],
+          "target": [
+            "619cc01e0a7c3a1a2731940c"
+          ],
           "value": "5",
           "visibilityConditions": []
         },
@@ -2494,7 +2738,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5d1b3f2d86f774253763b735"],
+          "target": [
+            "5d1b3f2d86f774253763b735"
+          ],
           "value": "1",
           "visibilityConditions": []
         },
@@ -2510,7 +2756,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5bc9be8fd4351e00334cae6e"],
+          "target": [
+            "5bc9be8fd4351e00334cae6e"
+          ],
           "value": "3",
           "visibilityConditions": []
         },
@@ -2526,7 +2774,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5448fee04bdc2dbc018b4567"],
+          "target": [
+            "5448fee04bdc2dbc018b4567"
+          ],
           "value": "2",
           "visibilityConditions": []
         },
@@ -2542,7 +2792,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["59e361e886f774176c10a2a5"],
+          "target": [
+            "59e361e886f774176c10a2a5"
+          ],
           "value": "2",
           "visibilityConditions": []
         }
@@ -2567,7 +2819,9 @@
           "id": "ARTT_11 TASK11",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_10",
           "visibilityConditions": []
         }
@@ -2757,7 +3011,9 @@
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": ["5c94bbff86f7747ee735c08f"],
+          "target": [
+            "5c94bbff86f7747ee735c08f"
+          ],
           "value": "1",
           "visibilityConditions": []
         }
@@ -2782,7 +3038,9 @@
           "id": "ARTT_12 TASK11",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "ARTT_11",
           "visibilityConditions": []
         }
@@ -2864,5 +3122,877 @@
     "successMessageText": "ARTT_12 success",
     "traderId": "ArtemTrader",
     "type": "Elimination"
+  },
+  "ARTT_13": {
+    "QuestName": "Bigger Fish",
+    "_id": "ARTT_13",
+    "acceptPlayerMessage": "ARTT_13 acceptpm",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "ARTT_13 changeQuestMessageText",
+    "completePlayerMessage": "ARTT_13 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "ARTT_13 TASK1",
+                "target": "ARTEM_TERA_VAN",
+                "value": "1"
+              }
+            ],
+            "id": "ARTT_13 TASK1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_13 TASK1",
+          "index": 2,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_13 TASK2",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 6,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": "1",
+          "visibilityConditions": [],
+          "zoneId": "ARTEM_TERA_VAN2"
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "ARTT_13 TASK3",
+                "target": "ARTEM_TERRAGROUP_BARRELS",
+                "value": "1"
+              }
+            ],
+            "id": "ARTT_13 TASK3"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_13 TASK3",
+          "index": 2,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_13 TASK4",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 6,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": "1",
+          "visibilityConditions": [],
+          "zoneId": "ARTEM_TERRAGROUP_BARRELS2"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5981a09b86f77455537a65ac",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_13 TEXT",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "ARTT_12",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "ARTT_13 declinePlayerMessage",
+    "description": "ARTT_13 desc",
+    "failMessageText": "ARTT_13 failMessageText",
+    "image": "/files/quest/icon/ARTT13_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "56f40101d2720b2a4d8b45d6",
+    "name": "ARTT_13 name",
+    "note": "ARTT_13 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "index": 0,
+          "type": "Experience",
+          "value": "12485"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 112402
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "112402"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5c12613b86f7743bbe2c3f76",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "id": "60c89c0c80b2027f403dd992",
+          "index": 5,
+          "target": "ArtemTrader",
+          "type": "TraderStanding",
+          "value": "0.05"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "ARTT_13 desc",
+    "successMessageText": "ARTT_13 success",
+    "traderId": "ArtemTrader",
+    "type": "Exploration"
+  },
+  "ARTT_14": {
+    "QuestName": "Abandoned",
+    "_id": "ARTT_14",
+    "acceptPlayerMessage": "ARTT_14 acceptpm",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "ARTT_14 changeQuestMessageText",
+    "completePlayerMessage": "ARTT_14 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "ARTT_14 TASK1",
+                "target": "Savage",
+                "value": "1"
+              }
+            ],
+            "id": "ARTT_14 TASK1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_14 TASK1",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "3",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "ARTT_14 TASK2",
+                "target": "ARTEM_TERA_TENT1",
+                "value": "1"
+              }
+            ],
+            "id": "ARTT_14 TASK2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_14 TASK2",
+          "index": 2,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_14 TASK3",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 6,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": "1",
+          "visibilityConditions": [],
+          "zoneId": "ARTEM_MEDICAL_TENT3"
+        },
+        {
+          "conditionType": "PlaceBeacon",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_14 TASK4",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 6,
+          "target": [
+            "5991b51486f77447b112d44f"
+          ],
+          "value": "1",
+          "visibilityConditions": [],
+          "zoneId": "ARTEM_TERA_TENT2"
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5981a09b86f77455537a65ac",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_14 TEXT",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "ARTT_13",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "ARTT_14 declinePlayerMessage",
+    "description": "ARTT_14 desc",
+    "failMessageText": "ARTT_14 failMessageText",
+    "image": "/files/quest/icon/ARTT14_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "55f2d3fd4bdc2d5f408b4567",
+    "name": "ARTT_14 name",
+    "note": "ARTT_14 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "index": 0,
+          "type": "Experience",
+          "value": "16353"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 175102
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "175102"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5d0376a486f7747d8050965c",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "5a2fa9c4c4a282000d72204f",
+          "index": 1,
+          "items": [
+            {
+              "_id": "5a2fa9c4c4a282000d72204f",
+              "_tpl": "590c657e86f77412b013051d",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "5a2fa9c4c4a282000d72204f",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "id": "60c89c0c80b2027f403dd992",
+          "index": 5,
+          "target": "ArtemTrader",
+          "type": "TraderStanding",
+          "value": "0.05"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "ARTT_14 desc",
+    "successMessageText": "ARTT_14 success",
+    "traderId": "ArtemTrader",
+    "type": "Exploration"
+  },
+  "ARTT_15": {
+    "QuestName": "Abandoned",
+    "_id": "ARTT_15",
+    "acceptPlayerMessage": "ARTT_15 acceptpm",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "ARTT_15 changeQuestMessageText",
+    "completePlayerMessage": "ARTT_15 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_15 TASK1",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "6176a48d732a664031271438"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_15 TASK2",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5e54f79686f7744022011103"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_15 TASK3",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5fc64ea372b0dd78d51159dc"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "ARTT_15 TASK4",
+                "savageRole": [
+                  "sectantPriest",
+                  "sectantWarrior"
+                ],
+                "target": "Savage",
+                "value": "1"
+              }
+            ],
+            "id": "ARTT_15 TASK4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_15 TASK4",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "2",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5981a09b86f77455537a65ac",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_15 TEXT",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "ARTT_14",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "ARTT_15 declinePlayerMessage",
+    "description": "ARTT_15 desc",
+    "failMessageText": "ARTT_15 failMessageText",
+    "image": "/files/quest/icon/ARTT15_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "55f2d3fd4bdc2d5f408b4567",
+    "name": "ARTT_15 name",
+    "note": "ARTT_15 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "index": 0,
+          "type": "Experience",
+          "value": "12000"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 1075102
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "1075102"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5c0530ee86f774697952d952",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5c0558060db834001b735271",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5d1b385e86f774252167b98a",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "3"
+        },
+        {
+          "id": "60c89c0c80b2027f403dd992",
+          "index": 5,
+          "target": "ArtemTrader",
+          "type": "TraderStanding",
+          "value": "0.05"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "ARTT_15 desc",
+    "successMessageText": "ARTT_15 success",
+    "traderId": "ArtemTrader",
+    "type": "Exploration"
+  },
+  "ARTT_16": {
+    "QuestName": "Abandoned",
+    "_id": "ARTT_16",
+    "acceptPlayerMessage": "ARTT_16 acceptpm",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "ARTT_16 changeQuestMessageText",
+    "completePlayerMessage": "ARTT_16 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_16 TASK1",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5447a9cd4bdc2dbd208b4567"
+          ],
+          "value": "3",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_16 TASK2",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "59d6088586f774275f37482f"
+          ],
+          "value": "3",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_16 TASK3",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "54527a984bdc2d4e668b4567"
+          ],
+          "value": "260",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_16 TASK4",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "64b7af434b75259c590fa893"
+          ],
+          "value": "120",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_16 TASK6",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "59e6920f86f77411d82aa167"
+          ],
+          "value": "300",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_16 TASK5",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "59e4d24686f7741776641ac7"
+          ],
+          "value": "120",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5981a09b86f77455537a65ac",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "ARTT_16 TEXT",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "ARTT_15",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "ARTT_16 declinePlayerMessage",
+    "description": "ARTT_16 desc",
+    "failMessageText": "ARTT_16 failMessageText",
+    "image": "/files/quest/icon/ARTT16_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "55f2d3fd4bdc2d5f408b4567",
+    "name": "ARTT_16 name",
+    "note": "ARTT_16 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "index": 0,
+          "type": "Experience",
+          "value": "18300"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 875102
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "875102"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "619bde7fc9546643a67df6f4",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6492e44bf4287b13040fca56",
+              "_tpl": "5c093db286f7740a1b2617e3",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6492e44bf4287b13040fca56",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "id": "60c89c0c80b2027f403dd992",
+          "index": 5,
+          "target": "ArtemTrader",
+          "type": "TraderStanding",
+          "value": "0.05"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "ARTT_16 desc",
+    "successMessageText": "ARTT_16 success",
+    "traderId": "ArtemTrader",
+    "type": "Exploration"
   }
 }

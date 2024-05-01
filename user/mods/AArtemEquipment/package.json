@@ -2,9 +2,9 @@
   "name": "Artem Equipment",
   "author": "Crackbone",
   "license": "MIT",
-  "version": "1.4.0",
-  "loadAfter": [
-    "AAAArtemTrader"
+  "version": "1.5.1",
+	"loadAfter": [
+      "AAAArtemTrader"
   ],
   "main": "src/mod.js",
   "isBundleMod": true,
