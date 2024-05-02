@@ -29,7 +29,7 @@
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
                                 "id": "LC_E.V.I.L_P4 Task 1",
-                                "resetOnSessionEnd": true,
+                                "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
                                 "value": 1,
