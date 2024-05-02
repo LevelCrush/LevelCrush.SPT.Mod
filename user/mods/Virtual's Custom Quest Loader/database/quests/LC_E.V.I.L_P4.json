@@ -1,11 +1,11 @@
 {
-    "LC_E.V.I.L_P3": {
-        "QuestName": "E.V.I.L. - Part 3",
-        "_id": "LC_E.V.I.L_P3",
-        "acceptPlayerMessage": "LC_E.V.I.L_P3 acceptPlayerMessage",
+    "LC_E.V.I.L_P4": {
+        "QuestName": "E.V.I.L. - Part 4",
+        "_id": "LC_E.V.I.L_P4",
+        "acceptPlayerMessage": "LC_E.V.I.L_P4 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "LC_E.V.I.L_P3 changeQuestMessageText",
-        "completePlayerMessage": "LC_E.V.I.L_P3 completePlayerMessage",
+        "changeQuestMessageText": "LC_E.V.I.L_P4 changeQuestMessageText",
+        "completePlayerMessage": "LC_E.V.I.L_P4 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -28,42 +28,32 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "LC_E.V.I.L_P3 Task 1",
-                                "resetOnSessionEnd": false,
+                                "id": "LC_E.V.I.L_P4 Task 1",
+                                "resetOnSessionEnd": true,
                                 "savageRole": [],
                                 "target": "Any",
                                 "value": 1,
                                 "weapon": [
-                                    "64ca3d3954fc657e230529cc"
+                                    "66015072e9f84d5680039678"
                                 ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
-                                    ["61714eec290d254f5e6b2ffc"]
-                                ]
-                            },
-                            {
-                                "conditionType": "Equipment",
-                                "dynamicLocale": false,
-                                "equipmentExclusive": [],
-                                "equipmentInclusive": [
-                                    [
-                                        "gear_juggernaut19_armor_core_PETTAN"
-                                    ]
+                                    []
                                 ]
                             }
                         ],
-                        "id": "LC_E.V.I.L_Task Kills_P3"
+                        "id": "LC_E.V.I.L_Task Kills_P4"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "LC_E.V.I.L_P3 Task1",
+                    "id": "LC_E.V.I.L_P4 Task1",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 100,
+                    "value": 3,
                     "visibilityConditions": []
                 }
             ],
@@ -73,27 +63,27 @@
                     "conditionType": "Quest",
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "LC_E.V.I.L_P2 TEXT",
+                    "id": "LC_E.V.I.L_P3 TEXT",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "LC_E.V.I.L_P2",
+                    "target": "LC_E.V.I.L_P3",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "LC_E.V.I.L_P3 declinePlayerMessage",
-        "description": "LC_E.V.I.L_P3 description",
-        "failMessageText": "LC_E.V.I.L_P3 failMessageText",
+        "declinePlayerMessage": "LC_E.V.I.L_P4 declinePlayerMessage",
+        "description": "LC_E.V.I.L_P4 description",
+        "failMessageText": "LC_E.V.I.L_P4 failMessageText",
         "image": "/files/quest/icon/Evil_Thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "LC_E.V.I.L_P3 name",
-        "note": "LC_E.V.I.L_P3 note",
+        "name": "LC_E.V.I.L_P4 name",
+        "note": "LC_E.V.I.L_P4 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
@@ -108,12 +98,12 @@
                 {
                     "id": "EVIL_Reward_Skill",
                     "index": 1,
-                    "target": "Strength",
+                    "target": "Endurance",
                     "type": "Skill",
-                    "value": "1000"
+                    "value": "500"
                 },
                 {
-                    "id": "EVIL_Reward_P3_Artem_TS",
+                    "id": "EVIL_Reward_P4_Artem_TS",
                     "index": 2,
                     "target": "ArtemTrader",
                     "type": "TraderStanding",
@@ -123,8 +113,8 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "LC_E.V.I.L_P3 startedMessageText",
-        "successMessageText": "LC_E.V.I.L_P3 successMessageText",
+        "startedMessageText": "LC_E.V.I.L_P4 startedMessageText",
+        "successMessageText": "LC_E.V.I.L_P4 successMessageText",
         "traderId": "ArtemTrader",
         "type": "Elimination"
     }
