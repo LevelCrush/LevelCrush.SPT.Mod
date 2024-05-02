@@ -108,6 +108,8 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
           tables.templates.quests[quest_id],
           global_quest_map[quest_id]
         );
+
+        this.logger.info(`Patched ${quest_id}`);
       }
     }
 
