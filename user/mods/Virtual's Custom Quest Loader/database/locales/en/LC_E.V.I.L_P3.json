@@ -1,0 +1,13 @@
+{
+    "LC_E.V.I.L_P3 acceptPlayerMessage":  "We wish to test you. Your first assignment is on the table. Take it and go.",
+    "LC_E.V.I.L_P3 changeQuestMessageText": "LC_E.V.I.L_P3 changeQuestMessageText",
+    "LC_E.V.I.L_P3 completePlayerMessage": "Your next assignment will be to you shortly",
+    "LC_E.V.I.L_P3 Task1": "Kill 100 targets using the PKP with a 3x12 Schmidt and Bender scope wearing a Modular Juggernaut Armor",
+    "LC_E.V.I.L_P3 declinePlayerMessage": "OMG How could you!",
+    "LC_E.V.I.L_P3 description": "Artem has sent for you again. How much more can I take?",
+    "LC_E.V.I.L_P3 failMessageText": "You Suck!",
+    "LC_E.V.I.L_P3 startedMessageText":"Goodluck.",
+    "LC_E.V.I.L_P3 successMessageText":"Hmm not bad.",
+    "LC_E.V.I.L_P3 name": "E.V.I.L. - Part 3",
+    "LC_E.V.I.L_P3 note": "A challenge for those who dare."
+}

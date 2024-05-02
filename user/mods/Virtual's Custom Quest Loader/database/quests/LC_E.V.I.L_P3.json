@@ -1,0 +1,131 @@
+{
+    "LC_E.V.I.L_P3": {
+        "QuestName": "E.V.I.L. - Part 3",
+        "_id": "LC_E.V.I.L_P3",
+        "acceptPlayerMessage": "LC_E.V.I.L_P3 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "LC_E.V.I.L_P3 changeQuestMessageText",
+        "completePlayerMessage": "LC_E.V.I.L_P3 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "LC_E.V.I.L_P3 Task 1",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Any",
+                                "value": 1,
+                                "weapon": [
+                                    "64ca3d3954fc657e230529cc"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    ["61714eec290d254f5e6b2ffc"]
+                                ]
+                            },
+                            {
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                    [
+                                        "gear_juggernaut19_armor_core_PETTAN"
+                                    ]
+                                ]
+                            }
+                        ],
+                        "id": "LC_E.V.I.L_Task Kills_P3"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P3 Task1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 100,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P2 TEXT",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "LC_E.V.I.L_P2",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "LC_E.V.I.L_P3 declinePlayerMessage",
+        "description": "LC_E.V.I.L_P3 description",
+        "failMessageText": "LC_E.V.I.L_P3 failMessageText",
+        "image": "/files/quest/icon/Evil_Thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "LC_E.V.I.L_P3 name",
+        "note": "LC_E.V.I.L_P3 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "LC-Artem-EXPERIENCE-1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "20000"
+                },
+                {
+                    "id": "EVIL_Reward_Skill",
+                    "index": 1,
+                    "target": "Strength",
+                    "type": "Skill",
+                    "value": "1000"
+                },
+                {
+                    "id": "EVIL_Reward_P3_Artem_TS",
+                    "index": 2,
+                    "target": "ArtemTrader",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "LC_E.V.I.L_P3 startedMessageText",
+        "successMessageText": "LC_E.V.I.L_P3 successMessageText",
+        "traderId": "ArtemTrader",
+        "type": "Elimination"
+    }
+}

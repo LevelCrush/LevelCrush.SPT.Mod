@@ -1,0 +1,13 @@
+{
+    "LC_E.V.I.L_P1 acceptPlayerMessage":  "We wish to test you. Your first assignment is on the table. Take it and go.",
+    "LC_E.V.I.L_P1 changeQuestMessageText": "LC_E.V.I.L_P1 changeQuestMessageText",
+    "LC_E.V.I.L_P1 completePlayerMessage": "Your next assignment will be to you shortly",
+    "LC_E.V.I.L_P1 Task1": "Kill any target from 150 meters or more with a headshot using the AWM while having a VUDU 1x6 scope",
+    "LC_E.V.I.L_P1 declinePlayerMessage": "OMG How could you!",
+    "LC_E.V.I.L_P1 description": "Artem has sent for you. What could he want?",
+    "LC_E.V.I.L_P1 failMessageText": "You Suck!",
+    "LC_E.V.I.L_P1 startedMessageText":"Goodluck.",
+    "LC_E.V.I.L_P1 successMessageText":"Hmm not bad.",
+    "LC_E.V.I.L_P1 name": "E.V.I.L. - Part 1",
+    "LC_E.V.I.L_P1 note": "A challenge for those who dare."
+}

@@ -1,0 +1,13 @@
+{
+    "LC_E.V.I.L_P2 acceptPlayerMessage":  "We wish to test you. Your first assignment is on the table. Take it and go.",
+    "LC_E.V.I.L_P2 changeQuestMessageText": "LC_E.V.I.L_P2 changeQuestMessageText",
+    "LC_E.V.I.L_P2 completePlayerMessage": "Your next assignment will be to you shortly",
+    "LC_E.V.I.L_P2 Task1": "Kill 15 targets from 25 meters or less using the 9x19mm Beretta Raffica in one raid",
+    "LC_E.V.I.L_P2 declinePlayerMessage": "OMG How could you!",
+    "LC_E.V.I.L_P2 description": "Artem has sent for you again. It can't be that bad right?",
+    "LC_E.V.I.L_P2 failMessageText": "You Suck!",
+    "LC_E.V.I.L_P2 startedMessageText":"Goodluck.",
+    "LC_E.V.I.L_P2 successMessageText":"Hmm not bad.",
+    "LC_E.V.I.L_P2 name": "E.V.I.L. - Part 2",
+    "LC_E.V.I.L_P2 note": "A challenge for those who dare."
+}
