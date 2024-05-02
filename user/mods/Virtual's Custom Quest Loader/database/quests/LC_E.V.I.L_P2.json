@@ -1,11 +1,11 @@
 {
-    "LC_E.V.I.L_P1": {
-        "QuestName": "E.V.I.L. - Part 1",
-        "_id": "LC_E.V.I.L_P1",
-        "acceptPlayerMessage": "LC_E.V.I.L_P1 acceptPlayerMessage",
+    "LC_E.V.I.L_P2": {
+        "QuestName": "E.V.I.L. - Part 2",
+        "_id": "LC_E.V.I.L_P2",
+        "acceptPlayerMessage": "LC_E.V.I.L_P2 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "LC_E.V.I.L_P1 changeQuestMessageText",
-        "completePlayerMessage": "LC_E.V.I.L_P1 completePlayerMessage",
+        "changeQuestMessageText": "LC_E.V.I.L_P2 changeQuestMessageText",
+        "completePlayerMessage": "LC_E.V.I.L_P2 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -14,9 +14,7 @@
                     "counter": {
                         "conditions": [
                             {
-                                "bodyPart": [
-                                    "Head"
-                                ],
+                                "bodyPart": [],
                                 "compareMethod": ">=",
                                 "conditionType": "Kills",
                                 "daytime": {
@@ -24,27 +22,25 @@
                                     "to": 0
                                 },
                                 "distance": {
-                                    "compareMethod": ">=",
-                                    "value": 150
+                                    "compareMethod": "<=",
+                                    "value": 25
                                 },
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "LC_E.V.I.L_P1 Task 1",
-                                "resetOnSessionEnd": false,
+                                "id": "LC_E.V.I.L_P2 Task 1",
+                                "resetOnSessionEnd": true,
                                 "savageRole": [],
                                 "target": "Any",
                                 "value": 1,
                                 "weapon": [
-                                    "MIRA_weapon_ai_awm_338lm"
+                                    "weapon_93_raffica"
                                 ],
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
-                                    [
-                                        "5b3b99475acfc432ff4dcbee"
-                                    ]
+                                    []
                                 ]
                             }
                         ],
@@ -53,39 +49,42 @@
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "LC_E.V.I.L_P1 Task1",
+                    "id": "LC_E.V.I.L_P2 Task1",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 25,
+                    "value": 15,
                     "visibilityConditions": []
                 }
             ],
             "AvailableForStart": [
                 {
-                    "compareMethod": ">=",
-                    "conditionType": "Level",
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "5d77940986f7742fa732bf0a",
-                    "index": 0,
+                    "id": "LC_E.V.I.L_P1 TEXT",
+                    "index": 1,
                     "parentId": "",
-                    "value": 15,
+                    "status": [
+                        4
+                    ],
+                    "target": "LC_E.V.I.L_P1",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "LC_E.V.I.L_P1 declinePlayerMessage",
-        "description": "LC_E.V.I.L_P1 description",
-        "failMessageText": "LC_E.V.I.L_P1 failMessageText",
+        "declinePlayerMessage": "LC_E.V.I.L_P2 declinePlayerMessage",
+        "description": "LC_E.V.I.L_P2 description",
+        "failMessageText": "LC_E.V.I.L_P2 failMessageText",
         "image": "/files/quest/icon/Evil_Thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "LC_E.V.I.L_P1 name",
-        "note": "LC_E.V.I.L_P1 note",
+        "name": "LC_E.V.I.L_P2 name",
+        "note": "LC_E.V.I.L_P2 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
@@ -100,12 +99,12 @@
                 {
                     "id": "EVIL_Reward_Skill",
                     "index": 1,
-                    "target": "Sniper",
+                    "target": "Endurance",
                     "type": "Skill",
                     "value": "500"
                 },
                 {
-                    "id": "EVIL_Reward_P1_Artem_TS",
+                    "id": "EVIL_Reward_P2_Artem_TS",
                     "index": 2,
                     "target": "ArtemTrader",
                     "type": "TraderStanding",
@@ -115,8 +114,8 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "LC_E.V.I.L_P1 startedMessageText",
-        "successMessageText": "LC_E.V.I.L_P1 successMessageText",
+        "startedMessageText": "LC_E.V.I.L_P2 startedMessageText",
+        "successMessageText": "LC_E.V.I.L_P2 successMessageText",
         "traderId": "ArtemTrader",
         "type": "Elimination"
     }
