@@ -104,42 +104,65 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
           continue;
         }
 
+        this.logger.info(
+          `Trying to merge ${quest_id} ${JSON.stringify(
+            global_quest_map[quest_id],
+            null,
+            2
+          )} into ${tables.templates.quests[quest_id].QuestName}`
+        );
+
         this.merge_objs(
           tables.templates.quests[quest_id],
           global_quest_map[quest_id]
         );
 
-        this.logger.info(`Patched ${quest_id}`);
+        this.logger.info(
+          `Patched ${quest_id} is now ${JSON.stringify(
+            tables.templates.quests[quest_id],
+            null,
+            2
+          )}`
+        );
       }
     }
 
-    this.logger.info("Force set on the database tables");
-    databaseServer.setTables(tables);
+    //  this.logger.info("Force set on the database tables");
+    // databaseServer.setTables(tables);
 
     this.logger.debug(`[${this.mod}] postDb Loaded`);
   }
 
   // recursive functiont to merge object properties
-  private merge_objs(source: Record<any, any>, new_input: Record<any, any>) {
-    for (const prop in source) {
+  private merge_objs(target: Record<any, any>, new_input: Record<any, any>) {
+    for (const prop in target) {
       if (typeof new_input[prop] === "undefined") {
         // we dont have a matching property in our new input. Skip over it
+        this.logger.info(`No override prop for: ${prop}`);
         continue;
       }
-      const current_v = source[prop];
-      if (typeof current_v === "object") {
+      const current_v = target[prop];
+      const is_array = Array.isArray(current_v);
+      if (is_array) {
+        // anything else we have to assume its a new value
+        // this includes arrays since those inner values may be entirely new
+        this.logger.info(`Overriding ${prop} as an array`);
+        target[prop] = new_input[prop];
+      } else if (typeof current_v === "object") {
         // we need to merge these objects
         // since the two properties should be the same between the two overrides we can  assume
         // that it exist and is t he same type. if not, weird things will happen
         // probably for the best for things to break since we need them to match up
+        this.logger.info(`Overriding ${prop} as an object`);
         this.merge_objs(
-          current_v as Record<any, any>,
+          target[prop] as Record<any, any>,
           new_input[prop] as Record<any, any>
         );
       } else {
         // anything else we have to assume its a new value
         // this includes arrays since those inner values may be entirely new
-        source[prop] = new_input[prop];
+        this.logger.info(`Overriding ${prop} as a normal value`);
+        target[prop] = new_input[prop];
       }
     }
   }
