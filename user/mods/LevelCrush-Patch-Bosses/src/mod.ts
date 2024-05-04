@@ -127,18 +127,15 @@ class LC_Patch_Bosses implements IPreAkiLoadMod, IPostDBLoadMod {
 
   // recursive functiont to merge object properties
   private merge_objs(source: Record<any, any>, new_input: Record<any, any>) {
-    for (const prop in source) {
-      if (typeof new_input[prop] === "undefined") {
-        // we dont have a matching property in our new input. Skip over it
-        continue;
-      }
+    // use new input as the merge source to make sure new keys are being placed in
+    for (const prop in new_input) {
       const is_array = Array.isArray(source[prop]);
       const current_v = source[prop];
       const new_v_is_unset = new_input[prop] === "{{unset}}";
       const is_empty_object =
         typeof current_v === "object" &&
         Object.keys(new_input[prop]).length === 0;
-      if (new_v_is_unset) {
+      if (new_v_is_unset && typeof source[prop] !== "undefined") {
         // delete
         this.logger.info(`${prop} is deleted`);
         delete source[prop];
