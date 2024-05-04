@@ -132,6 +132,7 @@ class LC_Patch_Bosses implements IPreAkiLoadMod, IPostDBLoadMod {
         // we dont have a matching property in our new input. Skip over it
         continue;
       }
+      const is_array = Array.isArray(source[prop]);
       const current_v = source[prop];
       const is_empty_object =
         typeof current_v === "object" &&
@@ -139,6 +140,10 @@ class LC_Patch_Bosses implements IPreAkiLoadMod, IPostDBLoadMod {
       if (is_empty_object) {
         // force to an empty object
         source[prop] = {};
+      } else if (is_array) {
+        // anything else we have to assume its a new value
+        // this includes arrays since those inner values may be entirely new
+        source[prop] = new_input[prop];
       } else if (typeof current_v === "object") {
         // we need to merge these objects
         // since the two properties should be the same between the two overrides we can  assume
