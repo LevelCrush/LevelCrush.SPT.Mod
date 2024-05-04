@@ -68,6 +68,7 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
     // Get a reference to the database tables
     const tables = databaseServer.getTables();
 
+    // patch quest
     if (tables.templates && tables.templates.quests) {
       const db_path = path.join(this.modPath, "db", "quests");
       const files = fs.readdirSync(db_path, {
@@ -76,7 +77,6 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
 
       // quest to patch
       let global_quest_map = {} as QuestMap;
-
       for (const file of files) {
         let raw = "";
         let quest_map = {} as QuestMap;
@@ -92,8 +92,6 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
           this.logger.error("LC Patch Quest cannot parse: " + file);
         }
       }
-      console.log("Outputting Quest map to override");
-      console.log(global_quest_map);
 
       for (const quest_id in global_quest_map) {
         // make sure quest exist in database for us to modify
@@ -124,6 +122,62 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
             2
           )}`
         );
+      }
+    }
+
+    // patch localization
+    if (tables.locales && tables.locales.global) {
+      const db_path = path.join(this.modPath, "db", "locales");
+      const files = fs.readdirSync(db_path, {
+        encoding: "utf-8",
+      });
+
+      // localizations to patch
+      const custom_locales = {} as {
+        [language: string]: { [id: string]: string }[];
+      };
+      for (const file of files) {
+        const stat = fs.statSync(
+          path.join(this.modPath, "db", "locales", file)
+        );
+
+        if (stat.isDirectory()) {
+          custom_locales[file] = [];
+        }
+      }
+
+      for (const locale in custom_locales) {
+        const locale_files = fs.readdirSync(
+          path.join(this.modPath, "db", "locales", locale)
+        );
+        for (const file of locale_files) {
+          const fpath = path.join(this.modPath, "db", "locales", locale, file);
+          const stat = fs.statSync(fpath);
+          if (stat.isFile()) {
+            const raw = fs.readFileSync(fpath, {
+              encoding: "utf-8",
+            });
+            try {
+              custom_locales[locale].push(JSON.parse(raw));
+            } catch {
+              this.logger.error(
+                `Patcher failed to parse ${locale} - ${file} | Ignoring`
+              );
+            }
+          }
+        }
+      }
+
+      // now merge them in
+      for (const locale in custom_locales) {
+        for (const map of custom_locales[locale]) {
+          for (const locale_id in map) {
+            this.logger.info(
+              `Patching locale ${locale} at ${locale_id} (${tables.locales.global[locale][locale_id]}) with ${map[locale_id]}`
+            );
+            tables.locales.global[locale][locale_id] = map[locale_id];
+          }
+        }
       }
     }
 
