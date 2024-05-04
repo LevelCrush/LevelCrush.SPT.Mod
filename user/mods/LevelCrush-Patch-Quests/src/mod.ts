@@ -113,6 +113,9 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
       }
     }
 
+    this.logger.info("Force set on the database tables");
+    databaseServer.setTables(tables);
+
     this.logger.debug(`[${this.mod}] postDb Loaded`);
   }
 
