@@ -5,11 +5,18 @@
     }
   },
   "inventory": {
+    "Ammo": {
+      "Caliber545x39": "{{unset}}",
+      "Caliber762x51": "{{unset}}",
+      "Caliber762x54R": {
+        "560d61e84bdc2da74d8b4571": 1000,
+        "59e77a2386f7742ee578960a": 1000
+      }
+    },
     "equipment": {
       "FirstPrimaryWeapon": {
-        "5c46fbd72e2216398b5a8c9c": 1715,
-        "MIRA_weapon_izhmash_svd_762x54": 3000,
-        "6176aca650224f204c1da3fb": 26
+        "5c46fbd72e2216398b5a8c9c": 1000,
+        "MIRA_weapon_izhmash_svd_762x54": 1000
       },
       "SecondPrimaryWeapon": {}
     }
