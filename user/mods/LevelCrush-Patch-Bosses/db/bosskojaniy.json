@@ -7,9 +7,8 @@
   "inventory": {
     "equipment": {
       "FirstPrimaryWeapon": {
-        "5c46fbd72e2216398b5a8c9c": 1715,
-        "MIRA_weapon_izhmash_svd_762x54": 3000,
-        "6176aca650224f204c1da3fb": 26
+        "5c46fbd72e2216398b5a8c9c": 1000,
+        "MIRA_weapon_izhmash_svd_762x54": 1000
       },
       "SecondPrimaryWeapon": {}
     }
