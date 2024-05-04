@@ -69,7 +69,7 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
     const tables = databaseServer.getTables();
 
     if (tables.templates && tables.templates.quests) {
-      const db_path = path.join(this.modPath, "db");
+      const db_path = path.join(this.modPath, "db", "quests");
       const files = fs.readdirSync(db_path, {
         encoding: "utf-8",
       });
