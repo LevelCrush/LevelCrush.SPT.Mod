@@ -1,4 +1,11 @@
 {
+  "experience": {
+    "aggressorBonus": 0.05,
+    "reward": {
+      "max": 15000,
+      "min": 15000
+    }
+  },
   "chances": {
     "equipment": {
       "ArmorVest": 0,
