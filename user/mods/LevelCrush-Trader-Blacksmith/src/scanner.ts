@@ -39,7 +39,8 @@ export class Scanner {
     // 7 = Medstation
     // 11 = Intel Center
     // 8 =  Nutrition Unit
-    const allowed_areas = [10, 7, 11, 8];
+    // 2 = Lavatory
+    const allowed_areas = [2, 10, 7, 11, 8];
 
     // scan production recipes
     for (const recipe of hideout.production) {
