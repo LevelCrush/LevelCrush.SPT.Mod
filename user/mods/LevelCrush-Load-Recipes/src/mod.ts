@@ -64,7 +64,35 @@ class LC_Load_Recipes implements IPreAkiLoadMod, IPostDBLoadMod {
       container.resolve<ConfigServer>("ConfigServer");
 
     // Get a reference to the database tables
+    this.logger.info("Scanning for new recipes");
     const tables = databaseServer.getTables();
+    const recipes_to_add = [] as IHideoutProduction[];
+    if (tables.hideout && tables.hideout.production) {
+      // scan for recipes
+      const db_path = path.join(this.modPath, "db");
+      const entries = fs.readdirSync(db_path, { encoding: "utf-8" });
+      for (const entry of entries) {
+        const file_path = path.join(db_path, entry);
+        const stat = fs.statSync(file_path);
+        if (stat.isFile()) {
+          try {
+            const raw = fs.readFileSync(file_path, { encoding: "utf-8" });
+            const json = JSON.parse(raw) as IHideoutProduction[];
+            for (const production of json) {
+              recipes_to_add.push(production);
+            }
+          } catch {
+            this.logger.error(`Failed to parse: ${file_path}`);
+          }
+        }
+      }
+    }
+
+    this.logger.info(`Going to add ${recipes_to_add.length} total recipes`);
+
+    // concat the base production reecipes with our new ones
+    tables.hideout.production =
+      tables.hideout.production.concat(recipes_to_add);
 
     this.logger.debug(`[${this.mod}] postDb Loaded`);
   }
