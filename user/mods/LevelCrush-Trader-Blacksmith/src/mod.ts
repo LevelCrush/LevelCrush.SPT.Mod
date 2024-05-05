@@ -21,6 +21,7 @@ import { Money } from "@spt-aki/models/enums/Money";
 import { Traders } from "@spt-aki/models/enums/Traders";
 import { HashUtil } from "@spt-aki/utils/HashUtil";
 import Scanner from "./scanner";
+import { IDatabaseTables } from "@spt-aki/models/spt/server/IDatabaseTables";
 
 class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
   private mod: string;
@@ -96,12 +97,24 @@ class BlacksmithTrader implements IPreAkiLoadMod, IPostDBLoadMod {
     // Get a reference to the database tables
     const tables = databaseServer.getTables();
 
+    this.logger.info("Creating blacksmith");
     // Add new trader to the trader dictionary in DatabaseServer - has no assorts (items) yet
     this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil);
 
     const items = tables.templates.items;
     const hideout = tables.hideout;
-    const prices = tables.templates.prices;
+    const prices_flat = tables.templates.handbook.Items;
+
+    this.logger.info("Generating Price map from handook");
+    const prices = {} as {
+      [
+        tpl: string
+      ]: IDatabaseTables["templates"]["handbook"]["Items"][0]["Price"];
+    };
+
+    for (const price_obj of prices_flat) {
+      prices[price_obj.Id] = price_obj.Price;
+    }
 
     if (items && hideout && prices) {
       this.logger.debug("Blacksmith has started to scan");
