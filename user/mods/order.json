@@ -7,9 +7,10 @@
     "AArtemEquipment",
     "aaMFACSHOP",
     "Armor_Inserts_MFAC",
-    "Guns_Titanfall2_AT233",
-    "Gear_MOdular_Juggernaut",
+    "Guns_Titanfall_2_AT233",
+    "Gear_Modular_Juggernaut",
     "Guns_Toy_Gun_Port_PETTAN",
+    "yATT_Sights_Laser_Titanfall_2_AT233",
     "choccy-striker-1.0.3",
     "choccy-93raffica-1.1.4",
     "EpicRangeTime-Weapons",
@@ -30,9 +31,11 @@
     "LevelCrush-QOL-NoRestrictions",
     "LevelCrush-QOL-Inertia",
     "LevelCrush-QOL-Recipes",
+    "LevelCrush-Event-AmmoShortage",
     "SWAG",
     "DewardianDev-AlgorithmicLevelProgression",
     "DanW-SPTQuestingBots",
-    "zSolarint-SAIN-ServerMod"
+    "zSolarint-SAIN-ServerMod",
+    "RemotePlugins"
   ]
 }
