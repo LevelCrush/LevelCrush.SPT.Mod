@@ -228,7 +228,7 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
                         areaType: 10, // always assign to workbench,
                         requirements: requirements,
                         productionTime: 3600,
-                        count: Math.ceil((workbench_level * 400) / Math.max(1, workbench_level - 1)),
+                        count: 200,
                         isEncoded: false,
                         continuous: false,
                         locked: false,
