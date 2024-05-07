@@ -67,6 +67,11 @@ export function start(): Job {
         });
 
         child.unref();
+
+        await new Promise((resolve: (value: void) => void) => {
+            console.log('Done waiting');
+            setTimeout(() => resolve(), 5000);
+        });
     };
 
     return {
