@@ -58,9 +58,10 @@ export function stop() {
 export function start(): Job {
     const setup = async function () {};
     const run = async function () {
-        console.log('Starting server');
+        const cwd = path.resolve(process.env['AUTOMATION_SERVER_FOLDER'] || '');
+        console.log(`Starting server in: ${cwd}`);
         const child = child_process.spawn('Aki.Server.exe', {
-            cwd: process.env['AUTOMATION_SERVER_FOLDER'] || '',
+            cwd: cwd,
             detached: true,
             stdio: ['ignore', 'ignore', 'ignore'],
         });
