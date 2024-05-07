@@ -1,28 +1,14 @@
 import { DependencyContainer } from 'tsyringe';
 
 // SPT types
-import { IPreAkiLoadMod } from '@spt-aki/models/external/IPreAkiLoadMod';
-import { IPostDBLoadMod } from '@spt-aki/models/external/IPostDBLoadMod';
 import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
 import { PreAkiModLoader } from '@spt-aki/loaders/PreAkiModLoader';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
-import { ImageRouter } from '@spt-aki/routers/ImageRouter';
-import { ConfigServer } from '@spt-aki/servers/ConfigServer';
-import { ConfigTypes } from '@spt-aki/models/enums/ConfigTypes';
-import { ITraderConfig } from '@spt-aki/models/spt/config/ITraderConfig';
-import { IRagfairConfig } from '@spt-aki/models/spt/config/IRagfairConfig';
-import { JsonUtil } from '@spt-aki/utils/JsonUtil';
-import { HashUtil } from '@spt-aki/utils/HashUtil';
 
 import * as fs from 'fs';
 import path from 'path';
-import { IQuest } from '@spt-aki/models/eft/common/tables/IQuest';
-import { IHideoutProduction } from '@spt-aki/models/eft/hideout/IHideoutProduction';
-import { ITemplateItem } from '@spt-aki/models/eft/common/tables/ITemplateItem';
 import { IPreAkiLoadModAsync } from '@spt-aki/models/external/IPreAkiLoadModAsync';
 import { IPostAkiLoadModAsync } from '@spt-aki/models/external/IPostAkiLoadModAsync';
 import { IPostDBLoadModAsync } from '@spt-aki/models/external/IPostDBLoadModAsync';
-import { HttpFileUtil } from '@spt-aki/utils/HttpFileUtil';
 import DiscordWebhook, { DiscordWebhookColors } from './webhook';
 
 class LC_Discord_Webhooks implements IPreAkiLoadModAsync, IPostAkiLoadModAsync, IPostDBLoadModAsync {
