@@ -1,0 +1,15 @@
+{
+    "LC_E.V.I.L_P7 acceptPlayerMessage":  "We wish to test you. Your first assignment is on the table. Take it and go.",
+    "LC_E.V.I.L_P7 changeQuestMessageText": "LC_E.V.I.L_P7 changeQuestMessageText",
+    "LC_E.V.I.L_P7 completePlayerMessage": "Your next assignment will be to you shortly",
+    "LC_E.V.I.L_P7 Task1": "Kill 20 PMCs using a grenade launcher",
+    "LC_E.V.I.L_P7 Task2": "Kill 15 targets at a distance of 100m or more with a grenade launcher",
+    "LC_E.V.I.L_P7 Task3": "Kill 15 targets at a distance of 25m or less with a grenade launcher",
+    "LC_E.V.I.L_P7 declinePlayerMessage": "OMG How could you!",
+    "LC_E.V.I.L_P7 description": "Artem has sent for you again. I know I said I was ready last time but I mean it this time.",
+    "LC_E.V.I.L_P7 failMessageText": "You Suck!",
+    "LC_E.V.I.L_P7 startedMessageText":"Goodluck.",
+    "LC_E.V.I.L_P7 successMessageText":"Hmm not bad.",
+    "LC_E.V.I.L_P7 name": "E.V.I.L. - Part 7",
+    "LC_E.V.I.L_P7 note": "A challenge for those who dare."
+}

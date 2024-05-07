@@ -1,0 +1,226 @@
+{
+    "LC_E.V.I.L_P7": {
+        "QuestName": "E.V.I.L. - Part 5",
+        "_id": "LC_E.V.I.L_P7",
+        "acceptPlayerMessage": "LC_E.V.I.L_P7 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "LC_E.V.I.L_P7 changeQuestMessageText",
+        "completePlayerMessage": "LC_E.V.I.L_P7 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                   
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "LC_E.V.I.L_P7 Task 1",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    
+                                ],
+                                "target": "AnyPmc",
+                                "value": 1,
+                                "weapon": [
+                                   
+                                ],
+                                "weaponCaliber": ["Caliber40x46"],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    []
+                                ]
+                            }
+                        ],
+                        "id": "LC_E.V.I.L_Task 1 Kills_P7"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P7 Task1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 20,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 100
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "LC_E.V.I.L_P7 Task 2",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    
+                                ],
+                                "target": "Any",
+                                "value": 1,
+                                "weapon": [
+                                    
+                                ],
+                                "weaponCaliber": ["Caliber40x46"],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    []
+                                ]
+                            }
+                        ],
+                        "id": "LC_E.V.I.L_Task 2 Kills_P7"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P7 Task2",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 15,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": "<=",
+                                    "value": 25
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "LC_E.V.I.L_P7 Task 3",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    
+                                ],
+                                "target": "Any",
+                                "value": 1,
+                                "weapon": [
+                                    
+                                ],
+                                "weaponCaliber": ["Caliber40x46"],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    []
+                                ]
+                            }
+                        ],
+                        "id": "LC_E.V.I.L_Task 2 Kills_P7"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P7 Task3",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 15,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P4 TEXT",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "LC_E.V.I.L_P4",
+                    "visibilityConditions": []
+                }
+                
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "LC_E.V.I.L_P7 declinePlayerMessage",
+        "description": "LC_E.V.I.L_P7 description",
+        "failMessageText": "LC_E.V.I.L_P7 failMessageText",
+        "image": "/files/quest/icon/Evil_Thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "LC_E.V.I.L_P7 name",
+        "note": "LC_E.V.I.L_P7 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "LC-Artem-EXPERIENCE-1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "30000"
+                },
+                {
+                    "id": "EVIL_Reward_Skill",
+                    "index": 1,
+                    "target": "Surgery",
+                    "type": "Skill",
+                    "value": "5100"
+                },
+                {
+                    "id": "EVIL_Reward_P7_Artem_TS",
+                    "index": 2,
+                    "target": "ArtemTrader",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "LC_E.V.I.L_P7 startedMessageText",
+        "successMessageText": "LC_E.V.I.L_P7 successMessageText",
+        "traderId": "ArtemTrader",
+        "type": "Elimination"
+    }
+}
