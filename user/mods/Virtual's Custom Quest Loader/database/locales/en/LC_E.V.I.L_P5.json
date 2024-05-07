@@ -1,0 +1,13 @@
+{
+    "LC_E.V.I.L_P4 acceptPlayerMessage":  "We wish to test you. Your first assignment is on the table. Take it and go.",
+    "LC_E.V.I.L_P4 changeQuestMessageText": "LC_E.V.I.L_P4 changeQuestMessageText",
+    "LC_E.V.I.L_P4 completePlayerMessage": "Your next assignment will be to you shortly",
+    "LC_E.V.I.L_P4 Task1": "Kill 20 Boss Level Enemies from less than 50 meters with Golden AKs during the Day in one raid",
+    "LC_E.V.I.L_P4 declinePlayerMessage": "OMG How could you!",
+    "LC_E.V.I.L_P4 description": "Artem has sent for you again. Ok im ready for this lets see what you got!",
+    "LC_E.V.I.L_P4 failMessageText": "You Suck!",
+    "LC_E.V.I.L_P4 startedMessageText":"Goodluck.",
+    "LC_E.V.I.L_P4 successMessageText":"Hmm not bad.",
+    "LC_E.V.I.L_P4 name": "E.V.I.L. - Part 5",
+    "LC_E.V.I.L_P4 note": "A challenge for those who dare."
+}
