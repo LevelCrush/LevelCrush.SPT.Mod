@@ -98,7 +98,7 @@
                 {
                     "id": "EVIL_Reward_Skill",
                     "index": 1,
-                    "target": "Stress Resistance",
+                    "target": "StressResistance",
                     "type": "Skill",
                     "value": "1000"
                 },
