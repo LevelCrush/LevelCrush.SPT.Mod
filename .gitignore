@@ -19,3 +19,5 @@
 /automations/dist/
 /automations/package-lock.json 
 /automations/node_modules/
+.env
+/automations/backup/
