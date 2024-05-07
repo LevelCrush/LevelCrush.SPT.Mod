@@ -197,7 +197,7 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
                     // add nuts to every ammo craft requirement
                     requirements.push({
                         templateId: template_nut._id,
-                        count: workbench_level * (0 + workbench_level),
+                        count: workbench_level,
                         isEncoded: false,
                         isFunctional: false,
                         type: 'Item',
@@ -206,7 +206,7 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
                     if (workbench_level >= 2) {
                         requirements.push({
                             templateId: template_screw._id,
-                            count: (workbench_level - 1) * (0 + workbench_level),
+                            count: workbench_level,
                             isEncoded: false,
                             isFunctional: false,
                             type: 'Item',
@@ -215,7 +215,7 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
 
                     if (workbench_level >= 3) {
                         requirements.push({
-                            templateId: template_screw._id,
+                            templateId: template_machine_part._id,
                             count: 1,
                             isEncoded: false,
                             isFunctional: false,
@@ -228,7 +228,7 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
                         areaType: 10, // always assign to workbench,
                         requirements: requirements,
                         productionTime: 3600,
-                        count: Math.ceil((workbench_level * 200) / workbench_level),
+                        count: Math.ceil((workbench_level * 400) / Math.max(1, workbench_level - 1)),
                         isEncoded: false,
                         continuous: false,
                         locked: false,
