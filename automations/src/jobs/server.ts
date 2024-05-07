@@ -12,6 +12,7 @@ import path from 'path';
 export function stop() {
     const setup = async function () {};
     const run = async function () {
+        console.log("Scanning for running Aki.Server.exe's ");
         const programs = await new Promise((resolve: (value: ps.Program[]) => void) =>
             ps.lookup(
                 {
