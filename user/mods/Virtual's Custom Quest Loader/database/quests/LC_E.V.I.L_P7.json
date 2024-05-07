@@ -21,27 +21,25 @@
                                     "from": 0,
                                     "to": 0
                                 },
-                                "distance": {
-                                   
-                                },
+                                "distance": {},
                                 "dynamicLocale": false,
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
                                 "id": "LC_E.V.I.L_P7 Task 1",
                                 "resetOnSessionEnd": false,
-                                "savageRole": [
-                                    
-                                ],
+                                "savageRole": [],
                                 "target": "AnyPmc",
                                 "value": 1,
-                                "weapon": [
-                                   
-                                ],
-                                "weaponCaliber": ["Caliber40x46"],
+                                "weapon": [],
+                                "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
-                                    []
+                                    [
+                                        "6357c98711fb55120211f7e1",
+                                        "62e7e7bbe6da9612f743f1e0",
+                                        "5648b62b4bdc2d9d488b4585"
+                                    ]
                                 ]
                             }
                         ],
@@ -81,15 +79,13 @@
                                 "enemyHealthEffects": [],
                                 "id": "LC_E.V.I.L_P7 Task 2",
                                 "resetOnSessionEnd": false,
-                                "savageRole": [
-                                    
-                                ],
+                                "savageRole": [],
                                 "target": "Any",
                                 "value": 1,
-                                "weapon": [
-                                    
+                                "weapon": [],
+                                "weaponCaliber": [
+                                    "Caliber40x46"
                                 ],
-                                "weaponCaliber": ["Caliber40x46"],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
                                     []
@@ -132,15 +128,13 @@
                                 "enemyHealthEffects": [],
                                 "id": "LC_E.V.I.L_P7 Task 3",
                                 "resetOnSessionEnd": false,
-                                "savageRole": [
-                                    
-                                ],
+                                "savageRole": [],
                                 "target": "Any",
                                 "value": 1,
-                                "weapon": [
-                                    
+                                "weapon": [],
+                                "weaponCaliber": [
+                                    "Caliber40x46"
                                 ],
-                                "weaponCaliber": ["Caliber40x46"],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
                                     []
@@ -167,16 +161,15 @@
                     "conditionType": "Quest",
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "LC_E.V.I.L_P4 TEXT",
+                    "id": "LC_E.V.I.L_P6 TEXT",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "LC_E.V.I.L_P4",
+                    "target": "LC_E.V.I.L_P6",
                     "visibilityConditions": []
                 }
-                
             ],
             "Fail": []
         },

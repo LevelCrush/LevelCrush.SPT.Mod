@@ -117,13 +117,13 @@
                     "conditionType": "Quest",
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "LC_E.V.I.L_P4 TEXT",
+                    "id": "LC_E.V.I.L_P5 TEXT",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "LC_E.V.I.L_P4",
+                    "target": "LC_E.V.I.L_P5",
                     "visibilityConditions": []
                 }
             ],
