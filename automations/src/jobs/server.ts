@@ -60,7 +60,7 @@ export function start(): Job {
     const run = async function () {
         const cwd = path.resolve(process.env['AUTOMATION_SERVER_FOLDER'] || '');
         console.log(`Starting server in: ${cwd}`);
-        const child = child_process.spawn('Aki.Server.exe', {
+        const child = child_process.spawn('./Aki.Server.exe', {
             cwd: cwd,
             detached: true,
             stdio: ['ignore', 'ignore', 'ignore'],
