@@ -223,6 +223,16 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
                         });
                     }
 
+                    if (typeof previous_calibers[caliber] !== 'undefined') {
+                        requirements.push({
+                            templateId: previous_calibers[caliber],
+                            count: 100,
+                            isEncoded: false,
+                            isFunctional: false,
+                            type: 'Item',
+                        });
+                    }
+
                     const recipe = {
                         _id: `LevelCrush-${caliber}-${ammo_desc.name}`,
                         areaType: 10, // always assign to workbench,
@@ -240,9 +250,7 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
                     this.logger.info(`Adding recipe:\r\n${JSON.stringify(recipe, null, 2)}`);
                     tables.hideout.production.push(recipe);
 
-                    if (typeof previous_calibers[caliber] === 'undefined') {
-                        previous_calibers[caliber] = ammo_desc.tpl;
-                    }
+                    previous_calibers[caliber] = ammo_desc.tpl;
                 }
             }
         });
