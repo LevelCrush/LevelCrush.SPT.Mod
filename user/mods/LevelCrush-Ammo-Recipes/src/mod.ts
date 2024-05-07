@@ -141,6 +141,112 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
             );
         });
 
+        this.logger.info('Generating ammo recipes');
+        // track previous best calibers
+        const template_kite = tables.templates.items['590c5a7286f7747884343aea'];
+        const template_eagle = tables.templates.items['5d6fc78386f77449d825f9dc'];
+        const template_hawk = tables.templates.items['5d6fc87386f77449db3db94e'];
+        const template_screw = tables.templates.items['57347c77245977448d35f6e2'];
+        const template_nut = tables.templates.items['57347c77245977448d35f6e2'];
+        const template_machine_part = tables.templates.items['61bf7b6302b3924be92fa8c3'];
+
+        const previous_calibers = {} as { [caliber: string]: string };
+        ammo_sortings.forEach((caliber_weightings, workbench_level) => {
+            for (const caliber in caliber_weightings) {
+                for (const ammo_desc of caliber_weightings[caliber]) {
+                    const template = ammo_templates[ammo_desc.tpl];
+
+                    const requirements = [
+                        {
+                            areaType: 10,
+                            requiredLevel: workbench_level,
+                            type: 'Area',
+                        },
+                    ] as IHideoutProduction['requirements'];
+
+                    if (workbench_level >= 1) {
+                        requirements.push({
+                            templateId: template_kite._id,
+                            count: 1,
+                            isFunctional: false,
+                            isEncoded: false,
+                            type: 'Item',
+                        });
+                    }
+
+                    if (workbench_level >= 2) {
+                        requirements.push({
+                            templateId: template_hawk._id,
+                            count: 1,
+                            isEncoded: false,
+                            isFunctional: false,
+                            type: 'Item',
+                        });
+                    }
+
+                    if (workbench_level >= 3) {
+                        requirements.push({
+                            templateId: template_eagle._id,
+                            count: 1,
+                            isEncoded: false,
+                            isFunctional: false,
+                            type: 'Item',
+                        });
+                    }
+
+                    // add nuts to every ammo craft requirement
+                    requirements.push({
+                        templateId: template_nut._id,
+                        count: workbench_level * (0 + workbench_level),
+                        isEncoded: false,
+                        isFunctional: false,
+                        type: 'Item',
+                    });
+
+                    if (workbench_level >= 2) {
+                        requirements.push({
+                            templateId: template_screw._id,
+                            count: (workbench_level - 1) * (0 + workbench_level),
+                            isEncoded: false,
+                            isFunctional: false,
+                            type: 'Item',
+                        });
+                    }
+
+                    if (workbench_level >= 3) {
+                        requirements.push({
+                            templateId: template_screw._id,
+                            count: 1,
+                            isEncoded: false,
+                            isFunctional: false,
+                            type: 'Item',
+                        });
+                    }
+
+                    const recipe = {
+                        _id: `LevelCrush-${caliber}-${ammo_desc.name}`,
+                        areaType: 10, // always assign to workbench,
+                        requirements: requirements,
+                        productionTime: 3600,
+                        count: Math.ceil((workbench_level * 200) / workbench_level),
+                        isEncoded: false,
+                        continuous: false,
+                        locked: false,
+                        productionLimitCount: 0,
+                        endProduct: ammo_desc.tpl,
+                        needFuelForAllProductionTime: false,
+                    } as IHideoutProduction;
+
+                    this.logger.info(`Adding recipe:\r\n${JSON.stringify(recipe, null, 2)}`);
+                    tables.hideout.production.push(recipe);
+
+                    if (typeof previous_calibers[caliber] === 'undefined') {
+                        previous_calibers[caliber] = ammo_desc.tpl;
+                    }
+                }
+            }
+        });
+
         // databaseServer.setTables(tables);
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);
