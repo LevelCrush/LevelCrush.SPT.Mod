@@ -6,6 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "debug": "ts-node -r tsconfig-paths/register src/index.ts",
+        "debug:backup:profiles": "ts-node -r tsconfig-paths/register src/index.ts backup:profiles",
         "start": "node dist/automations.js",
         "build": "esbuild ./src/index.ts --bundle --platform=node --outfile=./dist/automations.js"
     },
