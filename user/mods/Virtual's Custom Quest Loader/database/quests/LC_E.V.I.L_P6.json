@@ -1,11 +1,11 @@
 {
-    "LC_E.V.I.L_P5": {
-        "QuestName": "E.V.I.L. - Part 5",
-        "_id": "LC_E.V.I.L_P5",
-        "acceptPlayerMessage": "LC_E.V.I.L_P5 acceptPlayerMessage",
+    "LC_E.V.I.L_P6": {
+        "QuestName": "E.V.I.L. - Part 6",
+        "_id": "LC_E.V.I.L_P6",
+        "acceptPlayerMessage": "LC_E.V.I.L_P6 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "LC_E.V.I.L_P5 changeQuestMessageText",
-        "completePlayerMessage": "LC_E.V.I.L_P5 completePlayerMessage",
+        "changeQuestMessageText": "LC_E.V.I.L_P6 changeQuestMessageText",
+        "completePlayerMessage": "LC_E.V.I.L_P6 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -28,7 +28,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "LC_E.V.I.L_P5 Task 1",
+                                "id": "LC_E.V.I.L_P6 Task 2",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     
@@ -46,12 +46,12 @@
                                 ]
                             }
                         ],
-                        "id": "LC_E.V.I.L_Task 1 Kills_P5"
+                        "id": "LC_E.V.I.L_Task 1 Kills_P6"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "LC_E.V.I.L_P5 Task1",
+                    "id": "LC_E.V.I.L_P6 Task1",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -79,7 +79,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "LC_E.V.I.L_P5 Task 1",
+                                "id": "LC_E.V.I.L_P6 Task 1",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [
                                     
@@ -97,12 +97,12 @@
                                 ]
                             }
                         ],
-                        "id": "LC_E.V.I.L_Task 2 Kills_P5"
+                        "id": "LC_E.V.I.L_Task 2 Kills_P6"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "LC_E.V.I.L_P5 Task2",
+                    "id": "LC_E.V.I.L_P6 Task2",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -129,15 +129,15 @@
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "LC_E.V.I.L_P5 declinePlayerMessage",
-        "description": "LC_E.V.I.L_P5 description",
-        "failMessageText": "LC_E.V.I.L_P5 failMessageText",
+        "declinePlayerMessage": "LC_E.V.I.L_P6 declinePlayerMessage",
+        "description": "LC_E.V.I.L_P6 description",
+        "failMessageText": "LC_E.V.I.L_P6 failMessageText",
         "image": "/files/quest/icon/Evil_Thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "LC_E.V.I.L_P5 name",
-        "note": "LC_E.V.I.L_P5 note",
+        "name": "LC_E.V.I.L_P6 name",
+        "note": "LC_E.V.I.L_P6 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
@@ -157,7 +157,7 @@
                     "value": "1000"
                 },
                 {
-                    "id": "EVIL_Reward_P5_Artem_TS",
+                    "id": "EVIL_Reward_P6_Artem_TS",
                     "index": 2,
                     "target": "ArtemTrader",
                     "type": "TraderStanding",
@@ -167,8 +167,8 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "LC_E.V.I.L_P5 startedMessageText",
-        "successMessageText": "LC_E.V.I.L_P5 successMessageText",
+        "startedMessageText": "LC_E.V.I.L_P6 startedMessageText",
+        "successMessageText": "LC_E.V.I.L_P6 successMessageText",
         "traderId": "ArtemTrader",
         "type": "Elimination"
     }
