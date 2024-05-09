@@ -451,10 +451,13 @@ class Hephaestus implements IPreAkiLoadMod, IPostDBLoadMod {
         let assortTable: ITraderAssort = {
             items: [],
             barter_scheme: {},
-            loyal_level_items: {}
+            loyal_level_items: {},
+            nextResupply: 3600
         }
         // const currency = "5449016a4bdc2d6f028b456f";//ROUBLES
         let profiles = {};
+        // LC patch. force undefined session id to pull from all profiles
+        sessionId = undefined; // always force no session id
         if (sessionId) {
             let t = container.resolve("ProfileHelper").getFullProfile(sessionId)
             profiles = { [sessionId]: t };
