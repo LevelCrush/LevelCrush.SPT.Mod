@@ -13,7 +13,7 @@
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
+        "SHPERE_FRIENDY_FIRE_SIZE": 0.0,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
@@ -32,7 +32,7 @@
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.0,
+        "HearingSense": 2.027,
         "CanGrenade": true
       },
       "Grenade": {
@@ -47,7 +47,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 71.0
+        "MaxFootstepAudioDistance": 150.0
       },
       "Lay": {},
       "Look": {
@@ -77,7 +77,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 2.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -87,7 +87,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true
+        "EnableExtracts": false
       },
       "Move": {},
       "Patrol": {},
@@ -118,7 +118,7 @@
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
+        "SHPERE_FRIENDY_FIRE_SIZE": 0.0,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
@@ -137,7 +137,7 @@
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.0,
+        "HearingSense": 2.02,
         "CanGrenade": true
       },
       "Grenade": {
@@ -152,7 +152,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 71.0
+        "MaxFootstepAudioDistance": 150.0
       },
       "Lay": {},
       "Look": {
@@ -182,7 +182,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 2.5,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -192,7 +192,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true
+        "EnableExtracts": false
       },
       "Move": {},
       "Patrol": {},
@@ -223,7 +223,7 @@
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
+        "SHPERE_FRIENDY_FIRE_SIZE": 0.0,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
@@ -242,7 +242,7 @@
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.0,
+        "HearingSense": 2.02,
         "CanGrenade": true
       },
       "Grenade": {
@@ -257,7 +257,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 71.0
+        "MaxFootstepAudioDistance": 150.0
       },
       "Lay": {},
       "Look": {
@@ -287,7 +287,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 3.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -297,7 +297,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true
+        "EnableExtracts": false
       },
       "Move": {},
       "Patrol": {},
@@ -328,7 +328,7 @@
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
         "COEF_IF_MOVE": 2.0,
         "MAX_AIM_TIME": 1.5,
-        "SHPERE_FRIENDY_FIRE_SIZE": 0.15,
+        "SHPERE_FRIENDY_FIRE_SIZE": 0.0,
         "RECALC_MUST_TIME": 1,
         "RECALC_MUST_TIME_MIN": 1,
         "RECALC_MUST_TIME_MAX": 2,
@@ -347,7 +347,7 @@
         "GainSightCoef": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.0,
+        "HearingSense": 2.01,
         "CanGrenade": true
       },
       "Grenade": {
@@ -362,7 +362,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 71.0
+        "MaxFootstepAudioDistance": 150.0
       },
       "Lay": {},
       "Look": {
@@ -392,7 +392,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 3.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -402,7 +402,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true
+        "EnableExtracts": false
       },
       "Move": {},
       "Patrol": {},

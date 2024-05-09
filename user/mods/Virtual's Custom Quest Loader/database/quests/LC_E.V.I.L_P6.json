@@ -1,0 +1,175 @@
+{
+    "LC_E.V.I.L_P6": {
+        "QuestName": "E.V.I.L. - Part 6",
+        "_id": "LC_E.V.I.L_P6",
+        "acceptPlayerMessage": "LC_E.V.I.L_P6 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "LC_E.V.I.L_P6 changeQuestMessageText",
+        "completePlayerMessage": "LC_E.V.I.L_P6 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                   
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "LC_E.V.I.L_P6 Task 2",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    
+                                ],
+                                "target": "Bear",
+                                "value": 1,
+                                "weapon": [
+                                    "5ba26383d4351e00334c93d9",
+                                    "5bd70322209c4d00d7167b8f"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    ["5ba264f6d4351e0034777d52"]
+                                ]
+                            }
+                        ],
+                        "id": "LC_E.V.I.L_Task 1 Kills_P6"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P6 Task1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                   
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "LC_E.V.I.L_P6 Task 1",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    
+                                ],
+                                "target": "Usec",
+                                "value": 1,
+                                "weapon": [
+                                    "5ba26383d4351e00334c93d9",
+                                    "5bd70322209c4d00d7167b8f"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    ["5ba264f6d4351e0034777d52"]
+                                ]
+                            }
+                        ],
+                        "id": "LC_E.V.I.L_Task 2 Kills_P6"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P6 Task2",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P5 TEXT",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "LC_E.V.I.L_P5",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "LC_E.V.I.L_P6 declinePlayerMessage",
+        "description": "LC_E.V.I.L_P6 description",
+        "failMessageText": "LC_E.V.I.L_P6 failMessageText",
+        "image": "/files/quest/icon/Evil_Thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "LC_E.V.I.L_P6 name",
+        "note": "LC_E.V.I.L_P6 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "LC-Artem-EXPERIENCE-1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "20000"
+                },
+                {
+                    "id": "EVIL_Reward_Skill",
+                    "index": 1,
+                    "target": "MagDrills",
+                    "type": "Skill",
+                    "value": "1000"
+                },
+                {
+                    "id": "EVIL_Reward_P6_Artem_TS",
+                    "index": 2,
+                    "target": "ArtemTrader",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "LC_E.V.I.L_P6 startedMessageText",
+        "successMessageText": "LC_E.V.I.L_P6 successMessageText",
+        "traderId": "ArtemTrader",
+        "type": "Elimination"
+    }
+}

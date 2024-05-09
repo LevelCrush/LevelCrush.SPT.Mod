@@ -1,0 +1,145 @@
+{
+    "LC_E.V.I.L_P5": {
+        "QuestName": "E.V.I.L. - Part 5",
+        "_id": "LC_E.V.I.L_P5",
+        "acceptPlayerMessage": "LC_E.V.I.L_P5 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "LC_E.V.I.L_P5 changeQuestMessageText",
+        "completePlayerMessage": "LC_E.V.I.L_P5 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 7,
+                                    "to": 19
+                                },
+                                "distance": {
+                                    "compareMethod": "<=",
+                                    "value": 50
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "LC_E.V.I.L_P5 Task 1",
+                                "resetOnSessionEnd": true,
+                                "savageRole": [
+                                    "bossKilla",
+                                    "bossTagilla",
+                                    "bossBully",
+                                    "followerBully",
+                                    "bossKojaniy",
+                                    "bossGluhar",
+                                    "followerGluharAssault",
+                                    "followerGluharScout",
+                                    "followerGluharSecurity",
+                                    "followerGluharSnipe",
+                                    "pmcBot",
+                                    "bossSanitar",
+                                    "bossKnight",
+                                    "followerBigPipe",
+                                    "followerBirdEye",
+                                    "exUsec",
+                                    "marksman",
+                                    "arenaFighterEvent",
+                                    "followerKojaniy"
+                                ],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": [
+                                    "MIRA_weapon_izhmash_akm_762x39_gold",
+                                    "MIRA_weapon_izhmash_akmn_762x39_gold",
+                                    "MIRA_weapon_izhmash_akms_762x39_gold",
+                                    "MIRA_weapon_izhmash_akmsn_762x39_gold"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    []
+                                ]
+                            }
+                        ],
+                        "id": "LC_E.V.I.L_Task Kills_P5"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P5 Task1",
+                    "index": 0,
+                    "oneSessionOnly": true,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 15,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "LC_E.V.I.L_P4 TEXT",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "LC_E.V.I.L_P4",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "LC_E.V.I.L_P5 declinePlayerMessage",
+        "description": "LC_E.V.I.L_P5 description",
+        "failMessageText": "LC_E.V.I.L_P5 failMessageText",
+        "image": "/files/quest/icon/Evil_Thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "LC_E.V.I.L_P5 name",
+        "note": "LC_E.V.I.L_P5 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "LC-Artem-EXPERIENCE-1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "20000"
+                },
+                {
+                    "id": "EVIL_Reward_Skill",
+                    "index": 1,
+                    "target": "Charisma",
+                    "type": "Skill",
+                    "value": "1000"
+                },
+                {
+                    "id": "EVIL_Reward_P5_Artem_TS",
+                    "index": 2,
+                    "target": "ArtemTrader",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "LC_E.V.I.L_P5 startedMessageText",
+        "successMessageText": "LC_E.V.I.L_P5 successMessageText",
+        "traderId": "ArtemTrader",
+        "type": "Elimination"
+    }
+}

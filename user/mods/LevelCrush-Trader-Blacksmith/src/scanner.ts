@@ -16,7 +16,11 @@ export class Scanner {
   //scan the database hideout table and create a set  of level maps
   public required_items_for_crafts(
     items: IDatabaseTables["templates"]["items"],
-    prices: IDatabaseTables["templates"]["prices"],
+    prices: {
+      [
+        tpl: string
+      ]: IDatabaseTables["templates"]["handbook"]["Items"][0]["Price"];
+    },
     hideout: IDatabaseTables["hideout"]
   ) {
     let global_item_tracker = {} as {
@@ -35,7 +39,8 @@ export class Scanner {
     // 7 = Medstation
     // 11 = Intel Center
     // 8 =  Nutrition Unit
-    const allowed_areas = [10, 7, 11, 8];
+    // 2 = Lavatory
+    const allowed_areas = [2, 10, 7, 11, 8];
 
     // scan production recipes
     for (const recipe of hideout.production) {

@@ -14,3 +14,10 @@
 /user/mods/**/package-lock.json
 /Aki_Data/Server/@pnpm/
 /Aki_Data/Server/configs/http.json
+/user/mods/LevelCrush-Discord-Webhooks/config/settings.json
+
+/automations/dist/
+/automations/package-lock.json 
+/automations/node_modules/
+.env
+/automations/backup/

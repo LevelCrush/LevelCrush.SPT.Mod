@@ -3,7 +3,7 @@
     "PerformanceMode": true,
     "GlobalDifficultyModifier": 1.0,
     "BotsUseGrenades": true,
-    "HeadShotProtection": true,
+    "HeadShotProtection": false,
     "NotLookingToggle": true,
     "NotLookingTimeLimit": 4.0,
     "NotLookingAngle": 45.0,

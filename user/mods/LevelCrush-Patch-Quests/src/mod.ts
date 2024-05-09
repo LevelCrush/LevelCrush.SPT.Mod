@@ -68,15 +68,15 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
     // Get a reference to the database tables
     const tables = databaseServer.getTables();
 
+    // patch quest
     if (tables.templates && tables.templates.quests) {
-      const db_path = path.join(this.modPath, "db");
+      const db_path = path.join(this.modPath, "db", "quests");
       const files = fs.readdirSync(db_path, {
         encoding: "utf-8",
       });
 
       // quest to patch
       let global_quest_map = {} as QuestMap;
-
       for (const file of files) {
         let raw = "";
         let quest_map = {} as QuestMap;
@@ -92,8 +92,6 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
           this.logger.error("LC Patch Quest cannot parse: " + file);
         }
       }
-      console.log("Outputting Quest map to override");
-      console.log(global_quest_map);
 
       for (const quest_id in global_quest_map) {
         // make sure quest exist in database for us to modify
@@ -104,39 +102,121 @@ class LC_Patch_Quests implements IPreAkiLoadMod, IPostDBLoadMod {
           continue;
         }
 
+        this.logger.info(
+          `Trying to merge ${quest_id} ${JSON.stringify(
+            global_quest_map[quest_id],
+            null,
+            2
+          )} into ${tables.templates.quests[quest_id].QuestName}`
+        );
+
         this.merge_objs(
           tables.templates.quests[quest_id],
           global_quest_map[quest_id]
         );
 
-        this.logger.info(`Patched ${quest_id}`);
+        this.logger.info(
+          `Patched ${quest_id} is now ${JSON.stringify(
+            tables.templates.quests[quest_id],
+            null,
+            2
+          )}`
+        );
       }
     }
+
+    // patch localization
+    if (tables.locales && tables.locales.global) {
+      const db_path = path.join(this.modPath, "db", "locales");
+      const files = fs.readdirSync(db_path, {
+        encoding: "utf-8",
+      });
+
+      // localizations to patch
+      const custom_locales = {} as {
+        [language: string]: { [id: string]: string }[];
+      };
+      for (const file of files) {
+        const stat = fs.statSync(
+          path.join(this.modPath, "db", "locales", file)
+        );
+
+        if (stat.isDirectory()) {
+          custom_locales[file] = [];
+        }
+      }
+
+      for (const locale in custom_locales) {
+        const locale_files = fs.readdirSync(
+          path.join(this.modPath, "db", "locales", locale)
+        );
+        for (const file of locale_files) {
+          const fpath = path.join(this.modPath, "db", "locales", locale, file);
+          const stat = fs.statSync(fpath);
+          if (stat.isFile()) {
+            const raw = fs.readFileSync(fpath, {
+              encoding: "utf-8",
+            });
+            try {
+              custom_locales[locale].push(JSON.parse(raw));
+            } catch {
+              this.logger.error(
+                `Patcher failed to parse ${locale} - ${file} | Ignoring`
+              );
+            }
+          }
+        }
+      }
+
+      // now merge them in
+      for (const locale in custom_locales) {
+        for (const map of custom_locales[locale]) {
+          for (const locale_id in map) {
+            this.logger.info(
+              `Patching locale ${locale} at ${locale_id} (${tables.locales.global[locale][locale_id]}) with ${map[locale_id]}`
+            );
+            tables.locales.global[locale][locale_id] = map[locale_id];
+          }
+        }
+      }
+    }
+
+    //  this.logger.info("Force set on the database tables");
+    // databaseServer.setTables(tables);
 
     this.logger.debug(`[${this.mod}] postDb Loaded`);
   }
 
   // recursive functiont to merge object properties
-  private merge_objs(source: Record<any, any>, new_input: Record<any, any>) {
-    for (const prop in source) {
+  private merge_objs(target: Record<any, any>, new_input: Record<any, any>) {
+    for (const prop in target) {
       if (typeof new_input[prop] === "undefined") {
         // we dont have a matching property in our new input. Skip over it
+        this.logger.info(`No override prop for: ${prop}`);
         continue;
       }
-      const current_v = source[prop];
-      if (typeof current_v === "object") {
+      const current_v = target[prop];
+      const is_array = Array.isArray(current_v);
+      if (is_array) {
+        // anything else we have to assume its a new value
+        // this includes arrays since those inner values may be entirely new
+        this.logger.info(`Overriding ${prop} as an array`);
+        target[prop] = new_input[prop];
+      } else if (typeof current_v === "object") {
         // we need to merge these objects
         // since the two properties should be the same between the two overrides we can  assume
         // that it exist and is t he same type. if not, weird things will happen
         // probably for the best for things to break since we need them to match up
+        this.logger.info(`Overriding ${prop} as an object`);
         this.merge_objs(
-          current_v as Record<any, any>,
+          target[prop] as Record<any, any>,
           new_input[prop] as Record<any, any>
         );
       } else {
         // anything else we have to assume its a new value
         // this includes arrays since those inner values may be entirely new
-        source[prop] = new_input[prop];
+        this.logger.info(`Overriding ${prop} as a normal value`);
+        target[prop] = new_input[prop];
       }
     }
   }
