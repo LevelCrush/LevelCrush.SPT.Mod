@@ -42,12 +42,11 @@ class LC_QOL_Money implements IPreAkiLoadModAsync, IPostDBLoadModAsync {
         // 5696686a4bdc2da3298b456a = USD
         // 569668774bdc2da2298b4568 = EUROS
         const target_templates = ['5449016a4bdc2d6f028b456f', '5696686a4bdc2da3298b456a', '569668774bdc2da2298b4568'];
-
+        // 100 million rouble
+        const stack_limit = 10000000;
         if (tables.globals && tables.templates.items) {
             this.logger.debug('Applying QOL money fixes');
             for (const template_id of target_templates) {
-                // 100 million rouble
-                const stack_limit = 10000000;
                 tables.templates.items[template_id]._props.StackMaxSize = stack_limit;
                 tables.templates.items[template_id]._props.DiscardLimit = stack_limit;
             }
