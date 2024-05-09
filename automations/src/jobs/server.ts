@@ -96,6 +96,19 @@ export function clear_cache(): Job {
                 await fs.promises.unlink(filepath);
             }
         }
+
+        // delete remote program files if they exist to rebuild file cache
+        const bepinex_zip = path.join(server_folder, 'user', 'mods', 'RemotePlugins', 'files', 'bepinex.zip');
+        const filemap = path.join(server_folder, 'user', 'mods', 'RemotePlugins', 'files', 'fileMap.json');
+
+        if (fs.existsSync(bepinex_zip)) {
+            console.log('Removing RemotePlugins bepinexzip');
+            await fs.promises.unlink(bepinex_zip);
+        }
+        if (fs.existsSync(filemap)) {
+            console.log('Removing RemotePlugins filemap');
+            await fs.promises.unlink(filemap);
+        }
     };
 
     return {
