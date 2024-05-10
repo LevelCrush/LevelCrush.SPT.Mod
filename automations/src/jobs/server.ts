@@ -62,8 +62,10 @@ export function start(): Job {
         console.log(`Starting server in: ${cwd}`);
 
         console.log('Spawning server');
-        const child = child_process.exec('Aki.Server.exe', {
+        const child = child_process.spawn('Aki.Server.exe', {
             cwd: cwd,
+            detached: true,
+            shell: true,
         });
 
         // if we can disconnect we should
