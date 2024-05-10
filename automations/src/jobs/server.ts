@@ -60,18 +60,27 @@ export function start(): Job {
     const run = async function () {
         const cwd = path.resolve(process.env['AUTOMATION_SERVER_FOLDER'] || '');
         console.log(`Starting server in: ${cwd}`);
-        const child = child_process.spawn('Aki.Server.exe', {
-            cwd: cwd,
-            detached: true,
-            stdio: ['ignore', 'ignore', 'ignore'],
+
+        await new Promise((resolve: (value: void) => void) => {
+            console.log('Spawning server');
+            const child = child_process.spawn('Aki.Server.exe', {
+                cwd: cwd,
+                detached: true,
+                stdio: ['ignore', 'ignore', 'ignore'],
+            });
+
+            console.log('Hooking Server process');
+            child.once('spawn', () => {
+                // if we can disconnect we should
+                if (child.disconnect) {
+                    child.disconnect();
+                }
+
+                child.unref();
+                console.log('Done. Leaving Server Hook');
+                resolve();
+            });
         });
-
-        // if we can disconnect we should
-        if (child.disconnect) {
-            child.disconnect();
-        }
-
-        child.unref();
     };
 
     return {
