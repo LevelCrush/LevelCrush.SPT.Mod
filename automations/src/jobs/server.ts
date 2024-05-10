@@ -66,7 +66,11 @@ export function start(): Job {
             stdio: ['ignore', 'ignore', 'ignore'],
         });
 
-        child.disconnect();
+        // if we can disconnect we should
+        if (child.disconnect) {
+            child.disconnect();
+        }
+
         child.unref();
     };
 
