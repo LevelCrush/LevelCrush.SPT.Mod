@@ -53,16 +53,16 @@
             "woods": 0
         },
         "killa": {
-            "customs": 25,
-            "factory": 100,
-            "factory_night": 25,
-            "groundzero": 25,
-            "interchange": 25,
-            "lighthouse": 25,
-            "reserve": 25,
-            "shoreline": 25,
-            "streets": 25,
-            "woods": 25
+            "customs": 35,
+            "factory": 35,
+            "factory_night": 35,
+            "groundzero": 35,
+            "interchange": 35,
+            "lighthouse": 35,
+            "reserve": 35,
+            "shoreline": 35,
+            "streets": 35,
+            "woods": 35
         },
         "kolontay": {
             "customs": 0,
