@@ -142,10 +142,6 @@ export function update(): Job {
         const pull_job = git.pull();
         await pull_job.setup();
         await pull_job.run();
-
-        const server_start = start();
-        await server_start.setup();
-        await server_start.run();
     };
 
     const run = async function run() {};
