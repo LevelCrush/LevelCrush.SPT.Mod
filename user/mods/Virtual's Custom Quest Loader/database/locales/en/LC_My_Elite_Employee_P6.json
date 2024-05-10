@@ -1,7 +1,7 @@
 {
     "LC_EVENT_6 name": "My Elite Employee Part 6",
     "LC_EVENT_6 description": "Huh. You know it wasn't easy to make but its done. However I do not appreciate being used by my clients. I need you to go out and clean this mess up. I know you put the hurt on Killa, Tagilla, and Glukhar. I'll have your reward for you when you next return.",
-    "LC_EVENT_6 text": "MEE Text",
+    "LC_EVENT_6 text": "MEE6 Text",
     "LC_EVENT_6 acceptPlayerMessage": "MEE Accept",
     "LC_EVENT_6 changeQuestMessageText": "MEE changeQuestText",
     "LC_EVENT_6 completePlayerMessage": "Your reward is on the table. Use it wisely and thank you for setting this right.",
