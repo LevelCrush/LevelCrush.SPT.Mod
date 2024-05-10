@@ -105,7 +105,7 @@ export function ammo_flea_market(logger: ILogger, tables: IDatabaseTables) {
             logger.info(
                 `Adjusting base flea market price for ${tables.templates.items[template_id]._name} to be 6x normal rate`,
             );
-            tables.templates.prices[template_id] = tables.templates.handbook.Items[i].Price * 6;
+            tables.templates.prices[template_id] = tables.templates.handbook.Items[i].Price * 12;
         }
     }
     logger.debug('Done Lifting Restrictions on all items');
