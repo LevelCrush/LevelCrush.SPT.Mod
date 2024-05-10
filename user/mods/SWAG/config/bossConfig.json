@@ -54,7 +54,7 @@
         },
         "killa": {
             "customs": 25,
-            "factory": 25,
+            "factory": 100,
             "factory_night": 25,
             "groundzero": 25,
             "interchange": 25,
