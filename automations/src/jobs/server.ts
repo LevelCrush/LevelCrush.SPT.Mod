@@ -63,10 +63,8 @@ export function start(): Job {
 
         await new Promise((resolve: (value: void) => void) => {
             console.log('Spawning server');
-            const child = child_process.spawn('Aki.Server.exe', {
+            const child = child_process.exec('Aki.Server.exe', {
                 cwd: cwd,
-                detached: true,
-                stdio: ['ignore', 'ignore', 'ignore'],
             });
 
             console.log('Hooking Server process');
