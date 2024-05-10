@@ -7,7 +7,7 @@
     "LC_EVENT_6 completePlayerMessage": "Your reward is on the table. Use it wisely and thank you for setting this right.",
     "LC_EVENT_6 successMessageText": "Your reward is on the table. Use it wisely and thank you for setting this right.",
     "LC_EVENT_6 note": "MEE Note Text",
-    "LC_EVENT_6 TASK1": "Kill Knight 5 times in Interchange",
-    "LC_EVENT_6 TASK2": "Kill Birdeye 5 times in Interchange",
-    "LC_EVENT_6 TASK3": "Kill Bigpipe 5 times in Interchange"
+    "LC_EVENT_6 TASK1": "Kill Knight 5 times",
+    "LC_EVENT_6 TASK2": "Kill Birdeye 5 times",
+    "LC_EVENT_6 TASK3": "Kill Bigpipe 5 times"
 }
