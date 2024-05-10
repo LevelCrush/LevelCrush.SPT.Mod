@@ -63,10 +63,10 @@ export function start(): Job {
         const child = child_process.spawn('Aki.Server.exe', {
             cwd: cwd,
             detached: true,
-            shell: true,
             stdio: ['ignore', 'ignore', 'ignore'],
         });
 
+        child.disconnect();
         child.unref();
     };
 
