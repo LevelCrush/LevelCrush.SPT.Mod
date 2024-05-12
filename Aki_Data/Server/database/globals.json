@@ -27009,8 +27009,8 @@
                 "FistfightAction": 0.2,
                 "MovementActionMax": 0.015,
                 "MovementActionMin": 0.005,
-                "PushUpMax": 3,
-                "PushUpMin": 1,
+                "PushUpMax": 20,
+                "PushUpMin": 10,
                 "QTELevelMultipliers": [
                     {
                         "Level": 10,
