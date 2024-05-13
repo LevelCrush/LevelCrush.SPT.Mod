@@ -37,12 +37,6 @@ class LC_Discord_Webhooks implements IPreAkiLoadModAsync, IPostAkiLoadModAsync, 
         this.logger.debug(`[${this.mod}] preAki Loaded`);
         this.logger.debug('Setting up sigterm and sigint handlers');
 
-        process.once('SIGKILL', async (code) => {
-            const webhook = new DiscordWebhook(this.logger);
-            await webhook.send('Server was killed', 'The server has been forced kill', DiscordWebhookColors.Red);
-            process.exit();
-        });
-
         process.once('SIGINT', async (code) => {
             const webhook = new DiscordWebhook(this.logger);
             await webhook.send(

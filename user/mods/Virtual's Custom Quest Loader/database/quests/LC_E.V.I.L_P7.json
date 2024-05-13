@@ -1,6 +1,6 @@
 {
     "LC_E.V.I.L_P7": {
-        "QuestName": "E.V.I.L. - Part 5",
+        "QuestName": "E.V.I.L. - Part 7",
         "_id": "LC_E.V.I.L_P7",
         "acceptPlayerMessage": "LC_E.V.I.L_P7 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
@@ -35,11 +35,7 @@
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": [
-                                    [
-                                        "6357c98711fb55120211f7e1",
-                                        "62e7e7bbe6da9612f743f1e0",
-                                        "5648b62b4bdc2d9d488b4585"
-                                    ]
+                                    ["6357c98711fb55120211f7e1", "62e7e7bbe6da9612f743f1e0", "5648b62b4bdc2d9d488b4585"]
                                 ]
                             }
                         ],
@@ -83,13 +79,9 @@
                                 "target": "Any",
                                 "value": 1,
                                 "weapon": [],
-                                "weaponCaliber": [
-                                    "Caliber40x46"
-                                ],
+                                "weaponCaliber": ["Caliber40x46"],
                                 "weaponModsExclusive": [],
-                                "weaponModsInclusive": [
-                                    []
-                                ]
+                                "weaponModsInclusive": [[]]
                             }
                         ],
                         "id": "LC_E.V.I.L_Task 2 Kills_P7"
@@ -132,13 +124,9 @@
                                 "target": "Any",
                                 "value": 1,
                                 "weapon": [],
-                                "weaponCaliber": [
-                                    "Caliber40x46"
-                                ],
+                                "weaponCaliber": ["Caliber40x46"],
                                 "weaponModsExclusive": [],
-                                "weaponModsInclusive": [
-                                    []
-                                ]
+                                "weaponModsInclusive": [[]]
                             }
                         ],
                         "id": "LC_E.V.I.L_Task 2 Kills_P7"
@@ -164,9 +152,7 @@
                     "id": "LC_E.V.I.L_P6 TEXT",
                     "index": 1,
                     "parentId": "",
-                    "status": [
-                        4
-                    ],
+                    "status": [4],
                     "target": "LC_E.V.I.L_P6",
                     "visibilityConditions": []
                 }
