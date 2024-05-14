@@ -1,0 +1,24 @@
+{
+    "manifest": [
+        {
+            "key": "assets/content/ui/firesupport_audio.bundle",
+            "dependencyKeys": ["assets/content/audio/blendoptions/assets.bundle"]
+        },
+        {
+            "key": "assets/content/ui/firesupport_spotter.bundle",
+            "dependencyKeys": ["cubemap", "shaders"]
+        },
+        {
+            "key": "assets/content/ui/firesupport_ui.bundle",
+            "dependencyKeys": ["cubemap", "shaders"]
+        },
+        {
+            "key": "assets/content/vehicles/a10_warthog.bundle",
+            "dependencyKeys": ["cubemap", "shaders"]
+        },
+        {
+            "key": "assets/content/vehicles/uh60_blackhawk.bundle",
+            "dependencyKeys": ["cubemap", "shaders"]
+        }
+    ]
+}
