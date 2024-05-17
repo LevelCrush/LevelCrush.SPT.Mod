@@ -6,7 +6,10 @@
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
-      "BossZone": ["ZoneBrige", "ZoneBlockPost"]
+      "BossZone": [
+        "ZoneBrige",
+        "ZoneBlockPost"
+      ]
     }
   ],
   "factory": [
@@ -52,7 +55,7 @@
   "laboratory": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 100,
+      "BossChance": 5,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -86,7 +89,11 @@
       "BossEscortType": "arenafighterevent",
       "BossEscortAmount": "3,4",
       "Time": 1,
-      "BossZone": ["ZoneStartVillage", "ZoneGasStation", "ZonePowerStation"]
+      "BossZone": [
+        "ZoneStartVillage",
+        "ZoneGasStation",
+        "ZonePowerStation"
+      ]
     }
   ],
   "streets": [
@@ -106,7 +113,12 @@
       "BossEscortType": "arenafighterevent",
       "BossEscortAmount": "3,4",
       "Time": 1,
-      "BossZone": ["ZoneClearVill", "ZoneRoad", "ZoneHouse", "ZoneBigRocks"]
+      "BossZone": [
+        "ZoneClearVill",
+        "ZoneRoad",
+        "ZoneHouse",
+        "ZoneBigRocks"
+      ]
     }
   ]
 }
