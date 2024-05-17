@@ -32,7 +32,7 @@
         "GainSightCoef": 0.05,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.135,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -137,7 +137,7 @@
         "GainSightCoef": 0.05,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.138,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -152,7 +152,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 100.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -182,7 +182,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.5,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -242,7 +242,7 @@
         "GainSightCoef": 0.05,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.142,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -257,7 +257,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 125.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -287,7 +287,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 2.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
@@ -347,7 +347,7 @@
         "GainSightCoef": 0.05,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.142,
+        "HearingSense": 1.0,
         "CanGrenade": true
       },
       "Grenade": {
@@ -362,7 +362,7 @@
         "BEWARE_TYPE": 3
       },
       "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
+        "MaxFootstepAudioDistance": 71.0
       },
       "Lay": {},
       "Look": {
@@ -392,7 +392,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 3.0,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 2.0,
         "CanTalk": true,
