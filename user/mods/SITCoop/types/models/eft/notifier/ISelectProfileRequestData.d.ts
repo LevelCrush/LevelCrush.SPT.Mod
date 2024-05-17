@@ -1,3 +1,3 @@
 export interface ISelectProfileRequestData {
-  uid: string;
+    uid: string;
 }

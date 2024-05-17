@@ -5,21 +5,9 @@ import { IOffraidHealRequestData } from "@spt-aki/models/eft/health/IOffraidHeal
 import { ISyncHealthRequestData } from "@spt-aki/models/eft/health/ISyncHealthRequestData";
 import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
 export interface IHealthCallbacks {
-  onLoad(sessionID: string): IAkiProfile;
-  syncHealth(url: string, info: ISyncHealthRequestData, sessionID: string): any;
-  offraidEat(
-    pmcData: IPmcData,
-    body: IOffraidEatRequestData,
-    sessionID: string
-  ): any;
-  offraidHeal(
-    pmcData: IPmcData,
-    body: IOffraidHealRequestData,
-    sessionID: string
-  ): any;
-  healthTreatment(
-    pmcData: IPmcData,
-    info: IHealthTreatmentRequestData,
-    sessionID: string
-  ): any;
+    onLoad(sessionID: string): IAkiProfile;
+    syncHealth(url: string, info: ISyncHealthRequestData, sessionID: string): any;
+    offraidEat(pmcData: IPmcData, body: IOffraidEatRequestData, sessionID: string): any;
+    offraidHeal(pmcData: IPmcData, body: IOffraidHealRequestData, sessionID: string): any;
+    healthTreatment(pmcData: IPmcData, info: IHealthTreatmentRequestData, sessionID: string): any;
 }

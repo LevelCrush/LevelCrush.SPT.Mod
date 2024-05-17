@@ -19,23 +19,23 @@
         "town": 0
     },
     "staticLootMultiplier": {
-        "bigmap": 3,
-        "develop": 3,
-        "factory4_day": 3,
-        "factory4_night": 3,
-        "interchange": 3,
-        "laboratory": 3,
-        "rezervbase": 3,
-        "shoreline": 3,
-        "woods": 3,
-        "hideout": 3,
-        "lighthouse": 3,
-        "privatearea": 3,
-        "suburbs": 3,
-        "tarkovstreets": 3,
-        "terminal": 3,
-        "sandbox": 3,
-        "town": 3
+        "bigmap": 1,
+        "develop": 1,
+        "factory4_day": 1,
+        "factory4_night": 1,
+        "interchange": 1,
+        "laboratory": 1,
+        "rezervbase": 1,
+        "shoreline": 1,
+        "woods": 1,
+        "hideout": 0,
+        "lighthouse": 1,
+        "privatearea": 1,
+        "suburbs": 1,
+        "tarkovstreets": 1,
+        "terminal": 1,
+        "sandbox": 1,
+        "town": 1
     },
     "customWaves": {
         "boss": {
@@ -54,7 +54,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -75,7 +77,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -98,7 +102,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -119,7 +125,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -142,7 +150,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -163,7 +173,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -184,7 +196,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -205,7 +219,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -226,7 +242,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -247,7 +265,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -270,7 +290,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -291,7 +313,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -312,7 +336,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -333,7 +359,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -354,7 +382,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -375,7 +405,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -398,7 +430,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -419,7 +453,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -440,7 +476,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "0"
                         }
                     ],
@@ -461,7 +499,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -482,7 +522,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -503,7 +545,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "0"
                         }
                     ],
@@ -526,7 +570,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -547,7 +593,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -570,7 +618,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -591,7 +641,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -614,7 +666,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -635,7 +689,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -656,7 +712,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -677,7 +735,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "1"
                         }
                     ],
@@ -700,7 +760,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptBear",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -721,7 +783,9 @@
                     "Supports": [
                         {
                             "BossEscortType": "sptUsec",
-                            "BossEscortDifficult": ["normal"],
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
                             "BossEscortAmount": "2"
                         }
                     ],
@@ -933,19 +997,32 @@
         }
     },
     "openZones": {
-        "bigmap": ["ZoneScavBase"]
+        "bigmap": [
+            "ZoneScavBase"
+        ]
     },
     "forcedLootSingleSpawnById": {
-        "bigmap": ["5ac620eb86f7743a8e6e0da0", "5939e5a786f77461f11c0098", "64e74a3d4d49d23b2c39d319"],
-        "interchange": ["64e74a5ac2b4f829615ec336"],
+        "bigmap": [
+            "5ac620eb86f7743a8e6e0da0",
+            "5939e5a786f77461f11c0098",
+            "64e74a3d4d49d23b2c39d319"
+        ],
+        "interchange": [
+            "64e74a5ac2b4f829615ec336"
+        ],
         "lighthouse": [
             "6331bb0d1aa9f42b804997a6",
             "6398a0861c712b1e1d4dadf1",
             "6399f54b0a36db13c823ad21",
             "64e74a64aac4cd0a7264ecdf"
         ],
-        "rezervbase": ["64e74a4baac4cd0a7264ecdd", "6398a072e301557ae24cec92"],
-        "shoreline": ["64e74a534d49d23b2c39d31b"],
+        "rezervbase": [
+            "64e74a4baac4cd0a7264ecdd",
+            "6398a072e301557ae24cec92"
+        ],
+        "shoreline": [
+            "64e74a534d49d23b2c39d31b"
+        ],
         "tarkovstreets": [
             "638df4cc7b560b03794a18d2",
             "638cbc68a63f1b49be6a3010",
@@ -969,8 +1046,14 @@
             "657acb2ac900be5902191ac9",
             "6582dbf0b8d7830efc45016f"
         ],
-        "laboratory": ["6398a4cfb5992f573c6562b3", "64e74a44c2b4f829615ec334"],
-        "sandbox": ["6575a6ca8778e96ded05a802", "6582bd252b50c61c565828e2"]
+        "laboratory": [
+            "6398a4cfb5992f573c6562b3",
+            "64e74a44c2b4f829615ec334"
+        ],
+        "sandbox": [
+            "6575a6ca8778e96ded05a802",
+            "6582bd252b50c61c565828e2"
+        ]
     },
     "splitWaveIntoSingleSpawnsSettings": {
         "enabled": true,
@@ -993,7 +1076,15 @@
     },
     "fixEmptyBotWavesSettings": {
         "enabled": true,
-        "ignoreMaps": ["base", "develop", "hideout", "privatearea", "suburbs", "terminal", "town"]
+        "ignoreMaps": [
+            "base",
+            "develop",
+            "hideout",
+            "privatearea",
+            "suburbs",
+            "terminal",
+            "town"
+        ]
     },
     "fitLootIntoContainerAttempts": 3,
     "addOpenZonesToAllMaps": true,
@@ -1053,9 +1144,9 @@
     },
     "minFillLooseMagazinePercent": 50,
     "minFillStaticMagazinePercent": 50,
-    "makeWishingTreeAlwaysGiveGift": true,
     "allowDuplicateItemsInStaticContainers": true,
     "magazineLootHasAmmoChancePercent": 50,
+	"staticMagazineLootHasAmmoChancePercent": 0,
     "looseLootBlacklist": {},
     "scavRaidTimeSettings": {
         "settings": {
@@ -1202,13 +1293,12 @@
                 "minStaticLootPercent": 60,
                 "reducedChancePercent": 95,
                 "reductionPercentWeights": {
-                    "20": 2,
+                    "20": 3,
                     "30": 4,
-                    "40": 4,
+                    "40": 5,
                     "50": 4,
                     "60": 4,
-                    "70": 1,
-                    "80": 1
+                    "70": 1
                 },
                 "adjustWaves": true
             },

@@ -1,147 +1,126 @@
 {
-  "5d25dae186f77443e55d2f78": {
-    "QuestName": "The survivalist path. Zatoichi",
-    "_id": "5d25dae186f77443e55d2f78",
-    "canShowNotificationsInGame": true,
-    "conditions": {
-      "AvailableForFinish": [
-        {
-          "_parent": "CounterCreator",
-          "_props": {
-            "counter": {
-              "conditions": [
-                {
-                  "_parent": "Kills",
-                  "_props": {
-                    "compareMethod": ">=",
-                    "id": "5d25dc3486f77408251c4bf8",
-                    "target": "AnyPmc",
-                    "value": "1"
-                  }
-                },
-                {
-                  "_parent": "HealthEffect",
-                  "_props": {
-                    "bodyPartsWithEffects": [
-                      {
-                        "bodyParts": [
-                          "Head",
-                          "Chest",
-                          "Stomach",
-                          "LeftArm",
-                          "RightArm",
-                          "LeftLeg",
-                          "RightLeg"
-                        ],
-                        "effects": ["Stun"]
-                      }
-                    ],
-                    "id": "5d25dfb686f77444001e2e47"
-                  }
+	    "5d25dae186f77443e55d2f78": {
+        "QuestName": "The survivalist path. Zatoichi",
+        "_id": "5d25dae186f77443e55d2f78",
+        "canShowNotificationsInGame": true,
+        "conditions": {
+            "AvailableForFinish": [{
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "conditions": [{
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "compareMethod": ">=",
+                                        "id": "5d25dc3486f77408251c4bf8",
+                                        "target": "AnyPmc",
+                                        "value": "1"
+                                    }
+                                }, {
+                                    "_parent": "HealthEffect",
+                                    "_props": {
+                                        "bodyPartsWithEffects": [{
+                                                "bodyParts": ["Head", "Chest", "Stomach", "LeftArm", "RightArm", "LeftLeg", "RightLeg"],
+                                                "effects": ["Stun"]
+                                            }
+                                        ],
+                                        "id": "5d25dfb686f77444001e2e47"
+                                    }
+                                }
+                            ],
+                            "id": "5d25dc2286f77443e7549027"
+                        },
+                        "id": "5d25dc2286f77443e7549028",
+                        "index": 0,
+                        "parentId": "",
+                        "type": "Elimination",
+                        "value": "2"
+                    }
                 }
-              ],
-              "id": "5d25dc2286f77443e7549027"
-            },
-            "id": "5d25dc2286f77443e7549028",
-            "index": 0,
-            "parentId": "",
-            "type": "Elimination",
-            "value": "2"
-          }
-        }
-      ],
-      "AvailableForStart": [
-        {
-          "_parent": "Quest",
-          "_props": {
-            "id": "",
-            "index": 0,
-            "parentId": "",
-            "status": [4],
-            "target": "5d25d2c186f77443e35162e5"
-          }
-        }
-      ],
-      "Fail": []
+            ],
+            "AvailableForStart": [{
+                    "_parent": "Quest",
+                    "_props": {
+                        "id": "",
+                        "index": 0,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "5d25d2c186f77443e35162e5"
+                    }
+                }
+            ],
+            "Fail": []
+        },
+        "image": "/files/quest/icon/5d67b66186f774266f0867b5.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "min_level": 0,
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [{
+                    "id": "5d66724a86f774368e1b7862",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "12000"
+                }, {
+                    "id": "5d66727886f774131e206b37",
+                    "index": 1,
+                    "items": [{
+                            "_id": "5e02be602a251a095227110b",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 30000
+                            }
+                        }
+                    ],
+                    "target": "5e02be602a251a095227110b",
+                    "type": "Item",
+                    "value": "30000"
+                }, {
+                    "id": "5d77cf9186f7745041358b52",
+                    "index": 2,
+                    "target": "5c0647fdd443bc2504c2d371",
+                    "type": "TraderStanding",
+                    "value": "0.03"
+                }, {
+                    "id": "5db2e34086f7742c9714d6f7",
+                    "index": 3,
+                    "items": [{
+                            "_id": "5e02be602a251a095227110c",
+                            "_tpl": "5c0d591486f7744c505b416f",
+                            "upd": {
+                                "StackObjectsCount": 30
+                            }
+                        }
+                    ],
+                    "target": "5e02be602a251a095227110c",
+                    "type": "Item",
+                    "value": "30"
+                }, {
+                    "id": "5db2fd7c86f7743a177e96c3",
+                    "index": 4,
+                    "items": [{
+                            "_id": "5e02be602a251a095227110d",
+                            "_tpl": "5c0d5ae286f7741e46554302",
+                            "upd": {
+                                "StackObjectsCount": 80
+                            }
+                        }
+                    ],
+                    "target": "5e02be602a251a095227110d",
+                    "type": "Item",
+                    "value": "80"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "traderId": "5c0647fdd443bc2504c2d371",
+        "type": "Completion"
     },
-    "image": "/files/quest/icon/5d67b66186f774266f0867b5.jpg",
-    "instantComplete": false,
-    "isKey": false,
-    "location": "any",
-    "min_level": 0,
-    "restartable": false,
-    "rewards": {
-      "Fail": [],
-      "Started": [],
-      "Success": [
-        {
-          "id": "5d66724a86f774368e1b7862",
-          "index": 0,
-          "type": "Experience",
-          "value": "12000"
-        },
-        {
-          "id": "5d66727886f774131e206b37",
-          "index": 1,
-          "items": [
-            {
-              "_id": "5e02be602a251a095227110b",
-              "_tpl": "5449016a4bdc2d6f028b456f",
-              "upd": {
-                "StackObjectsCount": 30000
-              }
-            }
-          ],
-          "target": "5e02be602a251a095227110b",
-          "type": "Item",
-          "value": "30000"
-        },
-        {
-          "id": "5d77cf9186f7745041358b52",
-          "index": 2,
-          "target": "5c0647fdd443bc2504c2d371",
-          "type": "TraderStanding",
-          "value": "0.03"
-        },
-        {
-          "id": "5db2e34086f7742c9714d6f7",
-          "index": 3,
-          "items": [
-            {
-              "_id": "5e02be602a251a095227110c",
-              "_tpl": "5c0d591486f7744c505b416f",
-              "upd": {
-                "StackObjectsCount": 30
-              }
-            }
-          ],
-          "target": "5e02be602a251a095227110c",
-          "type": "Item",
-          "value": "30"
-        },
-        {
-          "id": "5db2fd7c86f7743a177e96c3",
-          "index": 4,
-          "items": [
-            {
-              "_id": "5e02be602a251a095227110d",
-              "_tpl": "5c0d5ae286f7741e46554302",
-              "upd": {
-                "StackObjectsCount": 80
-              }
-            }
-          ],
-          "target": "5e02be602a251a095227110d",
-          "type": "Item",
-          "value": "80"
-        }
-      ]
-    },
-    "secretQuest": false,
-    "traderId": "5c0647fdd443bc2504c2d371",
-    "type": "Completion"
-  },
-  "636a2f5759cb834f8a5825d6": {
+	"636a2f5759cb834f8a5825d6": {
     "QuestName": "Letters",
     "_id": "636a2f5759cb834f8a5825d6",
     "canShowNotificationsInGame": true,
@@ -157,7 +136,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636a3023550cde781e0ac375",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "628a60ae6b1d481ff772e9c8",
@@ -219,7 +200,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636a3079c7ed455bc71e3997",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "5f2a9575926fd9352339381f",
@@ -259,9 +242,13 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636a30e6c6a62737bd4fcf25",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
-                    "weapon": ["5beed0f50db834001c062b12"]
+                    "weapon": [
+                      "5beed0f50db834001c062b12"
+                    ]
                   }
                 }
               ],
@@ -288,7 +275,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636a316a02e62c4d853d3f47",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "59f9cabd86f7743a10721f46",
@@ -336,7 +325,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636b82dac0e68626dd2b2ba5",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "5a38e6bac4a2826c6e06d79b",
@@ -378,7 +369,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636b82f959cb834f8a5825d7",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "5aafa857e5b5b00018480968",
@@ -415,7 +408,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636b8874c0e68626dd2b2ba6",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "5de652c31b7e3716273428be",
@@ -453,7 +448,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636b891259cb834f8a5825d8",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "5e81ebcd8e146c7080625e15",
@@ -485,7 +482,9 @@
                   "_parent": "Kills",
                   "_props": {
                     "id": "636b89ee0860a46670082e6d",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "5abccb7dd8ce87001773e277",
@@ -537,7 +536,9 @@
                   "_props": {
                     "dynamicLocale": false,
                     "id": "636cc8d746480934981ce1e7",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "54491bb74bdc2d09088b4567",
@@ -583,7 +584,9 @@
                   "_props": {
                     "dynamicLocale": false,
                     "id": "636cc9b483a5a64d7e4164b5",
-                    "savageRole": ["bossSanitar"],
+                    "savageRole": [
+                      "bossSanitar"
+                    ],
                     "target": "Savage",
                     "weapon": [
                       "5448be9a4bdc2dfd2f8b456a",
@@ -752,7 +755,9 @@
           "index": 0,
           "minDurability": 0,
           "parentId": "",
-          "target": ["5696686a4bdc2da3298b456a"],
+          "target": [
+            "5696686a4bdc2da3298b456a"
+          ],
           "value": "500"
         }
       ],
@@ -764,7 +769,9 @@
           "id": "",
           "index": 0,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "596a218586f77420d232807c"
         },
         {
@@ -774,7 +781,9 @@
           "id": "",
           "index": 1,
           "parentId": "",
-          "status": [4],
+          "status": [
+            4
+          ],
           "target": "596b455186f77457cb50eccb"
         }
       ],
@@ -830,7 +839,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e73909cd54ef0580746af3"],
+          "target": [
+            "64e73909cd54ef0580746af3"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -847,7 +858,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e73909cd54ef0580746af3"],
+          "target": [
+            "64e73909cd54ef0580746af3"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -869,7 +882,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a186393886f74114a96"],
+          "target": [
+            "64e74a186393886f74114a96"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -886,7 +901,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a186393886f74114a96"],
+          "target": [
+            "64e74a186393886f74114a96"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -908,7 +925,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a1faac4cd0a7264ecd9"],
+          "target": [
+            "64e74a1faac4cd0a7264ecd9"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -925,7 +944,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a1faac4cd0a7264ecd9"],
+          "target": [
+            "64e74a1faac4cd0a7264ecd9"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -947,7 +968,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a274d49d23b2c39d317"],
+          "target": [
+            "64e74a274d49d23b2c39d317"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -964,7 +987,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a274d49d23b2c39d317"],
+          "target": [
+            "64e74a274d49d23b2c39d317"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -986,7 +1011,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a2fc2b4f829615ec332"],
+          "target": [
+            "64e74a2fc2b4f829615ec332"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1003,7 +1030,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a2fc2b4f829615ec332"],
+          "target": [
+            "64e74a2fc2b4f829615ec332"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1025,7 +1054,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a35aac4cd0a7264ecdb"],
+          "target": [
+            "64e74a35aac4cd0a7264ecdb"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1042,7 +1073,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a35aac4cd0a7264ecdb"],
+          "target": [
+            "64e74a35aac4cd0a7264ecdb"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1064,7 +1097,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a3d4d49d23b2c39d319"],
+          "target": [
+            "64e74a3d4d49d23b2c39d319"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1081,7 +1116,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a3d4d49d23b2c39d319"],
+          "target": [
+            "64e74a3d4d49d23b2c39d319"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1103,7 +1140,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a44c2b4f829615ec334"],
+          "target": [
+            "64e74a44c2b4f829615ec334"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1120,7 +1159,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a44c2b4f829615ec334"],
+          "target": [
+            "64e74a44c2b4f829615ec334"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1142,7 +1183,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a4baac4cd0a7264ecdd"],
+          "target": [
+            "64e74a4baac4cd0a7264ecdd"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1159,7 +1202,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a4baac4cd0a7264ecdd"],
+          "target": [
+            "64e74a4baac4cd0a7264ecdd"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1181,7 +1226,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a534d49d23b2c39d31b"],
+          "target": [
+            "64e74a534d49d23b2c39d31b"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1198,7 +1245,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a534d49d23b2c39d31b"],
+          "target": [
+            "64e74a534d49d23b2c39d31b"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1220,7 +1269,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a5ac2b4f829615ec336"],
+          "target": [
+            "64e74a5ac2b4f829615ec336"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1237,7 +1288,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a5ac2b4f829615ec336"],
+          "target": [
+            "64e74a5ac2b4f829615ec336"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1259,7 +1312,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a64aac4cd0a7264ecdf"],
+          "target": [
+            "64e74a64aac4cd0a7264ecdf"
+          ],
           "countInRaid": false,
           "globalQuestCounterId": "",
           "value": "1",
@@ -1276,7 +1331,9 @@
           "isEncoded": false,
           "onlyFoundInRaid": false,
           "dynamicLocale": false,
-          "target": ["64e74a64aac4cd0a7264ecdf"],
+          "target": [
+            "64e74a64aac4cd0a7264ecdf"
+          ],
           "globalQuestCounterId": "",
           "value": "1",
           "visibilityConditions": [
@@ -1296,7 +1353,9 @@
           "parentId": "",
           "dynamicLocale": false,
           "target": "639135a7e705511c8a4a1b78",
-          "status": [4],
+          "status": [
+            4
+          ],
           "globalQuestCounterId": "",
           "availableAfter": 0,
           "dispersion": 0,
@@ -1309,7 +1368,9 @@
           "parentId": "",
           "dynamicLocale": false,
           "target": "5c112d7e86f7740d6f647486",
-          "status": [4],
+          "status": [
+            4
+          ],
           "globalQuestCounterId": "",
           "availableAfter": 0,
           "dispersion": 0,

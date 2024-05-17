@@ -435,7 +435,10 @@
         "TIME_TO_FORGOR_ABOUT_ENEMY_SEC": 52,
         "TIME_TO_RUN_TO_COVER_CAUSE_SHOOT_SEC": 15,
         "USE_ADD_TO_ENEMY_VALIDATION": true,
-        "VALID_REASONS_TO_ADD_ENEMY": ["attackBTR", "serviceBTR"],
+        "VALID_REASONS_TO_ADD_ENEMY": [
+          "attackBTR",
+          "serviceBTR"
+        ],
         "WARN_BOT_TYPES": [],
         "WILL_PERSUE_AXEMAN": false
       },
@@ -948,7 +951,10 @@
         "TIME_TO_FORGOR_ABOUT_ENEMY_SEC": 52,
         "TIME_TO_RUN_TO_COVER_CAUSE_SHOOT_SEC": 15,
         "USE_ADD_TO_ENEMY_VALIDATION": true,
-        "VALID_REASONS_TO_ADD_ENEMY": ["attackBTR", "serviceBTR"],
+        "VALID_REASONS_TO_ADD_ENEMY": [
+          "attackBTR",
+          "serviceBTR"
+        ],
         "WARN_BOT_TYPES": [],
         "WILL_PERSUE_AXEMAN": false
       },
@@ -1461,7 +1467,10 @@
         "TIME_TO_FORGOR_ABOUT_ENEMY_SEC": 52,
         "TIME_TO_RUN_TO_COVER_CAUSE_SHOOT_SEC": 15,
         "USE_ADD_TO_ENEMY_VALIDATION": true,
-        "VALID_REASONS_TO_ADD_ENEMY": ["attackBTR", "serviceBTR"],
+        "VALID_REASONS_TO_ADD_ENEMY": [
+          "attackBTR",
+          "serviceBTR"
+        ],
         "WARN_BOT_TYPES": [],
         "WILL_PERSUE_AXEMAN": false
       },
@@ -1974,7 +1983,10 @@
         "TIME_TO_FORGOR_ABOUT_ENEMY_SEC": 52,
         "TIME_TO_RUN_TO_COVER_CAUSE_SHOOT_SEC": 15,
         "USE_ADD_TO_ENEMY_VALIDATION": true,
-        "VALID_REASONS_TO_ADD_ENEMY": ["attackBTR", "serviceBTR"],
+        "VALID_REASONS_TO_ADD_ENEMY": [
+          "attackBTR",
+          "serviceBTR"
+        ],
         "WARN_BOT_TYPES": [],
         "WILL_PERSUE_AXEMAN": false
       },
@@ -2116,7 +2128,9 @@
     },
     "standingForKill": 0
   },
-  "firstName": ["Гоша"],
+  "firstName": [
+    "Гоша"
+  ],
   "generation": {
     "items": {
       "backpackLoot": {
@@ -2132,11 +2146,35 @@
         },
         "whitelist": []
       },
+      "currency": {
+        "weights": {
+          "0": 20,
+          "1": 5,
+          "2": 1
+        },
+        "whitelist": []
+      },
+      "drink": {
+        "weights": {
+          "0": 10,
+          "1": 5,
+          "2": 2
+        },
+        "whitelist": []
+      },
       "drugs": {
         "weights": {
           "0": 1,
           "1": 2,
           "2": 0
+        },
+        "whitelist": []
+      },
+      "food": {
+        "weights": {
+          "0": 10,
+          "1": 5,
+          "2": 2
         },
         "whitelist": []
       },
@@ -2303,24 +2341,47 @@
     },
     "mods": {
       "56dee2bdd2720bc8328b4567": {
-        "mod_barrel": ["588200cf2459774414733d55"],
-        "mod_handguard": ["56deed6ed2720b4c698b4583"],
-        "mod_magazine": ["56deee15d2720bee328b4567"],
-        "mod_mount_000": ["55d48ebc4bdc2d8c2f8b456c"],
-        "mod_stock": ["56083a334bdc2dc8488b4571"],
-        "patron_in_weapon": ["560d5e524bdc2d25448b4571"]
+        "mod_barrel": [
+          "588200cf2459774414733d55"
+        ],
+        "mod_handguard": [
+          "56deed6ed2720b4c698b4583"
+        ],
+        "mod_magazine": [
+          "56deee15d2720bee328b4567"
+        ],
+        "mod_mount_000": [
+          "55d48ebc4bdc2d8c2f8b456c"
+        ],
+        "mod_stock": [
+          "56083a334bdc2dc8488b4571"
+        ],
+        "patron_in_weapon": [
+          "560d5e524bdc2d25448b4571"
+        ]
       },
       "5ea05cf85ad9772e6624305d": {
-        "Helmet_back": ["657ba34b9ba22f103e08139b"],
-        "Helmet_top": ["657ba2eef58ba5a625010798"],
+        "Helmet_back": [
+          "657ba34b9ba22f103e08139b"
+        ],
+        "Helmet_top": [
+          "657ba2eef58ba5a625010798"
+        ],
         "mod_equipment_000": [
           "5a16badafcdbcb001865f72d",
           "5a16b672fcdbcb001912fa83",
           "5a16b7e1fcdbcb00165aa6c9"
         ],
-        "mod_equipment_001": ["5a16b9fffcdbcb0176308b34"],
-        "mod_equipment_002": ["5c0e66e2d174af02a96252f4"],
-        "mod_mount": ["5a398b75c4a282000a51a266", "5a398ab9c4a282000c5a9842"],
+        "mod_equipment_001": [
+          "5a16b9fffcdbcb0176308b34"
+        ],
+        "mod_equipment_002": [
+          "5c0e66e2d174af02a96252f4"
+        ],
+        "mod_mount": [
+          "5a398b75c4a282000a51a266",
+          "5a398ab9c4a282000c5a9842"
+        ],
         "mod_nvg": [
           "5ea058e01dbce517f324b3e2",
           "5c0558060db834001b735271",
@@ -2329,7 +2390,9 @@
       }
     }
   },
-  "lastName": ["Ржавый"],
+  "lastName": [
+    "Ржавый"
+  ],
   "skills": {
     "Common": {}
   }

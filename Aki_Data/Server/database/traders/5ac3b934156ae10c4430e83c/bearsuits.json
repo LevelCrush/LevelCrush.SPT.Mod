@@ -337,7 +337,9 @@
       "profileLevel": 42,
       "standing": 0.6,
       "skillRequirements": [],
-      "questRequirements": ["64f1d6e732bed22c3e0c7423"],
+      "questRequirements": [
+        "64f1d6e732bed22c3e0c7423"
+      ],
       "itemRequirements": []
     }
   },
@@ -411,7 +413,9 @@
       "profileLevel": 47,
       "standing": 0,
       "skillRequirements": [],
-      "questRequirements": ["5e4d4ac186f774264f758336"],
+      "questRequirements": [
+        "5e4d4ac186f774264f758336"
+      ],
       "itemRequirements": [
         {
           "count": 2800000,
@@ -571,7 +575,9 @@
       "profileLevel": 48,
       "standing": 0,
       "skillRequirements": [],
-      "questRequirements": ["5dc53acb86f77469c740c893"],
+      "questRequirements": [
+        "5dc53acb86f77469c740c893"
+      ],
       "itemRequirements": [
         {
           "count": 4000000,
@@ -591,7 +597,9 @@
       "profileLevel": 47,
       "standing": 0,
       "skillRequirements": [],
-      "questRequirements": ["5e381b0286f77420e3417a74"],
+      "questRequirements": [
+        "5e381b0286f77420e3417a74"
+      ],
       "itemRequirements": [
         {
           "count": 3000000,
