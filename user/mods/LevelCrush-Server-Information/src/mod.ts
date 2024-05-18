@@ -14,6 +14,7 @@ import { IPostDBLoadModAsync } from '@spt-aki/models/external/IPostDBLoadModAsyn
 import { ConfigTypes } from '@spt-aki/models/enums/ConfigTypes';
 import { ICoreConfig } from '@spt-aki/models/spt/config/ICoreConfig';
 import * as fs from 'fs';
+import * as path from 'path';
 
 interface CustomCoreConfig extends ICoreConfig {
     dev: boolean;
@@ -28,6 +29,22 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
         this.mod = 'LevelCrush-Server-Information'; // Set name of mod so we can log it to console later
     }
 
+    private async load_config() : Promise<CustomCoreConfig|null> {
+
+        try {
+            const stat = await fs.promises.stat(path.join(this.modPath,"..","config","core.json"));
+            if(stat.isFile()) {
+                return require('../config/core.json');
+            } else {
+                return null;
+            }
+        } catch {
+            return null;
+        }
+
+
+    }
+
     /**
      * Some work needs to be done prior to SPT code being loaded, registering the profile image + setting trader update time inside the trader config json
      * @param container Dependency container
@@ -39,15 +56,33 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
 
         // Get SPT code/data we need later
         const preAkiModLoader: PreAkiModLoader = container.resolve<PreAkiModLoader>('PreAkiModLoader');
+        this.modPath = preAkiModLoader.getModPath(this.mod);
+
 
         const configServer = container.resolve<ConfigServer>('ConfigServer');
         const core_config = configServer.getConfig<ICoreConfig>(ConfigTypes.CORE);
 
-        const stat = await fs.promises.stat('../config/core.json');
+        this.logger.info("LC Server Info is attempting to load configuration");
+        let config = await this.load_config();
+        if(config === null) {
+            // clone the config
+            const base_config = JSON.parse(JSON.stringify(core_config));
 
-        core_config.serverName = 'Level Crush EXP v1.6.0';
+            // set any custom options here
+            base_config['dev'] = true;
 
-        this.modPath = preAkiModLoader.getModPath(this.mod);
+            this.logger.info("LC Server Info is creating a custom core.json");
+            await fs.promises.writeFile(path.join(this.modPath,"..","config","core.json"), JSON.stringify(base_config), 'utf8');
+            config = await this.load_config() as CustomCoreConfig;
+        }
+
+        this.logger.info("LC Server Info is loading package.json");
+        const package_json = require('../package.json');
+
+        this.logger.info("LC Server Info is overriding server name");
+        core_config.serverName = (config.dev ? '[Dev]' : '') + config.serverName + ' ' + package_json['version'];
+
+
 
         this.logger.debug(`[${this.mod}] preAki Loaded`);
     }
