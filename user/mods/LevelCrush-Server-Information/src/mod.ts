@@ -32,7 +32,7 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
     private async load_config() : Promise<CustomCoreConfig|null> {
 
         try {
-            const stat = await fs.promises.stat(path.join(this.modPath,"..","config","core.json"));
+            const stat = await fs.promises.stat(path.join(this.modPath,"config","core.json"));
             if(stat.isFile()) {
                 return require('../config/core.json');
             } else {
@@ -72,7 +72,7 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
             base_config['dev'] = true;
 
             this.logger.info("LC Server Info is creating a custom core.json");
-            await fs.promises.writeFile(path.join(this.modPath,"..","config","core.json"), JSON.stringify(base_config), 'utf8');
+            await fs.promises.writeFile(path.join(this.modPath,"config","core.json"), JSON.stringify(base_config), 'utf8');
             config = await this.load_config() as CustomCoreConfig;
         }
 
@@ -80,7 +80,7 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
         const package_json = require('../package.json');
 
         this.logger.info("LC Server Info is overriding server name");
-        core_config.serverName = (config.dev ? '[Dev]' : '') + config.serverName + ' ' + package_json['version'];
+        core_config.serverName = (config.dev ? '[Dev] ' : '') + config.serverName + ' ' + package_json['version'];
 
 
 
