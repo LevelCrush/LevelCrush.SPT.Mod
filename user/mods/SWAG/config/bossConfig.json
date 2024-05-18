@@ -11,7 +11,7 @@
     "laboratory": -1,
     "streets": -1
   },
-	"Bosses": {
+  "Bosses": {
     "useGlobalBossSpawnChance": true,
     "gluhar": {
       "customs": 0,
@@ -55,7 +55,7 @@
     "killa": {
       "customs": 0,
       "factory": 100,
-      "factory_night": 0,
+      "factory_night": 100,
       "groundzero": 0,
       "interchange": 100,
       "laboratory": 0,
@@ -143,10 +143,10 @@
       "streets": 0,
       "woods": 0
     }
-	},
+  },
   "CustomBosses": {
     "santa": {
-			"enabled": true,
+      "enabled": true,
       "forceSpawnOutsideEvent": false,
       "customs": 0,
       "factory": 0,
@@ -159,10 +159,10 @@
       "shoreline": 0,
       "streets": 0,
       "woods": 0
-		},
+    },
     "punisher": {
-			"enabled": false,
-			"useProgressSpawnChance": true,
+      "enabled": false,
+      "useProgressSpawnChance": true,
       "customs": 0,
       "factory": 0,
       "factory_night": 0,
@@ -174,10 +174,10 @@
       "shoreline": 0,
       "streets": 0,
       "woods": 0
-		},
+    },
     "legion": {
-			"enabled": false,
-			"useProgressSpawnChance": true,
+      "enabled": false,
+      "useProgressSpawnChance": true,
       "customs": 0,
       "factory": 0,
       "factory_night": 0,
@@ -189,6 +189,6 @@
       "shoreline": 0,
       "streets": 0,
       "woods": 0
-		}
+    }
   }
 }
