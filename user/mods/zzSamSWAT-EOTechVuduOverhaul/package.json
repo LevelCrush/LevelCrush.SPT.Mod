@@ -3,7 +3,20 @@
   "author": "SamSWAT",
   "license": "NCSA Open Source",
   "version": "4.2.0",
-  "main": "mod.js",
-	"isBundleMod": true,
-  "akiVersion": ">=3.4.0"
+  "main": "src/mod.js",
+  "isBundleMod": true,
+  "akiVersion": ">=3.4.0",
+  "devDependencies": {
+    "@types/node": "20.11",
+    "@typescript-eslint/eslint-plugin": "7.2",
+    "@typescript-eslint/parser": "7.2",
+    "archiver": "^6.0",
+    "eslint": "8.57",
+    "fs-extra": "11.2",
+    "ignore": "^5.2",
+    "os": "^0.1",
+    "tsyringe": "4.8.0",
+    "typescript": "5.4",
+    "winston": "3.12"
+  }
 }
