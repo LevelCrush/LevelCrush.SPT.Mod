@@ -1,0 +1,9 @@
+{
+  "name": "EOTech Vudu 1-6x overhaul",
+  "author": "SamSWAT",
+  "license": "NCSA Open Source",
+  "version": "4.2.0",
+  "main": "mod.js",
+	"isBundleMod": true,
+  "akiVersion": ">=3.4.0"
+}
