@@ -67,7 +67,6 @@ export class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
         const tables = databaseServer.getTables();
 
         const handbook_searches = [];
-
         if (tables.globals) {
             this.logger.debug('Lifting Restrictions on all items');
             for (const restriction of tables.globals.config.RestrictionsInRaid) {
@@ -80,6 +79,12 @@ export class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
             }
 
             ammo_flea_market(this.logger, tables);
+        }
+
+        // enable not found in raid
+        if (tables.globals) {
+            this.logger.info("Enabling Not Found In Raid Flea Market");
+            tables.globals.config.RagFair.isOnlyFoundInRaidAllowed = true;
         }
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);
