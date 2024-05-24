@@ -43,3 +43,5 @@ export class ProfilePatch implements ILevelCrushPatch {
         return true;
     }
 }
+
+export default ProfilePatch;
