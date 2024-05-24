@@ -1,7 +1,6 @@
 {
   "order": [
     "SITCoop",
-    "LevelCrush-Server-Information",
     "Virtual's Custom Quest Loader",
     "LevelCrush-Patch-Quests",
     "AAAArtemTrader",
@@ -38,6 +37,7 @@
     "revingly-micc-3.9.3",
     "acidphantasm-brightlasers",
     "SPT-Realism",
+    "LevelCrush",
     "LevelCrush-Patch-Items",
     "LevelCrush-Patch-Bosses",
     "LevelCrush-Patch-Recipes",
