@@ -1,24 +1,24 @@
-import { DependencyContainer } from 'tsyringe';
+import {DependencyContainer} from 'tsyringe';
 
 // SPT types
-import { IPreAkiLoadMod } from '@spt-aki/models/external/IPreAkiLoadMod';
-import { IPostDBLoadMod } from '@spt-aki/models/external/IPostDBLoadMod';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { PreAkiModLoader } from '@spt-aki/loaders/PreAkiModLoader';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
-import { ImageRouter } from '@spt-aki/routers/ImageRouter';
-import { ConfigServer } from '@spt-aki/servers/ConfigServer';
-import { ConfigTypes } from '@spt-aki/models/enums/ConfigTypes';
-import { ITraderConfig } from '@spt-aki/models/spt/config/ITraderConfig';
-import { IRagfairConfig } from '@spt-aki/models/spt/config/IRagfairConfig';
-import { JsonUtil } from '@spt-aki/utils/JsonUtil';
-import { HashUtil } from '@spt-aki/utils/HashUtil';
+import {IPreAkiLoadMod} from '@spt-aki/models/external/IPreAkiLoadMod';
+import {IPostDBLoadMod} from '@spt-aki/models/external/IPostDBLoadMod';
+import {ILogger} from '@spt-aki/models/spt/utils/ILogger';
+import {PreAkiModLoader} from '@spt-aki/loaders/PreAkiModLoader';
+import {DatabaseServer} from '@spt-aki/servers/DatabaseServer';
+import {ImageRouter} from '@spt-aki/routers/ImageRouter';
+import {ConfigServer} from '@spt-aki/servers/ConfigServer';
+import {ConfigTypes} from '@spt-aki/models/enums/ConfigTypes';
+import {ITraderConfig} from '@spt-aki/models/spt/config/ITraderConfig';
+import {IRagfairConfig} from '@spt-aki/models/spt/config/IRagfairConfig';
+import {JsonUtil} from '@spt-aki/utils/JsonUtil';
+import {HashUtil} from '@spt-aki/utils/HashUtil';
 
 import * as fs from 'fs';
 import path from 'path';
-import { IQuest } from '@spt-aki/models/eft/common/tables/IQuest';
-import { IHideoutProduction } from '@spt-aki/models/eft/hideout/IHideoutProduction';
-import { ITemplateItem } from '@spt-aki/models/eft/common/tables/ITemplateItem';
+import {IQuest} from '@spt-aki/models/eft/common/tables/IQuest';
+import {IHideoutProduction} from '@spt-aki/models/eft/hideout/IHideoutProduction';
+import {ITemplateItem} from '@spt-aki/models/eft/common/tables/ITemplateItem';
 
 type AmmoTierWeighting = { [tpl: string]: number };
 type AmmoTierMap = Map<number, AmmoTierWeighting>;
@@ -67,7 +67,7 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
         const tables = databaseServer.getTables();
 
         const ammo_templates = {} as { [tpl: string]: ITemplateItem };
-        const AMMO_PEN_THRESHOLD = 20;
+        const AMMO_PEN_THRESHOLD = 50;
 
         // scan for ammo over our threshold
         this.logger.info('Scanning item database for ammo that meets certain conditions');
@@ -80,15 +80,20 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
 
         this.logger.info('Tiering ammo');
         const ammo_workbench_map = new Map() as AmmoTierMap;
+
+        const WB_3 = 69;
+        const WB_2 = 58;
+        const WB_1 = 50;
+
         for (const tpl in ammo_templates) {
             let workbench_level = 1;
             const template = ammo_templates[tpl];
             const pen_power = template._props.PenetrationPower || 0;
-            if (pen_power > 45) {
+            if (pen_power > WB_3) {
                 workbench_level = 3;
-            } else if (pen_power > 35 && pen_power <= 45) {
+            } else if (pen_power > WB_2 && pen_power <= WB_3) {
                 workbench_level = 2;
-            } else if (pen_power > 20 && pen_power <= 35) {
+            } else if (pen_power > WB_1 && pen_power <= WB_2) {
                 workbench_level = 1;
             }
 
@@ -261,4 +266,4 @@ class LC_Event_Ammo implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 }
 
-module.exports = { mod: new LC_Event_Ammo() };
+module.exports = {mod: new LC_Event_Ammo()};
