@@ -27,7 +27,8 @@ export class PocketPatch implements ILevelCrushPatch {
         const tables = database.getTables();
 
         logger.info('Adjusting pockets');
-        const pocket_tpl = '627a4e6b255f7527fb05a0f8';
+        // const pocket_tpl = '627a4e6b255f7527fb05a0f8';
+        const pocket_tpl = '627a4e6b255f7527fb05a0f6';
         const pocket_height = 2;
         const pocket_width = 1;
         // tpl 627a4e6b255f7527fb05a0f8

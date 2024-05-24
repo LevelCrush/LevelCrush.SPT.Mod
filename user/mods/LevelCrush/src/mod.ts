@@ -18,7 +18,7 @@ import * as path from 'path';
 import CustomCoreConfig from './custom_config';
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patches/patch';
 import HomeScreenMessagePatch from './patches/homescreen_message_patch';
-import { ProfilePatch } from './patches/profile_patch';
+import ProfilePatch from './patches/profile_patch';
 import PocketPatch from './patches/pocket_patch';
 
 class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadModAsync {
@@ -31,7 +31,7 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
     private lc_core_config: CustomCoreConfig;
 
     constructor() {
-        this.mod = 'LevelCrush-Server-Information'; // Set name of mod so we can log it to console later
+        this.mod = 'LevelCrush'; // Set name of mod so we can log it to console later
         this.patch_results = {};
         this.patches = [];
     }

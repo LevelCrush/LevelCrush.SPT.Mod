@@ -1,5 +1,5 @@
 {
-    "name": "LC-Server-Information",
+    "name": "LevelCrush",
     "version": "1.6.0",
     "main": "src/mod.js",
     "license": "MIT",
