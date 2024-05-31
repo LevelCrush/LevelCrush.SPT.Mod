@@ -84,7 +84,7 @@ export class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
         // enable not found in raid
         if (tables.globals) {
             this.logger.info("Enabling Not Found In Raid Flea Market");
-            tables.globals.config.RagFair.isOnlyFoundInRaidAllowed = true;
+            tables.globals.config.RagFair.isOnlyFoundInRaidAllowed = false;
         }
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);
