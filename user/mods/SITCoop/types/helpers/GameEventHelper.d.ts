@@ -2,8 +2,8 @@ import { ISeasonalEventConfig } from "@spt-aki/models/spt/config/ISeasonalEventC
 import { ConfigServer } from "@spt-aki/servers/ConfigServer";
 import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
 export declare class GameEventHelper {
-  protected databaseServer: DatabaseServer;
-  protected configServer: ConfigServer;
-  protected seasonalEventConfig: ISeasonalEventConfig;
-  constructor(databaseServer: DatabaseServer, configServer: ConfigServer);
+    protected databaseServer: DatabaseServer;
+    protected configServer: ConfigServer;
+    protected seasonalEventConfig: ISeasonalEventConfig;
+    constructor(databaseServer: DatabaseServer, configServer: ConfigServer);
 }

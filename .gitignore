@@ -15,6 +15,8 @@
 /Aki_Data/Server/@pnpm/
 /Aki_Data/Server/configs/http.json
 /user/mods/LevelCrush-Discord-Webhooks/config/settings.json
+/user/mods/LevelCrush/config/core.json
+/user/mods/SPT-Realism/ProfileBackups/**/*.json
 
 /automations/dist/
 /automations/package-lock.json 

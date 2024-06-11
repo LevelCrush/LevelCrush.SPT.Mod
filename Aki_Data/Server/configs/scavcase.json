@@ -72,7 +72,9 @@
         "ammoRewardChancePercent": 10,
         "minStackSize": 10,
         "ammoRewardBlacklist": {
-            "common": ["59e690b686f7746c9f75e848"],
+            "common": [
+                "59e690b686f7746c9f75e848"
+            ],
             "rare": [],
             "superrare": []
         },
@@ -91,7 +93,7 @@
             }
         }
     },
-    "allowMultipleMoneyRewardsPerRarity": true,
+    "allowMultipleMoneyRewardsPerRarity": false,
     "allowMultipleAmmoRewardsPerRarity": true,
-    "allowBossItemsAsRewards": true
+    "allowBossItemsAsRewards": false
 }

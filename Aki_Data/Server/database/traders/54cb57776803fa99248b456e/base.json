@@ -13,7 +13,9 @@
   "gridHeight": 120,
   "insurance": {
     "availability": true,
-    "excluded_category": ["62e9103049c018f425059f38"],
+    "excluded_category": [
+      "62e9103049c018f425059f38"
+    ],
     "max_return_hour": 20,
     "max_storage_time": 144,
     "min_payment": 0,
@@ -32,7 +34,10 @@
   },
   "items_buy_prohibited": {
     "category": [],
-    "id_list": ["62e910aaf957f2915e0a5e36", "64d0b40fbe2eed70e254e2d4"]
+    "id_list": [
+      "62e910aaf957f2915e0a5e36",
+      "64d0b40fbe2eed70e254e2d4"
+    ]
   },
   "location": "",
   "loyaltyLevels": [
@@ -85,7 +90,9 @@
     "availability": false,
     "currency": "5449016a4bdc2d6f028b456f",
     "currency_coefficient": 1,
-    "excluded_category": ["5447e1d04bdc2dff2f8b4567"],
+    "excluded_category": [
+      "5447e1d04bdc2dff2f8b4567"
+    ],
     "excluded_id_list": [],
     "price_rate": 0,
     "quality": "0"

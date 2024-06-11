@@ -24,8 +24,12 @@
     "id_list": []
   },
   "items_buy_prohibited": {
-    "category": [null],
-    "id_list": ["64d0b40fbe2eed70e254e2d4"]
+    "category": [
+      null
+    ],
+    "id_list": [
+      "64d0b40fbe2eed70e254e2d4"
+    ]
   },
   "location": "БТР",
   "loyaltyLevels": [

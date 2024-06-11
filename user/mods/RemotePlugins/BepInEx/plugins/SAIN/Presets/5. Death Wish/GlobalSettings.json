@@ -2,7 +2,7 @@
   "General": {
     "PerformanceMode": false,
     "GlobalDifficultyModifier": 3.0,
-    "BotsUseGrenades": false,
+    "BotsUseGrenades": true,
     "HeadShotProtection": true,
     "NotLookingToggle": true,
     "NotLookingTimeLimit": 4.0,
@@ -19,7 +19,7 @@
     "FasterCQBReactionsGlobal": true
   },
   "Cover": {
-    "ShiftCoverMustBeSafe": true,
+    "EnhancedCoverFinding": true,
     "ShiftCoverChangeDecisionTime": 6.0,
     "ShiftCoverTimeSinceSeen": 30.0,
     "ShiftCoverTimeSinceEnemyCreated": 30.0,

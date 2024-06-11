@@ -1,0 +1,130 @@
+{
+	"spawnsRezerv": [
+		{
+            "locationId": "(93.1053, 3.3972, -17.8457)",
+            "probability": 0.00548271211,
+            "template": {
+                "Id": "rpg7_first_spawn",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": 93.1053,
+                    "y": 3.3972,
+                    "z": -17.8457
+                },
+                "Rotation": {
+                    "x": 0.0094,
+                    "y": 115.0182,
+                    "z": 89.9465
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "rpg7_root_first",
+                "Items": [
+                    {
+						"_id": "rpg7_first",
+						"_tpl": "weapon_rpg7_launcher"
+					},
+					{
+						"_id": "3d98eada45977b1008bd60fe",
+						"_tpl": "mod_sight_front_rpg7",
+						"parentId": "rpg7_first",
+						"slotId": "mod_sight_front"
+					},
+					{
+						"_id": "0980a5e03a3b26542b77f091",
+						"_tpl": "mod_sight_rear_rpg7",
+						"parentId": "rpg7_first",
+						"slotId": "mod_sight_rear"
+					}
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "rpg7_first"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+		{
+            "locationId": "(92.3145, 3.3779, -17.606)",
+            "probability": 0.0000815232,
+            "template": {
+                "Id": "pg7vl_first",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": 92.3145,
+                    "y": 3.3779,
+                    "z": -17.606
+                },
+                "Rotation": {
+                    "x": -0.0003,
+                    "y": 105.6718,
+                    "z": 228.0094
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "pg7vl_root_first",
+                "Items": [
+                    {
+						"_id": "pg7vl_first_spawn",
+						"_tpl": "65f484909638b1821d56149e"
+					}
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "pg7vl_first_spawn"
+                    },
+                    "relativeProbability": 3
+                }
+            ]
+        },
+        {
+            "locationId": "(92.5457, 3.3778, -17.4563)",
+            "probability": 0.0000815232,
+            "template": {
+                "Id": "pg7vl_second",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": 92.5457,
+                    "y": 3.3778,
+                    "z": -17.4563
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 231.0191,
+                    "z": 174.213
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "pg7vl_root_second",
+                "Items": [
+                    {
+						"_id": "pg7vl_second_spawn",
+						"_tpl": "65f484909638b1821d56149e"
+					}
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "pg7vl_second_spawn"
+                    },
+                    "relativeProbability": 3
+                }
+            ]
+        }
+	]
+}

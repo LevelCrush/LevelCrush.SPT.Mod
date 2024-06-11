@@ -1,19 +1,19 @@
-import { DependencyContainer } from 'tsyringe';
+import {DependencyContainer} from 'tsyringe';
 
 // SPT types
-import { IPreAkiLoadMod } from '@spt-aki/models/external/IPreAkiLoadMod';
-import { IPostDBLoadMod } from '@spt-aki/models/external/IPostDBLoadMod';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { PreAkiModLoader } from '@spt-aki/loaders/PreAkiModLoader';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
-import { ImageRouter } from '@spt-aki/routers/ImageRouter';
-import { ConfigServer } from '@spt-aki/servers/ConfigServer';
-import { ConfigTypes } from '@spt-aki/models/enums/ConfigTypes';
-import { ITraderConfig } from '@spt-aki/models/spt/config/ITraderConfig';
-import { IRagfairConfig } from '@spt-aki/models/spt/config/IRagfairConfig';
-import { JsonUtil } from '@spt-aki/utils/JsonUtil';
-import { HashUtil } from '@spt-aki/utils/HashUtil';
-import { IDatabaseTables } from '@spt-aki/models/spt/server/IDatabaseTables';
+import {IPreAkiLoadMod} from '@spt-aki/models/external/IPreAkiLoadMod';
+import {IPostDBLoadMod} from '@spt-aki/models/external/IPostDBLoadMod';
+import {ILogger} from '@spt-aki/models/spt/utils/ILogger';
+import {PreAkiModLoader} from '@spt-aki/loaders/PreAkiModLoader';
+import {DatabaseServer} from '@spt-aki/servers/DatabaseServer';
+import {ImageRouter} from '@spt-aki/routers/ImageRouter';
+import {ConfigServer} from '@spt-aki/servers/ConfigServer';
+import {ConfigTypes} from '@spt-aki/models/enums/ConfigTypes';
+import {ITraderConfig} from '@spt-aki/models/spt/config/ITraderConfig';
+import {IRagfairConfig} from '@spt-aki/models/spt/config/IRagfairConfig';
+import {JsonUtil} from '@spt-aki/utils/JsonUtil';
+import {HashUtil} from '@spt-aki/utils/HashUtil';
+import {IDatabaseTables} from '@spt-aki/models/spt/server/IDatabaseTables';
 
 export class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
     private mod: string;
@@ -45,8 +45,8 @@ export class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
         this.logger.info('Removing EUROS from being listable');
         ragfairConfig.dynamic.currencies['569668774bdc2da2298b4568'] = 0;
 
-        this.logger.info('Max Armor Plates allowed are armor class 6');
-        ragfairConfig.dynamic.blacklist.armorPlate.maxProtectionLevel = 6;
+        this.logger.info('Max Armor Plates allowed are armor class 99');
+        ragfairConfig.dynamic.blacklist.armorPlate.maxProtectionLevel = 99;
 
         this.logger.debug(`[${this.mod}] preAki Loaded`);
     }
@@ -67,7 +67,6 @@ export class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
         const tables = databaseServer.getTables();
 
         const handbook_searches = [];
-
         if (tables.globals) {
             this.logger.debug('Lifting Restrictions on all items');
             for (const restriction of tables.globals.config.RestrictionsInRaid) {
@@ -80,6 +79,12 @@ export class LC_QOL_NoRestrictions implements IPreAkiLoadMod, IPostDBLoadMod {
             }
 
             ammo_flea_market(this.logger, tables);
+        }
+
+        // enable not found in raid
+        if (tables.globals) {
+            this.logger.info("Enabling Not Found In Raid Flea Market");
+            tables.globals.config.RagFair.isOnlyFoundInRaidAllowed = false;
         }
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);

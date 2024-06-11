@@ -1,0 +1,49 @@
+{
+    "manifest": [
+        {
+            "key": "rpg7/client_assets.bundle",
+            "dependencyKeys": [
+                "cubemaps",			
+			    "rpg7/textures.bundle",			
+			    "shaders"
+            ]
+        },
+        {
+            "key": "rpg7/textures.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "rpg7/mod_front_sight_rpg7.bundle",
+            "dependencyKeys": [			
+			    "rpg7/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "rpg7/mod_rear_sight_rpg7.bundle",
+            "dependencyKeys": [			
+			    "rpg7/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "rpg7/patron_rpg7_pg7vl_93x40mm.bundle",
+            "dependencyKeys": [
+                "cubemaps",	
+			    "shaders",
+                "rpg7/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "rpg7/weapon_rpg7_container.bundle",
+            "dependencyKeys": [
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "rpg7/client_assets.bundle"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "ItemPresets": {
+        "65f484cd7d39950ce561bad4": {
+            "_changeWeaponName": false,
+            "_encyclopedia": "weapon_rpg7_launcher",
+            "_id": "65f484cd7d39950ce561bad4",
+            "_items": [
+                {
+                    "_id": "65f484d569e9a755c7c06bf2",
+                    "_tpl": "weapon_rpg7_launcher",
+                    "upd": {
+                        "FireMode": {
+                            "FireMode": "single"
+                        }
+                    }
+                },
+                {
+                    "_id": "3d98eada45977b1008bd60fe",
+                    "_tpl": "mod_sight_front_rpg7",
+                    "parentId": "65f484d569e9a755c7c06bf2",
+                    "slotId": "mod_sight_front",
+                    "upd": {
+                        "Sight": {
+                            "ScopesCurrentCalibPointIndexes": [
+                                0
+                            ],
+                            "ScopesSelectedModes": [
+                                0
+                            ],
+                            "SelectedScope": 0
+                        }
+                    }
+                },
+                {
+                    "_id": "0980a5e03a3b26542b77f091",
+                    "_tpl": "mod_sight_rear_rpg7",
+                    "parentId": "65f484d569e9a755c7c06bf2",
+                    "slotId": "mod_sight_rear",
+                    "upd": {
+                        "Sight": {
+                            "ScopesCurrentCalibPointIndexes": [
+                                0
+                            ],
+                            "ScopesSelectedModes": [
+                                0
+                            ],
+                            "SelectedScope": 0
+                        }
+                    }
+                }
+            ],
+            "_name": "RPG-7V2",
+            "_parent": "65f484d569e9a755c7c06bf2",
+            "_type": "Preset"
+        }
+    }
+}

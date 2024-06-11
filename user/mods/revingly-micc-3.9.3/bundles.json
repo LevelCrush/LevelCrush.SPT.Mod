@@ -1,0 +1,12 @@
+{
+    "manifest": [
+        {
+            "key": "assets/content/items/containers/item_container_lopouch/micc.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

@@ -1,10 +1,11 @@
 {
-    "akiVersion": "3.8.0",
+    "akiVersion": "3.8.3",
     "projectName": "SPT-AKI",
     "compatibleTarkovVersion": "0.14.1.29197",
-    "serverName": "Level Crush v1.5.5",
+    "serverName": "LevelCrush v1.6.0",
     "profileSaveIntervalSeconds": 15,
     "sptFriendNickname": "SPT",
+    "allowProfileWipe": true,
     "bsgLogging": {
         "verbosity": 6,
         "sendToServer": false
@@ -28,6 +29,6 @@
             }
         }
     },
-    "commit": "2dd4d914382657378d9cdec173039d771fe33220",
-    "buildTime": 1712007038941
+    "commit": "4492882bba506f5751a1f600f3ae60275ad27e64",
+    "buildTime": 1715722845577
 }
