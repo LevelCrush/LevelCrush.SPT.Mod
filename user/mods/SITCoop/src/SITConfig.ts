@@ -5,69 +5,63 @@ import fs from "fs";
 import path from "path";
 
 export class SITConfig {
-  public runAzureWebAppHelper: boolean;
 
-  public openAllExfils: boolean;
+    public runAzureWebAppHelper: boolean;
 
-  // Player Names
-  public showPlayerNameTags: boolean;
-  public showPlayerNameTagsOnlyWhenVisible: boolean;
 
-  public static Instance: SITConfig;
+    public openAllExfils: boolean;
 
-  constructor() {
-    this.runAzureWebAppHelper = false;
+    // Player Names
+    public showPlayerNameTags: boolean;
+    public showPlayerNameTagsOnlyWhenVisible: boolean;
 
-    this.openAllExfils = false;
+    public static Instance: SITConfig;
 
-    this.showPlayerNameTags = false;
-    this.showPlayerNameTagsOnlyWhenVisible = false;
+    constructor() {
+        this.runAzureWebAppHelper = false;
 
-    // console.log(`SIT Config Loading >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>`);
+        this.openAllExfils = false;
+        
+        this.showPlayerNameTags = false;
+        this.showPlayerNameTagsOnlyWhenVisible = false;
 
-    var sitConfigFilePath = path.join(
-      __dirname,
-      "..",
-      "config",
-      "SITConfig.json"
-    );
-    // console.log(sitConfigFilePath);
-    if (!fs.existsSync(sitConfigFilePath)) {
-      const sitcfgString = JSON.stringify(this, null, 4);
-      fs.writeFileSync(sitConfigFilePath, sitcfgString);
-    } else {
-      Object.assign(
-        this,
-        JSON.parse(fs.readFileSync(sitConfigFilePath).toString())
-      );
-      // console.log(`SIT Config loaded.`);
+        // console.log(`SIT Config Loading >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>`);
+
+        var sitConfigFilePath = path.join(__dirname, "..", "config", "SITConfig.json");
+        // console.log(sitConfigFilePath);
+        if(!fs.existsSync(sitConfigFilePath)) {
+            const sitcfgString = JSON.stringify(this, null, 4);
+            fs.writeFileSync(sitConfigFilePath, sitcfgString);
+        }
+        else {
+            Object.assign(this, JSON.parse(fs.readFileSync(sitConfigFilePath).toString()))
+            // console.log(`SIT Config loaded.`);
+        }
+        // console.log(this);
+
+        SITConfig.Instance = this;
     }
-    // console.log(this);
 
-    SITConfig.Instance = this;
-  }
+    public routeHandler(container: tsyringe.DependencyContainer) {
 
-  public routeHandler(container: tsyringe.DependencyContainer) {
-    const dynamicRouterModService = container.resolve<DynamicRouterModService>(
-      "DynamicRouterModService"
-    );
-    const staticRouterModService = container.resolve<StaticRouterModService>(
-      "StaticRouterModService"
-    );
+        const dynamicRouterModService = container.resolve<DynamicRouterModService>("DynamicRouterModService");
+        const staticRouterModService = container.resolve<StaticRouterModService>("StaticRouterModService");
 
-    staticRouterModService.registerStaticRouter(
-      "MyStaticModRouterSITConfig",
-      [
-        {
-          url: "/SIT/Config",
-          action: (url, info: any, sessionId, output) => {
-            console.log(SITConfig.Instance);
-            output = JSON.stringify(SITConfig.Instance);
-            return output;
-          },
-        },
-      ],
-      "aki"
-    );
-  }
+         staticRouterModService.registerStaticRouter(
+            "MyStaticModRouterSITConfig",
+            [
+                {
+                    url: "/SIT/Config",
+                    action: (url, info: any, sessionId, output) => {
+                        console.log(SITConfig.Instance)
+                        output = JSON.stringify(SITConfig.Instance);
+                        return output;
+                    }
+                }
+            ]
+            ,"aki"
+        )
+
+    }
+
 }

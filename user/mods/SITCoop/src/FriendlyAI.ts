@@ -1,4 +1,6 @@
 export class friendlyAI {
-  shouldSpawnFriendlyAI: Boolean;
-  maxNumberOfFriendlies: Number;
+
+    shouldSpawnFriendlyAI: Boolean;
+    maxNumberOfFriendlies: Number;
+
 }

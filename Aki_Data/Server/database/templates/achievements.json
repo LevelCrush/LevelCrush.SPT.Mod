@@ -37,7 +37,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBully"],
+                "savageRole": [
+                  "bossBully"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -103,7 +105,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossZryachiy"],
+                "savageRole": [
+                  "bossZryachiy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -156,7 +160,9 @@
               {
                 "id": "6512ea76a606a458e3159afa",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
@@ -168,7 +174,9 @@
               {
                 "id": "658da10ebebee272ebc53bb0",
                 "dynamicLocale": false,
-                "target": ["Interchange"],
+                "target": [
+                  "Interchange"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -227,7 +235,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKnight"],
+                "savageRole": [
+                  "bossKnight"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -272,7 +282,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBigPipe"],
+                "savageRole": [
+                  "followerBigPipe"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -317,7 +329,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBirdEye"],
+                "savageRole": [
+                  "followerBirdEye"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -383,7 +397,10 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossTagilla", "followerTagilla"],
+                "savageRole": [
+                  "bossTagilla",
+                  "followerTagilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -436,7 +453,9 @@
               {
                 "id": "65141c79e9e4d039163f3a78",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               }
             ]
@@ -482,13 +501,17 @@
               {
                 "id": "6512eb867e58aea2ddc6342c",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512eb9066c2da992b357ae9",
                 "dynamicLocale": false,
-                "target": ["Woods"],
+                "target": [
+                  "Woods"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -513,13 +536,17 @@
               {
                 "id": "6512eba87bbbbf78bd2ff9c2",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512ebb0290ea51f9e52d3f9",
                 "dynamicLocale": false,
-                "target": ["TarkovStreets"],
+                "target": [
+                  "TarkovStreets"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -544,13 +571,17 @@
               {
                 "id": "6512effb05ed7452487b2201",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512f00ee60bb019141c001f",
                 "dynamicLocale": false,
-                "target": ["bigmap"],
+                "target": [
+                  "bigmap"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -575,13 +606,18 @@
               {
                 "id": "6512f02ea583dba23d36094c",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512f03e4b6e67ad13afe244",
                 "dynamicLocale": false,
-                "target": ["factory4_night", "factory4_day"],
+                "target": [
+                  "factory4_night",
+                  "factory4_day"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -606,13 +642,17 @@
               {
                 "id": "6512f0a4e5368294a87e9f95",
                 "dynamicLocale": false,
-                "target": ["Interchange"],
+                "target": [
+                  "Interchange"
+                ],
                 "conditionType": "Location"
               },
               {
                 "id": "6512f47a80eaa1385c5dda4f",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               }
             ]
@@ -637,13 +677,17 @@
               {
                 "id": "6512f4a55e8104d74d7a6f8c",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512f4ece3c384b2f475784a",
                 "dynamicLocale": false,
-                "target": ["Lighthouse"],
+                "target": [
+                  "Lighthouse"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -668,13 +712,17 @@
               {
                 "id": "6512f50131d77a91f637fbeb",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512f53f4664e2fae4f9de13",
                 "dynamicLocale": false,
-                "target": ["Shoreline"],
+                "target": [
+                  "Shoreline"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -699,13 +747,17 @@
               {
                 "id": "6512f82148fb739541c5a987",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512f82c99e9258eee74ab06",
                 "dynamicLocale": false,
-                "target": ["laboratory"],
+                "target": [
+                  "laboratory"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -730,13 +782,17 @@
               {
                 "id": "6512f845e4227f5fb4e44020",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "6512f8580166a2de4640a18e",
                 "dynamicLocale": false,
-                "target": ["RezervBase"],
+                "target": [
+                  "RezervBase"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -761,13 +817,17 @@
               {
                 "id": "657b1ff5aadf48f7daaec2d5",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               },
               {
                 "id": "657b205bb4c7fe41910f9c55",
                 "dynamicLocale": false,
-                "target": ["Sandbox"],
+                "target": [
+                  "Sandbox"
+                ],
                 "conditionType": "Location"
               }
             ]
@@ -893,7 +953,9 @@
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
                 "savageRole": [],
-                "bodyPart": ["Head"],
+                "bodyPart": [
+                  "Head"
+                ],
                 "daytime": {
                   "from": 0,
                   "to": 0
@@ -948,7 +1010,9 @@
                 "target": "Savage",
                 "compareMethod": ">=",
                 "value": 1,
-                "weapon": ["5fc64ea372b0dd78d51159dc"],
+                "weapon": [
+                  "5fc64ea372b0dd78d51159dc"
+                ],
                 "distance": {
                   "value": 0,
                   "compareMethod": ">="
@@ -958,7 +1022,10 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["sectantPriest", "sectantWarrior"],
+                "savageRole": [
+                  "sectantPriest",
+                  "sectantWarrior"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 22,
@@ -1024,7 +1091,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossGluhar"],
+                "savageRole": [
+                  "bossGluhar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1090,7 +1159,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKilla"],
+                "savageRole": [
+                  "bossKilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1203,7 +1274,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossSanitar"],
+                "savageRole": [
+                  "bossSanitar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1291,7 +1364,9 @@
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
                 "savageRole": [],
-                "bodyPart": ["Head"],
+                "bodyPart": [
+                  "Head"
+                ],
                 "daytime": {
                   "from": 0,
                   "to": 0
@@ -1356,7 +1431,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKojaniy"],
+                "savageRole": [
+                  "bossKojaniy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1409,7 +1486,9 @@
               {
                 "id": "65141dfe0161bd3459ab5c47",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               }
             ]
@@ -1469,7 +1548,9 @@
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
                 "savageRole": [],
-                "bodyPart": ["Head"],
+                "bodyPart": [
+                  "Head"
+                ],
                 "daytime": {
                   "from": 0,
                   "to": 0
@@ -1481,7 +1562,9 @@
               {
                 "id": "65141b1a16b83cee74509f20",
                 "dynamicLocale": false,
-                "target": ["Buffs_drink_vodka"],
+                "target": [
+                  "Buffs_drink_vodka"
+                ],
                 "conditionType": "HealthBuff"
               }
             ]
@@ -1540,7 +1623,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBully"],
+                "savageRole": [
+                  "bossBully"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1606,7 +1691,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossGluhar"],
+                "savageRole": [
+                  "bossGluhar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1672,7 +1759,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKolontay"],
+                "savageRole": [
+                  "bossKolontay"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1738,7 +1827,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKojaniy"],
+                "savageRole": [
+                  "bossKojaniy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1804,7 +1895,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBoar"],
+                "savageRole": [
+                  "bossBoar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1870,7 +1963,10 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossTagilla", "followerTagilla"],
+                "savageRole": [
+                  "bossTagilla",
+                  "followerTagilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -1936,7 +2032,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKnight"],
+                "savageRole": [
+                  "bossKnight"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2002,7 +2100,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBigPipe"],
+                "savageRole": [
+                  "followerBigPipe"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2068,7 +2168,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBoar"],
+                "savageRole": [
+                  "bossBoar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2113,7 +2215,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBully"],
+                "savageRole": [
+                  "bossBully"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2158,7 +2262,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossGluhar"],
+                "savageRole": [
+                  "bossGluhar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2203,7 +2309,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKilla"],
+                "savageRole": [
+                  "bossKilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2248,7 +2356,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKnight"],
+                "savageRole": [
+                  "bossKnight"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2293,7 +2403,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKojaniy"],
+                "savageRole": [
+                  "bossKojaniy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2338,7 +2450,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossSanitar"],
+                "savageRole": [
+                  "bossSanitar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2383,7 +2497,10 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossTagilla", "followerTagilla"],
+                "savageRole": [
+                  "bossTagilla",
+                  "followerTagilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2428,7 +2545,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossZryachiy"],
+                "savageRole": [
+                  "bossZryachiy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2473,7 +2592,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBigPipe"],
+                "savageRole": [
+                  "followerBigPipe"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2518,7 +2639,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBirdEye"],
+                "savageRole": [
+                  "followerBirdEye"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2563,7 +2686,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKolontay"],
+                "savageRole": [
+                  "bossKolontay"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2597,7 +2722,11 @@
               {
                 "id": "65290a86617105d7f411034a",
                 "dynamicLocale": false,
-                "status": ["Killed", "MissingInAction", "Left"],
+                "status": [
+                  "Killed",
+                  "MissingInAction",
+                  "Left"
+                ],
                 "conditionType": "ExitStatus"
               }
             ]
@@ -2655,7 +2784,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKilla"],
+                "savageRole": [
+                  "bossKilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2721,7 +2852,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossZryachiy"],
+                "savageRole": [
+                  "bossZryachiy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -2925,7 +3058,9 @@
               {
                 "id": "65141cf47b5a7fd95f5092b9",
                 "dynamicLocale": false,
-                "status": ["Survived"],
+                "status": [
+                  "Survived"
+                ],
                 "conditionType": "ExitStatus"
               }
             ]
@@ -2952,7 +3087,12 @@
               {
                 "id": "6527d539636599b4523873fb",
                 "dynamicLocale": false,
-                "status": ["Runner", "Killed", "MissingInAction", "Left"],
+                "status": [
+                  "Runner",
+                  "Killed",
+                  "MissingInAction",
+                  "Left"
+                ],
                 "conditionType": "ExitStatus"
               }
             ]
@@ -3057,7 +3197,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKilla"],
+                "savageRole": [
+                  "bossKilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3123,7 +3265,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossSanitar"],
+                "savageRole": [
+                  "bossSanitar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3189,7 +3333,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBoar"],
+                "savageRole": [
+                  "bossBoar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3368,7 +3514,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKolontay"],
+                "savageRole": [
+                  "bossKolontay"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3434,7 +3582,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBoar"],
+                "savageRole": [
+                  "bossBoar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3479,7 +3629,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossBully"],
+                "savageRole": [
+                  "bossBully"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3524,7 +3676,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossGluhar"],
+                "savageRole": [
+                  "bossGluhar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3569,7 +3723,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKilla"],
+                "savageRole": [
+                  "bossKilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3614,7 +3770,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKnight"],
+                "savageRole": [
+                  "bossKnight"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3659,7 +3817,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKojaniy"],
+                "savageRole": [
+                  "bossKojaniy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3704,7 +3864,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossSanitar"],
+                "savageRole": [
+                  "bossSanitar"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3749,7 +3911,10 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossTagilla", "followerTagilla"],
+                "savageRole": [
+                  "bossTagilla",
+                  "followerTagilla"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3794,7 +3959,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossZryachiy"],
+                "savageRole": [
+                  "bossZryachiy"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3839,7 +4006,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBigPipe"],
+                "savageRole": [
+                  "followerBigPipe"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3884,7 +4053,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBirdEye"],
+                "savageRole": [
+                  "followerBirdEye"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -3929,7 +4100,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["bossKolontay"],
+                "savageRole": [
+                  "bossKolontay"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,
@@ -4010,8 +4183,12 @@
                 "dynamicLocale": false,
                 "bodyPartsWithEffects": [
                   {
-                    "bodyParts": ["Head"],
-                    "effects": ["Flash"]
+                    "bodyParts": [
+                      "Head"
+                    ],
+                    "effects": [
+                      "Flash"
+                    ]
                   }
                 ],
                 "energy": {
@@ -4071,7 +4248,9 @@
               {
                 "id": "65141c2c4240e8676f8180e9",
                 "dynamicLocale": false,
-                "status": ["Killed"],
+                "status": [
+                  "Killed"
+                ],
                 "conditionType": "ExitStatus"
               }
             ]
@@ -4196,7 +4375,9 @@
                 "enemyEquipmentInclusive": [],
                 "enemyEquipmentExclusive": [],
                 "weaponCaliber": [],
-                "savageRole": ["followerBirdEye"],
+                "savageRole": [
+                  "followerBirdEye"
+                ],
                 "bodyPart": [],
                 "daytime": {
                   "from": 0,

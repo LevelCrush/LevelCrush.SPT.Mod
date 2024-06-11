@@ -1,0 +1,170 @@
+{
+    "items": [
+        {
+            "_id": "rpg7_assort_barter",
+            "_tpl": "weapon_rpg7_launcher",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 1053,
+                "BuyRestrictionCurrent": 0,
+                "BuyRestrictionMax": 2
+            }
+        },
+        {
+            "_id": "3d98eada45977b1008bd60fe",
+            "_tpl": "mod_sight_front_rpg7",
+            "parentId": "rpg7_assort_barter",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "0980a5e03a3b26542b77f091",
+            "_tpl": "mod_sight_rear_rpg7",
+            "parentId": "rpg7_assort_barter",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "rpg7_assort_money",
+            "_tpl": "weapon_rpg7_launcher",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 1053,
+                "BuyRestrictionCurrent": 0,
+                "BuyRestrictionMax": 5
+            }
+        },
+        {
+            "_id": "mod_sight_front_rpg7_money",
+            "_tpl": "mod_sight_front_rpg7",
+            "parentId": "rpg7_assort_money",
+            "slotId": "mod_sight_front"
+        },
+        {
+            "_id": "mod_sight_rear_rpg7_money",
+            "_tpl": "mod_sight_rear_rpg7",
+            "parentId": "rpg7_assort_money",
+            "slotId": "mod_sight_rear"
+        },
+        {
+            "_id": "pg7vl_barter",
+            "_tpl": "65f484909638b1821d56149e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 3241,
+                "BuyRestrictionCurrent": 0,
+                "BuyRestrictionMax": 5
+            }
+        },
+        {
+            "_id": "pg7vl_money",
+            "_tpl": "65f484909638b1821d56149e",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 4091,
+                "BuyRestrictionCurrent": 0,
+                "BuyRestrictionMax": 8
+            }
+        },
+        {
+            "_id": "rpg_sight_front",
+            "_tpl": "mod_sight_front_rpg7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            }
+        },
+        {
+            "_id": "rpg_sight_rear",
+            "_tpl": "mod_sight_rear_rpg7",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999
+            }
+        }
+    ],
+    "barter_scheme": {
+        "rpg7_assort_barter": [
+            [
+                {
+                    "_tpl": "59faff1d86f7746c51718c9c",
+                    "count": 1
+                },
+                {
+                    "_tpl": "5d1c819a86f774771b0acd6c",
+                    "count": 3
+                },
+                {
+                    "_tpl": "5c12620d86f7743f8b198b72",
+                    "count": 3
+                },
+                {
+                    "_tpl": "5d6fc87386f77449db3db94e",
+                    "count": 2
+                }
+            ]
+        ],
+        "rpg7_assort_money": [
+            [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 411532
+                }
+            ]
+        ],
+        "pg7vl_barter": [
+            [
+                {
+                    "_tpl": "5d6fc87386f77449db3db94e",
+                    "count": 3
+                },
+                {
+                    "_tpl": "5d1c819a86f774771b0acd6c",
+                    "count": 1
+                }
+            ]
+        ],
+        "pg7vl_money": [
+            [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 75221
+                }
+            ]
+        ],
+        "rpg_sight_front": [
+            [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 1152
+                }
+            ]
+        ],
+        "rpg_sight_rear": [
+            [
+                {
+                    "_tpl": "5449016a4bdc2d6f028b456f",
+                    "count": 1152
+                }
+            ]
+        ]
+    },
+    "loyal_level_items":{
+        "rpg7_assort_barter": 1,
+        "rpg7_assort_money": 3,
+        "pg7vl_barter": 1,
+        "pg7vl_money": 2,
+        "rpg_sight_rear": 1,
+        "rpg_sight_front": 1
+    }
+}

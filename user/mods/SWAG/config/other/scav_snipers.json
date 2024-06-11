@@ -6,13 +6,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSnipeTower"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSnipeTower"
       ]
     },
     {
@@ -21,13 +16,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSnipeFactory"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSnipeFactory"
       ]
     },
     {
@@ -36,13 +26,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneBlockPostSniper"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneBlockPostSniper"
       ]
     },
     {
@@ -51,13 +36,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSnipeBrige"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSnipeBrige"
       ]
     }
   ],
@@ -88,13 +68,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSandSnipeCenter"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSandSnipeCenter"
       ]
     }
   ],
@@ -105,14 +80,7 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": null,
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
-      ]
+      "BossZone": null
     }
   ],
   "laboratory": [
@@ -132,13 +100,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["Zone_SniperPeak"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "Zone_SniperPeak"
       ]
     }
   ],
@@ -159,13 +122,8 @@
       "BossEscortType": "marksman",
       "BossEscortAmount": "0",
       "Time": 1,
-      "BossZone": ["ZonePowerStationSniper"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZonePowerStationSniper"
       ]
     },
     {
@@ -174,13 +132,8 @@
       "BossEscortType": "marksman",
       "BossEscortAmount": "0",
       "Time": 1,
-      "BossZone": ["ZoneBunkeSniper"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneBunkeSniper"
       ]
     }
   ],
@@ -191,13 +144,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSnipeCinema"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSnipeCinema"
       ]
     },
     {
@@ -206,13 +154,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSnipeCarShowroom"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSnipeCarShowroom"
       ]
     },
     {
@@ -221,13 +164,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSnipeBuilding"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSnipeBuilding"
       ]
     },
     {
@@ -236,13 +174,8 @@
       "Time": 1,
       "BossEscortAmount": "0",
       "BossEscortType": "marksman",
-      "BossZone": ["ZoneSnipeSW01"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneSnipeSW01"
       ]
     }
   ],
@@ -253,13 +186,8 @@
       "BossEscortType": "marksman",
       "BossEscortAmount": "0",
       "Time": 1,
-      "BossZone": ["ZoneHighRocks"],
-      "Supports": [
-        {
-          "BossEscortAmount": "0",
-          "BossEscortDifficult": ["normal"],
-          "BossEscortType": "marksman"
-        }
+      "BossZone": [
+        "ZoneHighRocks"
       ]
     }
   ]

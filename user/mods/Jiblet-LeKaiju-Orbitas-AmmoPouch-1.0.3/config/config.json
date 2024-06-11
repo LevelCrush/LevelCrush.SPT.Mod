@@ -1,0 +1,13 @@
+{
+    "price": 50000,
+    "AllowInArmband": true,
+    "trader_loyalty_level": 1,
+    "ExternalSize": {
+        "cellH": 1,
+        "cellV": 2
+    },
+    "InternalSize": [{
+        "cellH": 2,
+        "cellV": 3
+    }]
+}

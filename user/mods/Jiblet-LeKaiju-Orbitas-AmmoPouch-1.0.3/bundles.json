@@ -1,0 +1,12 @@
+{
+    "manifest": [
+        {
+            "key": "AmmoPouch/patron_6mm_airsoft.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

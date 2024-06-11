@@ -1,10 +1,12 @@
 {
-  "folders": [
-    {
-      "path": "."
-    }
-  ],
-  "extensions": {
-    "recommendations": ["dbaeumer.vscode-eslint"]
-  }
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint"
+		]
+	}
 }

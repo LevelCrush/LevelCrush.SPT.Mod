@@ -1,3 +1,3 @@
 export interface ITransferGroupRequest {
-  aidToChange: string;
+    aidToChange: string;
 }
