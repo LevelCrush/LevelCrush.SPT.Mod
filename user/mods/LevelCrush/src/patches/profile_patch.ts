@@ -27,7 +27,7 @@ export class ProfilePatch implements ILevelCrushPatch {
         const tables = database.getTables();
 
         logger.info('Figuring out unsupported profiles');
-        const supported_profiles = ['edge Of darkness'];
+        const supported_profiles = ['edge of darkness'];
         const unsupported_profiles = [] as string[];
         for (const profile_type in tables.templates.profiles) {
             if (!supported_profiles.includes(profile_type.toLowerCase())) {
@@ -37,6 +37,7 @@ export class ProfilePatch implements ILevelCrushPatch {
 
         logger.info('Removing unsupported profiles');
         for (const unsupported of unsupported_profiles) {
+            logger.info(`Removing ${unsupported} profile`);
             delete tables.templates.profiles[unsupported];
         }
 
