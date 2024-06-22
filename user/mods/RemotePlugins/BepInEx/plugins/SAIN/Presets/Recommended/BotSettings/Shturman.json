@@ -46,9 +46,7 @@
         "DELTA_GRENADE_START_TIME": 0.0,
         "BEWARE_TYPE": 3
       },
-      "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
-      },
+      "Hearing": {},
       "Lay": {},
       "Look": {
         "VisionSpeedModifier": 1.0,
@@ -66,9 +64,6 @@
         "LightOnVisionDistance": 40.0,
         "VISIBLE_ANG_LIGHT": 30.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 50.0,
-        "GOAL_TO_FULL_DISSAPEAR": 0.25,
-        "GOAL_TO_FULL_DISSAPEAR_GREEN": 0.15,
-        "GOAL_TO_FULL_DISSAPEAR_SHOOT": 0.01,
         "MAX_VISION_GRASS_METERS": 1.0,
         "MAX_VISION_GRASS_METERS_OPT": 1.0,
         "MAX_VISION_GRASS_METERS_FLARE": 4.0,
@@ -101,6 +96,7 @@
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.25,
         "FireratMulti": 1.35,
+        "MaxPointFireDistance": 80.0,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
@@ -151,9 +147,7 @@
         "DELTA_GRENADE_START_TIME": 0.0,
         "BEWARE_TYPE": 3
       },
-      "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
-      },
+      "Hearing": {},
       "Lay": {},
       "Look": {
         "VisionSpeedModifier": 1.0,
@@ -171,9 +165,6 @@
         "LightOnVisionDistance": 40.0,
         "VISIBLE_ANG_LIGHT": 30.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 50.0,
-        "GOAL_TO_FULL_DISSAPEAR": 0.25,
-        "GOAL_TO_FULL_DISSAPEAR_GREEN": 0.15,
-        "GOAL_TO_FULL_DISSAPEAR_SHOOT": 0.01,
         "MAX_VISION_GRASS_METERS": 1.0,
         "MAX_VISION_GRASS_METERS_OPT": 1.0,
         "MAX_VISION_GRASS_METERS_FLARE": 4.0,
@@ -206,6 +197,7 @@
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.25,
         "FireratMulti": 1.35,
+        "MaxPointFireDistance": 80.0,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
@@ -256,9 +248,7 @@
         "DELTA_GRENADE_START_TIME": 0.0,
         "BEWARE_TYPE": 3
       },
-      "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
-      },
+      "Hearing": {},
       "Lay": {},
       "Look": {
         "VisionSpeedModifier": 1.0,
@@ -276,9 +266,6 @@
         "LightOnVisionDistance": 40.0,
         "VISIBLE_ANG_LIGHT": 30.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 50.0,
-        "GOAL_TO_FULL_DISSAPEAR": 0.25,
-        "GOAL_TO_FULL_DISSAPEAR_GREEN": 0.15,
-        "GOAL_TO_FULL_DISSAPEAR_SHOOT": 0.01,
         "MAX_VISION_GRASS_METERS": 1.0,
         "MAX_VISION_GRASS_METERS_OPT": 1.0,
         "MAX_VISION_GRASS_METERS_FLARE": 4.0,
@@ -311,6 +298,7 @@
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.25,
         "FireratMulti": 1.35,
+        "MaxPointFireDistance": 80.0,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
@@ -361,9 +349,7 @@
         "DELTA_GRENADE_START_TIME": 0.0,
         "BEWARE_TYPE": 3
       },
-      "Hearing": {
-        "MaxFootstepAudioDistance": 150.0
-      },
+      "Hearing": {},
       "Lay": {},
       "Look": {
         "VisionSpeedModifier": 1.0,
@@ -381,9 +367,6 @@
         "LightOnVisionDistance": 40.0,
         "VISIBLE_ANG_LIGHT": 30.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 50.0,
-        "GOAL_TO_FULL_DISSAPEAR": 0.25,
-        "GOAL_TO_FULL_DISSAPEAR_GREEN": 0.15,
-        "GOAL_TO_FULL_DISSAPEAR_SHOOT": 0.01,
         "MAX_VISION_GRASS_METERS": 1.0,
         "MAX_VISION_GRASS_METERS_OPT": 1.0,
         "MAX_VISION_GRASS_METERS_FLARE": 4.0,
@@ -416,6 +399,7 @@
         "RecoilMultiplier": 1.0,
         "BurstMulti": 1.25,
         "FireratMulti": 1.35,
+        "MaxPointFireDistance": 80.0,
         "CAN_STOP_SHOOT_CAUSE_ANIMATOR": true,
         "CHANCE_TO_CHANGE_TO_AUTOMATIC_FIRE_100": 100.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
