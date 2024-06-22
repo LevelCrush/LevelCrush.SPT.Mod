@@ -20,6 +20,7 @@ import ILevelCrushPatch, { LevelCrushPatchTarget } from './patches/patch';
 import HomeScreenMessagePatch from './patches/homescreen_message_patch';
 import ProfilePatch from './patches/profile_patch';
 import PocketPatch from './patches/pocket_patch';
+import { LootPatch } from './patches/loot_patch';
 
 class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadModAsync {
     private readonly mod: string;
@@ -108,7 +109,12 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
         this.lc_core_config = core_config as CustomCoreConfig;
 
         // add the patches
-        this.patches = [new HomeScreenMessagePatch(), new PocketPatch()] as ILevelCrushPatch[];
+        this.patches = [
+            new HomeScreenMessagePatch(),
+            new PocketPatch(),
+            new ProfilePatch(),
+            new LootPatch(),
+        ] as ILevelCrushPatch[];
 
         // let anything that has a patch target of PreAki run now
         this.logger.info(`Total Custom Patches: ${this.patches.length}`);
