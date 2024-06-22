@@ -1,9 +1,9 @@
 {
   "General": {
     "PerformanceMode": true,
-    "GlobalDifficultyModifier": 1.25,
+    "GlobalDifficultyModifier": 1,
     "BotsUseGrenades": true,
-    "HeadShotProtection": false,
+    "HeadShotProtection": true,
     "NotLookingToggle": true,
     "NotLookingTimeLimit": 4.0,
     "NotLookingAngle": 45.0,
