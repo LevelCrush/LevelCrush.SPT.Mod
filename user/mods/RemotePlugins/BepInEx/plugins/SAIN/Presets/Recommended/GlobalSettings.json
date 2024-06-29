@@ -87,7 +87,7 @@
   "Hearing": {
     "MaxFootstepAudioDistance": 70.0,
     "MaxFootstepAudioDistanceNoHeadphones": 50.0,
-    "BaseSoundRange_Looting": 60.0,
+    "BaseSoundRange_Looting": 30.0,
     "BaseSoundRange_MovementTurnSkid": 30.0,
     "BaseSoundRange_GrenadePinDraw": 35.0,
     "BaseSoundRange_Prone": 50.0,
