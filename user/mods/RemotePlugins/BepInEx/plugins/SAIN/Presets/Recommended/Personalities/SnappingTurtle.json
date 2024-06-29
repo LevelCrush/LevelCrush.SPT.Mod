@@ -1,9 +1,7 @@
 {
-  "SAINPersonality": "SnappingTurtle",
   "Name": "SnappingTurtle",
   "Description": "A player who finds the balance between rat and chad, yin and yang. Will rat you out but can spring out at any moment.",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 3.0,
@@ -63,6 +61,7 @@
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 15.0,
+      "TauntChance": 50.0,
       "TauntMaxDistance": 70.0,
       "CanFakeDeathRare": false,
       "FakeDeathChance": 2.0,

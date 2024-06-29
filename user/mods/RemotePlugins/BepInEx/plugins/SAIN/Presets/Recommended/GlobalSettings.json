@@ -1,15 +1,13 @@
 {
   "General": {
-    "GlobalDifficultyModifier": 1.0,
-    "RandomSpeedHacker": false,
-    "PerformanceMode": true,
-    "NewDoorOpening": true,
+    "BotsUseGrenades": true,
+    "NewDoorOpening": false,
     "LimitAIvsAI": true,
     "LimitAIvsAIMaxAudioRange": 125.0,
     "LimitAIvsAIMaxAudioRangeVeryFar": 80.0,
-    "BotsUseGrenades": true
+    "RandomSpeedHacker": false
   },
-  "SAINEnabled": {
+  "VanillaBots": {
     "VanillaScavs": false,
     "VanillaBosses": false,
     "VanillaFollowers": false,
@@ -19,13 +17,13 @@
     "VanillaCultists": false
   },
   "Performance": {
-    "MinJobSize": 2.0,
+    "PerformanceMode": true,
     "SpherecastRadius": 0.025,
     "MaxBotsToCheckVisionPerFrame": 3.0
   },
   "Aiming": {
-    "HeadShotProtection": true,
-    "HeadShotProtectionPMC": true,
+    "AimCenterMassGlobal": true,
+    "AimDownSightsAimTimeMultiplier": 0.8,
     "PoseLevelScatterMulti": 0.8,
     "ProneScatterMulti": 0.7,
     "PartVisScatterMulti": 0.75,
@@ -43,10 +41,11 @@
     "CenterMassVal": 0.3125,
     "AccuracySpreadMultiGlobal": 1.0,
     "FasterCQBReactionsGlobal": true,
-    "PMCSAimForHead": false
+    "PMCSAimForHead": false,
+    "PMCAimForHeadChance": 33.0
   },
   "Cover": {
-    "ShiftCoverMustBeSafe": true,
+    "MaxCoverPathLength": 60.0,
     "ShiftCoverChangeDecisionTime": 6.0,
     "ShiftCoverTimeSinceSeen": 30.0,
     "ShiftCoverTimeSinceEnemyCreated": 30.0,
@@ -74,9 +73,16 @@
     "SillyMode": false
   },
   "Personality": {
-    "AllGigaChads": false,
-    "AllChads": false,
-    "AllRats": false
+    "ForcePersonality": {
+      "Wreckless": false,
+      "GigaChad": false,
+      "Chad": false,
+      "SnappingTurtle": false,
+      "Rat": false,
+      "Coward": false,
+      "Timmy": false,
+      "Normal": false
+    }
   },
   "Hearing": {
     "MaxFootstepAudioDistance": 70.0,
@@ -151,6 +157,12 @@
     "HourDuskStart": 20.0,
     "HourDuskEnd": 22.0
   },
+  "Steering": {
+    "SteerSpeed_MaxAngle": 150.0,
+    "SteerSpeed_MinAngle": 1.0,
+    "SteerSpeed_MaxSpeed": 360.0,
+    "SteerSpeed_MinSpeed": 100.0
+  },
   "LootingBots": {
     "ExtractFromLoot": true,
     "MinLootValPMC": 200000.0,
@@ -167,17 +179,18 @@
     "MaxUnderFireDistance": 2.0
   },
   "Move": {
+    "AimTurnSpeed": 300.0,
+    "BaseTurnSpeed": 240.0,
     "EditSprintSpeed": true,
     "BotSprintNotMovingThreshold": 0.1,
     "BotSprintTryVaultTime": 0.1,
     "BotSprintTryJumpTime": 0.45,
     "BotSprintRecalcTime": 1.0,
     "BotSprintFirstTurnDotThreshold": 0.925,
-    "BotSprintBaseReachDist": 0.15,
+    "BotSprintCornerReachDist": 0.15,
     "BotSprintFinalDestReachDist": 0.5,
-    "BotSprintBufferDist": 0.5,
+    "BotSprintDistanceToStopSprintDestination": 1.0,
     "BotSprintMinDist": 0.25,
-    "BotSprintNextCornerAngleMax": 30.0,
     "BotSprintCurrentCornerAngleMax": 25.0,
     "BotSprintTurnSpeed": 250.0,
     "BotSprintFirstTurnSpeed": 400.0
@@ -191,10 +204,10 @@
   },
   "Shoot": {
     "GlobalScatterMultiplier": 1.0,
-    "GlobalRecoilMultiplier": 1.0,
-    "MaxRecoil": 2.0,
+    "RecoilMultiplier": 1.0,
     "AddRecoil": -1.0,
-    "RecoilDecay": 0.45,
+    "RecoilDecayCoef": 1.0,
+    "RecoilRiseCoef": 8.0,
     "AmmoCaliberShootability": {
       "Caliber9x18PM": 0.225,
       "Caliber9x19PARA": 0.275,
@@ -302,11 +315,11 @@
     "DifficultyScaling": 0.2
   },
   "Talk": {
-    "TalkativeScavs": true,
+    "TalkativeScavs": false,
     "TalkativePMCs": false,
     "TalkativeRaidersRogues": true,
     "TalkativeBosses": true,
-    "TalkativeGoons": false,
+    "TalkativeGoons": true,
     "FriendlyReponseChance": 85.0,
     "FriendlyReponseChanceAI": 80.0,
     "FriendlyReponseDistance": 65.0,
@@ -351,6 +364,23 @@
     "_enemyLocationBehindAngle": 90.0,
     "_enemyLocationSideAngle": 45.0,
     "_enemyLocationFrontAngle": 90.0
+  },
+  "Debug": {
+    "GlobalDebugMode": false,
+    "ForceBotsToRunAround": false,
+    "DebugExternal": false,
+    "DrawDebugGizmos": false,
+    "DrawTransformGizmos": false,
+    "DrawDebugLabels": false,
+    "DebugRecoilCalculations": false,
+    "DebugDrawRecoilGizmos": false,
+    "DebugAimCalculations": false,
+    "DebugDrawAimGizmos": false,
+    "DebugDrawBlindCorner": false,
+    "DebugDrawProjectionPoints": false,
+    "DebugSearchGizmos": false,
+    "DebugHearing": false,
+    "DebugExtract": false
   },
   "PowerCalc": {
     "PMC_POWER": 20.0,

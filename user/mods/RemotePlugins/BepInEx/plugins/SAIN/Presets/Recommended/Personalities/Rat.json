@@ -1,9 +1,7 @@
 {
-  "SAINPersonality": "Rat",
   "Name": "Rat",
   "Description": "Scum of Tarkov. Rarely Seeks out enemies, and will hide and ambush.",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": false,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 3.0,
@@ -63,6 +61,7 @@
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 15.0,
+      "TauntChance": 50.0,
       "TauntMaxDistance": 70.0,
       "CanFakeDeathRare": false,
       "FakeDeathChance": 2.0,

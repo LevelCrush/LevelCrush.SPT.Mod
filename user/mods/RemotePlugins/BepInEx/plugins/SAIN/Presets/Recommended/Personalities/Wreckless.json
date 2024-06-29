@@ -1,9 +1,7 @@
 {
-  "SAINPersonality": "Wreckless",
   "Name": "Wreckless",
   "Description": "Rush B Cyka Blyat. Who care if I die? Gotta get the clip",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 3.0,
@@ -63,6 +61,7 @@
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 15.0,
+      "TauntChance": 50.0,
       "TauntMaxDistance": 70.0,
       "CanFakeDeathRare": false,
       "FakeDeathChance": 2.0,
