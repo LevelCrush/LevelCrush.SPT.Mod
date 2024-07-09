@@ -1,14 +1,9 @@
 import { DependencyContainer } from 'tsyringe';
 
 // SPT types
-import { IPreAkiLoadMod } from '@spt-aki/models/external/IPreAkiLoadMod';
-import { IPostDBLoadMod } from '@spt-aki/models/external/IPostDBLoadMod';
 import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
 import { PreAkiModLoader } from '@spt-aki/loaders/PreAkiModLoader';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
-import { ImageRouter } from '@spt-aki/routers/ImageRouter';
 import { ConfigServer } from '@spt-aki/servers/ConfigServer';
-import { HashUtil } from '@spt-aki/utils/HashUtil';
 import { IPreAkiLoadModAsync } from '@spt-aki/models/external/IPreAkiLoadModAsync';
 import { IPostDBLoadModAsync } from '@spt-aki/models/external/IPostDBLoadModAsync';
 import { ConfigTypes } from '@spt-aki/models/enums/ConfigTypes';
@@ -21,6 +16,15 @@ import HomeScreenMessagePatch from './patches/homescreen_message_patch';
 import ProfilePatch from './patches/profile_patch';
 import PocketPatch from './patches/pocket_patch';
 import { LootPatch } from './patches/loot_patch';
+import BossPatch from './patches/patch_bosses';
+import ItemPatch from './patches/patch_items';
+import RecipePatch from './patches/patch_recipes';
+import RecipeLoaderPatch from './patches/patch_recipe_loader';
+import QOLNoRestrictionsPatch from './patches/patch_qol_norestrictions';
+import QOLMoneyPatch from './patches/patch_qol_money';
+import QOLRecipePatch from './patches/patch_qol_recipes';
+import QuestPatch from './patches/patch_quests';
+import HardcoreZonePatch from './patches/patch_hardcore_zone';
 
 class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadModAsync {
     private readonly mod: string;
@@ -80,6 +84,9 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
             // set any custom options here
             base_config['dev'] = true;
             base_config['home_submessage'] = 'Enjoy your stay in tarkov.';
+            base_config['global_loose_loot_multiplier'] = 1;
+            base_config['global_static_loot_multiplier'] = 1;
+            base_config['modPath'] = this.modPath;
 
             this.logger.info('LC Server Info is creating a custom core.json');
             await fs.promises.writeFile(
@@ -107,6 +114,7 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
         }
 
         this.lc_core_config = core_config as CustomCoreConfig;
+        this.lc_core_config['modPath'] = this.modPath;
 
         // add the patches
         this.patches = [
@@ -114,17 +122,28 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
             new PocketPatch(),
             new ProfilePatch(),
             new LootPatch(),
+            new ItemPatch(),
+            new BossPatch(),
+            new RecipePatch(),
+            new QuestPatch(),
+            new RecipeLoaderPatch(),
+            new QOLNoRestrictionsPatch(),
+            new QOLMoneyPatch(),
+            new QOLRecipePatch(),
+            new HardcoreZonePatch(),
         ] as ILevelCrushPatch[];
 
         // let anything that has a patch target of PreAki run now
         this.logger.info(`Total Custom Patches: ${this.patches.length}`);
+        let patch_types_allowed = [LevelCrushPatchTarget.PreAkiAndPostDB, LevelCrushPatchTarget.PreAki];
         for (let i = 0; i < this.patches.length; i++) {
-            if (this.patches[i].patch_target() === LevelCrushPatchTarget.PreAki) {
+            if (patch_types_allowed.includes(this.patches[i].patch_target())) {
                 this.logger.debug(`Executing ${this.patches[i].patch_name()} inside PreAki`);
-                this.patch_results[this.patches[i].patch_name()] = this.patches[i].patch_run(
+                this.patch_results[this.patches[i].patch_name()] = await this.patches[i].patch_run(
                     this.lc_core_config,
                     container,
                     this.logger,
+                    LevelCrushPatchTarget.PreAki,
                 );
                 this.logger.debug(`Finished ${this.patches[i].patch_name()} inside  PreAki`);
             }
@@ -141,13 +160,15 @@ class LevelCrushServerInformation implements IPreAkiLoadModAsync, IPostDBLoadMod
         this.logger.debug(`[${this.mod}] postDb Loading... `);
 
         // let anything that has a patch target of PreAki run now
+        let patch_types_allowed = [LevelCrushPatchTarget.PreAkiAndPostDB, LevelCrushPatchTarget.PostDB];
         for (let i = 0; i < this.patches.length; i++) {
-            if (this.patches[i].patch_target() === LevelCrushPatchTarget.PostDB) {
+            if (patch_types_allowed.includes(this.patches[i].patch_target())) {
                 this.logger.debug(`Executing ${this.patches[i].patch_name()} inside PostDB`);
-                this.patch_results[this.patches[i].patch_name()] = this.patches[i].patch_run(
+                this.patch_results[this.patches[i].patch_name()] = await this.patches[i].patch_run(
                     this.lc_core_config,
                     container,
                     this.logger,
+                    LevelCrushPatchTarget.PostDB,
                 );
                 this.logger.debug(`Finished ${this.patches[i].patch_name()} inside PostDB`);
             }

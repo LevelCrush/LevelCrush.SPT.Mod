@@ -1,1 +1,2 @@
-export interface IEmptyRequestData {}
+export interface IEmptyRequestData {
+}

@@ -1,0 +1,158 @@
+{
+    "experience": {
+        "aggressorBonus": 0.05,
+        "reward": {
+            "max": 7000,
+            "min": 5000
+        }
+    },
+    "chances": {
+        "equipment": {
+            "ArmorVest": 0,
+            "TacticalVest": 100
+        }
+    },
+    "health": {
+        "BodyParts": [
+            {
+                "Chest": {
+                    "max": 2000,
+                    "min": 2000
+                },
+                "Head": {
+                    "max": 2000,
+                    "min": 2000
+                },
+                "LeftArm": {
+                    "max": 1000,
+                    "min": 1000
+                },
+                "LeftLeg": {
+                    "max": 1000,
+                    "min": 1000
+                },
+                "RightArm": {
+                    "max": 1000,
+                    "min": 1000
+                },
+                "RightLeg": {
+                    "max": 1000,
+                    "min": 1000
+                },
+                "Stomach": {
+                    "max": 2000,
+                    "min": 2000
+                }
+            }
+        ]
+    },
+    "generation": {
+        "items": {
+            "specialItems": {
+                "weights": {
+                    "0": 1,
+                    "1": 4,
+                    "2": 7,
+                    "3": 3,
+                    "4": 2
+                }
+            },
+            "vestLoot": {
+                "weights": {
+                    "0": 5,
+                    "1": 7,
+                    "2": 10,
+                    "3": 25,
+                    "4": 15
+                },
+                "whitelist": []
+            }
+        }
+    },
+    "inventory": {
+        "Ammo": {
+            "Caliber545x39": "{{unset}}",
+            "Caliber762x39": "{{unset}}",
+            "Caliber762x54R": {
+                "560d61e84bdc2da74d8b4571": 50000
+            }
+        },
+        "equipment": {
+            "FirstPrimaryWeapon": {
+                "59984ab886f7743e98271174": "{{unset}}",
+                "59ff346386f77477562ff5e2": "{{unset}}",
+                "5beed0f50db834001c062b12": "{{unset}}",
+                "64ca3d3954fc657e230529cc": 1000
+            },
+            "Headwear": {
+                "5c0e874186f7745dc7616606": 1743,
+                "65709d2d21b9f815e208ff95": "{{unset}}"
+            },
+            "TacticalVest": {
+                "5c0e9f2c86f77432297fe0a3": "{{unset}}",
+                "5ca20abf86f77418567a43f2": "{{unset}}",
+                "gear_juggernaut19_armor_full_PETTAN": 1000
+            }
+        },
+        "items": {
+            "TacticalVest": {
+                "544fb45d4bdc2dee738b4568": 1762,
+                "55d482194bdc2d1d4e8b456b": 3721,
+                "5780cf7f2459777de4559322": 2000,
+                "5d80c60f86f77440373c4ece": 5000,
+                "5ede7a8229445733cb4c18e2": 3500,
+                "63a3a93f8a56922e82001f5d": 8000,
+                "64ccc25f95763a1ae376e447": 3700,
+                "599860ac86f77436b225ed1a": "{{unset}}",
+                "5a01c29586f77474660c694c": "{{unset}}",
+                "5a2a57cfc4a2826c6e06d44a": "{{unset}}"
+            },
+            "SpecialLoot": {
+                "5780cf7f2459777de4559322": 1,
+                "5d80c60f86f77440373c4ece": 1,
+                "5ede7a8229445733cb4c18e2": 1,
+                "63a3a93f8a56922e82001f5d": 1,
+                "64ccc25f95763a1ae376e447": 1
+            }
+        },
+        "mods": {
+            "64ca3d3954fc657e230529cc": {
+                "mod_barrel": ["64639a9aab86f8fd4300146c"],
+                "mod_bipod": ["6464d870bb2c580352070cc4"],
+                "mod_handguard": ["6491c6f6ef312a876705191b"],
+                "mod_magazine": ["646372518610c40fc20204e8"],
+                "mod_pistolgrip": ["64cbad529f7cf7f75c077fd5"],
+                "mod_scope": [
+                    "5947db3f86f77447880cf76f",
+                    "591ee00d86f774592f7b841e",
+                    "638db77630c4240f9e06f8b6",
+                    "5cf638cbd7f00c06595bc936",
+                    "6113d6c3290d254f5e6b27db",
+                    "618a75c9a3884f56c957ca1b"
+                ],
+                "mod_sight_rear": ["6492fb8253acae0af00a29b6"],
+                "mod_stock": ["6492d7847363b8a52206bc52", "6492e3a97df7d749100e29ee"]
+            },
+            "gear_juggernaut19_armor_full_PETTAN": {
+                "Back_plate": ["65573fa5655447403702a816"],
+                "Collar": ["MFAC_level6_soft_armor_collar"],
+                "Front_plate": ["65573fa5655447403702a816"],
+                "Groin": ["MFAC_level6_soft_armor_groin_front"],
+                "groin_back": ["MFAC_level6_soft_armor_groin_back"],
+                "Soft_armor_back": ["MFAC_level6_soft_armor_back"],
+                "Soft_armor_front": ["MFAC_level6_soft_armor_front"],
+                "Soft_armor_left": ["MFAC_level6_soft_armor_left_side"],
+                "soft_armor_left_arm": ["MFAC_level6_soft_armor_left_arm"],
+                "soft_armor_left_forearm": ["MFAC_level6_soft_armor_left_forearm"],
+                "soft_armor_right_forearm": ["MFAC_level6_soft_armor_right_forearm"],
+                "soft_armor_right": ["MFAC_level6_soft_armor_right_side"],
+                "soft_armor_right_arm": ["MFAC_level6_soft_armor_right_arm"],
+                "soft_armor_left_calf": ["MFAC_level6_soft_armor_left_calf"],
+                "soft_armor_right_calf": ["MFAC_level6_soft_armor_right_calf"],
+                "soft_armor_left_thigh": ["MFAC_level6_soft_armor_left_thigh"],
+                "soft_armor_right_thigh": ["MFAC_level6_soft_armor_right_thigh"]
+            },
+            "5c0e541586f7747fa54205c9": "{{unset}}"
+        }
+    }
+}

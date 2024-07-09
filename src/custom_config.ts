@@ -5,6 +5,7 @@ export interface CustomCoreConfig extends ICoreConfig {
     home_submessage: string;
     global_loose_loot_multiplier?: number;
     global_static_loot_multiplier?: number;
+    modPath: string;
 }
 
 export default CustomCoreConfig;

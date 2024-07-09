@@ -5,10 +5,16 @@ import CustomCoreConfig from '../custom_config';
 export enum LevelCrushPatchTarget {
     PreAki,
     PostDB,
+    PreAkiAndPostDB,
 }
 
 export default interface ILevelCrushPatch {
     patch_name: () => string;
     patch_target: () => LevelCrushPatchTarget;
-    patch_run: (config: CustomCoreConfig, container: DependencyContainer, logger: ILogger) => Promise<any>;
+    patch_run: (
+        config: CustomCoreConfig,
+        container: DependencyContainer,
+        logger: ILogger,
+        patch_target?: LevelCrushPatchTarget,
+    ) => Promise<any>;
 }

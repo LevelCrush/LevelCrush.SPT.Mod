@@ -1,6 +1,6 @@
 {
     "name": "LevelCrush",
-    "version": "1.6.8",
+    "version": "1.20.0",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "Primal-13",

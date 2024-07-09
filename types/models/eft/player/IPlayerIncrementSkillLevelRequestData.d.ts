@@ -1,19 +1,21 @@
 import { Skills } from "@spt-aki/models/eft/common/tables/IBotBase";
 export interface IPlayerIncrementSkillLevelRequestData {
-  _id: string;
-  experience: number;
-  quests: any[];
-  ragFairOffers: any[];
-  builds: any[];
-  items: Items;
-  production: Production;
-  skills: Skills;
-  traderRelations: TraderRelations;
+    _id: string;
+    experience: number;
+    quests: any[];
+    ragFairOffers: any[];
+    builds: any[];
+    items: Items;
+    production: Production;
+    skills: Skills;
+    traderRelations: TraderRelations;
 }
 export interface Items {
-  new: any[];
-  change: any[];
-  del: any[];
+    new: any[];
+    change: any[];
+    del: any[];
 }
-export interface Production {}
-export interface TraderRelations {}
+export interface Production {
+}
+export interface TraderRelations {
+}
