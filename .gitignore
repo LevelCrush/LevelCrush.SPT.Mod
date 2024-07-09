@@ -1,3 +1,7 @@
+node_modules/
+/node_modules
+.pnpm-lock.yaml
+node_modules/*
 /user/profiles/*
 /user/logs/*
 /user/cache/*
