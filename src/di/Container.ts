@@ -17,13 +17,13 @@ export class Container {
 
         Container.registerHelpers(container);
 
-        // Container.registerControllers(container);
+        Container.registerControllers(container);
 
-        // Container.registerCallbacks(container);
+        Container.registerCallbacks(container);
 
-        //Container.registerRouters(container);
+        Container.registerRouters(container);
 
-        // Container.registerListTypes(container);
+        Container.registerListTypes(container);
 
         container.register<LevelCrush>("LevelCrush", LevelCrush, {lifecycle: Lifecycle.Singleton});
     }
