@@ -6,7 +6,8 @@ import path from 'path';
 import fs from 'fs';
 import * as utils from '../utils';
 import { ITemplateItem } from '@spt/models/eft/common/tables/ITemplateItem';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
+import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
 
 export class ItemPatch implements ILevelCrushPatch {
     public patch_name(): string {

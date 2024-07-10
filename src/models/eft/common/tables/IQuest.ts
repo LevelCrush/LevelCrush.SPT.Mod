@@ -9,7 +9,5 @@ export interface IQuest extends BaseQuest {
 }
 
 export interface IQuestLevelCrush extends IQuest {
-    levelcrush: LevelCrushQuestConfig
+    levelcrush: LevelCrushQuestConfig;
 }
-
-export default IQuest;

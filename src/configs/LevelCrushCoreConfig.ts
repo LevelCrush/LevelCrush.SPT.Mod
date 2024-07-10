@@ -1,6 +1,6 @@
 import path from 'node:path';
 import { inject, injectable } from 'tsyringe';
-import ILevelCrushCoreConfig from '../models/levelcrush/ILevelCrushCoreConfig';
+import { ILevelCrushCoreConfig } from '../models/levelcrush/ILevelCrushCoreConfig';
 import { PreSptModLoader } from '@spt/loaders/PreSptModLoader';
 import { VFS } from '@spt/utils/VFS';
 import { JsonUtil } from '@spt/utils/JsonUtil';
@@ -57,5 +57,3 @@ export class LevelCrushCoreConfig {
         return this.modPath;
     }
 }
-
-export default LevelCrushCoreConfig;

@@ -6,7 +6,8 @@ import path from 'path';
 import fs from 'fs';
 import * as utils from '../utils';
 import { IBotType } from '@spt/models/eft/common/tables/IBotType';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
+import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
 
 type BotMap = { [bossid: string]: Partial<IBotType> };
 

@@ -1,8 +1,8 @@
 import { inject, injectable } from 'tsyringe';
 import { VFS } from '@spt/utils/VFS';
 import { JsonUtil } from '@spt/utils/JsonUtil';
-import ILevelCrushMultiplierConfig from '../models/levelcrush/ILevelCrushMultiplierConfig';
-import LevelCrushCoreConfig from './LevelCrushCoreConfig';
+import { ILevelCrushMultiplierConfig } from '../models/levelcrush/ILevelCrushMultiplierConfig';
+import { LevelCrushCoreConfig } from './LevelCrushCoreConfig';
 import path from 'node:path';
 
 @injectable()
@@ -20,11 +20,11 @@ export class LevelCrushMultiplierConfig {
         );
     }
 
-    public getConfig() {
+    public getConfig(): ILevelCrushMultiplierConfig {
         return this.config;
     }
 
-    public getCrafting() {
+    public getCrafting(): ILevelCrushMultiplierConfig['crafting'] {
         return this.config.crafting;
     }
 

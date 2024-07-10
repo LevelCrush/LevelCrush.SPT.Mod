@@ -5,7 +5,7 @@ import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import { ConfigServer } from '@spt/servers/ConfigServer';
 import { ConfigTypes } from '@spt/models/enums/ConfigTypes';
 import { ILocationConfig } from '@spt/models/spt/config/ILocationConfig';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
 import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
 
 export class LootPatch implements ILevelCrushPatch {

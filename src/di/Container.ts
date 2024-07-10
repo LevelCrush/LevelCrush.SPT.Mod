@@ -1,12 +1,11 @@
-/* Saw Fika setup like this and I thought it was a good idea */
 import { DependencyContainer, Lifecycle } from 'tsyringe';
 import { LevelCrush } from '../LevelCrush';
 import { LevelCrushHardcoreRouter } from '../routers/LevelCrushHardcoreRouter';
 import { LevelCrushHardcoreCallbacks } from '../callbacks/LevelCrushHardcoreCallbacks';
 import { LevelCrushHardcoreController } from '../controllers/LevelCrushHardcoreController';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
 import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
-
+/* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
     public static register(container: DependencyContainer): void {
         Container.registerUtils(container);
@@ -17,13 +16,13 @@ export class Container {
 
         Container.registerHelpers(container);
 
-        Container.registerControllers(container);
+        // Container.registerControllers(container);
 
-        Container.registerCallbacks(container);
+        // Container.registerCallbacks(container);
 
-        Container.registerRouters(container);
+        //Container.registerRouters(container);
 
-        Container.registerListTypes(container);
+        // Container.registerListTypes(container);
 
         container.register<LevelCrush>('LevelCrush', LevelCrush, { lifecycle: Lifecycle.Singleton });
     }
@@ -33,9 +32,11 @@ export class Container {
             lifecycle: Lifecycle.Singleton,
         });
 
-        container.register<LevelCrushMultiplierConfig>('LevelCrushMultipliersConfig', LevelCrushMultiplierConfig, {
+        container.register<LevelCrushMultiplierConfig>('LevelCrushMultiplierConfig', LevelCrushMultiplierConfig, {
             lifecycle: Lifecycle.Singleton,
         });
+
+        console.log('Done registering utils and configs');
     }
 
     private static registerOverrides(container: DependencyContainer): void {
@@ -74,5 +75,3 @@ export class Container {
         container.registerType('StaticRoutes', 'LevelCrushHardcoreRouter');
     }
 }
-
-export default Container;

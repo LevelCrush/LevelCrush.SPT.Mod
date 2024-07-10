@@ -10,5 +10,3 @@ export interface ILevelCrushMultiplierConfig {
         };
     };
 }
-
-export default ILevelCrushMultiplierConfig;

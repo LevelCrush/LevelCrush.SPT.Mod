@@ -1,11 +1,10 @@
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import CustomCoreConfig from '../custom_config';
 import { DependencyContainer } from 'tsyringe';
 import { ILogger } from '@spt/models/spt/utils/ILogger';
 import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import * as path from 'path';
 import fs from 'fs';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
 import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
 
 interface ConfigMultiplier {

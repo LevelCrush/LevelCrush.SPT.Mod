@@ -6,7 +6,8 @@ import * as path from 'path';
 import fs from 'fs';
 import * as utils from '../utils';
 import { IQuest } from '@spt/models/eft/common/tables/IQuest';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
+import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
 
 type QuestMap = { [quest_id: string]: Partial<IQuest> };
 

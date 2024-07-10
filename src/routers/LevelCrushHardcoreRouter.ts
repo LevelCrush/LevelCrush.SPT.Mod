@@ -1,8 +1,9 @@
 import { RouteAction, StaticRouter } from '@spt/di/Router';
 import { LevelCrushHardcoreCallbacks } from '../callbacks/LevelCrushHardcoreCallbacks';
-import { inject } from 'tsyringe';
+import { inject, injectable } from 'tsyringe';
 import { ISaveProgressRequestData } from '@spt/models/eft/inRaid/ISaveProgressRequestData';
 
+@injectable()
 export class LevelCrushHardcoreRouter extends StaticRouter {
     constructor(@inject('LevelCrushHardcoreCallbacks') protected lcHardcoreCallbacks: LevelCrushHardcoreCallbacks) {
         super([

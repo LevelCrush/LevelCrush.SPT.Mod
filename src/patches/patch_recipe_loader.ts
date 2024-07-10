@@ -5,7 +5,8 @@ import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import path from 'path';
 import fs from 'fs';
 import { IHideoutProduction } from '@spt/models/eft/hideout/IHideoutProduction';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
+import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
 
 export class RecipeLoaderPatch implements ILevelCrushPatch {
     public patch_name(): string {

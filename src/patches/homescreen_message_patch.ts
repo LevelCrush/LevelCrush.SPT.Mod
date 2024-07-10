@@ -5,8 +5,7 @@ import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import { ConfigServer } from '@spt/servers/ConfigServer';
 import { ICoreConfig } from '@spt/models/spt/config/ICoreConfig';
 import { ConfigTypes } from '@spt/models/enums/ConfigTypes';
-import CustomCoreConfig from '../custom_config';
-import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
 
 const LOCALE_ATTENTION_ID = 'Attention! This is a Beta version of Escape from Tarkov for testing purposes.';
 const LOCALE_NDA_ID = 'NDA free warning';

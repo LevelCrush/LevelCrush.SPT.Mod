@@ -1,8 +1,9 @@
 import { HttpResponseUtil } from '@spt/utils/HttpResponseUtil';
 import { LevelCrushHardcoreController } from '../controllers/LevelCrushHardcoreController';
-import { inject } from 'tsyringe';
+import { inject, injectable } from 'tsyringe';
 import { ISaveProgressRequestData } from '@spt/models/eft/inRaid/ISaveProgressRequestData';
 
+@injectable()
 export class LevelCrushHardcoreCallbacks {
     constructor(
         @inject('HttpResponseUtil') protected httpResponseUtil: HttpResponseUtil,

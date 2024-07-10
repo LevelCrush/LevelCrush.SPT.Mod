@@ -1,9 +1,12 @@
-import { DependencyContainer, injectable } from 'tsyringe';
-import ILevelCrushPatch, { LevelCrushPatchTarget } from './patches/patch';
-import LevelCrushCoreConfig from './configs/LevelCrushCoreConfig';
+import { DependencyContainer, inject, injectable } from 'tsyringe';
+import { LevelCrushPatchTarget, ILevelCrushPatch } from './patches/patch';
+import { LevelCrushCoreConfig } from './configs/LevelCrushCoreConfig';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
+import { LevelCrushMultiplierConfig } from './configs/LevelCrushMultiplierConfig';
+
+/*
 import { ConfigServer } from '@spt/servers/ConfigServer';
 import HomeScreenMessagePatch from './patches/homescreen_message_patch';
-import { ILogger } from '@spt/models/spt/utils/ILogger';
 import ProfilePatch from './patches/profile_patch';
 import PocketPatch from './patches/pocket_patch';
 import QOLMoneyPatch from './patches/patch_qol_money';
@@ -14,7 +17,7 @@ import RecipeLoaderPatch from './patches/patch_recipe_loader';
 import QuestPatch from './patches/patch_quests';
 import BossPatch from './patches/patch_bosses';
 import QOLNoRestrictionsPatch from './patches/patch_qol_norestrictions';
-import QOLRecipePatch from './patches/patch_qol_recipes';
+import QOLRecipePatch from './patches/patch_qol_recipes'; */
 
 @injectable()
 export class LevelCrush {
@@ -22,11 +25,16 @@ export class LevelCrush {
     private patch_results: Record<string, any>;
     private logger: ILogger;
 
+    constructor(
+        @inject('LevelCrushCoreConfig') protected lcConfig: LevelCrushCoreConfig,
+        @inject('LevelCrushMultiplierConfig') protected lcMultipliers: LevelCrushMultiplierConfig,
+    ) {}
+
     public async preSptLoad(container: DependencyContainer): Promise<void> {
         // pre spt load
 
         this.patches = [
-            new HomeScreenMessagePatch(),
+            /*    new HomeScreenMessagePatch(),
             new ProfilePatch(),
             new PocketPatch(),
             new QOLMoneyPatch(),
@@ -37,7 +45,7 @@ export class LevelCrush {
             new QOLRecipePatch(),
             new QuestPatch(),
             new BossPatch(),
-            new QOLNoRestrictionsPatch(),
+            new QOLNoRestrictionsPatch(), */
         ];
         this.logger = container.resolve<ILogger>('WinstonLogger');
 
