@@ -1,12 +1,11 @@
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import CustomCoreConfig from '../custom_config';
 import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
-import { ConfigServer } from '@spt-aki/servers/ConfigServer';
-import { IRagfairConfig } from '@spt-aki/models/spt/config/IRagfairConfig';
-import { ConfigTypes } from '@spt-aki/models/enums/ConfigTypes';
-import { IDatabaseTables } from '@spt-aki/models/spt/server/IDatabaseTables';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
+import { DatabaseServer } from '@spt/servers/DatabaseServer';
+import { ConfigServer } from '@spt/servers/ConfigServer';
+import { IRagfairConfig } from '@spt/models/spt/config/IRagfairConfig';
+import { ConfigTypes } from '@spt/models/enums/ConfigTypes';
+import { IDatabaseTables } from '@spt/models/spt/server/IDatabaseTables';
 
 export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
     public patch_name(): string {
@@ -14,10 +13,10 @@ export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
     }
 
     public patch_target(): LevelCrushPatchTarget {
-        return LevelCrushPatchTarget.PreAkiAndPostDB;
+        return LevelCrushPatchTarget.PreSptLoadModAndPostDB;
     }
 
-    public async patch_preaki(lcConfig: CustomCoreConfig, container: DependencyContainer, logger: ILogger) {
+    public async patch_preaki(container: DependencyContainer, logger: ILogger) {
         // Get SPT code/data we need later
         const configServer = container.resolve<ConfigServer>('ConfigServer');
         const ragfairConfig = configServer.getConfig<IRagfairConfig>(ConfigTypes.RAGFAIR);
@@ -35,7 +34,7 @@ export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
         ragfairConfig.dynamic.blacklist.armorPlate.maxProtectionLevel = 99;
     }
 
-    public async patch_postdb(lcConfig: CustomCoreConfig, container: DependencyContainer, logger: ILogger) {
+    public async patch_postdb(container: DependencyContainer, logger: ILogger) {
         // Resolve SPT classes we'll use
         const databaseServer: DatabaseServer = container.resolve<DatabaseServer>('DatabaseServer');
         const configServer = container.resolve<ConfigServer>('ConfigServer');
@@ -67,7 +66,6 @@ export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
     }
 
     public async patch_run(
-        lcConfig: CustomCoreConfig,
         container: DependencyContainer,
         logger: ILogger,
         target: LevelCrushPatchTarget,
@@ -76,11 +74,11 @@ export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
         const tables = database.getTables();
 
         switch (target) {
-            case LevelCrushPatchTarget.PreAki:
-                await this.patch_preaki(lcConfig, container, logger);
+            case LevelCrushPatchTarget.PreSptLoadMod:
+                await this.patch_preaki(container, logger);
                 break;
             case LevelCrushPatchTarget.PostDB:
-                await this.patch_postdb(lcConfig, container, logger);
+                await this.patch_postdb(container, logger);
                 break;
             default:
                 logger.info('Unsupported method');

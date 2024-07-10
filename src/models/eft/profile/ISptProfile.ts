@@ -1,4 +1,4 @@
-import { Info as BaseInfo, IAkiProfile as BaseProfile } from '@spt-aki/models/eft/profile/IAkiProfile';
+import { Info as BaseInfo, ISptProfile as BaseProfile } from '@spt/models/eft/profile/ISptProfile';
 
 export const ZONE_HARDCORE = 'hardcore';
 export const ZONE_PVP = 'pvp';
@@ -14,10 +14,10 @@ export interface LevelCrushData {
     attempts: number;
 }
 
-export interface IAkiProfile extends BaseProfile {
+export interface ISptProfile extends BaseProfile {
     levelcrush?: LevelCrushData;
 }
 
-export interface IAkiLevelCrushProfile extends IAkiProfile {
+export interface ISptLevelCrushProfile extends ISptProfile {
     levelcrush: LevelCrushData;
 }

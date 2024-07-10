@@ -1,5 +1,5 @@
-import { SaveServer } from '@spt-aki/servers/SaveServer';
-import { IAkiLevelCrushProfile, IAkiProfile } from './models/eft/profile/IAkiProfile';
+import { SaveServer } from '@spt/servers/SaveServer';
+import { ISptLevelCrushProfile, ISptProfile } from './models/eft/profile/ISptProfile';
 
 export function merge_objs(source: Record<string, any>, new_input: Record<string, any>) {
     // use new input as the merge source to make sure new keys are being placed in
@@ -21,7 +21,7 @@ export function merge_objs(source: Record<string, any>, new_input: Record<string
             //  this.logger.info(`${prop} is array`);
             source[prop] = new_input[prop];
         } else if (typeof current_v === 'object') {
-           // this.logger.info(`${prop} is an object and needs a merge`);
+            // this.logger.info(`${prop} is an object and needs a merge`);
             // we need to merge these objects
             // since the two properties should be the same between the two overrides we can  assume
             // that it exist and is the same type. if not, weird things will happen
@@ -36,8 +36,8 @@ export function merge_objs(source: Record<string, any>, new_input: Record<string
     }
 }
 
-export function getLevelCrushProfile(sessionID: string, save_server: SaveServer): IAkiLevelCrushProfile {
-    const serverProfile = save_server.getProfile(sessionID) as IAkiProfile;
+export function getLevelCrushProfile(sessionID: string, save_server: SaveServer): ISptLevelCrushProfile {
+    const serverProfile = save_server.getProfile(sessionID) as ISptProfile;
     // initialize levelcrush fields if neccessary to default
     if (typeof serverProfile['levelcrush'] === 'undefined') {
         serverProfile['levelcrush'] = {
@@ -46,5 +46,5 @@ export function getLevelCrushProfile(sessionID: string, save_server: SaveServer)
             discord: '',
         };
     }
-    return serverProfile as IAkiLevelCrushProfile;
+    return serverProfile as ISptLevelCrushProfile;
 }

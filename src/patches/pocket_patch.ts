@@ -1,9 +1,8 @@
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import CustomCoreConfig from '../custom_config';
 import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
-import { IDatabaseTables } from '@spt-aki/models/spt/server/IDatabaseTables';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
+import { DatabaseServer } from '@spt/servers/DatabaseServer';
+import { IDatabaseTables } from '@spt/models/spt/server/IDatabaseTables';
 
 export class PocketPatch implements ILevelCrushPatch {
     public patch_name(): string {
@@ -20,7 +19,7 @@ export class PocketPatch implements ILevelCrushPatch {
      * @param container
      * @param logger
      */
-    public async patch_run(lcConfig: CustomCoreConfig, container: DependencyContainer, logger: ILogger) {
+    public async patch_run(container: DependencyContainer, logger: ILogger) {
         // Run patch logic here
 
         const database = container.resolve<DatabaseServer>('DatabaseServer');

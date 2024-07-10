@@ -1,12 +1,12 @@
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import CustomCoreConfig from '../custom_config';
 import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
+import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import path from 'path';
 import fs from 'fs';
 import * as utils from '../utils';
-import { ITemplateItem } from '@spt-aki/models/eft/common/tables/ITemplateItem';
+import { ITemplateItem } from '@spt/models/eft/common/tables/ITemplateItem';
+import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
 
 export class ItemPatch implements ILevelCrushPatch {
     public patch_name(): string {
@@ -17,14 +17,15 @@ export class ItemPatch implements ILevelCrushPatch {
         return LevelCrushPatchTarget.PostDB;
     }
 
-    public async patch_run(lcConfig: CustomCoreConfig, container: DependencyContainer, logger: ILogger): Promise<void> {
+    public async patch_run(container: DependencyContainer, logger: ILogger): Promise<void> {
         const database = container.resolve<DatabaseServer>('DatabaseServer');
         const tables = database.getTables();
+        const lcConfig = container.resolve<LevelCrushCoreConfig>('LevelCrushCoreConfig');
 
         // scan
-        const files = await fs.promises.readdir(path.join(lcConfig.modPath, 'db', 'items'));
+        const files = await fs.promises.readdir(path.join(lcConfig.getModPath(), 'db', 'items'));
         for (const entry of files) {
-            const filepath = path.join(lcConfig.modPath, 'db', "items", entry);
+            const filepath = path.join(lcConfig.getModPath(), 'db', 'items', entry);
             logger.info(`Found Item Patch at: ${filepath}`);
             const is_json = entry.endsWith('.json');
             if (is_json) {
@@ -33,7 +34,7 @@ export class ItemPatch implements ILevelCrushPatch {
                 const templates = JSON.parse(raw) as Record<string, Partial<ITemplateItem>>[];
                 for (const template_id in templates) {
                     const template = templates[template_id];
-                    logger.info(`Checkking for item template ${template_id}`);
+                    logger.info(`Checking for item template ${template_id}`);
                     if (typeof tables.templates.items[template_id] === 'undefined') {
                         // skip
                         continue;

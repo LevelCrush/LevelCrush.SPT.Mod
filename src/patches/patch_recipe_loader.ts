@@ -1,11 +1,11 @@
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import CustomCoreConfig from '../custom_config';
 import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
+import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import path from 'path';
 import fs from 'fs';
-import { IHideoutProduction } from '@spt-aki/models/eft/hideout/IHideoutProduction';
+import { IHideoutProduction } from '@spt/models/eft/hideout/IHideoutProduction';
+import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
 
 export class RecipeLoaderPatch implements ILevelCrushPatch {
     public patch_name(): string {
@@ -16,10 +16,10 @@ export class RecipeLoaderPatch implements ILevelCrushPatch {
         return LevelCrushPatchTarget.PostDB;
     }
 
-    public async patch_run(lcConfig: CustomCoreConfig, container: DependencyContainer, logger: ILogger): Promise<void> {
+    public async patch_run(container: DependencyContainer, logger: ILogger): Promise<void> {
         const database = container.resolve<DatabaseServer>('DatabaseServer');
         const tables = database.getTables();
-
+        const lcConfig = container.resolve<LevelCrushCoreConfig>('LevelCrushCoreConfig');
         const recipes_to_add = [] as IHideoutProduction[];
         if (tables.hideout && tables.hideout.production) {
             // scan for recipes

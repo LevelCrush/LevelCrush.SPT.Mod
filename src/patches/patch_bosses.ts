@@ -1,12 +1,12 @@
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import CustomCoreConfig from '../custom_config';
 import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
+import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import path from 'path';
 import fs from 'fs';
 import * as utils from '../utils';
-import { IBotType } from '@spt-aki/models/eft/common/tables/IBotType';
+import { IBotType } from '@spt/models/eft/common/tables/IBotType';
+import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
 
 type BotMap = { [bossid: string]: Partial<IBotType> };
 
@@ -19,12 +19,13 @@ export class BossPatch implements ILevelCrushPatch {
         return LevelCrushPatchTarget.PostDB;
     }
 
-    public async patch_run(lcConfig: CustomCoreConfig, container: DependencyContainer, logger: ILogger): Promise<void> {
+    public async patch_run(container: DependencyContainer, logger: ILogger): Promise<void> {
         const database = container.resolve<DatabaseServer>('DatabaseServer');
         const tables = database.getTables();
+        const lcConfig = container.resolve<LevelCrushCoreConfig>('LevelCrushCoreConfig');
 
         if (tables.templates && tables.templates.quests) {
-            const db_path = path.join(lcConfig.modPath, 'db', 'bosses');
+            const db_path = path.join(lcConfig.getModPath(), 'db', 'bosses');
             const files = fs.readdirSync(db_path, {
                 encoding: 'utf-8',
             });

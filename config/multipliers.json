@@ -1,0 +1,12 @@
+{
+    "crafting": {
+        "time": 0.15,
+        "amount": 1
+    },
+    "loot": {
+        "global": {
+            "loose": 3,
+            "static": 3
+        }
+    }
+}

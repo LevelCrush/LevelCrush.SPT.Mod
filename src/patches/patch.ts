@@ -1,20 +1,15 @@
 import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
 import CustomCoreConfig from '../custom_config';
 
 export enum LevelCrushPatchTarget {
-    PreAki,
+    PreSptLoadMod,
     PostDB,
-    PreAkiAndPostDB,
+    PreSptLoadModAndPostDB,
 }
 
 export default interface ILevelCrushPatch {
     patch_name: () => string;
     patch_target: () => LevelCrushPatchTarget;
-    patch_run: (
-        config: CustomCoreConfig,
-        container: DependencyContainer,
-        logger: ILogger,
-        patch_target?: LevelCrushPatchTarget,
-    ) => Promise<any>;
+    patch_run: (container: DependencyContainer, logger: ILogger, patch_target?: LevelCrushPatchTarget) => Promise<any>;
 }

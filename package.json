@@ -1,12 +1,12 @@
 {
-    "name": "LevelCrush",
+    "name": "LevelCrush-SPT-Mod",
     "version": "1.20.0",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "Primal-13",
-    "akiVersion": "~3.9.x",
+    "sptVersion": "3.9.0",
     "loadBefore": [],
-    "loadAfter": ["Fika-Server"],
+    "loadAfter": [],
     "incompatibilities": [],
     "contributors": [],
     "scripts": {

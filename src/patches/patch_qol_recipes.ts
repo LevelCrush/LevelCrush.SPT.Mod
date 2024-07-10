@@ -1,10 +1,12 @@
 import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
 import CustomCoreConfig from '../custom_config';
 import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt-aki/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt-aki/servers/DatabaseServer';
+import { ILogger } from '@spt/models/spt/utils/ILogger';
+import { DatabaseServer } from '@spt/servers/DatabaseServer';
 import * as path from 'path';
 import fs from 'fs';
+import LevelCrushCoreConfig from '../configs/LevelCrushCoreConfig';
+import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
 
 interface ConfigMultiplier {
     crafting_time: number;
@@ -24,9 +26,11 @@ export class QOLRecipePatch implements ILevelCrushPatch {
         return LevelCrushPatchTarget.PostDB;
     }
 
-    public async patch_run(lcConfig: CustomCoreConfig, container: DependencyContainer, logger: ILogger): Promise<void> {
+    public async patch_run(container: DependencyContainer, logger: ILogger): Promise<void> {
         const database = container.resolve<DatabaseServer>('DatabaseServer');
         const tables = database.getTables();
+        const lcMultipliers = container.resolve<LevelCrushMultiplierConfig>('LevelCrushMultiplierConfig');
+        const multipliers = lcMultipliers.getCrafting();
 
         // set a minimum time
         // at a glance this does not seem needed
@@ -36,18 +40,12 @@ export class QOLRecipePatch implements ILevelCrushPatch {
 
         // using require works to simplfy loading the json
         logger.info('Scaling hideout recipes');
-        const raw = await fs.promises.readFile(path.join(lcConfig.modPath, 'config', 'crafting_multipliers.json'), {
-            encoding: 'utf-8',
-        });
-        const multipliers = JSON.parse(raw) as Config;
         for (let i = 0; i < tables.hideout.production.length; i++) {
             const production_time = tables.hideout.production[i].productionTime;
-            const scaled_production_time = Math.ceil(
-                Math.max(minimum_craft_time, production_time * multipliers.global.crafting_time),
-            );
+            const scaled_production_time = Math.ceil(Math.max(minimum_craft_time, production_time * multipliers.time));
 
             const production_amount = tables.hideout.production[i].count;
-            const scaled_production_amount = Math.ceil(Math.max(1, production_amount * multipliers.global.amount));
+            const scaled_production_amount = Math.ceil(Math.max(1, production_amount * multipliers.amount));
             tables.hideout.production[i].productionTime = scaled_production_time;
             tables.hideout.production[i].count = scaled_production_amount;
         }
