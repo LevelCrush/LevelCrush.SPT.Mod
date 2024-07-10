@@ -28,6 +28,8 @@ export class LevelCrush {
         @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
         @inject("LevelCrushMultiplierConfig") protected lcMultipliers: LevelCrushMultiplierConfig,
     ) {
+        this.patch_results = {};
+        this.patches = [];
     }
 
     public async preSptLoad(container: DependencyContainer): Promise<void> {
@@ -54,13 +56,13 @@ export class LevelCrush {
         let patch_types_allowed = [LevelCrushPatchTarget.PreSptLoadModAndPostDB, LevelCrushPatchTarget.PreSptLoadMod];
         for (let i = 0; i < this.patches.length; i++) {
             if (patch_types_allowed.includes(this.patches[i].patch_target())) {
-                this.logger.debug(`Executing ${this.patches[i].patch_name()} inside PreSpt`);
+                this.logger.info(`Executing ${this.patches[i].patch_name()} inside PreSpt`);
                 this.patch_results[this.patches[i].patch_name()] = await this.patches[i].patch_run(
                     container,
                     this.logger,
                     LevelCrushPatchTarget.PreSptLoadMod,
                 );
-                this.logger.debug(`Finished ${this.patches[i].patch_name()} inside  PreSpt`);
+                this.logger.info(`Finished ${this.patches[i].patch_name()} inside  PreSpt`);
             }
         }
     }
@@ -75,13 +77,13 @@ export class LevelCrush {
         let patch_types_allowed = [LevelCrushPatchTarget.PreSptLoadModAndPostDB, LevelCrushPatchTarget.PostDB];
         for (let i = 0; i < this.patches.length; i++) {
             if (patch_types_allowed.includes(this.patches[i].patch_target())) {
-                this.logger.debug(`Executing ${this.patches[i].patch_name()} inside PostDB`);
+                this.logger.info(`Executing ${this.patches[i].patch_name()} inside PostDB`);
                 this.patch_results[this.patches[i].patch_name()] = await this.patches[i].patch_run(
                     container,
                     this.logger,
                     LevelCrushPatchTarget.PostDB,
                 );
-                this.logger.debug(`Finished ${this.patches[i].patch_name()} inside PostDB`);
+                this.logger.info(`Finished ${this.patches[i].patch_name()} inside PostDB`);
             }
         }
     }

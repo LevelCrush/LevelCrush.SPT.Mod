@@ -39,7 +39,7 @@ export class LootPatch implements ILevelCrushPatch {
             const new_multiplier =
                 location_config.staticLootMultiplier[location] * (lootMultipliers.global.static || 1);
             logger.info(
-                `Adjusting ${location} loose loot multiplier from: ${location_config.staticLootMultiplier[location]} to ${new_multiplier}`,
+                `Adjusting ${location} static loot multiplier from: ${location_config.staticLootMultiplier[location]} to ${new_multiplier}`,
             );
             location_config.staticLootMultiplier[location] = new_multiplier;
         }

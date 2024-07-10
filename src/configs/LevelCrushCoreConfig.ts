@@ -24,7 +24,7 @@ export class LevelCrushCoreConfig {
         this.modAuthor = packageJson.author.replace(/\W/g, "").toLowerCase();
         this.modName = packageJson.name.replace(/\W/g, "").toLowerCase();
         this.modVersion = packageJson.version;
-        this.modPath = this.preSptModLoader.getModPath(this.getModFolderName());
+        this.modPath = this.preSptModLoader.getModPath(packageJson.name);
 
         this.config = this.jsonUtil.deserialize(
             this.vfs.readFile(path.join(this.modPath, "config", "core.json")),
