@@ -1,11 +1,11 @@
-import path from 'node:path';
-import { inject, injectable } from 'tsyringe';
-import { ILevelCrushCoreConfig } from '../models/levelcrush/ILevelCrushCoreConfig';
-import { PreSptModLoader } from '@spt/loaders/PreSptModLoader';
-import { VFS } from '@spt/utils/VFS';
-import { JsonUtil } from '@spt/utils/JsonUtil';
+import path from "node:path";
+import {inject, injectable} from "tsyringe";
+import {ILevelCrushCoreConfig} from "../models/levelcrush/ILevelCrushCoreConfig";
+import {PreSptModLoader} from "@spt/loaders/PreSptModLoader";
+import {VFS} from "@spt/utils/VFS";
+import {JsonUtil} from "@spt/utils/JsonUtil";
 
-import packageJson from '../../package.json';
+import packageJson from "../../package.json";
 
 @injectable()
 export class LevelCrushCoreConfig {
@@ -17,20 +17,20 @@ export class LevelCrushCoreConfig {
     protected modIsDev: boolean;
 
     constructor(
-        @inject('PreSptModLoader') protected preSptModLoader: PreSptModLoader,
-        @inject('VFS') protected vfs: VFS,
-        @inject('JsonUtil') protected jsonUtil: JsonUtil,
+        @inject("PreSptModLoader") protected preSptModLoader: PreSptModLoader,
+        @inject("VFS") protected vfs: VFS,
+        @inject("JsonUtil") protected jsonUtil: JsonUtil,
     ) {
-        this.modAuthor = packageJson.author.replace(/\W/g, '').toLowerCase();
-        this.modName = packageJson.name.replace(/\W/g, '').toLowerCase();
+        this.modAuthor = packageJson.author.replace(/\W/g, "").toLowerCase();
+        this.modName = packageJson.name.replace(/\W/g, "").toLowerCase();
         this.modVersion = packageJson.version;
         this.modPath = this.preSptModLoader.getModPath(this.getModFolderName());
 
         this.config = this.jsonUtil.deserialize(
-            this.vfs.readFile(path.join(this.modPath, 'config', 'core.json')),
-            'core.json',
+            this.vfs.readFile(path.join(this.modPath, "config", "core.json")),
+            "core.json",
         );
-        this.modIsDev = this.vfs.exists(path.join(this.modPath, 'configs', '.dev'));
+        this.modIsDev = this.vfs.exists(path.join(this.modPath, "configs", ".dev"));
     }
 
     public getConfig(): ILevelCrushCoreConfig {

@@ -1,14 +1,15 @@
-import { HttpResponseUtil } from '@spt/utils/HttpResponseUtil';
-import { LevelCrushHardcoreController } from '../controllers/LevelCrushHardcoreController';
-import { inject, injectable } from 'tsyringe';
-import { ISaveProgressRequestData } from '@spt/models/eft/inRaid/ISaveProgressRequestData';
+import {HttpResponseUtil} from "@spt/utils/HttpResponseUtil";
+import {LevelCrushHardcoreController} from "../controllers/LevelCrushHardcoreController";
+import {inject, injectable} from "tsyringe";
+import {ISaveProgressRequestData} from "@spt/models/eft/inRaid/ISaveProgressRequestData";
 
 @injectable()
 export class LevelCrushHardcoreCallbacks {
     constructor(
-        @inject('HttpResponseUtil') protected httpResponseUtil: HttpResponseUtil,
-        @inject('LevelCrushHardcoreController') protected lcHardcoreController: LevelCrushHardcoreController,
-    ) {}
+        @inject("HttpResponseUtil") protected httpResponseUtil: HttpResponseUtil,
+        @inject("LevelCrushHardcoreController") protected lcHardcoreController: LevelCrushHardcoreController,
+    ) {
+    }
 
     public async raid_profile_save(info: ISaveProgressRequestData, sessionID: string): Promise<void> {
         await this.lcHardcoreController.wipe_if_dead(info, sessionID);
@@ -19,7 +20,7 @@ export class LevelCrushHardcoreCallbacks {
         return this.httpResponseUtil.noBody({
             success: true,
             response: {
-                effects: ['hardcore_zone_enter'],
+                effects: ["hardcore_zone_enter"],
                 sessionID: sessionID,
             },
             errors: [],
@@ -31,7 +32,7 @@ export class LevelCrushHardcoreCallbacks {
         return this.httpResponseUtil.noBody({
             success: true,
             response: {
-                effects: ['hardcore_zone_exit'],
+                effects: ["hardcore_zone_exit"],
                 sessionID: sessionID,
             },
             errors: [],

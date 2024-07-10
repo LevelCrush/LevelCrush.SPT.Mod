@@ -1,19 +1,19 @@
-import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt/servers/DatabaseServer';
-import * as path from 'path';
-import fs from 'fs';
-import * as utils from '../utils';
-import { IQuest } from '@spt/models/eft/common/tables/IQuest';
-import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
-import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
+import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
+import {DependencyContainer} from "tsyringe";
+import {ILogger} from "@spt/models/spt/utils/ILogger";
+import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import * as path from "path";
+import fs from "fs";
+import * as utils from "../utils";
+import {IQuest} from "@spt/models/eft/common/tables/IQuest";
+import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
+import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
 
 type QuestMap = { [quest_id: string]: Partial<IQuest> };
 
 export class QuestPatch implements ILevelCrushPatch {
     public patch_name(): string {
-        return 'QuestPatch';
+        return "QuestPatch";
     }
 
     public patch_target(): LevelCrushPatchTarget {
@@ -21,29 +21,29 @@ export class QuestPatch implements ILevelCrushPatch {
     }
 
     public async patch_run(container: DependencyContainer, logger: ILogger): Promise<void> {
-        const database = container.resolve<DatabaseServer>('DatabaseServer');
+        const database = container.resolve<DatabaseServer>("DatabaseServer");
         const tables = database.getTables();
-        const lcConfig = container.resolve<LevelCrushCoreConfig>('LevelCrushCoreConfig');
+        const lcConfig = container.resolve<LevelCrushCoreConfig>("LevelCrushCoreConfig");
 
         // patch quest
         if (tables.templates && tables.templates.quests) {
-            const db_path = path.join(lcConfig.getModPath(), 'db', 'quests');
+            const db_path = path.join(lcConfig.getModPath(), "db", "quests");
             const files = await fs.promises.readdir(db_path, {
-                encoding: 'utf-8',
+                encoding: "utf-8",
             });
 
             // quest to patch
             let global_quest_map = {} as QuestMap;
             for (const file of files) {
-                const raw = await fs.promises.readFile(path.join(db_path, file), { encoding: 'utf-8' });
+                const raw = await fs.promises.readFile(path.join(db_path, file), {encoding: "utf-8"});
                 const quest_map = JSON.parse(raw) as QuestMap;
-                console.log('Found quest map: ', quest_map);
-                global_quest_map = { ...global_quest_map, ...quest_map };
+                console.log("Found quest map: ", quest_map);
+                global_quest_map = {...global_quest_map, ...quest_map};
             }
 
             for (const quest_id in global_quest_map) {
                 // make sure quest exist in database for us to modify
-                if (typeof tables.templates.quests[quest_id] === 'undefined') {
+                if (typeof tables.templates.quests[quest_id] === "undefined") {
                     logger.warning(`Quest ${quest_id} does not exist in the database`);
                     continue;
                 }
@@ -64,9 +64,9 @@ export class QuestPatch implements ILevelCrushPatch {
 
         // patch localization
         if (tables.locales && tables.locales.global) {
-            const db_path = path.join(lcConfig.modPath, 'db', 'locales');
+            const db_path = path.join(lcConfig.modPath, "db", "locales");
             const files = await fs.promises.readdir(db_path, {
-                encoding: 'utf-8',
+                encoding: "utf-8",
             });
 
             // localizations to patch
@@ -74,19 +74,19 @@ export class QuestPatch implements ILevelCrushPatch {
                 [language: string]: { [id: string]: string }[];
             };
             for (const file of files) {
-                const stat = await fs.promises.stat(path.join(lcConfig.modPath, 'db', 'locales', file));
+                const stat = await fs.promises.stat(path.join(lcConfig.modPath, "db", "locales", file));
                 if (stat.isDirectory()) {
                     custom_locales[file] = [];
                 }
             }
 
             for (const locale in custom_locales) {
-                const locale_files = await fs.promises.readdir(path.join(lcConfig.modPath, 'db', 'locales', locale));
+                const locale_files = await fs.promises.readdir(path.join(lcConfig.modPath, "db", "locales", locale));
                 for (const file of locale_files) {
-                    const fpath = path.join(lcConfig.modPath, 'db', 'locales', locale, file);
+                    const fpath = path.join(lcConfig.modPath, "db", "locales", locale, file);
                     const stat = await fs.promises.stat(fpath);
                     if (stat.isFile()) {
-                        const raw = await fs.promises.readFile(fpath, { encoding: 'utf-8' });
+                        const raw = await fs.promises.readFile(fpath, {encoding: "utf-8"});
                         custom_locales[locale].push(JSON.parse(raw));
                     }
                 }
@@ -110,7 +110,7 @@ export class QuestPatch implements ILevelCrushPatch {
 
     private merge_objs(target: Record<any, any>, new_input: Record<any, any>, logger: ILogger) {
         for (const prop in target) {
-            if (typeof new_input[prop] === 'undefined') {
+            if (typeof new_input[prop] === "undefined") {
                 // we dont have a matching property in our new input. Skip over it
                 //   logger.info(`No override prop for: ${prop}`);
                 continue;
@@ -122,7 +122,7 @@ export class QuestPatch implements ILevelCrushPatch {
                 // this includes arrays since those inner values may be entirely new
                 //  logger.info(`Overriding ${prop} as an array`);
                 target[prop] = new_input[prop];
-            } else if (typeof current_v === 'object') {
+            } else if (typeof current_v === "object") {
                 // we need to merge these objects
                 // since the two properties should be the same between the two overrides we can  assume
                 // that it exist and is t he same type. if not, weird things will happen

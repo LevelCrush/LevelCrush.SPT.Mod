@@ -1,18 +1,19 @@
-import { inject, injectable } from 'tsyringe';
-import { ILogger } from '@spt/models/spt/utils/ILogger';
-import { SaveServer } from '@spt/servers/SaveServer';
-import { ISaveProgressRequestData } from '@spt/models/eft/inRaid/ISaveProgressRequestData';
-import { getLevelCrushProfile } from '../utils';
-import { LogTextColor } from '@spt/models/spt/logging/LogTextColor';
-import { PlayerRaidEndState } from '@spt/models/enums/PlayerRaidEndState';
+import {inject, injectable} from "tsyringe";
+import {ILogger} from "@spt/models/spt/utils/ILogger";
+import {SaveServer} from "@spt/servers/SaveServer";
+import {ISaveProgressRequestData} from "@spt/models/eft/inRaid/ISaveProgressRequestData";
+import {getLevelCrushProfile} from "../utils";
+import {LogTextColor} from "@spt/models/spt/logging/LogTextColor";
+import {PlayerRaidEndState} from "@spt/models/enums/PlayerRaidEndState";
 
 @injectable()
 export class LevelCrushHardcoreController {
     // We need to make sure we use the constructor and pass the dependencies to the parent class!
     constructor(
-        @inject('PrimaryLogger') protected logger: ILogger,
-        @inject('SaveServer') protected saveServer: SaveServer,
-    ) {}
+        @inject("PrimaryLogger") protected logger: ILogger,
+        @inject("SaveServer") protected saveServer: SaveServer,
+    ) {
+    }
 
     /**
      * If the pmc is dead / mia. We should wipe them if they are in the hardcore zone
@@ -28,7 +29,7 @@ export class LevelCrushHardcoreController {
         const serverProfile = getLevelCrushProfile(sessionID, this.saveServer);
         const is_dead =
             offraidData.exit !== PlayerRaidEndState.SURVIVED && offraidData.exit !== PlayerRaidEndState.RUNNER;
-        const is_hardcore = typeof serverProfile.levelcrush.zones['hardcore'] !== 'undefined';
+        const is_hardcore = typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined";
 
         if (is_hardcore) {
             this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is in hardcore mode`, LogTextColor.YELLOW);
@@ -38,12 +39,12 @@ export class LevelCrushHardcoreController {
                     LogTextColor.CYAN,
                 );
 
-                this.logger.info('Match ended. Wiping PMC');
+                this.logger.info("Match ended. Wiping PMC");
 
                 serverProfile.info.wipe = true;
                 serverProfile.levelcrush.attempts++;
                 this.logger.info(`${sessionID}: ${serverProfile.levelcrush.attempts}`);
-                this.logger.info('Saving wiped pmc');
+                this.logger.info("Saving wiped pmc");
                 this.saveServer.saveProfile(sessionID);
             }
         }
@@ -55,12 +56,12 @@ export class LevelCrushHardcoreController {
      */
     public async zone_enter(sessionID: string): Promise<void> {
         const serverProfile = getLevelCrushProfile(sessionID, this.saveServer);
-        if (typeof serverProfile.levelcrush.zones['hardcore'] === 'undefined') {
+        if (typeof serverProfile.levelcrush.zones["hardcore"] === "undefined") {
             this.logger.logWithColor(
                 `${serverProfile.info.username} has entered the hardcore zone`,
                 LogTextColor.YELLOW,
             );
-            serverProfile.levelcrush.zones['hardcore'] = Date.now() / 1000;
+            serverProfile.levelcrush.zones["hardcore"] = Date.now() / 1000;
         }
         this.saveServer.saveProfile(sessionID);
     }
@@ -71,9 +72,9 @@ export class LevelCrushHardcoreController {
      */
     public async zone_exit(sessionID: string): Promise<void> {
         const serverProfile = getLevelCrushProfile(sessionID, this.saveServer);
-        if (typeof serverProfile.levelcrush.zones['hardcore'] !== 'undefined') {
+        if (typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined") {
             this.logger.logWithColor(`${serverProfile.info.username} has left the hardcore zone`, LogTextColor.YELLOW);
-            delete serverProfile.levelcrush.zones['hardcore'];
+            delete serverProfile.levelcrush.zones["hardcore"];
         }
         this.saveServer.saveProfile(sessionID);
     }

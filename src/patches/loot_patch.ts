@@ -1,16 +1,16 @@
-import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt/servers/DatabaseServer';
-import { ConfigServer } from '@spt/servers/ConfigServer';
-import { ConfigTypes } from '@spt/models/enums/ConfigTypes';
-import { ILocationConfig } from '@spt/models/spt/config/ILocationConfig';
-import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
-import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
+import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
+import {DependencyContainer} from "tsyringe";
+import {ILogger} from "@spt/models/spt/utils/ILogger";
+import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import {ConfigServer} from "@spt/servers/ConfigServer";
+import {ConfigTypes} from "@spt/models/enums/ConfigTypes";
+import {ILocationConfig} from "@spt/models/spt/config/ILocationConfig";
+import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
+import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
 
 export class LootPatch implements ILevelCrushPatch {
     public patch_name(): string {
-        return 'LootPatch';
+        return "LootPatch";
     }
 
     public patch_target(): LevelCrushPatchTarget {
@@ -19,11 +19,11 @@ export class LootPatch implements ILevelCrushPatch {
 
     public async patch_run(container: DependencyContainer, logger: ILogger) {
         // Run patch logic here=
-        const lcMultipliers = container.resolve<LevelCrushMultiplierConfig>('LevelCrushMultiplierConfig');
+        const lcMultipliers = container.resolve<LevelCrushMultiplierConfig>("LevelCrushMultiplierConfig");
         const lootMultipliers = lcMultipliers.getLoot();
-        const database = container.resolve<DatabaseServer>('DatabaseServer');
+        const database = container.resolve<DatabaseServer>("DatabaseServer");
         const tables = database.getTables();
-        const config = container.resolve<ConfigServer>('ConfigServer');
+        const config = container.resolve<ConfigServer>("ConfigServer");
         const location_config = config.getConfig<ILocationConfig>(ConfigTypes.LOCATION);
 
         // increase loose loot

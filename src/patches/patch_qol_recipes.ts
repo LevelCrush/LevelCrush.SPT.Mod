@@ -1,11 +1,11 @@
-import ILevelCrushPatch, { LevelCrushPatchTarget } from './patch';
-import { DependencyContainer } from 'tsyringe';
-import { ILogger } from '@spt/models/spt/utils/ILogger';
-import { DatabaseServer } from '@spt/servers/DatabaseServer';
-import * as path from 'path';
-import fs from 'fs';
-import { LevelCrushCoreConfig } from '../configs/LevelCrushCoreConfig';
-import { LevelCrushMultiplierConfig } from '../configs/LevelCrushMultiplierConfig';
+import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
+import {DependencyContainer} from "tsyringe";
+import {ILogger} from "@spt/models/spt/utils/ILogger";
+import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import * as path from "path";
+import fs from "fs";
+import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
+import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
 
 interface ConfigMultiplier {
     crafting_time: number;
@@ -18,7 +18,7 @@ interface Config {
 
 export class QOLRecipePatch implements ILevelCrushPatch {
     public patch_name(): string {
-        return 'QOLRecipePatch';
+        return "QOLRecipePatch";
     }
 
     public patch_target(): LevelCrushPatchTarget {
@@ -26,9 +26,9 @@ export class QOLRecipePatch implements ILevelCrushPatch {
     }
 
     public async patch_run(container: DependencyContainer, logger: ILogger): Promise<void> {
-        const database = container.resolve<DatabaseServer>('DatabaseServer');
+        const database = container.resolve<DatabaseServer>("DatabaseServer");
         const tables = database.getTables();
-        const lcMultipliers = container.resolve<LevelCrushMultiplierConfig>('LevelCrushMultiplierConfig');
+        const lcMultipliers = container.resolve<LevelCrushMultiplierConfig>("LevelCrushMultiplierConfig");
         const multipliers = lcMultipliers.getCrafting();
 
         // set a minimum time
@@ -38,7 +38,7 @@ export class QOLRecipePatch implements ILevelCrushPatch {
         const minimum_craft_time = 11;
 
         // using require works to simplfy loading the json
-        logger.info('Scaling hideout recipes');
+        logger.info("Scaling hideout recipes");
         for (let i = 0; i < tables.hideout.production.length; i++) {
             const production_time = tables.hideout.production[i].productionTime;
             const scaled_production_time = Math.ceil(Math.max(minimum_craft_time, production_time * multipliers.time));

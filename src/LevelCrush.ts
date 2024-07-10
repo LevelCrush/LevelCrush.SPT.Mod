@@ -1,23 +1,22 @@
-import { DependencyContainer, inject, injectable } from 'tsyringe';
-import { LevelCrushPatchTarget, ILevelCrushPatch } from './patches/patch';
-import { LevelCrushCoreConfig } from './configs/LevelCrushCoreConfig';
-import { ILogger } from '@spt/models/spt/utils/ILogger';
-import { LevelCrushMultiplierConfig } from './configs/LevelCrushMultiplierConfig';
+import {DependencyContainer, inject, injectable} from "tsyringe";
+import {LevelCrushPatchTarget, ILevelCrushPatch} from "./patches/patch";
+import {LevelCrushCoreConfig} from "./configs/LevelCrushCoreConfig";
+import {ILogger} from "@spt/models/spt/utils/ILogger";
+import {LevelCrushMultiplierConfig} from "./configs/LevelCrushMultiplierConfig";
 
-/*
-import { ConfigServer } from '@spt/servers/ConfigServer';
-import HomeScreenMessagePatch from './patches/homescreen_message_patch';
-import ProfilePatch from './patches/profile_patch';
-import PocketPatch from './patches/pocket_patch';
-import QOLMoneyPatch from './patches/patch_qol_money';
-import { LootPatch } from './patches/loot_patch';
-import ItemPatch from './patches/patch_items';
-import RecipePatch from './patches/patch_recipes';
-import RecipeLoaderPatch from './patches/patch_recipe_loader';
-import QuestPatch from './patches/patch_quests';
-import BossPatch from './patches/patch_bosses';
-import QOLNoRestrictionsPatch from './patches/patch_qol_norestrictions';
-import QOLRecipePatch from './patches/patch_qol_recipes'; */
+import {ConfigServer} from "@spt/servers/ConfigServer";
+import HomeScreenMessagePatch from "./patches/homescreen_message_patch";
+import ProfilePatch from "./patches/profile_patch";
+import PocketPatch from "./patches/pocket_patch";
+import QOLMoneyPatch from "./patches/patch_qol_money";
+import {LootPatch} from "./patches/loot_patch";
+import ItemPatch from "./patches/patch_items";
+import RecipePatch from "./patches/patch_recipes";
+import RecipeLoaderPatch from "./patches/patch_recipe_loader";
+import QuestPatch from "./patches/patch_quests";
+import BossPatch from "./patches/patch_bosses";
+import QOLNoRestrictionsPatch from "./patches/patch_qol_norestrictions";
+import QOLRecipePatch from "./patches/patch_qol_recipes";
 
 @injectable()
 export class LevelCrush {
@@ -26,15 +25,16 @@ export class LevelCrush {
     private logger: ILogger;
 
     constructor(
-        @inject('LevelCrushCoreConfig') protected lcConfig: LevelCrushCoreConfig,
-        @inject('LevelCrushMultiplierConfig') protected lcMultipliers: LevelCrushMultiplierConfig,
-    ) {}
+        @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
+        @inject("LevelCrushMultiplierConfig") protected lcMultipliers: LevelCrushMultiplierConfig,
+    ) {
+    }
 
     public async preSptLoad(container: DependencyContainer): Promise<void> {
         // pre spt load
 
         this.patches = [
-            /*    new HomeScreenMessagePatch(),
+            new HomeScreenMessagePatch(),
             new ProfilePatch(),
             new PocketPatch(),
             new QOLMoneyPatch(),
@@ -45,9 +45,9 @@ export class LevelCrush {
             new QOLRecipePatch(),
             new QuestPatch(),
             new BossPatch(),
-            new QOLNoRestrictionsPatch(), */
+            new QOLNoRestrictionsPatch(),
         ];
-        this.logger = container.resolve<ILogger>('WinstonLogger');
+        this.logger = container.resolve<ILogger>("WinstonLogger");
 
         // let anything that has a patch target of PreSpt run now
         this.logger.info(`Total Custom Patches: ${this.patches.length}`);
