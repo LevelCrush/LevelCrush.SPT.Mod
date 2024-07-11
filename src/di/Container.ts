@@ -6,6 +6,7 @@ import {LevelCrushHardcoreController} from "../controllers/LevelCrushHardcoreCon
 import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
 import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
 import {LevelCrushServerTimeTask} from "../tasks/basic/LevelCrushServerTimeTask";
+import {LevelCrushDailyResetTask} from "../tasks/basic/LevelCrushDailyResetTask";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -33,6 +34,7 @@ export class Container {
 
     private static registerScheduledTask(container: DependencyContainer): void {
         container.register<LevelCrushServerTimeTask>("LevelCrushServerTimeTask", LevelCrushServerTimeTask, {lifecycle: Lifecycle.Singleton});
+        container.register<LevelCrushDailyResetTask>("LevelCrushDailyResetTask", LevelCrushDailyResetTask, {lifecycle: Lifecycle.Singleton});
     }
 
     private static registerUtils(container: DependencyContainer): void {
@@ -85,5 +87,6 @@ export class Container {
 
         // scheduled task
         container.registerType("LevelCrushScheduledTasks", "LevelCrushServerTimeTask");
+        container.registerType("LevelCrushScheduledTasks", "LevelCrushDailyResetTask");
     }
 }

@@ -88,7 +88,7 @@ export class LevelCrush {
                         } catch (err) {
                             this.logger.error(`Scheduled Task Error: ${err}`);
                         }
-                    }, task.frequency() as number);
+                    }, task.frequency() as number * 1000);
                 })(container, this.scheduledTasks[i]);
             } else if (cron.validate(this.scheduledTasks[i].frequency() as string)) { // otherwise cron it if it has a valid cron schedule
                 ((depContainer, task) => {
