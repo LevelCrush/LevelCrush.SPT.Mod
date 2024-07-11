@@ -8,3 +8,5 @@
 **/pnpm-lock.yaml
 *.js
 *.map
+
+cache/*
