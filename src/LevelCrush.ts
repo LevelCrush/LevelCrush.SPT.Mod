@@ -1,4 +1,4 @@
-import {DependencyContainer, inject, injectable} from "tsyringe";
+import {DependencyContainer, inject, injectable, injectAll} from "tsyringe";
 import {LevelCrushPatchTarget, ILevelCrushPatch} from "./patches/patch";
 import {LevelCrushCoreConfig} from "./configs/LevelCrushCoreConfig";
 import {ILogger} from "@spt/models/spt/utils/ILogger";
@@ -17,6 +17,9 @@ import QuestPatch from "./patches/patch_quests";
 import BossPatch from "./patches/patch_bosses";
 import QOLNoRestrictionsPatch from "./patches/patch_qol_norestrictions";
 import QOLRecipePatch from "./patches/patch_qol_recipes";
+import {ScheduledTask} from "./di/ScheduledTask";
+import * as cron from 'node-cron';
+
 
 @injectable()
 export class LevelCrush {
@@ -27,6 +30,7 @@ export class LevelCrush {
     constructor(
         @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
         @inject("LevelCrushMultiplierConfig") protected lcMultipliers: LevelCrushMultiplierConfig,
+        @injectAll("LevelCrushScheduledTasks") protected scheduledTasks: ScheduledTask[]
     ) {
         this.patch_results = {};
         this.patches = [];
@@ -68,7 +72,42 @@ export class LevelCrush {
     }
 
     public async postSptLoad(container: DependencyContainer): Promise<void> {
-        // post spt load
+        // post spt load trigger scheduled task
+
+        const promises = [];
+
+        for (let i = 0; i < this.scheduledTasks.length; i++) {
+            promises.push(this.scheduledTasks[i].execute_immediate(container));
+
+            // startup an interval for each task that has a number frequency
+            if (typeof this.scheduledTasks[i].frequency() === 'number') {
+                ((depContainer, task) => {
+                    setInterval(async () => {
+                        try {
+                            await task.execute(depContainer);
+                        } catch (err) {
+                            this.logger.error(`Scheduled Task Error: ${err}`);
+                        }
+                    }, task.frequency() as number);
+                })(container, this.scheduledTasks[i]);
+            } else if (cron.validate(this.scheduledTasks[i].frequency() as string)) { // otherwise cron it if it has a valid cron schedule
+                ((depContainer, task) => {
+                    cron.schedule(this.scheduledTasks[i].frequency() as string, async () => {
+                        try {
+                            await task.execute(depContainer);
+                        } catch (err) {
+                            this.logger.error(`Scheduled Task Error: ${err}`);
+                        }
+                    });
+                })(container, this.scheduledTasks[i]);
+            } else {
+                this.logger.error(`Task frequency of ${this.scheduledTasks[i].frequency()} is not usable`);
+            }
+        }
+
+
+        await Promise.allSettled(promises);
+
     }
 
     public async postDBLoad(container: DependencyContainer): Promise<void> {

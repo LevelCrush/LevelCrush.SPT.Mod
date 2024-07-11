@@ -5,6 +5,7 @@ import {LevelCrushHardcoreCallbacks} from "../callbacks/LevelCrushHardcoreCallba
 import {LevelCrushHardcoreController} from "../controllers/LevelCrushHardcoreController";
 import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
 import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
+import {LevelCrushServerTimeTask} from "../tasks/basic/LevelCrushServerTimeTask";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -23,9 +24,15 @@ export class Container {
 
         Container.registerRouters(container);
 
+        Container.registerScheduledTask(container);
+
         Container.registerListTypes(container);
 
         container.register<LevelCrush>("LevelCrush", LevelCrush, {lifecycle: Lifecycle.Singleton});
+    }
+
+    private static registerScheduledTask(container: DependencyContainer): void {
+        container.register<LevelCrushServerTimeTask>("LevelCrushServerTimeTask", LevelCrushServerTimeTask, {lifecycle: Lifecycle.Singleton});
     }
 
     private static registerUtils(container: DependencyContainer): void {
@@ -71,8 +78,12 @@ export class Container {
     }
 
     private static registerListTypes(container: DependencyContainer): void {
-        // todo
 
+        // routes
         container.registerType("StaticRoutes", "LevelCrushHardcoreRouter");
+
+
+        // scheduled task
+        container.registerType("LevelCrushScheduledTasks", "LevelCrushServerTimeTask");
     }
 }
