@@ -42,15 +42,15 @@ export class LevelCrush {
         this.patches = [
             new HomeScreenMessagePatch(),
             new ProfilePatch(),
-            new PocketPatch(),
+            // new PocketPatch(),
             new QOLMoneyPatch(),
             new LootPatch(),
-            new ItemPatch(),
-            new RecipeLoaderPatch(),
-            new RecipePatch(),
-            new QOLRecipePatch(),
-            new QuestPatch(),
-            new BossPatch(),
+            //  new ItemPatch(),
+            //  new RecipeLoaderPatch(),
+            //  new RecipePatch(),
+            //  new QOLRecipePatch(),
+            //  new QuestPatch(),
+            //  new BossPatch(),
             new QOLNoRestrictionsPatch(),
         ];
         this.logger = container.resolve<ILogger>("WinstonLogger");
