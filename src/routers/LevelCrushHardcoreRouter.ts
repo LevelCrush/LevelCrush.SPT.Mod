@@ -20,6 +20,9 @@ export class LevelCrushHardcoreRouter extends StaticRouter {
             new RouteAction("/levelcrush/zone/exit/hardcore", async (url, info, sessionID, _output) => {
                 return await this.lcHardcoreCallbacks.zone_exit(sessionID);
             }),
+            new RouteAction("/levelcrush/zone/list/hardcore", async (url, info, sessionID, _output) => {
+                return await this.lcHardcoreCallbacks.zone_list(sessionID);
+            })
         ]);
     }
 }

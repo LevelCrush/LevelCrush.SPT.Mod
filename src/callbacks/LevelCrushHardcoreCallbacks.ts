@@ -38,4 +38,16 @@ export class LevelCrushHardcoreCallbacks {
             errors: [],
         });
     }
+
+
+    public async zone_list(sessionID: string): Promise<void> {
+        return this.httpResponseUtil.noBody({
+            success: true,
+            response: {
+                zones: ["factory4_day", "sandbox"],
+                sessionID: sessionID
+            },
+            errors: []
+        });
+    }
 }
