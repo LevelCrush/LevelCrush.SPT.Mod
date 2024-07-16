@@ -45,7 +45,8 @@ export class LevelCrushHardcoreCallbacks {
             success: true,
             response: {
                 zones: ["factory4_day", "sandbox"],
-                sessionID: sessionID
+                sessionID: sessionID,
+                type: 'hardcore'
             },
             errors: []
         });

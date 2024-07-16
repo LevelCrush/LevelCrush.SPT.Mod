@@ -4,7 +4,7 @@
   "main": "src/mod.js",
   "license": "MIT",
   "author": "Primal-13",
-  "sptVersion": "3.9.0",
+  "sptVersion": "3.9.2",
   "loadBefore": [],
   "loadAfter": [],
   "incompatibilities": [],
