@@ -1,5 +1,5 @@
 {
-  "name": "LevelCrush-SPT-Mod",
+  "name": "LevelCrush",
   "version": "1.20.0",
   "main": "src/mod.js",
   "license": "MIT",

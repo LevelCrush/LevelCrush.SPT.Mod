@@ -50,7 +50,7 @@ export class LevelCrushCoreConfig {
     }
 
     public getModFolderName(): string {
-        return `${this.modAuthor}-${this.modName}`;
+        return `LevelCrush`;
     }
 
     public getModPath(): string {
