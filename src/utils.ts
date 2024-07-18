@@ -43,7 +43,7 @@ export function getLevelCrushProfile(sessionID: string, save_server: SaveServer)
         serverProfile["levelcrush"] = {
             attempts: 0,
             zones: {},
-            discord: "",
+            account: "",
         };
     }
     return serverProfile as ISptLevelCrushProfile;

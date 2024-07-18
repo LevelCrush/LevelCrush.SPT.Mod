@@ -78,4 +78,5 @@ export class LevelCrushHardcoreController {
         }
         this.saveServer.saveProfile(sessionID);
     }
+    
 }

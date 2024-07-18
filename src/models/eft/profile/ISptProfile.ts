@@ -10,7 +10,7 @@ export type LevelCrushZones = {
 
 export interface LevelCrushData {
     zones: LevelCrushZones;
-    discord: string;
+    account: string;
     attempts: number;
 }
 

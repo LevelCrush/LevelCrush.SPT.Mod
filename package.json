@@ -8,7 +8,11 @@
   "loadBefore": [],
   "loadAfter": [],
   "incompatibilities": [],
-  "contributors": [],
+  "contributors": [
+    "Magpie393",
+    "Datkidman",
+    "Primal-13"
+  ],
   "scripts": {
     "setup": "npm i",
     "build": "node ./build.mjs",
