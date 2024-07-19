@@ -5,6 +5,8 @@ import {ISaveProgressRequestData} from "@spt/models/eft/inRaid/ISaveProgressRequ
 import {getLevelCrushProfile} from "../utils";
 import {LogTextColor} from "@spt/models/spt/logging/LogTextColor";
 import {PlayerRaidEndState} from "@spt/models/enums/PlayerRaidEndState";
+import {server} from "typescript";
+import {ProfileHelper} from "@spt/helpers/ProfileHelper";
 
 @injectable()
 export class LevelCrushHardcoreController {
@@ -12,6 +14,7 @@ export class LevelCrushHardcoreController {
     constructor(
         @inject("PrimaryLogger") protected logger: ILogger,
         @inject("SaveServer") protected saveServer: SaveServer,
+        @inject("ProfileHelper") protected profileHelper: ProfileHelper,
     ) {
     }
 
@@ -42,8 +45,6 @@ export class LevelCrushHardcoreController {
                 this.logger.info("Match ended. Wiping PMC");
 
                 serverProfile.info.wipe = true;
-                serverProfile.levelcrush.attempts++;
-                this.logger.info(`${sessionID}: ${serverProfile.levelcrush.attempts}`);
                 this.logger.info("Saving wiped pmc");
                 this.saveServer.saveProfile(sessionID);
             }
@@ -78,5 +79,5 @@ export class LevelCrushHardcoreController {
         }
         this.saveServer.saveProfile(sessionID);
     }
-    
+
 }
