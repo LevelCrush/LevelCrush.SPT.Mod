@@ -32,10 +32,18 @@ export class LevelCrushLauncherControllerOverride extends Override {
             if (account.info.username === info.username && account.info.password === info.password) {
                 this.logger.info(`Match found for ${info.username} is session ${sessionID}`);
                 return sessionID;
+            } else if (account.info.username === info.username && account.info.password !== info.password) {
+                this.logger.info(`No session found that matches ${info.username}`);
+                return "INVALID_PASSWORD";
             }
         }
         this.logger.info(`No match found for ${info.username}. Maybe bad password?`);
         return "";
+    }
+
+    public find(sessionID: string): any {
+        const profiles = this.saveServer.getProfiles();
+        return typeof (profiles[sessionID]) !== "undefined" ? profiles[sessionID].info : {};
     }
 
     public async execute(container: DependencyContainer) {
@@ -43,6 +51,10 @@ export class LevelCrushLauncherControllerOverride extends Override {
 
             result.login = (info: any) => {
                 return this.login(info);
+            }
+
+            result.find = (sessionId: any) => {
+                return this.find(sessionId);
             }
 
         }, {frequency: "Always"})
