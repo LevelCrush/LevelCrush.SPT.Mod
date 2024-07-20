@@ -19,6 +19,7 @@ import QOLNoRestrictionsPatch from "./patches/patch_qol_norestrictions";
 import QOLRecipePatch from "./patches/patch_qol_recipes";
 import {ScheduledTask} from "./di/ScheduledTask";
 import * as cron from 'node-cron';
+import {Override} from "./di/Override";
 
 
 @injectable()
@@ -30,7 +31,8 @@ export class LevelCrush {
     constructor(
         @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
         @inject("LevelCrushMultiplierConfig") protected lcMultipliers: LevelCrushMultiplierConfig,
-        @injectAll("LevelCrushScheduledTasks") protected scheduledTasks: ScheduledTask[]
+        @injectAll("LevelCrushScheduledTasks") protected scheduledTasks: ScheduledTask[],
+        @injectAll("LevelCrushOverrides") protected overrides: Override[]
     ) {
         this.patch_results = {};
         this.patches = [];
@@ -69,13 +71,19 @@ export class LevelCrush {
                 this.logger.info(`Finished ${this.patches[i].patch_name()} inside  PreSpt`);
             }
         }
+
+        this.logger.info("Executing LevelCrush overrides");
+        for (let i = 0; i < this.overrides.length; i++) {
+            await this.overrides[i].execute(container);
+        }
+        this.logger.info("Done executing LevelCrush overrides");
     }
 
     public async postSptLoad(container: DependencyContainer): Promise<void> {
         // post spt load trigger scheduled task
 
         const promises = [];
-
+        this.logger.info("Setting up LevelCrush specific task");
         for (let i = 0; i < this.scheduledTasks.length; i++) {
             promises.push(this.scheduledTasks[i].execute_immediate(container));
 
@@ -106,7 +114,12 @@ export class LevelCrush {
         }
 
 
+        this.logger.info("Done up LevelCrush specific task");
+        this.logger.info("Executing all  LevelCrush specific task");
+
         await Promise.allSettled(promises);
+
+        this.logger.info("Done executing all LevelCrush specific task");
 
     }
 
