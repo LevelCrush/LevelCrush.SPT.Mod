@@ -22,7 +22,7 @@ export class LevelCrushDailyResetTask extends ScheduledTask {
     }
 
     public frequency(): number | string {
-        return '0 13 * * *'; // at midnight trigger  a daily reset
+        return '0 13 * * *'; // at 1pm trigger  a daily reset
     }
 
     public async execute_immediate(container: DependencyContainer): Promise<void> {

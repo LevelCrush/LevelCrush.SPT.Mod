@@ -8,9 +8,7 @@ import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig"
 import {LevelCrushServerTimeTask} from "../tasks/basic/LevelCrushServerTimeTask";
 import {LevelCrushDailyResetTask} from "../tasks/basic/LevelCrushDailyResetTask";
 import {LevelCrushLauncherControllerOverride} from "../overrides/LevelCrushLauncherControllerOverride";
-import {LevelCrushQuesControllerOverride} from "../overrides/LevelCrushQuesControllerOverride";
 import {LevelCrushQuestController} from "../controllers/LevelCrushQuestController";
-import {QuestController} from "@spt/controllers/QuestController";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {

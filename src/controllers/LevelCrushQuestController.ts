@@ -66,8 +66,14 @@ export class LevelCrushQuestController extends QuestController {
         // just run the original quest controller logic
         const resp = super.completeQuest(pmcData, body, sessionID);
 
-        const announce = new DiscordWebhook(this.logger);
-        announce.send("Quest Completed", `${pmcData.Info.Nickname} has completed ${body.qid}`, DiscordWebhookColors.Green);
+        const quest = this.questHelper.getQuestFromDb(body.qid, pmcData);
+        if (quest) {
+            const announce = new DiscordWebhook(this.logger);
+            announce.send("Quest Completed", `${pmcData.Info.Nickname} has completed ${quest.QuestName}`, DiscordWebhookColors.Green);
+        } else {
+            this.logger.info(`Quest: '${body.qid} has not been found on pmc or in the database`);
+        }
+
 
         return resp;
 
