@@ -57,7 +57,7 @@ export class LevelCrushQuestController extends QuestController {
      * @param sessionID Session id
      * @returns ItemEvent client response
      */
-    public completeQuest(
+    public override completeQuest(
         pmcData: IPmcData,
         body: ICompleteQuestRequestData,
         sessionID: string,

@@ -44,7 +44,7 @@ export class LevelCrushHardcoreCallbacks {
         return this.httpResponseUtil.noBody({
             success: true,
             response: {
-                zones: ["factory4_day", "sandbox"],
+                zones: ["interchange"],
                 sessionID: sessionID,
                 type: 'hardcore'
             },

@@ -11,12 +11,15 @@ import DiscordWebhook, {DiscordWebhookColors} from "../webhook";
 
 @injectable()
 export class LevelCrushHardcoreController {
+
+
     // We need to make sure we use the constructor and pass the dependencies to the parent class!
     constructor(
         @inject("PrimaryLogger") protected logger: ILogger,
         @inject("SaveServer") protected saveServer: SaveServer,
         @inject("ProfileHelper") protected profileHelper: ProfileHelper,
     ) {
+    
     }
 
     /**

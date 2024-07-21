@@ -9,6 +9,7 @@ import {LevelCrushServerTimeTask} from "../tasks/basic/LevelCrushServerTimeTask"
 import {LevelCrushDailyResetTask} from "../tasks/basic/LevelCrushDailyResetTask";
 import {LevelCrushLauncherControllerOverride} from "../overrides/LevelCrushLauncherControllerOverride";
 import {LevelCrushQuestController} from "../controllers/LevelCrushQuestController";
+import {LevelCrushLocationController} from "../controllers/LevelCrushLocationController";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -58,7 +59,7 @@ export class Container {
 
         /*
         container.register<LevelCrushQuesControllerOverride>("LevelCrushQuesControllerOverride", LevelCrushQuesControllerOverride, {
-            lifecycle: Lifecycle.Singleton
+            lifecycl Lifecycle.Singleton
         }); */
     }
 
@@ -74,10 +75,17 @@ export class Container {
         container.register<LevelCrushHardcoreController>("LevelCrushHardcoreController", {
             useClass: LevelCrushHardcoreController,
         });
+
         container.register<LevelCrushQuestController>("LevelCrushQuestController", {
             useClass: LevelCrushQuestController
         });
+
+        container.register<LevelCrushLocationController>("LevelCrushLocationController", {
+            useClass: LevelCrushLocationController
+        });
+
         container.register<LevelCrushQuestController>("QuestController", {useClass: LevelCrushQuestController});
+        container.register<LevelCrushLocationController>("LocationController", {useClass: LevelCrushLocationController});
     }
 
     private static registerCallbacks(container: DependencyContainer): void {
