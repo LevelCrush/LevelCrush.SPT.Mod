@@ -7,6 +7,7 @@ import {LogTextColor} from "@spt/models/spt/logging/LogTextColor";
 import {PlayerRaidEndState} from "@spt/models/enums/PlayerRaidEndState";
 import {server} from "typescript";
 import {ProfileHelper} from "@spt/helpers/ProfileHelper";
+import DiscordWebhook, {DiscordWebhookColors} from "../webhook";
 
 @injectable()
 export class LevelCrushHardcoreController {
@@ -32,9 +33,10 @@ export class LevelCrushHardcoreController {
         const serverProfile = getLevelCrushProfile(sessionID, this.saveServer);
         const is_dead =
             offraidData.exit !== PlayerRaidEndState.SURVIVED && offraidData.exit !== PlayerRaidEndState.RUNNER;
-        const is_hardcore = typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined";
 
-        if (is_hardcore) {
+
+        const is_hardcore = typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined";
+        if (is_hardcore && !info.isPlayerScav) {
             this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is in hardcore mode`, LogTextColor.YELLOW);
             if (is_dead) {
                 this.logger.logWithColor(
@@ -46,7 +48,16 @@ export class LevelCrushHardcoreController {
 
                 serverProfile.info.wipe = true;
                 this.logger.info("Saving wiped pmc");
-                this.saveServer.saveProfile(sessionID);
+
+                const announce = new DiscordWebhook(this.logger);
+                await Promise.allSettled([
+                    announce.send(`${serverProfile.characters.pmc.Info.Nickname} has wiped`, 'GG. Get fucked', DiscordWebhookColors.Red),
+                    new Promise((resolve) => {
+                        this.saveServer.saveProfile(sessionID);
+                        resolve(true);
+                    })
+                ]);
+
             }
         }
     }

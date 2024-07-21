@@ -3,6 +3,7 @@ import {ScheduledTask} from "../../di/ScheduledTask";
 import {LevelCrushCoreConfig} from "../../configs/LevelCrushCoreConfig";
 import {ILogger} from "@spt/models/spt/utils/ILogger";
 import {LogTextColor} from "@spt/models/spt/logging/LogTextColor";
+import DiscordWebhook, {DiscordWebhookColors} from "../../webhook";
 
 @injectable()
 export class LevelCrushDailyResetTask extends ScheduledTask {
@@ -16,10 +17,12 @@ export class LevelCrushDailyResetTask extends ScheduledTask {
 
     public async execute(container: DependencyContainer): Promise<void> {
         this.logger.logWithColor("Daily reset has occurred. Migrating the world", LogTextColor.YELLOW);
+        const announce = new DiscordWebhook(this.logger);
+        await announce.send("Daily Reset", "The world has changed.", DiscordWebhookColors.Green);
     }
 
     public frequency(): number | string {
-        return '0 0 * * *'; // at midnight trigger  a daily reset
+        return '0 13 * * *'; // at midnight trigger  a daily reset
     }
 
     public async execute_immediate(container: DependencyContainer): Promise<void> {
