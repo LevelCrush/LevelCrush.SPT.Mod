@@ -43,7 +43,7 @@ export class LevelCrush {
 
         this.patches = [
             new HomeScreenMessagePatch(),
-            new ProfilePatch(),
+            //  new ProfilePatch(),
             // new PocketPatch(),
             new QOLMoneyPatch(),
             new LootPatch(),
