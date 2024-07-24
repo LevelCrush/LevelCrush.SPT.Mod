@@ -28,6 +28,7 @@ export class LevelCrushHardcoreController {
             "665ee77ccf2d642e98220bca", // gamma, the unheare edition
             "5857a8bc2459772bad15db29", // gamma, EOD edition
             "5c093ca986f7740a1867ab12", // kappa container
+            "664a55d84a90fc2c8a6305c9", // theta container
             this.OMNICRON_CONTAINER_ID, // omnicron
         ];
     }
