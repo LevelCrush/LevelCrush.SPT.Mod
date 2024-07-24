@@ -44,7 +44,7 @@ export class LevelCrushHardcoreController {
         const serverProfile = getLevelCrushProfile(sessionID, this.saveServer);
         const is_dead = offraidData.exit !== PlayerRaidEndState.SURVIVED && offraidData.exit !== PlayerRaidEndState.RUNNER;
 
-        this.logger.info(`${JSON.stringify(info.profile, null, 4)}`);
+        //this.logger.info(`${JSON.stringify(info.profile, null, 4)}`);
 
         const is_hardcore = typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined";
         if (is_hardcore && !info.isPlayerScav) {
