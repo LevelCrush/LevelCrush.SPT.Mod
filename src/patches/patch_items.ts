@@ -1,13 +1,13 @@
-import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./patch";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import path from "path";
 import fs from "fs";
 import * as utils from "../utils";
-import {ITemplateItem} from "@spt/models/eft/common/tables/ITemplateItem";
-import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
-import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
+import { ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem";
+import { LevelCrushCoreConfig } from "../configs/LevelCrushCoreConfig";
+import { LevelCrushMultiplierConfig } from "../configs/LevelCrushMultiplierConfig";
 
 export class ItemPatch implements ILevelCrushPatch {
     public patch_name(): string {
@@ -31,7 +31,7 @@ export class ItemPatch implements ILevelCrushPatch {
             const is_json = entry.endsWith(".json");
             if (is_json) {
                 logger.info(`Scanning Item Patch at: ${filepath}`);
-                const raw = await fs.promises.readFile(filepath, {encoding: "utf-8"});
+                const raw = await fs.promises.readFile(filepath, { encoding: "utf-8" });
                 const templates = JSON.parse(raw) as Record<string, Partial<ITemplateItem>>[];
                 for (const template_id in templates) {
                     const template = templates[template_id];

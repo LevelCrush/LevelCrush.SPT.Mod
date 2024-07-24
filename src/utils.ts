@@ -1,5 +1,5 @@
-import {SaveServer} from "@spt/servers/SaveServer";
-import {ISptLevelCrushProfile, ISptProfile} from "./models/eft/profile/ISptProfile";
+import { SaveServer } from "@spt/servers/SaveServer";
+import { ISptLevelCrushProfile, ISptProfile } from "./models/eft/profile/ISptProfile";
 
 export function merge_objs(source: Record<string, any>, new_input: Record<string, any>) {
     // use new input as the merge source to make sure new keys are being placed in

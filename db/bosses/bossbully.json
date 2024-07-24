@@ -1,9 +1,9 @@
 {
-  "inventory": {
-    "Holster": {
-      "5b3b713c5acfc4330140bd8d": 1000,
-      "602a9740da11d6478d5a06dc": "{{unset}}",
-      "6193a720f8ee7e52e42109ed": "{{unset}}"
+    "inventory": {
+        "Holster": {
+            "5b3b713c5acfc4330140bd8d": 1000,
+            "602a9740da11d6478d5a06dc": "{{unset}}",
+            "6193a720f8ee7e52e42109ed": "{{unset}}"
+        }
     }
-  }
 }

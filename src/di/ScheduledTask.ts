@@ -1,11 +1,9 @@
-import {DependencyContainer} from "tsyringe";
-
+import { DependencyContainer } from "tsyringe";
 
 /**
  * Task are intended to run on a interval
  */
 export abstract class ScheduledTask {
-
     /**
      * If a number is returned, run it every X milliseconds
      * If a string is returned, feed it into a cron scheduler
@@ -23,5 +21,4 @@ export abstract class ScheduledTask {
      * @param container
      */
     public abstract execute(container: DependencyContainer): Promise<void>;
-
 }

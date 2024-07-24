@@ -1,11 +1,11 @@
-import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {DatabaseServer} from "@spt/servers/DatabaseServer";
-import {ConfigServer} from "@spt/servers/ConfigServer";
-import {IRagfairConfig} from "@spt/models/spt/config/IRagfairConfig";
-import {ConfigTypes} from "@spt/models/enums/ConfigTypes";
-import {IDatabaseTables} from "@spt/models/spt/server/IDatabaseTables";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./patch";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { IRagfairConfig } from "@spt/models/spt/config/IRagfairConfig";
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
+import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 
 export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
     public patch_name(): string {
@@ -65,11 +65,7 @@ export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
         }
     }
 
-    public async patch_run(
-        container: DependencyContainer,
-        logger: ILogger,
-        target: LevelCrushPatchTarget,
-    ): Promise<void> {
+    public async patch_run(container: DependencyContainer, logger: ILogger, target: LevelCrushPatchTarget): Promise<void> {
         const database = container.resolve<DatabaseServer>("DatabaseServer");
         const tables = database.getTables();
 
@@ -91,10 +87,7 @@ export function ammo_flea_market(logger: ILogger, tables: IDatabaseTables) {
     const handbook_searches = [];
     logger.info("Scanning item database for ammunition");
     for (const template_id in tables.templates.items) {
-        if (
-            tables.templates.items[template_id]._props.ammoType &&
-            tables.templates.items[template_id]._props.ammoType === "bullet"
-        ) {
+        if (tables.templates.items[template_id]._props.ammoType && tables.templates.items[template_id]._props.ammoType === "bullet") {
             handbook_searches.push(template_id);
         }
     }
@@ -103,9 +96,7 @@ export function ammo_flea_market(logger: ILogger, tables: IDatabaseTables) {
     for (let i = 0; i < tables.templates.handbook.Items.length; i++) {
         if (handbook_searches.includes(tables.templates.handbook.Items[i].Id)) {
             const template_id = tables.templates.handbook.Items[i].Id;
-            logger.info(
-                `Adjusting base flea market price for ${tables.templates.items[template_id]._name} to be 6x normal rate`,
-            );
+            logger.info(`Adjusting base flea market price for ${tables.templates.items[template_id]._name} to be 6x normal rate`);
             tables.templates.prices[template_id] = tables.templates.handbook.Items[i].Price * 12;
         }
     }

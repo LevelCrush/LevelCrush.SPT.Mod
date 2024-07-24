@@ -1,36 +1,34 @@
-import {inject, injectable} from "tsyringe";
-import {LocationController} from "@spt/controllers/LocationController";
-import {ICloner} from "@spt/utils/cloners/ICloner";
-import {HashUtil} from "@spt/utils/HashUtil";
-import {RandomUtil} from "@spt/utils/RandomUtil";
-import {WeightedRandomHelper} from "@spt/helpers/WeightedRandomHelper";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {LocationGenerator} from "@spt/generators/LocationGenerator";
-import {LocalisationService} from "@spt/services/LocalisationService";
-import {RaidTimeAdjustmentService} from "@spt/services/RaidTimeAdjustmentService";
-import {ItemFilterService} from "@spt/services/ItemFilterService";
-import {LootGenerator} from "@spt/generators/LootGenerator";
-import {DatabaseService} from "@spt/services/DatabaseService";
-import {TimeUtil} from "@spt/utils/TimeUtil";
-import {ConfigServer} from "@spt/servers/ConfigServer";
-import {ApplicationContext} from "@spt/context/ApplicationContext";
-import {ILocationBase} from "@spt/models/eft/common/ILocationBase";
-import {IGetLocationRequestData} from "@spt/models/eft/location/IGetLocationRequestData";
-import {ContextVariableType} from "@spt/context/ContextVariableType";
-import {ILocation} from "@spt/models/eft/common/ILocation";
-import {ILocationConfig} from "@spt/models/spt/config/ILocationConfig";
-import {IRaidChanges} from "@spt/models/spt/location/IRaidChanges";
-import {ILooseLoot, SpawnpointTemplate} from "@spt/models/eft/common/ILooseLoot";
-import {ProfileHelper} from "@spt/helpers/ProfileHelper";
-import {SaveServer} from "@spt/servers/SaveServer";
-import {getLevelCrushProfile} from "../utils";
-import {ISptLevelCrushProfile} from "../models/eft/profile/ISptProfile";
-import {LogTextColor} from "@spt/models/spt/logging/LogTextColor";
+import { inject, injectable } from "tsyringe";
+import { LocationController } from "@spt/controllers/LocationController";
+import { ICloner } from "@spt/utils/cloners/ICloner";
+import { HashUtil } from "@spt/utils/HashUtil";
+import { RandomUtil } from "@spt/utils/RandomUtil";
+import { WeightedRandomHelper } from "@spt/helpers/WeightedRandomHelper";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { LocationGenerator } from "@spt/generators/LocationGenerator";
+import { LocalisationService } from "@spt/services/LocalisationService";
+import { RaidTimeAdjustmentService } from "@spt/services/RaidTimeAdjustmentService";
+import { ItemFilterService } from "@spt/services/ItemFilterService";
+import { LootGenerator } from "@spt/generators/LootGenerator";
+import { DatabaseService } from "@spt/services/DatabaseService";
+import { TimeUtil } from "@spt/utils/TimeUtil";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { ApplicationContext } from "@spt/context/ApplicationContext";
+import { ILocationBase } from "@spt/models/eft/common/ILocationBase";
+import { IGetLocationRequestData } from "@spt/models/eft/location/IGetLocationRequestData";
+import { ContextVariableType } from "@spt/context/ContextVariableType";
+import { ILocation } from "@spt/models/eft/common/ILocation";
+import { ILocationConfig } from "@spt/models/spt/config/ILocationConfig";
+import { IRaidChanges } from "@spt/models/spt/location/IRaidChanges";
+import { ILooseLoot, SpawnpointTemplate } from "@spt/models/eft/common/ILooseLoot";
+import { ProfileHelper } from "@spt/helpers/ProfileHelper";
+import { SaveServer } from "@spt/servers/SaveServer";
+import { getLevelCrushProfile } from "../utils";
+import { ISptLevelCrushProfile } from "../models/eft/profile/ISptProfile";
+import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 
 @injectable()
 export class LevelCrushLocationController extends LocationController {
-
-
     constructor(
         @inject("HashUtil") protected hashUtil: HashUtil,
         @inject("RandomUtil") protected randomUtil: RandomUtil,
@@ -49,16 +47,10 @@ export class LevelCrushLocationController extends LocationController {
         @inject("ProfileHelper") protected profileHelper: ProfileHelper,
         @inject("SaveServer") protected saveServer: SaveServer,
     ) {
-        super(hashUtil, randomUtil,
-            weightedRandomHelper, logger,
-            locationGenerator, localisationService, raidTimeAdjustmentService,
-            itemFilterService, lootGenerator, databaseService,
-            timeUtil, configServer, applicationContext, cloner
-        );
+        super(hashUtil, randomUtil, weightedRandomHelper, logger, locationGenerator, localisationService, raidTimeAdjustmentService, itemFilterService, lootGenerator, databaseService, timeUtil, configServer, applicationContext, cloner);
 
         this.logger.logWithColor("Custom LevelCrush Location Controller", LogTextColor.BLUE);
     }
-
 
     /**
      * Handle client/location/getLocalloot
@@ -70,7 +62,7 @@ export class LevelCrushLocationController extends LocationController {
     public override get(sessionId: string, request: IGetLocationRequestData): ILocationBase {
         this.logger.debug(`Generating data for: ${request.locationId}, variant: ${request.variantId}`);
         const profile = getLevelCrushProfile(sessionId, this.saveServer);
-        const is_hardcore = typeof profile.levelcrush.zones['hardcore'] !== 'undefined';
+        const is_hardcore = typeof profile.levelcrush.zones["hardcore"] !== "undefined";
         this.logger.info(`Is this player hardcore: ${profile.characters.pmc.Info.Nickname} = ${is_hardcore}`);
         console.log(`Console: Is this player hardcore: ${profile.characters.pmc.Info.Nickname} = ${is_hardcore}`);
         const name = request.locationId.toLowerCase().replace(" ", "");
@@ -99,9 +91,7 @@ export class LevelCrushLocationController extends LocationController {
 
         // Check for a loot multipler adjustment in app context and apply if one is found
         let locationConfigCopy: ILocationConfig;
-        const raidAdjustments = this.applicationContext
-            .getLatestValue(ContextVariableType.RAID_ADJUSTMENTS)
-            ?.getValue<IRaidChanges>();
+        const raidAdjustments = this.applicationContext.getLatestValue(ContextVariableType.RAID_ADJUSTMENTS)?.getValue<IRaidChanges>();
 
         // in hardcore no matter what we are making adjustments to the raid
         locationConfigCopy = this.cloner.clone(this.locationConfig); // Clone values so they can be used to reset originals later
@@ -127,20 +117,14 @@ export class LevelCrushLocationController extends LocationController {
 
         // Add dynamic loot to output loot
         const dynamicLootDistClone: ILooseLoot = this.cloner.clone(location.looseLoot);
-        const dynamicSpawnPoints: SpawnpointTemplate[] = this.locationGenerator.generateDynamicLoot(
-            dynamicLootDistClone,
-            staticAmmoDist,
-            name,
-        );
+        const dynamicSpawnPoints: SpawnpointTemplate[] = this.locationGenerator.generateDynamicLoot(dynamicLootDistClone, staticAmmoDist, name);
         for (const spawnPoint of dynamicSpawnPoints) {
             locationBaseClone.Loot.push(spawnPoint);
         }
 
         // Done generating, log results
-        this.logger.success(
-            'Hardcore: ' + this.localisationService.getText("location-dynamic_items_spawned_success", dynamicSpawnPoints.length),
-        );
-        this.logger.success('Hardcore: ' + this.localisationService.getText("location-generated_success", name));
+        this.logger.success("Hardcore: " + this.localisationService.getText("location-dynamic_items_spawned_success", dynamicSpawnPoints.length));
+        this.logger.success("Hardcore: " + this.localisationService.getText("location-generated_success", name));
 
         // Reset loot multipliers back to original values
         // in hardcore we ALWAYS are making adjustments, so this ALWAYS has to go back
@@ -149,7 +133,6 @@ export class LevelCrushLocationController extends LocationController {
         this.locationConfig.looseLootMultiplier = locationConfigCopy.looseLootMultiplier;
 
         this.applicationContext.clearValues(ContextVariableType.RAID_ADJUSTMENTS);
-
 
         return locationBaseClone;
     }

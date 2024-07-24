@@ -1,15 +1,14 @@
-import {HttpResponseUtil} from "@spt/utils/HttpResponseUtil";
-import {LevelCrushHardcoreController} from "../controllers/LevelCrushHardcoreController";
-import {inject, injectable} from "tsyringe";
-import {ISaveProgressRequestData} from "@spt/models/eft/inRaid/ISaveProgressRequestData";
+import { HttpResponseUtil } from "@spt/utils/HttpResponseUtil";
+import { LevelCrushHardcoreController } from "../controllers/LevelCrushHardcoreController";
+import { inject, injectable } from "tsyringe";
+import { ISaveProgressRequestData } from "@spt/models/eft/inRaid/ISaveProgressRequestData";
 
 @injectable()
 export class LevelCrushHardcoreCallbacks {
     constructor(
         @inject("HttpResponseUtil") protected httpResponseUtil: HttpResponseUtil,
         @inject("LevelCrushHardcoreController") protected lcHardcoreController: LevelCrushHardcoreController,
-    ) {
-    }
+    ) {}
 
     public async raid_profile_save(info: ISaveProgressRequestData, sessionID: string): Promise<void> {
         await this.lcHardcoreController.wipe_if_dead(info, sessionID);
@@ -39,16 +38,15 @@ export class LevelCrushHardcoreCallbacks {
         });
     }
 
-
     public async zone_list(sessionID: string): Promise<void> {
         return this.httpResponseUtil.noBody({
             success: true,
             response: {
                 zones: ["interchange"],
                 sessionID: sessionID,
-                type: 'hardcore'
+                type: "hardcore",
             },
-            errors: []
+            errors: [],
         });
     }
 }

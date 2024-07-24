@@ -1,13 +1,13 @@
-import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./patch";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import path from "path";
 import fs from "fs";
 import * as utils from "../utils";
-import {IBotType} from "@spt/models/eft/common/tables/IBotType";
-import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
-import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
+import { IBotType } from "@spt/models/eft/common/tables/IBotType";
+import { LevelCrushCoreConfig } from "../configs/LevelCrushCoreConfig";
+import { LevelCrushMultiplierConfig } from "../configs/LevelCrushMultiplierConfig";
 
 type BotMap = { [bossid: string]: Partial<IBotType> };
 
@@ -41,7 +41,7 @@ export class BossPatch implements ILevelCrushPatch {
                 const bossid = file.split(".json")[0];
                 logger.info(`LC Boss Patch is trying to load override for ${bossid}`);
                 try {
-                    const raw = await fs.promises.readFile(path.join(db_path, file), {encoding: "utf-8"});
+                    const raw = await fs.promises.readFile(path.join(db_path, file), { encoding: "utf-8" });
                     bot = JSON.parse(raw) as IBotType;
                     console.log("Found boss: " + bossid);
                     global_map[bossid] = bot;

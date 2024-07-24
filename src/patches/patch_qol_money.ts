@@ -1,7 +1,7 @@
-import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./patch";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 
 export class QOLMoneyPatch implements ILevelCrushPatch {
     public patch_name(): string {

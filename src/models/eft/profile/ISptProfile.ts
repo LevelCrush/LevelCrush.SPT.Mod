@@ -1,4 +1,4 @@
-import {Info as BaseInfo, ISptProfile as BaseProfile} from "@spt/models/eft/profile/ISptProfile";
+import { Info as BaseInfo, ISptProfile as BaseProfile } from "@spt/models/eft/profile/ISptProfile";
 
 export const ZONE_HARDCORE = "hardcore";
 export const ZONE_PVP = "pvp";

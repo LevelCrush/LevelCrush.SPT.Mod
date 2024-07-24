@@ -1,9 +1,9 @@
-import {inject, injectable} from "tsyringe";
+import { inject, injectable } from "tsyringe";
 import path from "node:path";
-import {ILevelCrushCoreConfig} from "../models/levelcrush/ILevelCrushCoreConfig";
-import {PreSptModLoader} from "@spt/loaders/PreSptModLoader";
-import {VFS} from "@spt/utils/VFS";
-import {JsonUtil} from "@spt/utils/JsonUtil";
+import { ILevelCrushCoreConfig } from "../models/levelcrush/ILevelCrushCoreConfig";
+import { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
+import { VFS } from "@spt/utils/VFS";
+import { JsonUtil } from "@spt/utils/JsonUtil";
 
 import packageJson from "../../package.json";
 
@@ -26,10 +26,7 @@ export class LevelCrushCoreConfig {
         this.modVersion = packageJson.version;
         this.modPath = this.preSptModLoader.getModPath(packageJson.name);
 
-        this.config = this.jsonUtil.deserialize(
-            this.vfs.readFile(path.join(this.modPath, "config", "core.json")),
-            "core.json",
-        );
+        this.config = this.jsonUtil.deserialize(this.vfs.readFile(path.join(this.modPath, "config", "core.json")), "core.json");
         this.modIsDev = this.vfs.exists(path.join(this.modPath, "configs", ".dev"));
     }
 

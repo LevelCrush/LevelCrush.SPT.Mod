@@ -1,8 +1,8 @@
-import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {DatabaseServer} from "@spt/servers/DatabaseServer";
-import {IDatabaseTables} from "@spt/models/spt/server/IDatabaseTables";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./patch";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 
 export class PocketPatch implements ILevelCrushPatch {
     public patch_name(): string {

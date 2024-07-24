@@ -1,13 +1,13 @@
-import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./patch";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import * as path from "path";
 import fs from "fs";
 import * as utils from "../utils";
-import {IQuest} from "@spt/models/eft/common/tables/IQuest";
-import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
-import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
+import { IQuest } from "@spt/models/eft/common/tables/IQuest";
+import { LevelCrushCoreConfig } from "../configs/LevelCrushCoreConfig";
+import { LevelCrushMultiplierConfig } from "../configs/LevelCrushMultiplierConfig";
 
 type QuestMap = { [quest_id: string]: Partial<IQuest> };
 
@@ -35,10 +35,10 @@ export class QuestPatch implements ILevelCrushPatch {
             // quest to patch
             let global_quest_map = {} as QuestMap;
             for (const file of files) {
-                const raw = await fs.promises.readFile(path.join(db_path, file), {encoding: "utf-8"});
+                const raw = await fs.promises.readFile(path.join(db_path, file), { encoding: "utf-8" });
                 const quest_map = JSON.parse(raw) as QuestMap;
                 console.log("Found quest map: ", quest_map);
-                global_quest_map = {...global_quest_map, ...quest_map};
+                global_quest_map = { ...global_quest_map, ...quest_map };
             }
 
             for (const quest_id in global_quest_map) {
@@ -48,13 +48,7 @@ export class QuestPatch implements ILevelCrushPatch {
                     continue;
                 }
 
-                logger.info(
-                    `Trying to merge ${quest_id} ${JSON.stringify(
-                        global_quest_map[quest_id],
-                        null,
-                        2,
-                    )} into ${tables.templates.quests[quest_id].QuestName}`,
-                );
+                logger.info(`Trying to merge ${quest_id} ${JSON.stringify(global_quest_map[quest_id], null, 2)} into ${tables.templates.quests[quest_id].QuestName}`);
 
                 this.merge_objs(tables.templates.quests[quest_id], global_quest_map[quest_id], logger);
 
@@ -86,7 +80,7 @@ export class QuestPatch implements ILevelCrushPatch {
                     const fpath = path.join(lcConfig.modPath, "db", "locales", locale, file);
                     const stat = await fs.promises.stat(fpath);
                     if (stat.isFile()) {
-                        const raw = await fs.promises.readFile(fpath, {encoding: "utf-8"});
+                        const raw = await fs.promises.readFile(fpath, { encoding: "utf-8" });
                         custom_locales[locale].push(JSON.parse(raw));
                     }
                 }
@@ -96,9 +90,7 @@ export class QuestPatch implements ILevelCrushPatch {
             for (const locale in custom_locales) {
                 for (const map of custom_locales[locale]) {
                     for (const locale_id in map) {
-                        logger.info(
-                            `Patching locale ${locale} at ${locale_id} (${tables.locales.global[locale][locale_id]}) with ${map[locale_id]}`,
-                        );
+                        logger.info(`Patching locale ${locale} at ${locale_id} (${tables.locales.global[locale][locale_id]}) with ${map[locale_id]}`);
                         tables.locales.global[locale][locale_id] = map[locale_id];
                     }
                 }

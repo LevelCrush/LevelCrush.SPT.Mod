@@ -1,7 +1,7 @@
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
-import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { LevelCrushCoreConfig } from "../configs/LevelCrushCoreConfig";
+import { LevelCrushMultiplierConfig } from "../configs/LevelCrushMultiplierConfig";
 
 export enum LevelCrushPatchTarget {
     PreSptLoadMod,

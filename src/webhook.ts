@@ -1,4 +1,4 @@
-import {ILogger} from '@spt/models/spt/utils/ILogger';
+import { ILogger } from "@spt/models/spt/utils/ILogger";
 
 export interface DiscordWebhookConfig {
     url: string;
@@ -17,7 +17,7 @@ export class DiscordWebhook {
     private logger: ILogger;
 
     public constructor(logger: ILogger) {
-        this.config = require('../config/discord.json') as DiscordWebhookConfig;
+        this.config = require("../config/discord.json") as DiscordWebhookConfig;
         this.logger = logger;
     }
 
@@ -32,9 +32,9 @@ export class DiscordWebhook {
             );
             try {
                 await fetch(this.config.url, {
-                    method: 'POST',
+                    method: "POST",
                     headers: {
-                        'Content-Type': 'application/json',
+                        "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
                         content: null,
@@ -51,9 +51,9 @@ export class DiscordWebhook {
                         attachments: [],
                     }),
                 });
-                this.logger.info('Posted discord webhook');
+                this.logger.info("Posted discord webhook");
             } catch {
-                this.logger.error('Failed to post discord webhook');
+                this.logger.error("Failed to post discord webhook");
             }
         }
     }

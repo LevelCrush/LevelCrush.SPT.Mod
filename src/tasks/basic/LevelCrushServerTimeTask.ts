@@ -1,15 +1,14 @@
-import {DependencyContainer, inject, injectable} from "tsyringe";
-import {ScheduledTask} from "../../di/ScheduledTask";
-import {LevelCrushCoreConfig} from "../../configs/LevelCrushCoreConfig";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {LogTextColor} from "@spt/models/spt/logging/LogTextColor";
+import { DependencyContainer, inject, injectable } from "tsyringe";
+import { ScheduledTask } from "../../di/ScheduledTask";
+import { LevelCrushCoreConfig } from "../../configs/LevelCrushCoreConfig";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 
 @injectable()
 export class LevelCrushServerTimeTask extends ScheduledTask {
-
     constructor(
-        @inject('PrimaryLogger') protected logger: ILogger,
-        @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig
+        @inject("PrimaryLogger") protected logger: ILogger,
+        @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
     ) {
         super();
     }
@@ -25,5 +24,4 @@ export class LevelCrushServerTimeTask extends ScheduledTask {
     public async execute_immediate(container: DependencyContainer): Promise<void> {
         this.logger.info("Server Time Task has been loaded");
     }
-
 }

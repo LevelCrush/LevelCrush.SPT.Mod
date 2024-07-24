@@ -1,9 +1,9 @@
-import {DependencyContainer} from "tsyringe";
-import {IPreSptLoadModAsync} from "@spt/models/external/IPreSptLoadModAsync";
-import {IPostSptLoadModAsync} from "@spt/models/external/IPostSptLoadModAsync";
-import {IPostDBLoadModAsync} from "@spt/models/external/IPostDBLoadModAsync";
-import {Container} from "./di/Container";
-import {LevelCrush} from "./LevelCrush";
+import { DependencyContainer } from "tsyringe";
+import { IPreSptLoadModAsync } from "@spt/models/external/IPreSptLoadModAsync";
+import { IPostSptLoadModAsync } from "@spt/models/external/IPostSptLoadModAsync";
+import { IPostDBLoadModAsync } from "@spt/models/external/IPostDBLoadModAsync";
+import { Container } from "./di/Container";
+import { LevelCrush } from "./LevelCrush";
 
 class Mod implements IPreSptLoadModAsync, IPostSptLoadModAsync, IPostDBLoadModAsync {
     public async preSptLoadAsync(container: DependencyContainer): Promise<void> {

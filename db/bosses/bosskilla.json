@@ -122,14 +122,7 @@
                 "mod_handguard": ["6491c6f6ef312a876705191b"],
                 "mod_magazine": ["646372518610c40fc20204e8"],
                 "mod_pistolgrip": ["64cbad529f7cf7f75c077fd5"],
-                "mod_scope": [
-                    "5947db3f86f77447880cf76f",
-                    "591ee00d86f774592f7b841e",
-                    "638db77630c4240f9e06f8b6",
-                    "5cf638cbd7f00c06595bc936",
-                    "6113d6c3290d254f5e6b27db",
-                    "618a75c9a3884f56c957ca1b"
-                ],
+                "mod_scope": ["5947db3f86f77447880cf76f", "591ee00d86f774592f7b841e", "638db77630c4240f9e06f8b6", "5cf638cbd7f00c06595bc936", "6113d6c3290d254f5e6b27db", "618a75c9a3884f56c957ca1b"],
                 "mod_sight_rear": ["6492fb8253acae0af00a29b6"],
                 "mod_stock": ["6492d7847363b8a52206bc52", "6492e3a97df7d749100e29ee"]
             },

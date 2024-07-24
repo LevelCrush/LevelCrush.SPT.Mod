@@ -1,4 +1,4 @@
-import {IQuest as BaseQuest} from "@spt/models/eft/common/tables/IQuest";
+import { IQuest as BaseQuest } from "@spt/models/eft/common/tables/IQuest";
 
 export interface LevelCrushQuestConfig {
     hardcore?: boolean;

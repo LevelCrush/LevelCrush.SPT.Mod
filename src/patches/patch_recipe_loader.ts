@@ -1,12 +1,12 @@
-import {ILevelCrushPatch, LevelCrushPatchTarget} from "./patch";
-import {DependencyContainer} from "tsyringe";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {DatabaseServer} from "@spt/servers/DatabaseServer";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./patch";
+import { DependencyContainer } from "tsyringe";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import path from "path";
 import fs from "fs";
-import {IHideoutProduction} from "@spt/models/eft/hideout/IHideoutProduction";
-import {LevelCrushCoreConfig} from "../configs/LevelCrushCoreConfig";
-import {LevelCrushMultiplierConfig} from "../configs/LevelCrushMultiplierConfig";
+import { IHideoutProduction } from "@spt/models/eft/hideout/IHideoutProduction";
+import { LevelCrushCoreConfig } from "../configs/LevelCrushCoreConfig";
+import { LevelCrushMultiplierConfig } from "../configs/LevelCrushMultiplierConfig";
 
 export class RecipeLoaderPatch implements ILevelCrushPatch {
     public patch_name(): string {
@@ -25,13 +25,13 @@ export class RecipeLoaderPatch implements ILevelCrushPatch {
         if (tables.hideout && tables.hideout.production) {
             // scan for recipes
             const db_path = path.join(lcConfig.modPath, "db", "recipes", "new");
-            const entries = await fs.promises.readdir(db_path, {encoding: "utf-8"});
+            const entries = await fs.promises.readdir(db_path, { encoding: "utf-8" });
             for (const entry of entries) {
                 const file_path = path.join(db_path, entry);
                 const stat = await fs.promises.stat(file_path);
                 if (stat.isFile()) {
                     try {
-                        const raw = await fs.promises.readFile(file_path, {encoding: "utf-8"});
+                        const raw = await fs.promises.readFile(file_path, { encoding: "utf-8" });
                         const json = JSON.parse(raw) as IHideoutProduction[];
                         for (const production of json) {
                             recipes_to_add.push(production);

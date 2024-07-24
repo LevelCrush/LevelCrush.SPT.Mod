@@ -3,23 +3,22 @@
  * Users will not be able to login using the normal SPT launcher
  * https://github.com/stayintarkov/SIT.Aki-Server-Mod/blob/master/src/Overrides/LauncherControllerOverride.ts
  */
-import {Override} from "../di/Override";
-import {DependencyContainer, inject, injectable} from "tsyringe";
-import {LauncherController} from "@spt/controllers/LauncherController";
-import {ILoginRequestData} from "@spt/models/eft/launcher/ILoginRequestData";
-import {ILogger} from "@spt/models/spt/utils/ILogger";
-import {ILevelCrushCoreConfig} from "../models/levelcrush/ILevelCrushCoreConfig";
-import {VFS} from "@spt/utils/VFS";
-import {SaveServer} from "@spt/servers/SaveServer";
+import { Override } from "../di/Override";
+import { DependencyContainer, inject, injectable } from "tsyringe";
+import { LauncherController } from "@spt/controllers/LauncherController";
+import { ILoginRequestData } from "@spt/models/eft/launcher/ILoginRequestData";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { ILevelCrushCoreConfig } from "../models/levelcrush/ILevelCrushCoreConfig";
+import { VFS } from "@spt/utils/VFS";
+import { SaveServer } from "@spt/servers/SaveServer";
 
 @injectable()
 export class LevelCrushLauncherControllerOverride extends Override {
-
     constructor(
-        @inject('PrimaryLogger') protected logger: ILogger,
-        @inject('LevelCrushCoreConfig') protected config: ILevelCrushCoreConfig,
-        @inject('VFS') protected vfs: VFS,
-        @inject('SaveServer') protected saveServer: SaveServer,
+        @inject("PrimaryLogger") protected logger: ILogger,
+        @inject("LevelCrushCoreConfig") protected config: ILevelCrushCoreConfig,
+        @inject("VFS") protected vfs: VFS,
+        @inject("SaveServer") protected saveServer: SaveServer,
     ) {
         super();
     }
@@ -43,20 +42,22 @@ export class LevelCrushLauncherControllerOverride extends Override {
 
     public find(sessionID: string): any {
         const profiles = this.saveServer.getProfiles();
-        return typeof (profiles[sessionID]) !== "undefined" ? profiles[sessionID].info : {};
+        return typeof profiles[sessionID] !== "undefined" ? profiles[sessionID].info : {};
     }
 
     public async execute(container: DependencyContainer) {
-        container.afterResolution("LauncherController", (_t, result: LauncherController) => {
+        container.afterResolution(
+            "LauncherController",
+            (_t, result: LauncherController) => {
+                result.login = (info: any) => {
+                    return this.login(info);
+                };
 
-            result.login = (info: any) => {
-                return this.login(info);
-            }
-
-            result.find = (sessionId: any) => {
-                return this.find(sessionId);
-            }
-
-        }, {frequency: "Always"})
+                result.find = (sessionId: any) => {
+                    return this.find(sessionId);
+                };
+            },
+            { frequency: "Always" },
+        );
     }
 }
