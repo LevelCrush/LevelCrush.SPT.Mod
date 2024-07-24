@@ -7,12 +7,14 @@ import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
+import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
 
 @injectable()
 export class LevelCrushItemLoader extends Loader {
     constructor(
         @inject("LevelCrushItemBuilder") protected itemBuilder: LevelCrushItemBuilder,
         @inject("LevelCrushLocaleBuilder") protected localeBuilder: LevelCrushLocaleBuilder,
+        @inject("LevelCrushBuffBuilder") protected buffBuilder: LevelCrushBuffBuilder,
         @inject("PrimaryLogger") protected logger: ILogger,
         @inject("DatabaseServer") protected databaseServer: DatabaseServer,
         @inject("VFS") protected vfs: VFS,
@@ -23,6 +25,37 @@ export class LevelCrushItemLoader extends Loader {
     private createOmnicron(tables: IDatabaseTables) {
         const omnicron_tpl = "66a0a1de6a3a9d80d65db3a9";
         const omnicron_grid_id = "66a0a3270b9f578fdfd57b55";
+
+        // create buffs first
+        this.buffBuilder
+            .start("BUFFS_Omnicron")
+            .add({
+                AbsoluteValue: false,
+                BuffType: "WeightLimit",
+                Chance: 1,
+                Delay: 1,
+                Duration: 31536000,
+                SkillName: "",
+                Value: 10.0,
+            })
+            .add({
+                AbsoluteValue: true,
+                BuffType: "Antidote",
+                Chance: 1,
+                Delay: 1,
+                Duration: 31536000,
+                SkillName: "",
+                Value: 0,
+            })
+            .add({
+                AbsoluteValue: true,
+                BuffType: "HealthRate",
+                Chance: 1,
+                Delay: 1,
+                Duration: 31536000,
+                SkillName: "",
+                Value: 1,
+            });
 
         // insert into our database tables
         this.itemBuilder

@@ -13,6 +13,7 @@ import { LevelCrushLocationController } from "../controllers/LevelCrushLocationC
 import { LevelCrushItemBuilder } from "../builders/LevelCrushItemBuilder";
 import { LevelCrushItemLoader } from "../loaders/LevelCrushItemLoader";
 import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
+import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -79,6 +80,10 @@ export class Container {
         });
 
         container.register<LevelCrushLocaleBuilder>("LevelCrushLocaleBuilder", LevelCrushLocaleBuilder, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushBuffBuilder>("LevelCrushBuffBuilder", LevelCrushBuffBuilder, {
             lifecycle: Lifecycle.Singleton,
         });
     }
