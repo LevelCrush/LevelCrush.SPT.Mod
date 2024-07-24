@@ -53,7 +53,7 @@ export class LevelCrush {
             //  new QOLRecipePatch(),
             //  new QuestPatch(),
             //  new BossPatch(),
-            //new QOLNoRestrictionsPatch(),
+            new QOLNoRestrictionsPatch(),
         ];
         this.logger = container.resolve<ILogger>("WinstonLogger");
 
