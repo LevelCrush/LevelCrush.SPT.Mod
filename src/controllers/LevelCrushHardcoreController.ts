@@ -5,18 +5,32 @@ import { ISaveProgressRequestData } from "@spt/models/eft/inRaid/ISaveProgressRe
 import { getLevelCrushProfile } from "../utils";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 import { PlayerRaidEndState } from "@spt/models/enums/PlayerRaidEndState";
-import { server } from "typescript";
 import { ProfileHelper } from "@spt/helpers/ProfileHelper";
 import DiscordWebhook, { DiscordWebhookColors } from "../webhook";
+import { ItemHelper } from "@spt/helpers/ItemHelper";
 
 @injectable()
 export class LevelCrushHardcoreController {
+    protected readonly ALLOWED_CONTAINERS: string[];
+    private readonly OMNICRON_CONTAINER_ID: string;
+
     // We need to make sure we use the constructor and pass the dependencies to the parent class!
     constructor(
         @inject("PrimaryLogger") protected logger: ILogger,
         @inject("SaveServer") protected saveServer: SaveServer,
         @inject("ProfileHelper") protected profileHelper: ProfileHelper,
-    ) {}
+        @inject("ItemHelper") protected itemHelper: ItemHelper,
+    ) {
+        this.OMNICRON_CONTAINER_ID = "OMNICRON_MONGO_ID_GOES_HERE";
+
+        this.ALLOWED_CONTAINERS = [
+            "59db794186f77448bc595262", // epsilon,
+            "665ee77ccf2d642e98220bca", // gamma, the unheare edition
+            "5857a8bc2459772bad15db29", // gamma, EOD edition
+            "5c093ca986f7740a1867ab12", // kappa container
+            this.OMNICRON_CONTAINER_ID, // omnicron
+        ];
+    }
 
     /**
      * If the pmc is dead / mia. We should wipe them if they are in the hardcore zone
@@ -32,22 +46,37 @@ export class LevelCrushHardcoreController {
         const is_hardcore = typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined";
         if (is_hardcore && !info.isPlayerScav) {
             this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is in hardcore mode`, LogTextColor.YELLOW);
+
             if (is_dead) {
-                this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is dead and is hardcore. Must Wipe`, LogTextColor.CYAN);
+                this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is dead and is hardcore. Must Wipe if no secure container`, LogTextColor.CYAN);
 
-                this.logger.info("Match ended. Wiping PMC");
+                const items = serverProfile.characters.pmc.Inventory.items;
+                const secureContainer = items.find((x) => x.slotId === "SecuredContainer");
+                const hasSecureContainer = secureContainer && this.ALLOWED_CONTAINERS.includes(secureContainer._tpl);
+                const isOmnicron = hasSecureContainer && secureContainer._tpl === this.OMNICRON_CONTAINER_ID;
 
-                serverProfile.info.wipe = true;
-                this.logger.info("Saving wiped pmc");
+                if (isOmnicron) {
+                    this.logger.logWithColor(`${offraidData.profile.Info.Nickname} has omnicron. Wiping in hardcore not possible`, LogTextColor.CYAN);
+                } else if (hasSecureContainer) {
+                    this.logger.logWithColor(`${offraidData.profile.Info.Nickname} did have a valid secure container. Removing it and preventing a wipe`, LogTextColor.CYAN);
+                    const secureContainerItems = this.itemHelper.findAndReturnChildrenByItems(items, secureContainer._id);
+                    serverProfile.characters.pmc.Inventory.items = items.filter((x) => !secureContainerItems.includes(x._id));
+                    this.saveServer.saveProfile(sessionID);
+                } else {
+                    this.logger.info("Match ended. Wiping PMC");
 
-                const announce = new DiscordWebhook(this.logger);
-                await Promise.allSettled([
-                    announce.send(`${serverProfile.characters.pmc.Info.Nickname} has wiped`, "GG. Get fucked", DiscordWebhookColors.Red),
-                    new Promise((resolve) => {
-                        this.saveServer.saveProfile(sessionID);
-                        resolve(true);
-                    }),
-                ]);
+                    serverProfile.info.wipe = true;
+                    this.logger.info("Saving wiped pmc");
+
+                    const announce = new DiscordWebhook(this.logger);
+                    await Promise.allSettled([
+                        announce.send(`${serverProfile.characters.pmc.Info.Nickname} has wiped`, "GG. Get fucked", DiscordWebhookColors.Red),
+                        new Promise((resolve) => {
+                            this.saveServer.saveProfile(sessionID);
+                            resolve(true);
+                        }),
+                    ]);
+                }
             }
         }
     }
