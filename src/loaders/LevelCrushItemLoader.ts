@@ -55,7 +55,8 @@ export class LevelCrushItemLoader extends Loader {
                 Duration: 31536000,
                 SkillName: "",
                 Value: 1,
-            });
+            })
+            .output_to_tables(tables);
 
         // insert into our database tables
         this.itemBuilder
