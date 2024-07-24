@@ -20,6 +20,7 @@ import QOLRecipePatch from "./patches/patch_qol_recipes";
 import { ScheduledTask } from "./di/ScheduledTask";
 import * as cron from "node-cron";
 import { Override } from "./di/Override";
+import { Loader } from "./di/Loader";
 
 @injectable()
 export class LevelCrush {
@@ -29,11 +30,10 @@ export class LevelCrush {
 
     constructor(
         @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
-        @inject("LevelCrushMultiplierConfig")
-        protected lcMultipliers: LevelCrushMultiplierConfig,
-        @injectAll("LevelCrushScheduledTasks")
-        protected scheduledTasks: ScheduledTask[],
+        @inject("LevelCrushMultiplierConfig") protected lcMultipliers: LevelCrushMultiplierConfig,
+        @injectAll("LevelCrushScheduledTasks") protected scheduledTasks: ScheduledTask[],
         @injectAll("LevelCrushOverrides") protected overrides: Override[],
+        @injectAll("LevelCrushLoaders") protected loaders: Loader[],
     ) {
         this.patch_results = {};
         this.patches = [];
@@ -124,6 +124,11 @@ export class LevelCrush {
     }
 
     public async postDBLoad(container: DependencyContainer): Promise<void> {
+        // run our loaders before running our patches
+        for (let i = 0; i < this.loaders.length; i++) {
+            await this.loaders[i].execute(container);
+        }
+
         // post db load
         // let anything that has a patch target of PreSpt run now
         let patch_types_allowed = [LevelCrushPatchTarget.PreSptLoadModAndPostDB, LevelCrushPatchTarget.PostDB];

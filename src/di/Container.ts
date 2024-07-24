@@ -10,6 +10,8 @@ import { LevelCrushDailyResetTask } from "../tasks/basic/LevelCrushDailyResetTas
 import { LevelCrushLauncherControllerOverride } from "../overrides/LevelCrushLauncherControllerOverride";
 import { LevelCrushQuestController } from "../controllers/LevelCrushQuestController";
 import { LevelCrushLocationController } from "../controllers/LevelCrushLocationController";
+import { LevelCrushItemBuilder } from "../builders/LevelCrushItemBuilder";
+import { LevelCrushItemLoader } from "../loaders/LevelCrushItemLoader";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -29,6 +31,8 @@ export class Container {
         Container.registerRouters(container);
 
         Container.registerScheduledTask(container);
+
+        Container.registerLoaders(container);
 
         Container.registerListTypes(container);
 
@@ -69,6 +73,15 @@ export class Container {
 
     private static registerHelpers(container: DependencyContainer): void {
         // todo
+        container.register<LevelCrushItemBuilder>("LevelCrushItemBuilder", LevelCrushItemBuilder, {
+            lifecycle: Lifecycle.Singleton,
+        });
+    }
+
+    private static registerLoaders(container: DependencyContainer): void {
+        container.register<LevelCrushItemLoader>("LevelCrushItemLoader", LevelCrushItemLoader, {
+            lifecycle: Lifecycle.Singleton,
+        });
     }
 
     private static registerControllers(container: DependencyContainer): void {
@@ -111,5 +124,7 @@ export class Container {
         // overrides
         container.registerType("LevelCrushOverrides", "LevelCrushLauncherControllerOverride");
         // container.registerType("LevelCrushOverrides", "LevelCrushQuesControllerOverride");
+
+        container.registerType("LevelCrushLoaders", "LevelCrushItemLoader");
     }
 }
