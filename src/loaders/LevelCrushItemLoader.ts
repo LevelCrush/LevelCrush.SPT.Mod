@@ -6,11 +6,13 @@ import { VFS } from "@spt/utils/VFS";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
+import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
 
 @injectable()
 export class LevelCrushItemLoader extends Loader {
     constructor(
         @inject("LevelCrushItemBuilder") protected itemBuilder: LevelCrushItemBuilder,
+        @inject("LevelCrushLocaleBuilder") protected localeBuilder: LevelCrushLocaleBuilder,
         @inject("PrimaryLogger") protected logger: ILogger,
         @inject("DatabaseServer") protected databaseServer: DatabaseServer,
         @inject("VFS") protected vfs: VFS,
@@ -23,7 +25,7 @@ export class LevelCrushItemLoader extends Loader {
         const omnicron_grid_id = "66a0a3270b9f578fdfd57b55";
 
         // insert into our database tables
-        tables.templates.items[omnicron_tpl] = this.itemBuilder
+        this.itemBuilder
             .clone("664a55d84a90fc2c8a6305c9", omnicron_tpl)
             .name("Omnicron_Container")
             .prop("Name", "Omnicron Secure Container")
@@ -54,7 +56,9 @@ export class LevelCrushItemLoader extends Loader {
                     _proto: "55d329c24bdc2d892f8b4567", // idk all the other secure containers have this
                 },
             ])
-            .output();
+            .output_to_table(tables);
+
+        this.localeBuilder.start("item", tables.templates.items[omnicron_tpl]).auto().output_to_table(tables);
     }
 
     public async execute(container: DependencyContainer) {

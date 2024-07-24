@@ -1,5 +1,6 @@
 import { ItemHelper } from "@spt/helpers/ItemHelper";
 import { ITemplateItem, ItemType, Props } from "@spt/models/eft/common/tables/ITemplateItem";
+import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { injectable, inject } from "tsyringe";
 
 export class Item {
@@ -38,6 +39,10 @@ export class Item {
     public output(): ITemplateItem {
         // guarentee that we have a unique copy being returned in this function
         return JSON.parse(JSON.stringify(this.data)) as ITemplateItem;
+    }
+
+    public output_to_table(tables: IDatabaseTables) {
+        tables.templates.items[this.tpl] = this.output();
     }
 }
 

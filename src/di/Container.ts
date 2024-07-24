@@ -12,6 +12,7 @@ import { LevelCrushQuestController } from "../controllers/LevelCrushQuestControl
 import { LevelCrushLocationController } from "../controllers/LevelCrushLocationController";
 import { LevelCrushItemBuilder } from "../builders/LevelCrushItemBuilder";
 import { LevelCrushItemLoader } from "../loaders/LevelCrushItemLoader";
+import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -74,6 +75,10 @@ export class Container {
     private static registerHelpers(container: DependencyContainer): void {
         // todo
         container.register<LevelCrushItemBuilder>("LevelCrushItemBuilder", LevelCrushItemBuilder, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushLocaleBuilder>("LevelCrushLocaleBuilder", LevelCrushLocaleBuilder, {
             lifecycle: Lifecycle.Singleton,
         });
     }
