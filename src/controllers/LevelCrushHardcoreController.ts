@@ -21,14 +21,14 @@ export class LevelCrushHardcoreController {
         @inject("ProfileHelper") protected profileHelper: ProfileHelper,
         @inject("ItemHelper") protected itemHelper: ItemHelper,
     ) {
-        this.OMNICRON_CONTAINER_ID = "OMNICRON_MONGO_ID_GOES_HERE";
+        this.OMNICRON_CONTAINER_ID = "66a0a1de6a3a9d80d65db3a9";
 
         this.ALLOWED_CONTAINERS = [
             "59db794186f77448bc595262", // epsilon,
-            "665ee77ccf2d642e98220bca", // gamma, the unheare edition
+            "665ee77ccf2d642e98220bca", // gamma, the unheared edition
             "5857a8bc2459772bad15db29", // gamma, EOD edition
             "5c093ca986f7740a1867ab12", // kappa container
-            "664a55d84a90fc2c8a6305c9", // theta container
+            // "664a55d84a90fc2c8a6305c9", // theta container
             this.OMNICRON_CONTAINER_ID, // omnicron
         ];
     }
@@ -43,6 +43,8 @@ export class LevelCrushHardcoreController {
         this.logger.logWithColor(`LevelCrush is checking if ${offraidData.profile.Info.Nickname} is in hardcore mode`, LogTextColor.CYAN);
         const serverProfile = getLevelCrushProfile(sessionID, this.saveServer);
         const is_dead = offraidData.exit !== PlayerRaidEndState.SURVIVED && offraidData.exit !== PlayerRaidEndState.RUNNER;
+
+        this.logger.info(`${JSON.stringify(info.profile, null, 4)}`);
 
         const is_hardcore = typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined";
         if (is_hardcore && !info.isPlayerScav) {

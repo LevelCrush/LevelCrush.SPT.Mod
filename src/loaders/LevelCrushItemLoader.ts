@@ -25,10 +25,11 @@ export class LevelCrushItemLoader extends Loader {
     private createOmnicron(tables: IDatabaseTables) {
         const omnicron_tpl = "66a0a1de6a3a9d80d65db3a9";
         const omnicron_grid_id = "66a0a3270b9f578fdfd57b55";
+        const omnicron_buff = "BUFFS_Omnicron";
 
         // create buffs first
         this.buffBuilder
-            .start("BUFFS_Omnicron")
+            .start(omnicron_buff)
             .add({
                 AbsoluteValue: false,
                 BuffType: "WeightLimit",
@@ -73,6 +74,18 @@ export class LevelCrushItemLoader extends Loader {
             .prop("isSecured", true)
             .prop("GridLayoutName", "Omnicron")
             .prop("CanSellOnRagfair", true)
+            .prop("StimulatorBuffs", omnicron_buff)
+            .prop("medEffectType", "duringUse")
+            .prop("MaxHpResource", 10)
+            .prop("hpResourceRate", 0)
+            .prop("effects_health", {
+                Energy: {
+                    value: 100,
+                },
+                Hydration: {
+                    value: 100,
+                },
+            })
             .prop("Grids", [
                 {
                     _name: "main",

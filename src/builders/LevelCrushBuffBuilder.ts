@@ -7,6 +7,7 @@ export class Buff {
     protected data: IBuff[];
     public constructor(name: string) {
         this.id = name;
+        this.data = [];
     }
 
     public add(buff: IBuff) {
