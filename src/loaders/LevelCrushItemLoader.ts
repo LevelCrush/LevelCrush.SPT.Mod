@@ -25,8 +25,8 @@ export class LevelCrushItemLoader extends Loader {
     }
 
     private createOmnicron(tables: IDatabaseTables) {
-        //const omnicron_tpl = "66a0a1de6a3a9d80d65db3a9";
-        const omnicron_tpl = CustomItemTpl.Omnicron;
+        const omnicron_tpl = "66a0a1de6a3a9d80d65db3a9";
+        //const omnicron_tpl = CustomItemTpl.Omnicron;
 
         const omnicron_grid_id = "66a0a3270b9f578fdfd57b55";
         const omnicron_buff = "BUFFS_Omnicron";

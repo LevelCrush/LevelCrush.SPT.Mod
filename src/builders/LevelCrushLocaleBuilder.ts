@@ -3,11 +3,6 @@ import { ITemplateItem } from "@spt/models/eft/common/tables/ITemplateItem";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { injectable } from "tsyringe";
 
-export interface LevelCrushLocaleBuilderMap {
-    item: ITemplateItem;
-    quest: IQuest;
-}
-
 export class LocaleItem {
     protected readonly input: ITemplateItem;
     protected data: Record<string, string>;
@@ -48,6 +43,16 @@ export class LocaleItem {
             tables.locales.global[lang][locale_id] = this.data[locale_id];
         }
     }
+}
+
+export interface LevelCrushLocaleBuilderMap {
+    item: ITemplateItem;
+    quest: IQuest;
+}
+
+export interface LevelCrushLocaleBuilderLocaleMap {
+    item: LocaleItem;
+    quest: LocaleQuest;
 }
 
 //export type LocaleQuestKey = keyof Pick<IQuest, "name" | "note" | "description" | "startedMessageText" | "acceptPlayerMessage" | "failMessageText" | "changeQuestMessageText" | "successMessageText" | "declinePlayerMessage" | "completePlayerMessage">;
@@ -108,13 +113,13 @@ export class LocaleQuest {
 
 @injectable()
 export class LevelCrushLocaleBuilder {
-    public start<K extends keyof LevelCrushLocaleBuilderMap, V extends LevelCrushLocaleBuilderMap[K]>(type: K, source: V) {
+    public start<K extends keyof LevelCrushLocaleBuilderMap, V extends LevelCrushLocaleBuilderMap[K], O extends LevelCrushLocaleBuilderLocaleMap[K]>(type: K, source: V): O {
         //
         switch (type) {
             case "item":
-                return new LocaleItem(source as ITemplateItem);
+                return new LocaleItem(source as ITemplateItem) as O;
             case "quest":
-                return new LocaleQuest(source as IQuest);
+                return new LocaleQuest(source as IQuest) as O;
             default:
                 return null;
         }
