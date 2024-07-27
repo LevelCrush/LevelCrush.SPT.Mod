@@ -68,17 +68,34 @@ export class QuestConditionCounterCondition {
 }
 
 export class QuestConditionCounter {
-    public readonly id: string;
-    public readonly condition: QuestCondition;
+    private _id: string;
+    private _condition_id: string;
+    private _quest_id: string;
     private data: IQuestConditionCounter;
 
-    public constructor(counter_id: string, condition: QuestCondition) {
-        this.id = counter_id;
-        this.condition = condition;
+    public constructor() {
+        //this.id = counter_id;
+        //this.condition_id = condition_id;
         this.data = {
-            id: this.id,
+            id: "",
             conditions: [],
         };
+    }
+
+    public id(input: string) {
+        this._id = input;
+        this.data["id"] = this._id;
+        return this;
+    }
+
+    public condition(input: string) {
+        this._condition_id = input;
+        return this;
+    }
+
+    public quest(input: string) {
+        this._quest_id = input;
+        return this;
     }
 
     public output() {
@@ -95,17 +112,14 @@ export enum QuestConditionCompareMethod {
 }
 
 export class QuestCondition {
-    private readonly id: string;
-    private readonly quest: Quest;
-    private data: IQuestCondition;
+    private _id: string;
+    private _quest_id: string;
+    private _data: IQuestCondition;
 
-    public constructor(condition_id: string, quest: Quest) {
-        this.id = condition_id;
-        this.quest = quest;
-
+    public constructor() {
         // defaults
-        this.data = {
-            id: this.id,
+        this._data = {
+            id: "'",
             dynamicLocale: false,
             completeInSeconds: 0,
             globalQuestCounterId: "",
@@ -117,13 +131,25 @@ export class QuestCondition {
         };
     }
 
+    public id(input: string) {
+        this._id = input;
+        this._data["id"] = input;
+        return this;
+    }
+
+    public quest(input: string) {
+        this._quest_id = input;
+        this._data["id"] = input;
+        return this;
+    }
+
     public type(input: QuestConditionType) {
-        this.data["conditionType"] = input as string;
+        this._data["conditionType"] = input as string;
         return this;
     }
 
     public counter(input: QuestConditionCounter) {
-        this.data["counter"] = input.output();
+        this._data["counter"] = input.condition(this._id).output();
         return this;
     }
 
@@ -134,8 +160,8 @@ export class QuestCondition {
      * @returns
      */
     public compare(method: QuestConditionCompareMethod, value: number | string) {
-        this.data["compareMethod"] = method as string;
-        this.data["value"] = value;
+        this._data["compareMethod"] = method as string;
+        this._data["value"] = value;
         return this;
     }
 
@@ -144,7 +170,7 @@ export class QuestCondition {
      * @returns
      */
     public one_session() {
-        this.data["oneSessionOnly"] = true;
+        this._data["oneSessionOnly"] = true;
         return this;
     }
 
@@ -153,7 +179,7 @@ export class QuestCondition {
      * @returns
      */
     public found_in_raid() {
-        this.data["onlyFoundInRaid"] = true;
+        this._data["onlyFoundInRaid"] = true;
         return this;
     }
 
@@ -162,7 +188,7 @@ export class QuestCondition {
      * @returns
      */
     public encoded() {
-        this.data["isEncoded"] = true;
+        this._data["isEncoded"] = true;
         return this;
     }
 
@@ -171,7 +197,7 @@ export class QuestCondition {
      * @returns
      */
     public dont_reset_if_counter_completed() {
-        this.data["doNotResetIfCounterCompleted"] = true;
+        this._data["doNotResetIfCounterCompleted"] = true;
         return this;
     }
 
@@ -181,13 +207,13 @@ export class QuestCondition {
      * @returns
      */
     public dogtag_level(input: number) {
-        this.data["dogtagLevel"] = Math.min(100, Math.max(1, Math.ceil(input)));
+        this._data["dogtagLevel"] = Math.min(100, Math.max(1, Math.ceil(input)));
         return this;
     }
 
     public durability(min = 0, max = 100) {
-        this.data["minDurability"] = Math.min(100, Math.max(0, Math.ceil(min)));
-        this.data["maxDurability"] = Math.min(100, Math.max(0, Math.ceil(max)));
+        this._data["minDurability"] = Math.min(100, Math.max(0, Math.ceil(min)));
+        this._data["maxDurability"] = Math.min(100, Math.max(0, Math.ceil(max)));
         return this;
     }
 
@@ -197,13 +223,14 @@ export class QuestCondition {
      * @param amount The amount we need to handover
      */
     public as_handover_item(tpls: Array<ItemTpl | LevelCrushItemTpl>, amount: number) {
-        this.data["conditionType"] = QuestConditionType.HandoverItem as string;
-        this.data["target"] = tpls;
-        this.data["value"] = amount;
+        this._data["conditionType"] = QuestConditionType.HandoverItem as string;
+        this._data["target"] = tpls;
+        this._data["value"] = amount;
 
         this.durability();
 
         this.as_handover_item([LevelCrushItemTpl.Omnicron, ItemTpl.AMMOBOX_127X55_PS12A_10RND], 1);
+        return this;
     }
 
     /**
@@ -212,17 +239,27 @@ export class QuestCondition {
      * @param method
      */
     public as_compare_level(target_level: number, method: QuestConditionCompareMethod) {
-        this.data["conditionType"] = QuestConditionType.Level;
-        this.data["value"] = Math.min(100, Math.max(0, Math.ceil(target_level)));
-        this.data["compareMethod"] = method as string;
+        this._data["conditionType"] = QuestConditionType.Level;
+        this._data["value"] = Math.min(100, Math.max(0, Math.ceil(target_level)));
+        this._data["compareMethod"] = method as string;
+        return this;
     }
 
     public as_quest(quest_id: string, quest_status: QuestStatus = QuestStatus.Success) {
-        this.data["conditionType"] = QuestConditionType.Quest;
-        this.data["target"] = quest_id;
-        this.data["status"] = [quest_status];
-        this.data["availableAfter"] = 0; // we don't time gate our users. Let the builder explicility set this
+        this._data["conditionType"] = QuestConditionType.Quest;
+        this._data["target"] = quest_id;
+        this._data["status"] = [quest_status];
+        this._data["availableAfter"] = 0; // we don't time gate our users. Let the builder explicility set this
 
+        return this;
+    }
+
+    public as_counter(counter: QuestConditionCounter) {
+        this._data["conditionType"] = QuestConditionType.CounterCreator;
+        this._data["completeInSeconds"] = 0;
+        this._data["doNotResetIfCounterCompleted"] = false;
+        this._data["oneSessionOnly"] = false;
+        this._data["counter"] = counter.condition(this._id).quest(this._quest_id).output();
         return this;
     }
 
@@ -233,24 +270,24 @@ export class QuestCondition {
      * @returns self
      */
     public direct<K extends keyof IQuestCondition, V extends IQuestCondition[K]>(key: K, v: V) {
-        this.data[key] = v;
+        this._data[key] = v;
         return this;
     }
 
     public output(): IQuestCondition {
-        return JSON.parse(JSON.stringify(this.data));
+        return JSON.parse(JSON.stringify(this._data));
     }
 }
 
 export class Quest {
-    private readonly id: string;
+    private readonly _id: string;
     private data: IQuest;
     private locales: LocaleQuest;
 
     public constructor(mongo_id: string) {
-        this.id = mongo_id;
+        this._id = mongo_id;
 
-        this.data = this.defaults(this.id);
+        this.data = this.defaults(this._id);
 
         // always start off with locale id's being populated being auto populated
         this.locale_id_auto();
@@ -349,7 +386,7 @@ export class Quest {
     }
 
     public condition_finsh(input: QuestCondition) {
-        this.data["conditions"].AvailableForFinish.push(input.output());
+        this.data["conditions"].AvailableForFinish.push(input.quest(this._id).output());
         return this;
     }
 
@@ -384,7 +421,7 @@ export class Quest {
     }
 
     private locale_id(locale: LocaleQuestKey, val = "") {
-        this.data[locale] = val || `${this.id} ${locale}`;
+        this.data[locale] = val || `${this._id} ${locale}`;
     }
 }
 
