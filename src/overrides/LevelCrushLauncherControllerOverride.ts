@@ -8,7 +8,7 @@ import { DependencyContainer, inject, injectable } from "tsyringe";
 import { LauncherController } from "@spt/controllers/LauncherController";
 import { ILoginRequestData } from "@spt/models/eft/launcher/ILoginRequestData";
 import { ILogger } from "@spt/models/spt/utils/ILogger";
-import { ILevelCrushCoreConfig } from "../models/levelcrush/ILevelCrushCoreConfig";
+import { ILevelCrushCoreConfig } from "../models/config/ILevelCrushCoreConfig";
 import { VFS } from "@spt/utils/VFS";
 import { SaveServer } from "@spt/servers/SaveServer";
 

@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 import { VFS } from "@spt/utils/VFS";
 import { JsonUtil } from "@spt/utils/JsonUtil";
-import { ILevelCrushMultiplierConfig } from "../models/levelcrush/ILevelCrushMultiplierConfig";
+import { ILevelCrushMultiplierConfig } from "../models/config/ILevelCrushMultiplierConfig";
 import { LevelCrushCoreConfig } from "./LevelCrushCoreConfig";
 import path from "node:path";
 

@@ -1,6 +1,6 @@
 import { inject, injectable } from "tsyringe";
 import path from "node:path";
-import { ILevelCrushCoreConfig } from "../models/levelcrush/ILevelCrushCoreConfig";
+import { ILevelCrushCoreConfig } from "../models/config/ILevelCrushCoreConfig";
 import { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
 import { VFS } from "@spt/utils/VFS";
 import { JsonUtil } from "@spt/utils/JsonUtil";
