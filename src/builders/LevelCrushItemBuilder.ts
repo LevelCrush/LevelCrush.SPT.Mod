@@ -1,7 +1,9 @@
 import { ItemHelper } from "@spt/helpers/ItemHelper";
 import { ITemplateItem, ItemType, Props } from "@spt/models/eft/common/tables/ITemplateItem";
+import { ItemTpl } from "@spt/models/enums/ItemTpl";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { injectable, inject } from "tsyringe";
+import { CustomItemTpl } from "../models/enums/CustomItemTpl";
 
 export class Item {
     private readonly tpl: string;
@@ -66,8 +68,8 @@ export class LevelCrushItemBuilder {
      * @param base_tpl Where do we want to clone from
      * @param new_tpl What our new mongo id will be
      */
-    public clone(base_tpl: string, new_tpl: string): Item {
-        const base = JSON.parse(JSON.stringify(this.itemHelper.getItem(base_tpl)[1])) as any;
+    public clone(base_tpl: ItemTpl | CustomItemTpl, new_tpl: string): Item {
+        const base = JSON.parse(JSON.stringify(this.itemHelper.getItem(base_tpl as string)[1])) as any;
         return new Item(new_tpl, base);
     }
 }

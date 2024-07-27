@@ -6,10 +6,11 @@ import { injectable } from "tsyringe";
 import { LocaleItem, LocaleQuest, LocaleQuestKey } from "./LevelCrushLocaleBuilder";
 import { ELocationName } from "@spt/models/enums/ELocationName";
 import { ItemTpl } from "@spt/models/enums/ItemTpl";
-import { LevelCrushCustomTrader } from "../models/enums/LevelCrushCustomTrader";
-import { LevelCrushItemTpl } from "../models/enums/LevelCrushItemTpl";
+import { CustomTrader } from "../models/enums/CustomTrader";
+import { CustomItemTpl } from "../models/enums/CustomItemTpl";
 import { QuestConditionType } from "../models/enums/QuestConditionType";
 import { QuestSide } from "../models/enums/QuestSide";
+import { QuestConditionCompareMethod } from "../models/enums/QuestConditionCompareMethod";
 
 export class QuestConditionCounterCondition {
     public readonly id: string;
@@ -34,12 +35,12 @@ export class QuestConditionCounter {
     private _id: string;
     private _condition_id: string;
     private _quest_id: string;
-    private data: IQuestConditionCounter;
+    private _data: IQuestConditionCounter;
 
     public constructor() {
         //this.id = counter_id;
         //this.condition_id = condition_id;
-        this.data = {
+        this._data = {
             id: "",
             conditions: [],
         };
@@ -47,7 +48,7 @@ export class QuestConditionCounter {
 
     public id(input: string) {
         this._id = input;
-        this.data["id"] = this._id;
+        this._data["id"] = this._id;
         return this;
     }
 
@@ -62,16 +63,8 @@ export class QuestConditionCounter {
     }
 
     public output() {
-        return JSON.parse(JSON.stringify(this.data)) as IQuestConditionCounter;
+        return JSON.parse(JSON.stringify(this._data)) as IQuestConditionCounter;
     }
-}
-
-export enum QuestConditionCompareMethod {
-    GreaterThan = ">",
-    GreaterThanEqualTo = ">=",
-    LessThan = "<",
-    LessThanEqualTo = "<=",
-    EqualTo = "=", // this is untested. Maybe its == ? Never seen a quest with this condition before
 }
 
 export class QuestCondition {
@@ -185,14 +178,14 @@ export class QuestCondition {
      * @param tpls The target ids for this condition
      * @param amount The amount we need to handover
      */
-    public as_handover_item(tpls: Array<ItemTpl | LevelCrushItemTpl>, amount: number) {
+    public as_handover_item(tpls: Array<ItemTpl | CustomItemTpl>, amount: number) {
         this._data["conditionType"] = QuestConditionType.HandoverItem as string;
         this._data["target"] = tpls;
         this._data["value"] = amount;
 
         this.durability();
 
-        this.as_handover_item([LevelCrushItemTpl.Omnicron, ItemTpl.AMMOBOX_127X55_PS12A_10RND], 1);
+        this.as_handover_item([CustomItemTpl.Omnicron, ItemTpl.AMMOBOX_127X55_PS12A_10RND], 1);
         return this;
     }
 
@@ -343,7 +336,7 @@ export class Quest {
         return this;
     }
 
-    public trader(input: Traders | LevelCrushCustomTrader) {
+    public trader(input: Traders | CustomTrader) {
         this.data["traderId"] = input as string;
         return this;
     }

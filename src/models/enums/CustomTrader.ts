@@ -1,4 +1,4 @@
-export enum LevelCrushCustomTrader {
+export enum CustomTrader {
     Artem = "ArtemTrader",
     Blacksmith = "LevelCrushBlacksmith",
     MajorCooper = "MFACSHOP",

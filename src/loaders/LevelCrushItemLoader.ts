@@ -8,6 +8,8 @@ import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
 import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
+import { CustomItemTpl } from "../models/enums/CustomItemTpl";
+import { ItemTpl } from "@spt/models/enums/ItemTpl";
 
 @injectable()
 export class LevelCrushItemLoader extends Loader {
@@ -23,7 +25,9 @@ export class LevelCrushItemLoader extends Loader {
     }
 
     private createOmnicron(tables: IDatabaseTables) {
-        const omnicron_tpl = "66a0a1de6a3a9d80d65db3a9";
+        //const omnicron_tpl = "66a0a1de6a3a9d80d65db3a9";
+        const omnicron_tpl = CustomItemTpl.Omnicron;
+
         const omnicron_grid_id = "66a0a3270b9f578fdfd57b55";
         const omnicron_buff = "BUFFS_Omnicron";
 
@@ -61,7 +65,7 @@ export class LevelCrushItemLoader extends Loader {
 
         // insert into our database tables
         this.itemBuilder
-            .clone("664a55d84a90fc2c8a6305c9", omnicron_tpl)
+            .clone(ItemTpl.SECURE_THETA_SECURE_CONTAINER, omnicron_tpl)
             .name("Omnicron_Container")
             .prop("Name", "Omnicron Secure Container")
             .prop("ShortName", "Omnicron")
