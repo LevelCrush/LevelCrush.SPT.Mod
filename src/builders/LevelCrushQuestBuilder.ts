@@ -6,47 +6,10 @@ import { injectable } from "tsyringe";
 import { LocaleItem, LocaleQuest, LocaleQuestKey } from "./LevelCrushLocaleBuilder";
 import { ELocationName } from "@spt/models/enums/ELocationName";
 import { ItemTpl } from "@spt/models/enums/ItemTpl";
-
-export enum LevelCrushCustomTrader {
-    Artem = "ArtemTrader",
-    Blacksmith = "LevelCrushBlacksmith",
-    MajorCooper = "MFACSHOP",
-    Lotus = "lotus",
-    Painter = "668aaff35fd574b6dcc4a686",
-    Scorpion = "6688d464bc40c867f60e7d7e",
-}
-
-export enum QuestSide {
-    Pmc = "Pmc",
-    Scav = "Scav",
-}
-
-export enum QuestConditionType {
-    CounterCreator = "CounterCreator",
-    HandoverItem = "HandoverItem",
-    Level = "Level",
-    Quest = "Quest",
-    Elimination = "Elimination",
-    PlaceBeacon = "PlaceBeacon",
-    FindItem = "FindItem",
-    // CompleteCondition = "CompleteCondition", // this is a visibility condition
-    LeaveItemAtLocation = "LeaveItemAtLocation",
-    WeaponAssembly = "WeaponAssembly",
-    Skill = "Skill",
-    TraderLoyalty = "TraderLoyalty",
-}
-
-export enum QuestConditionCounterType {
-    Kills = "Kills",
-    Location = "Location",
-    ExitStatus = "ExitStatus",
-    Equipment = "Equipment",
-    VisitPlace = "VisitPlace",
-}
-
-export enum LevelCrushItemTpl {
-    Omnicron = "66a0a1de6a3a9d80d65db3a9",
-}
+import { LevelCrushCustomTrader } from "../models/enums/LevelCrushCustomTrader";
+import { LevelCrushItemTpl } from "../models/enums/LevelCrushItemTpl";
+import { QuestConditionType } from "../models/enums/QuestConditionType";
+import { QuestSide } from "../models/enums/QuestSide";
 
 export class QuestConditionCounterCondition {
     public readonly id: string;
