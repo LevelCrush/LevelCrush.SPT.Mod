@@ -50,6 +50,62 @@ export class LocaleItem {
     }
 }
 
+//export type LocaleQuestKey = keyof Pick<IQuest, "name" | "note" | "description" | "startedMessageText" | "acceptPlayerMessage" | "failMessageText" | "changeQuestMessageText" | "successMessageText" | "declinePlayerMessage" | "completePlayerMessage">;
+
+export enum LocaleQuestKey {
+    Name = "name",
+    Note = "note",
+    Description = "description",
+    Started = "startedMessageText",
+    Accepted = "acceptPlayerMessage",
+    Failed = "failMessageText",
+    ChangeQuest = "changeQuestMessageText",
+    Success = "successMessageText",
+    Declined = "declinePlayerMessage",
+    Completed = "completePlayerMessage",
+}
+
+export class LocaleQuest {
+    protected readonly input: IQuest;
+    protected data: Record<LocaleQuestKey, string>;
+
+    public constructor(quest: IQuest) {
+        this.input = quest;
+        this.data = {
+            acceptPlayerMessage: "",
+            failMessageText: "",
+            startedMessageText: "",
+            successMessageText: "",
+            changeQuestMessageText: "",
+            declinePlayerMessage: "",
+            completePlayerMessage: "",
+            name: "",
+            note: "",
+            description: "",
+        };
+    }
+
+    public set(locale: LocaleQuestKey, val: string) {
+        this.data[locale as string] = val;
+        return this;
+    }
+
+    public output() {
+        const n_out: Record<string, string> = {};
+        for (const k in this.data) {
+            n_out[`${this.input._id} ${k}`] = this.data[k];
+        }
+        return JSON.parse(JSON.stringify(n_out));
+    }
+
+    public output_to_table(tables: IDatabaseTables, lang: string = "en") {
+        const n_out = this.output();
+        for (const locale_id in n_out) {
+            tables.locales.global[lang][locale_id] = this.data[locale_id];
+        }
+    }
+}
+
 @injectable()
 export class LevelCrushLocaleBuilder {
     public start<K extends keyof LevelCrushLocaleBuilderMap, V extends LevelCrushLocaleBuilderMap[K]>(type: K, source: V) {
@@ -57,6 +113,8 @@ export class LevelCrushLocaleBuilder {
         switch (type) {
             case "item":
                 return new LocaleItem(source as ITemplateItem);
+            case "quest":
+                return new LocaleQuest(source as IQuest);
             default:
                 return null;
         }
