@@ -35,15 +35,17 @@ export class LevelCrushItemLoader extends Loader {
         this.buffBuilder
             .start(omnicron_buff)
             .add({
+                // increase weight limit x10
                 AbsoluteValue: false,
                 BuffType: "WeightLimit",
                 Chance: 1,
                 Delay: 1,
                 Duration: 31536000,
                 SkillName: "",
-                Value: 10.0,
+                Value: 2.0,
             })
             .add({
+                // fuck toxin
                 AbsoluteValue: true,
                 BuffType: "Antidote",
                 Chance: 1,
@@ -53,13 +55,43 @@ export class LevelCrushItemLoader extends Loader {
                 Value: 0,
             })
             .add({
+                // kinda like a propital
                 AbsoluteValue: true,
                 BuffType: "HealthRate",
                 Chance: 1,
                 Delay: 1,
                 Duration: 31536000,
                 SkillName: "",
-                Value: 1,
+                Value: 3, // in betwen a propital ( value of 1, and a etg, value of 6 )
+            })
+            .add({
+                AbsoluteValue: true,
+                BuffType: "RemoveAllBloodLosses",
+                Chance: 1,
+                Delay: 0,
+                Duration: 300,
+                SkillName: "",
+                Value: 0,
+            })
+            .add({
+                // sj6
+                AbsoluteValue: true,
+                BuffType: "MaxStamina",
+                Chance: 1,
+                Delay: 1,
+                Duration: 31536000,
+                SkillName: "",
+                Value: 30,
+            })
+            .add({
+                // sj6
+                AbsoluteValue: true,
+                BuffType: "StaminaRate",
+                Chance: 1,
+                Delay: 1,
+                Duration: 31536000,
+                SkillName: "",
+                Value: 2,
             })
             .output_to_tables(tables);
 
