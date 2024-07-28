@@ -14,6 +14,8 @@ import { LevelCrushItemBuilder } from "../builders/LevelCrushItemBuilder";
 import { LevelCrushItemLoader } from "../loaders/LevelCrushItemLoader";
 import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
 import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
+import { LevelCrushCacheHelper } from "../helpers/LevelCrushCacheHelper";
+import { LevelCrushGenerateCustomItemTpl } from "../tasks/startup/LevelCrushGenerateCustomItemTpl";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -44,6 +46,7 @@ export class Container {
     private static registerScheduledTask(container: DependencyContainer): void {
         container.register<LevelCrushServerTimeTask>("LevelCrushServerTimeTask", LevelCrushServerTimeTask, { lifecycle: Lifecycle.Singleton });
         container.register<LevelCrushDailyResetTask>("LevelCrushDailyResetTask", LevelCrushDailyResetTask, { lifecycle: Lifecycle.Singleton });
+        container.register<LevelCrushGenerateCustomItemTpl>("LevelCrushGenerateCustomItemTpl", LevelCrushGenerateCustomItemTpl, { lifecycle: Lifecycle.Singleton });
     }
 
     private static registerUtils(container: DependencyContainer): void {
@@ -84,6 +87,10 @@ export class Container {
         });
 
         container.register<LevelCrushBuffBuilder>("LevelCrushBuffBuilder", LevelCrushBuffBuilder, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushCacheHelper>("LevelCrushCacheHelper", LevelCrushCacheHelper, {
             lifecycle: Lifecycle.Singleton,
         });
     }
@@ -130,6 +137,7 @@ export class Container {
         // scheduled task
         container.registerType("LevelCrushScheduledTasks", "LevelCrushServerTimeTask");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushDailyResetTask");
+        container.registerType("LevelCrushScheduledTasks", "LevelCrushGenerateCustomItemTpl");
 
         // overrides
         container.registerType("LevelCrushOverrides", "LevelCrushLauncherControllerOverride");

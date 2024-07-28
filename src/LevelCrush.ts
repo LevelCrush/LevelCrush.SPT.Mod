@@ -93,7 +93,7 @@ export class LevelCrush {
             promises.push(this.scheduledTasks[i].execute_immediate(container));
 
             // startup an interval for each task that has a number frequency
-            if (typeof this.scheduledTasks[i].frequency() === "number") {
+            if (typeof this.scheduledTasks[i].frequency() === "number" && (this.scheduledTasks[i].frequency() as number) > 1000) {
                 ((depContainer, task) => {
                     setInterval(
                         async () => {
@@ -106,7 +106,7 @@ export class LevelCrush {
                         (task.frequency() as number) * 1000,
                     );
                 })(container, this.scheduledTasks[i]);
-            } else if (cron.validate(this.scheduledTasks[i].frequency() as string)) {
+            } else if (typeof this.scheduledTasks[i].frequency() === "string" && cron.validate(this.scheduledTasks[i].frequency() as string)) {
                 // otherwise cron it if it has a valid cron schedule
                 ((depContainer, task) => {
                     cron.schedule(this.scheduledTasks[i].frequency() as string, async () => {
@@ -117,8 +117,6 @@ export class LevelCrush {
                         }
                     });
                 })(container, this.scheduledTasks[i]);
-            } else {
-                this.logger.error(`Task frequency of ${this.scheduledTasks[i].frequency()} is not usable`);
             }
         }
 
@@ -128,71 +126,6 @@ export class LevelCrush {
         await Promise.allSettled(promises);
 
         this.logger.info("Done executing all LevelCrush specific task");
-
-        this.logger.info("Generating and updating enum information based off custom items loaded");
-
-        const base = require("../../../../SPT_Data/Server/database/templates/items.json");
-
-        const tables = this.databaseServer.getTables();
-        const items = tables.templates.items;
-        const locales = tables.locales.global["en"];
-        //this.logger.info(`=======================================\r\n${JSON.stringify(locales, null, 4)}\r\n=============================`);
-        //  use this hash to compare and see if we need to scan
-        const tpl_hash = this.hashUtil.generateMd5ForData(JSON.stringify(items));
-        const do_scan = true; // for now this will always be true
-
-        if (do_scan) {
-            // build table
-            const enum_names = [];
-            const taken = {};
-            for (const tpl in items) {
-                if (typeof base[tpl] === "undefined") {
-                    // only process non base items
-                    let prop_name: string = locales[tpl + " Name"] || items[tpl]._props.Name || items[tpl]._name;
-                    const prop_name_c1 = prop_name.charAt(0);
-                    // some javascript black magic to check if the first character is in the range of ASCII characters.
-                    if ((prop_name_c1 >= "0" && prop_name_c1 <= "9") || prop_name_c1 === ".") {
-                        prop_name = "Item_" + prop_name;
-                    }
-
-                    const spaced_name = (prop_name as string)
-                        .replaceAll("-", " ")
-                        .replaceAll("<b>", "")
-                        .replaceAll("</b>", "")
-                        .replaceAll(/\W+/g, "")
-                        .replaceAll(".", "")
-                        .replaceAll(/color(?:[0-9a-zAZ]){6}(.*)color/gi, "$1");
-
-                    const spaced_name_split = spaced_name.split(" ");
-                    const normalized_name = [] as string[];
-                    for (const word of spaced_name_split) {
-                        normalized_name.push(word.charAt(0).toUpperCase() + word.slice(1));
-                    }
-
-                    // if there are duplicates with the name...just append the tpl
-                    // better then nothing.
-                    let flatten = normalized_name.join("");
-                    if (typeof taken[flatten] !== "undefined") {
-                        flatten = flatten + "_" + tpl;
-                    }
-
-                    taken[flatten] = tpl;
-                    //   this.logger.info(`Name: ${prop_name}, ${flatten} | ${locales[tpl + " Name"]}`);
-                    enum_names.push(`${flatten} = "${tpl}",`);
-                }
-            }
-            const enum_string = `export enum CustomItemTpl {
-    ${enum_names.join("\r\n    ")}
-}`;
-
-            const mod_path = this.lcConfig.getModPath();
-            const src_path = path.join(mod_path, "src", "models", "enums", "CustomItemTpl.ts");
-
-            this.logger.info(`Writing to: ${src_path} and updating`);
-            await fs.promises.writeFile(src_path, enum_string, { encoding: "utf-8" });
-
-            // this.logger.info(enum_string);
-        }
     }
 
     public async postDBLoad(container: DependencyContainer): Promise<void> {
