@@ -64,7 +64,7 @@ export class LevelCrushLocationController extends LocationController {
         const profile = getLevelCrushProfile(sessionId, this.saveServer);
         const is_hardcore = typeof profile.levelcrush.zones["hardcore"] !== "undefined";
         this.logger.info(`Is this player hardcore: ${profile.characters.pmc.Info.Nickname} = ${is_hardcore}`);
-        console.log(`Console: Is this player hardcore: ${profile.characters.pmc.Info.Nickname} = ${is_hardcore}`);
+
         const name = request.locationId.toLowerCase().replace(" ", "");
         return is_hardcore ? this.generate_hardcore(name, profile) : super.generate(name);
     }
