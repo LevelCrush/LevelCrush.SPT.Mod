@@ -16,7 +16,7 @@ import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
 import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
 import { LevelCrushCacheHelper } from "../helpers/LevelCrushCacheHelper";
 import { LevelCrushGenerateCustomItemTpl } from "../tasks/startup/LevelCrushGenerateCustomItemTpl";
-import { LevelCrushHardcoreAmmoGen } from "../tasks/startup/LevelCrushHardcoreAmmoGen";
+import { LevelCrushHardcoreLocationGen } from "../tasks/startup/LevelCrushHardcoreLocationGen";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -57,7 +57,7 @@ export class Container {
             lifecycle: Lifecycle.Singleton,
         });
 
-        container.register<LevelCrushHardcoreAmmoGen>("LevelCrushHardcoreAmmoGen", LevelCrushHardcoreAmmoGen, {
+        container.register<LevelCrushHardcoreLocationGen>("LevelCrushHardcoreLocationGen", LevelCrushHardcoreLocationGen, {
             lifecycle: Lifecycle.Singleton,
         });
     }
@@ -85,7 +85,7 @@ export class Container {
         }); */
     }
 
-    private static registerServices(container: DependencyContainer): void {
+    private static registerServices(_container: DependencyContainer): void {
         // todo
     }
 
@@ -151,7 +151,7 @@ export class Container {
         container.registerType("LevelCrushScheduledTasks", "LevelCrushServerTimeTask");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushDailyResetTask");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushGenerateCustomItemTpl");
-        container.registerType("LevelCrushScheduledTasks", "LevelCrushHardcoreAmmoGen");
+        container.registerType("LevelCrushScheduledTasks", "LevelCrushHardcoreLocationGen");
 
         // overrides
         container.registerType("LevelCrushOverrides", "LevelCrushLauncherControllerOverride");

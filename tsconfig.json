@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "allowJs": true,
+        "allowJs": false,
         "module": "NodeNext",
         "target": "ES2022",
         "moduleResolution": "NodeNext",
@@ -14,5 +14,5 @@
             "@spt/*": ["./types/*"]
         }
     },
-    "exclude": ["node_modules", "dist", "tmp"]
+    "exclude": ["node_modules", "dist", "tmp", "*.js", "*.js.map"]
 }

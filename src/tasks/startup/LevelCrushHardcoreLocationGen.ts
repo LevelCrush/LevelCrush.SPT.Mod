@@ -12,7 +12,7 @@ import { ItemTpl } from "@spt/models/enums/ItemTpl";
 import { ILooseLoot } from "@spt/models/eft/common/ILooseLoot";
 
 @injectable()
-export class LevelCrushHardcoreAmmoGen extends ScheduledTask {
+export class LevelCrushHardcoreLocationGen extends ScheduledTask {
     constructor(
         @inject("PrimaryLogger") protected logger: ILogger,
         @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
@@ -21,7 +21,7 @@ export class LevelCrushHardcoreAmmoGen extends ScheduledTask {
         super();
     }
 
-    public async execute(container: DependencyContainer): Promise<void> {
+    public async execute(_container: DependencyContainer): Promise<void> {
         // this will never execute
     }
 
@@ -29,13 +29,13 @@ export class LevelCrushHardcoreAmmoGen extends ScheduledTask {
         return 0; // this task will only run at startup
     }
 
-    public async execute_immediate(container: DependencyContainer): Promise<void> {
+    public async execute_immediate(_container: DependencyContainer): Promise<void> {
         this.logger.info("Starting to run Hardcore Static + Loot Generation");
         const tables = this.databaseServer.getTables();
         const items = tables.templates.items;
-        const locales = tables.locales.global["en"];
+        // const locales = tables.locales.global["en"];
 
-        const MINIMUM_PEN = 36; //for realism anything over 60 is considered a rifle round
+        const MINIMUM_PEN = 36; //this executes before realism, so our pen is based off of normal tarkov values
 
         const boosted_items = [
             ItemTpl.CONTAINER_AMMUNITION_CASE,
@@ -48,7 +48,8 @@ export class LevelCrushHardcoreAmmoGen extends ScheduledTask {
             ItemTpl.BARTER_MILITARY_POWER_FILTER,
             ItemTpl.BARTER_LEDX_SKIN_TRANSILLUMINATOR,
             ItemTpl.BARTER_ELECTRIC_MOTOR,
-        ];
+            ItemTpl.BARTER_WATER_FILTER,
+        ] as string[];
 
         const always_spawn_swaps = [ItemTpl.SECURE_CONTAINER_GAMMA, ItemTpl.SECURE_CONTAINER_GAMMA_TUE];
 
@@ -81,10 +82,36 @@ export class LevelCrushHardcoreAmmoGen extends ScheduledTask {
 
                 const ids = [];
                 for (let i = 0; i < loose_loot.spawnpoints.length; i++) {
+                    // boosted loose loot if found
+                    const avgRel = {} as Record<string, number>;
+                    for (let j = 0; j < loose_loot.spawnpoints[i].template.Items.length; j++) {
+                        if (boosted_items.includes(loose_loot.spawnpoints[i].template.Items[j]._tpl)) {
+                            loose_loot.spawnpoints[i].template.IsAlwaysSpawn = true;
+
+                            // if we have not cached this id , scan the relative probabilities
+                            // and find the average
+                            if (typeof avgRel[loose_loot.spawnpoints[i].template.Id] === "undefined") {
+                                let rel_sum = 0;
+                                for (const item of loose_loot.spawnpoints[i].itemDistribution) {
+                                    rel_sum += item.relativeProbability;
+                                }
+                                avgRel[loose_loot.spawnpoints[i].template.Id] = Math.ceil(rel_sum / loose_loot.spawnpoints[i].itemDistribution.length);
+                            }
+
+                            const target_key = loose_loot.spawnpoints[i].template.Items[j]._id;
+                            const target_avg = avgRel[loose_loot.spawnpoints[i].template.Id];
+                            for (let k = 0; k < loose_loot.spawnpoints[i].itemDistribution.length; k++) {
+                                if (loose_loot.spawnpoints[i].itemDistribution[k].composedKey.key === target_key) {
+                                    loose_loot.spawnpoints[i].itemDistribution[k].relativeProbability = Math.min(loose_loot.spawnpoints[i].itemDistribution[k].relativeProbability * 1.25, target_avg * 2);
+                                }
+                            }
+                        }
+                    }
+
                     if (loose_loot.spawnpoints[i].template.IsAlwaysSpawn) {
                         for (const swap_tpl of always_spawn_swaps) {
                             const starting_id = Math.ceil(Date.now() / 1000);
-                            let new_id = starting_id;
+                            let new_id = starting_id.toString();
                             let attempt = 1;
                             while (ids.includes(new_id)) {
                                 new_id = `${starting_id}_${attempt}`;
@@ -108,6 +135,14 @@ export class LevelCrushHardcoreAmmoGen extends ScheduledTask {
                     }
                 }
                 location.looseLoot = loose_loot;
+
+                // add our own levelcrus property to this
+                // just  another way we can tell when we are generating loot / stuff if we are indeed a hardcore varient
+                (location as Record<string, any>)["levelcrush"] = {
+                    hardcore: true,
+                    timestamp: Date.now() / 1000,
+                    location: location_id,
+                };
 
                 this.logger.info(`${location_id} is storing a hardcore varient of location information`);
                 tables.locations[location_id + "_hardcore"] = location;
