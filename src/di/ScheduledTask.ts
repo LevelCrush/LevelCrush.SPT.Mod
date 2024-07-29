@@ -1,7 +1,8 @@
 import { DependencyContainer } from "tsyringe";
 
 /**
- * Task are intended to run on a interval
+ * Task are intended to run on a interval or on startup
+ * These task EXCLUSIVELY run in the PostSptLoad step. Good for making final adjustments after all mods have loaded
  */
 export abstract class ScheduledTask {
     /**

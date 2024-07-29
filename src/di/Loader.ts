@@ -1,7 +1,8 @@
 import { DependencyContainer } from "tsyringe";
 
 /**
- * Task are intended to run on a interval
+ * A loader is intendended to run PostDB load exclusively
+ * Adding new items/traders/quest should happen with a loader
  */
 export abstract class Loader {
     /**
