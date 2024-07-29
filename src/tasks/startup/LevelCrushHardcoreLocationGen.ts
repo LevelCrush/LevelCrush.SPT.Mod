@@ -46,6 +46,7 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
             ItemTpl.BARTER_METAL_FUEL_TANK,
             ItemTpl.BARTER_MILITARY_CABLE,
             ItemTpl.BARTER_MILITARY_POWER_FILTER,
+            ItemTpl.BARTER_TETRIZ_PORTABLE_GAME_CONSOLE,
             ItemTpl.BARTER_LEDX_SKIN_TRANSILLUMINATOR,
             ItemTpl.BARTER_ELECTRIC_MOTOR,
             ItemTpl.BARTER_WATER_FILTER,

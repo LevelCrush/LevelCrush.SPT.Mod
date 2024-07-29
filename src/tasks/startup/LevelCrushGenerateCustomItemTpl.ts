@@ -17,7 +17,7 @@ export class LevelCrushGenerateCustomItemTpl extends ScheduledTask {
         super();
     }
 
-    public async execute(container: DependencyContainer): Promise<void> {
+    public async execute(_container: DependencyContainer): Promise<void> {
         // this will never execute
     }
 
