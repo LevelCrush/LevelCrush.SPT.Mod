@@ -90,7 +90,8 @@ export class LevelCrush {
         const promises = [];
         this.logger.info("Setting up LevelCrush specific task");
         for (let i = 0; i < this.scheduledTasks.length; i++) {
-            promises.push(this.scheduledTasks[i].execute_immediate(container));
+            // since this related to startup. Don't wrap in try cratch
+            await this.scheduledTasks[i].execute_immediate(container);
 
             // startup an interval for each task that has a number frequency
             if (typeof this.scheduledTasks[i].frequency() === "number" && (this.scheduledTasks[i].frequency() as number) > 1000) {
@@ -119,11 +120,6 @@ export class LevelCrush {
                 })(container, this.scheduledTasks[i]);
             }
         }
-
-        this.logger.info("Done up LevelCrush specific task");
-        this.logger.info("Executing all  LevelCrush specific task");
-
-        await Promise.allSettled(promises);
 
         this.logger.info("Done executing all LevelCrush specific task");
     }

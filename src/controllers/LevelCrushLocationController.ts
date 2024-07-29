@@ -76,7 +76,7 @@ export class LevelCrushLocationController extends LocationController {
      * @returns ILocationBase
      */
     protected generate_hardcore(name: string, profile: ISptLevelCrushProfile): ILocationBase {
-        const location: ILocation = this.databaseService.getLocation(name);
+        const location: ILocation = this.databaseService.getLocation(name + "_hardcore");
         const locationBaseClone: ILocationBase = this.cloner.clone(location.base);
 
         this.logger.logWithColor(`Generating loot for ${profile.characters.pmc.Info.Nickname} for map ${name}`, LogTextColor.BLUE);

@@ -16,6 +16,7 @@ import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
 import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
 import { LevelCrushCacheHelper } from "../helpers/LevelCrushCacheHelper";
 import { LevelCrushGenerateCustomItemTpl } from "../tasks/startup/LevelCrushGenerateCustomItemTpl";
+import { LevelCrushHardcoreAmmoGen } from "../tasks/startup/LevelCrushHardcoreAmmoGen";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -44,9 +45,21 @@ export class Container {
     }
 
     private static registerScheduledTask(container: DependencyContainer): void {
-        container.register<LevelCrushServerTimeTask>("LevelCrushServerTimeTask", LevelCrushServerTimeTask, { lifecycle: Lifecycle.Singleton });
-        container.register<LevelCrushDailyResetTask>("LevelCrushDailyResetTask", LevelCrushDailyResetTask, { lifecycle: Lifecycle.Singleton });
-        container.register<LevelCrushGenerateCustomItemTpl>("LevelCrushGenerateCustomItemTpl", LevelCrushGenerateCustomItemTpl, { lifecycle: Lifecycle.Singleton });
+        container.register<LevelCrushServerTimeTask>("LevelCrushServerTimeTask", LevelCrushServerTimeTask, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushDailyResetTask>("LevelCrushDailyResetTask", LevelCrushDailyResetTask, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushGenerateCustomItemTpl>("LevelCrushGenerateCustomItemTpl", LevelCrushGenerateCustomItemTpl, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushHardcoreAmmoGen>("LevelCrushHardcoreAmmoGen", LevelCrushHardcoreAmmoGen, {
+            lifecycle: Lifecycle.Singleton,
+        });
     }
 
     private static registerUtils(container: DependencyContainer): void {
@@ -138,6 +151,7 @@ export class Container {
         container.registerType("LevelCrushScheduledTasks", "LevelCrushServerTimeTask");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushDailyResetTask");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushGenerateCustomItemTpl");
+        container.registerType("LevelCrushScheduledTasks", "LevelCrushHardcoreAmmoGen");
 
         // overrides
         container.registerType("LevelCrushOverrides", "LevelCrushLauncherControllerOverride");

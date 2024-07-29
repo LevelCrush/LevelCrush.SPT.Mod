@@ -26,7 +26,6 @@ export class LevelCrushGenerateCustomItemTpl extends ScheduledTask {
     }
 
     public async execute_immediate(container: DependencyContainer): Promise<void> {
-        this.logger.info("Server Time Task has been loaded");
         this.logger.info("Generating and updating enum information based off custom items loaded");
 
         this.logger.info("Loading base items");
