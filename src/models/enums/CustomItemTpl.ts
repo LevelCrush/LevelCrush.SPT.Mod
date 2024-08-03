@@ -1284,5 +1284,8 @@ export enum CustomItemTpl {
     Mystery762x25mm = "aa_7.62x25_gamble",
     Mystery762x54mmRounds = "an_7.62x54_gamble",
     Mystery762x39mmRounds = "al_7.62x39_gamble",
+    Item_1270DoorBreachingRound = "660249a0712c1005a4a3ab41",
+    Item_1270DoorBreaching5RoundBox = "660ed60d5effc350b86bb289",
+    C4Explosive = "6636606320e842b50084e51a",
     OmnicronSecureContainer = "66a0a1de6a3a9d80d65db3a9",
 }
