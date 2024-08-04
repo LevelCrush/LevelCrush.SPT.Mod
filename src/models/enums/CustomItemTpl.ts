@@ -1316,4 +1316,5 @@ export enum CustomItemTpl {
     Standardstash10x30_template_PathToTarkov_SewerRiver_stash = "template_PathToTarkov_SewerRiver_stash",
     Standardstash10x30_template_PathToTarkov_SylobateElevator_stash = "template_PathToTarkov_SylobateElevator_stash",
     Standardstash10x30_template_PathToTarkov_Catacombs_stash = "template_PathToTarkov_Catacombs_stash",
+    Standardstash10x30_template_PathToTarkov_Helicopter_stash = "template_PathToTarkov_Helicopter_stash",
 }
