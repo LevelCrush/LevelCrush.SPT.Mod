@@ -18,6 +18,7 @@ import { LevelCrushCacheHelper } from "../helpers/LevelCrushCacheHelper";
 import { LevelCrushGenerateCustomItemTpl } from "../tasks/startup/LevelCrushGenerateCustomItemTpl";
 import { LevelCrushHardcoreLocationGen } from "../tasks/startup/LevelCrushHardcoreLocationGen";
 import { LevelCrushKibaBuff } from "../tasks/startup/LevelCrushKibaBuff";
+import { LevelCrushWikiGenerate } from "../tasks/startup/LevelCrushWikiGenerate";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -63,6 +64,10 @@ export class Container {
         });
 
         container.register<LevelCrushHardcoreLocationGen>("LevelCrushHardcoreLocationGen", LevelCrushHardcoreLocationGen, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushWikiGenerate>("LevelCrushWikiGenerate", LevelCrushWikiGenerate, {
             lifecycle: Lifecycle.Singleton,
         });
     }
@@ -157,6 +162,7 @@ export class Container {
         container.registerType("LevelCrushScheduledTasks", "LevelCrushDailyResetTask");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushGenerateCustomItemTpl");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushHardcoreLocationGen");
+        container.registerType("LevelCrushWikiGenerate", "LevelCrushWikiGenerate");
         // container.registerType("LevelCrushScheduledTasks", "LevelCrushKibaBuff");
 
         // overrides
