@@ -25,7 +25,12 @@ export class LevelCrushGenerateCustomItemTpl extends ScheduledTask {
         return 0; // this task will only run at startup
     }
 
-    public async execute_immediate(container: DependencyContainer): Promise<void> {
+    public async execute_immediate(_: DependencyContainer): Promise<void> {
+        if (!this.lcConfig.isDev()) {
+            this.logger.info("Dev mode is not enabled. Not generating TPLs");
+            return;
+        }
+
         this.logger.info("Generating and updating enum information based off custom items loaded");
 
         this.logger.info("Loading base items");
