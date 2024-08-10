@@ -91,7 +91,12 @@ export class LevelCrush {
         this.logger.info("Setting up LevelCrush specific task");
         for (let i = 0; i < this.scheduledTasks.length; i++) {
             // since this related to startup. Don't wrap in try cratch
-            await this.scheduledTasks[i].execute_immediate(container);
+
+            try {
+                await this.scheduledTasks[i].execute_immediate(container);
+            } catch (err) {
+                this.logger.error(`Immediate Scheduled Task Error: ${err}`);
+            }
 
             // startup an interval for each task that has a number frequency
             if (typeof this.scheduledTasks[i].frequency() === "number" && (this.scheduledTasks[i].frequency() as number) > 1000) {
