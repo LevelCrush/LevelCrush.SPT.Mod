@@ -4,7 +4,8 @@ export interface ILevelCrushWikIQuest {
     slug: string;
     description: string;
     leads_to: string[];
-    conditions: string[];
+    conditions_start: string[];
+    conditions_complete: string[];
     trader: string;
     rewards: string[];
     tags: string[];

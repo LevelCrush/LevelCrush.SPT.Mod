@@ -13,6 +13,8 @@ import { ILevelCrushWikIQuest, ILevelCrushWikiQuestMap } from "../../models/wiki
 import { VFS } from "@spt/utils/VFS";
 import { ITrader } from "@spt/models/eft/common/tables/ITrader";
 import { ImageRouteService } from "@spt/services/mod/image/ImageRouteService";
+import { QuestConditionType } from "../../models/enums/QuestConditionType";
+import { QuestStatus } from "@spt/models/enums/QuestStatus";
 
 @injectable()
 export class LevelCrushWikiGenerate extends ScheduledTask {
@@ -111,13 +113,90 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
                 trader_quest[quest.traderId] = {};
             }
 
+            // parse quest conditions
+            const finish_conditions = [] as string[];
+            for (const condition of quest.conditions.AvailableForFinish) {
+                const locale = locales[condition.id] || "Unknown " + condition.id;
+                finish_conditions.push(locale);
+            }
+
+            // parse quest conditions
+            const start_conditions = [] as string[];
+            for (const condition of quest.conditions.AvailableForStart) {
+                switch (condition.conditionType) {
+                    case QuestConditionType.Level:
+                        start_conditions.push(`Level must be ${condition.compareMethod} ${condition.value}`);
+                        break;
+                    case QuestConditionType.Quest:
+                        const target_quest_id = condition.target;
+                        const target_quest = this.questHelper.getQuestFromDb(target_quest_id as string, undefined);
+                        const quest_name = locales[target_quest_id + " name"] || target_quest.QuestName;
+
+                        /*
+                            Locked = 0,
+                            AvailableForStart = 1,
+                            Started = 2,
+                            AvailableForFinish = 3,
+                            Success = 4,
+                            Fail = 5,
+                            FailRestartable = 6,
+                            MarkedAsFailed = 7,
+                            Expired = 8,
+                            AvailableAfter = 9
+                        */
+
+                        const accepted_states = [] as string[];
+                        for (const state of condition.status) {
+                            switch (state) {
+                                case QuestStatus.Locked:
+                                    accepted_states.push("`Locked`");
+                                    break;
+                                case QuestStatus.AvailableForStart:
+                                    accepted_states.push("`Available for Start`");
+                                    break;
+                                case QuestStatus.Started:
+                                    accepted_states.push("`Started`");
+                                    break;
+                                case QuestStatus.AvailableForFinish:
+                                    accepted_states.push("`Available for Finish`");
+                                    break;
+                                case QuestStatus.Success:
+                                    accepted_states.push("`Successfully completed`");
+                                    break;
+                                case QuestStatus.Fail:
+                                    accepted_states.push("`Failed`");
+                                    break;
+                                case QuestStatus.FailRestartable:
+                                    accepted_states.push("`Failed Restartable`");
+                                    break;
+                                case QuestStatus.MarkedAsFailed:
+                                    accepted_states.push("`Marked as Failed`");
+                                    break;
+                                case QuestStatus.Expired:
+                                    accepted_states.push("`Expired`");
+                                    break;
+                                case QuestStatus.AvailableAfter:
+                                    accepted_states.push("`Available After`");
+                                    break;
+                            }
+                        }
+                        start_conditions.push(`Quest \`${quest_name}\` must be in one of the following states: ${accepted_states.join(" or ")}`);
+                        break;
+                    default:
+                        const locale = locales[condition.id] || "Unknown " + condition.id;
+                        start_conditions.push(locale);
+                        break;
+                }
+            }
+
             const wq = {
                 id: quest._id,
                 title: quest_name,
                 slug: this.make_slug(quest_name),
                 description: quest_description,
                 leads_to: [],
-                conditions: [],
+                conditions_start: start_conditions,
+                conditions_complete: finish_conditions,
                 rewards: [],
                 tags: [],
                 locales: [],
@@ -133,8 +212,22 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
             const quest = wiki_quest[quest_id];
 
             const md = [] as string[];
+
+            md.push(`---\r\ntitle: ${quest.title}\r\n---`);
             md.push(`# ${quest.title}\r\n`);
             md.push(`## Description\r\n${quest.description}`);
+
+            md.push(`## Starting Conditions`);
+            let counter = 0;
+            for (const condition_start of quest.conditions_start) {
+                md.push(`${++counter}. ${condition_start}`);
+            }
+
+            counter = 0;
+            md.push(`## Objectives`);
+            for (const condition_finish of quest.conditions_complete) {
+                md.push(`${++counter}. ${condition_finish}`);
+            }
 
             //const file_path = path.join(output_folder, quest.slug + ".md");
             //this.logger.info(`Creating Wiki File at: ${file_path}`);
