@@ -80,9 +80,9 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
         const tables = this.databaseServer.getTables();
         const locales = tables.locales.global["en"];
 
-        const output_folder = path.join(wiki_config.output_dir, "quests");
-        this.logger.info(`Creating ${output_folder} is being created`);
-        await fs.promises.mkdir(output_folder, { recursive: true });
+        //const output_folder = path.join(wiki_config.output_dir, "quests");
+        //this.logger.info(`Creating ${output_folder} is being created`);
+        //await fs.promises.mkdir(output_folder, { recursive: true });
 
         const quests = this.questHelper.getQuestsFromDb();
         const wiki_quest = {} as ILevelCrushWikiQuestMap;
@@ -125,9 +125,9 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
             md.push(`# ${quest.title}\r\n`);
             md.push(`## Description\r\n${quest.description}`);
 
-            const file_path = path.join(output_folder, quest.slug + ".md");
-            this.logger.info(`Creating Wiki File at: ${file_path}`);
-            await fs.promises.writeFile(file_path, md.join("\r\n"), { encoding: "utf-8" });
+            //const file_path = path.join(output_folder, quest.slug + ".md");
+            //this.logger.info(`Creating Wiki File at: ${file_path}`);
+            //await fs.promises.writeFile(file_path, md.join("\r\n"), { encoding: "utf-8" });
 
             // now loop through each trader and see if we have a match for this quest
             // not efficient. But works
