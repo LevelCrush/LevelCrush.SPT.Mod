@@ -15,6 +15,7 @@ import { ITrader } from "@spt/models/eft/common/tables/ITrader";
 import { ImageRouteService } from "@spt/services/mod/image/ImageRouteService";
 import { QuestConditionType } from "../../models/enums/QuestConditionType";
 import { QuestStatus } from "@spt/models/enums/QuestStatus";
+import { QuestRewardType } from "@spt/models/enums/QuestRewardType";
 
 @injectable()
 export class LevelCrushWikiGenerate extends ScheduledTask {
@@ -120,6 +121,45 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
                 finish_conditions.push(locale);
             }
 
+            const rewards_success = [] as string[];
+            if (quest.rewards.Success) {
+                for (const reward of quest.rewards.Success) {
+                    switch (reward.type) {
+                        case QuestRewardType.EXPERIENCE:
+                            rewards_success.push(`\`${Math.ceil(parseFloat(reward.value as string)).toLocaleString("en")}\` XP`);
+                            break;
+                        case QuestRewardType.ITEM:
+                            for (const item of reward.items) {
+                                const is_stacked = item.upd && item.upd.StackObjectsCount > 1;
+                                let qty = is_stacked ? item.upd.StackObjectsCount : 1;
+                                var item_tpl = item._tpl;
+                                const is_child = item.parentId === undefined ? false : true;
+                                if (!is_child) {
+                                    rewards_success.push(`\`${locales[item_tpl + " Name"]}\` x ${qty.toLocaleString("en")}`);
+                                }
+                            }
+                            break;
+                        case QuestRewardType.TRADER_STANDING:
+                            var target_trader = reward.target;
+                            var target_trader_name = locales[target_trader + " Nickname"] || "Unknown " + target_trader;
+                            rewards_success.push(`Trader standing with ${target_trader_name} modified by ${reward.value}`);
+                            break;
+                        case QuestRewardType.ASSORTMENT_UNLOCK:
+                            var target_tpl = reward.target;
+                            var target_item = reward.items.find((v) => v._id === target_tpl);
+                            if (target_item !== undefined) {
+                                var item_tpl = target_item._tpl;
+                                var target_trader = reward.traderId;
+                                var target_trader_name = locales[target_trader + " Nickname"] || "Unknown " + target_trader;
+                                var item_name = locales[item_tpl + " Name"];
+
+                                rewards_success.push(`Unlocks purchase of \`${item_name}\` at \`LL${reward.loyaltyLevel}\` \`${target_trader_name}\``);
+                            }
+                            break;
+                    }
+                }
+            }
+
             // parse quest conditions
             const start_conditions = [] as string[];
             for (const condition of quest.conditions.AvailableForStart) {
@@ -207,7 +247,7 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
                 leads_to: [],
                 conditions_start: start_conditions,
                 conditions_complete: finish_conditions,
-                rewards: [],
+                rewards: rewards_success,
                 tags: [],
                 locales: [],
                 trader: trader,
@@ -265,6 +305,14 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
                 md.push(`## Objectives`);
                 for (const condition_finish of quest.conditions_complete) {
                     md.push(`${++counter}. ${condition_finish}`);
+                }
+            }
+
+            if (quest.rewards.length > 0) {
+                counter = 0;
+                md.push(`## Rewards`);
+                for (const reward of quest.rewards) {
+                    md.push(`${++counter}. ${reward}`);
                 }
             }
 
