@@ -152,9 +152,11 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
                                 var target_trader = reward.traderId;
                                 var target_trader_name = locales[target_trader + " Nickname"] || "Unknown " + target_trader;
                                 var item_name = locales[item_tpl + " Name"];
-
                                 rewards_success.push(`Unlocks purchase of \`${item_name}\` at \`LL${reward.loyaltyLevel}\` \`${target_trader_name}\``);
                             }
+                            break;
+                        default:
+                            rewards_success.push(`Unknown reward \`${reward.id}\` | \`${reward.type}\` | \`${reward.value}\``);
                             break;
                     }
                 }
@@ -181,7 +183,6 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
                         const target_quest_id = condition.target;
                         const target_quest = this.questHelper.getQuestFromDb(target_quest_id as string, undefined);
                         const quest_name = locales[target_quest_id + " name"] || target_quest.QuestName;
-
                         /*
                             Locked = 0,
                             AvailableForStart = 1,
