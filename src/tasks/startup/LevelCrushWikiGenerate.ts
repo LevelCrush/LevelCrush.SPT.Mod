@@ -124,6 +124,11 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
             const start_conditions = [] as string[];
             for (const condition of quest.conditions.AvailableForStart) {
                 switch (condition.conditionType) {
+                    case QuestConditionType.TraderLoyalty:
+                        const target_trader = condition.target;
+                        const target_trader_name = locales[target_trader + " Nickname"] || "Unknown " + target_trader;
+                        start_conditions.push(`${target_trader_name} loyalty must be ${condition.compareMethod}  LL${condition.value}`);
+                        break;
                     case QuestConditionType.Level:
                         start_conditions.push(`Level must be ${condition.compareMethod} ${condition.value}`);
                         break;
@@ -213,20 +218,49 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
 
             const md = [] as string[];
 
+            let quest_image_path = "";
+            let did_copy_quest_image = false;
+            if (quest.image) {
+                const quest_image_folder = path.join(wiki_config.output_dir, "assets", "quests");
+                await fs.promises.mkdir(quest_image_folder, { recursive: true });
+
+                const path_ext = path.extname(quest.image);
+                quest_image_path = path.join(quest_image_folder, quest.id + path_ext);
+                const quest_image_path_url = this.vfs.stripExtension(quest.image);
+
+                const quest_img_src = this.imageRouterService.getByKey(quest_image_path_url);
+                if (quest_img_src && (await this.vfs.existsAsync(quest_img_src))) {
+                    this.logger.info(`Copying ${quest.image} | ${quest_img_src} to ${quest_image_path}`);
+                    await this.vfs.copyAsync(quest_img_src, quest_image_path);
+                    did_copy_quest_image = true;
+                }
+            }
+
             md.push(`---\r\ntitle: ${quest.title}\r\n---`);
+
+            if (did_copy_quest_image) {
+                const ext = path.extname(quest_image_path);
+                md.push(`![${quest.title}](/spt/assets/quests/${quest.id}${ext})`);
+            }
+
             md.push(`# ${quest.title}\r\n`);
             md.push(`## Description\r\n${quest.description}`);
 
-            md.push(`## Starting Conditions`);
             let counter = 0;
-            for (const condition_start of quest.conditions_start) {
-                md.push(`${++counter}. ${condition_start}`);
+            if (quest.conditions_start.length > 0) {
+                counter = 0;
+                md.push(`## Starting Conditions`);
+                for (const condition_start of quest.conditions_start) {
+                    md.push(`${++counter}. ${condition_start}`);
+                }
             }
 
-            counter = 0;
-            md.push(`## Objectives`);
-            for (const condition_finish of quest.conditions_complete) {
-                md.push(`${++counter}. ${condition_finish}`);
+            if (quest.conditions_complete.length > 0) {
+                counter = 0;
+                md.push(`## Objectives`);
+                for (const condition_finish of quest.conditions_complete) {
+                    md.push(`${++counter}. ${condition_finish}`);
+                }
             }
 
             //const file_path = path.join(output_folder, quest.slug + ".md");
