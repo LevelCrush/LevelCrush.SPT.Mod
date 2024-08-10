@@ -11,4 +11,5 @@ export enum QuestConditionType {
     WeaponAssembly = "WeaponAssembly",
     Skill = "Skill",
     TraderLoyalty = "TraderLoyalty",
+    TraderStanding = "TraderStanding",
 }

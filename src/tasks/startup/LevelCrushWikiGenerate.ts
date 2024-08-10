@@ -125,9 +125,14 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
             for (const condition of quest.conditions.AvailableForStart) {
                 switch (condition.conditionType) {
                     case QuestConditionType.TraderLoyalty:
-                        const target_trader = condition.target;
-                        const target_trader_name = locales[target_trader + " Nickname"] || "Unknown " + target_trader;
+                        var target_trader = condition.target;
+                        var target_trader_name = locales[target_trader + " Nickname"] || "Unknown " + target_trader;
                         start_conditions.push(`${target_trader_name} loyalty must be ${condition.compareMethod}  LL${condition.value}`);
+                        break;
+                    case QuestConditionType.TraderStanding:
+                        var target_trader = condition.target;
+                        var target_trader_name = locales[target_trader + " Nickname"] || "Unknown " + target_trader;
+                        start_conditions.push(`${target_trader_name} standing must be ${condition.compareMethod}  ${condition.value}`);
                         break;
                     case QuestConditionType.Level:
                         start_conditions.push(`Level must be ${condition.compareMethod} ${condition.value}`);
@@ -157,22 +162,22 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
                                     accepted_states.push("`Locked`");
                                     break;
                                 case QuestStatus.AvailableForStart:
-                                    accepted_states.push("`Available for Start`");
+                                    accepted_states.push("`Ready to Start`");
                                     break;
                                 case QuestStatus.Started:
                                     accepted_states.push("`Started`");
                                     break;
                                 case QuestStatus.AvailableForFinish:
-                                    accepted_states.push("`Available for Finish`");
+                                    accepted_states.push("`Can Turn In`");
                                     break;
                                 case QuestStatus.Success:
-                                    accepted_states.push("`Successfully completed`");
+                                    accepted_states.push("`Completed`");
                                     break;
                                 case QuestStatus.Fail:
                                     accepted_states.push("`Failed`");
                                     break;
                                 case QuestStatus.FailRestartable:
-                                    accepted_states.push("`Failed Restartable`");
+                                    accepted_states.push("`Failed, but can restart`");
                                     break;
                                 case QuestStatus.MarkedAsFailed:
                                     accepted_states.push("`Marked as Failed`");
