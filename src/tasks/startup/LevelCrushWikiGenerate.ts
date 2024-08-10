@@ -12,6 +12,7 @@ import { QuestConditionHelper } from "@spt/helpers/QuestConditionHelper";
 import { ILevelCrushWikIQuest, ILevelCrushWikiQuestMap } from "../../models/wiki/ILevelCrushWikiQuest";
 import { VFS } from "@spt/utils/VFS";
 import { ITrader } from "@spt/models/eft/common/tables/ITrader";
+import { ImageRouteService } from "@spt/services/mod/image/ImageRouteService";
 
 @injectable()
 export class LevelCrushWikiGenerate extends ScheduledTask {
@@ -22,6 +23,7 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
         @inject("QuestHelper") protected questHelper: QuestHelper,
         @inject("QuestConditionHelper") protected questConditionHelper: QuestConditionHelper,
         @inject("VFS") protected vfs: VFS,
+        @inject("ImageRouteService") protected imageRouterService: ImageRouteService,
     ) {
         super();
     }
@@ -60,14 +62,23 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
 
         const trader_quest_path = path.join(trader_path, "quests");
         const trader_quest_items = path.join(trader_path, "items");
-
+        const trader_asset_folder = path.join(wiki_config.output_dir, "assets", "traders");
         await fs.promises.mkdir(trader_quest_path, { recursive: true });
         await fs.promises.mkdir(trader_quest_items, { recursive: true });
+        await fs.promises.mkdir(trader_asset_folder, { recursive: true });
+
+        const path_ext = path.extname(trader.base.avatar);
+        const new_trader_avatar_path = path.join(trader_asset_folder, trader_id + path_ext);
+        const trader_avatar_url = this.vfs.stripExtension(trader.base.avatar);
+
+        this.logger.info(`Copying (${trader.base.avatar} | ${this.imageRouterService.getByKey(trader_avatar_url)} to ${new_trader_avatar_path}`);
+        await this.vfs.copyAsync(this.imageRouterService.getByKey(trader_avatar_url), new_trader_avatar_path);
 
         const md = [] as string[];
-
         const trader_description = locales[trader_id + " Description"] || "Description";
 
+        md.push(`---\r\ntitle: ${trader_name}\r\n---`);
+        md.push(`![${trader_name}](/spt/assets/traders/${trader_id}${path_ext})\r\n`);
         md.push(`# ${trader_name}\r\n`);
         md.push(`## Description\r\n${trader_description}\r\n`);
 
