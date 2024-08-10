@@ -162,7 +162,7 @@ export class Container {
         container.registerType("LevelCrushScheduledTasks", "LevelCrushDailyResetTask");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushGenerateCustomItemTpl");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushHardcoreLocationGen");
-        container.registerType("LevelCrushWikiGenerate", "LevelCrushWikiGenerate");
+        container.registerType("LevelCrushScheduledTasks", "LevelCrushWikiGenerate");
         // container.registerType("LevelCrushScheduledTasks", "LevelCrushKibaBuff");
 
         // overrides

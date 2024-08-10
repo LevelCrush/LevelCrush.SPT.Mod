@@ -1,40 +1,36 @@
 {
-  "name": "LevelCrush",
-  "version": "1.20.0",
-  "main": "src/mod.js",
-  "license": "MIT",
-  "author": "Primal-13",
-  "sptVersion": "~3.9",
-  "loadBefore": [],
-  "loadAfter": [],
-  "incompatibilities": [],
-  "contributors": [
-    "Magpie393",
-    "Datkidman",
-    "Primal-13"
-  ],
-  "scripts": {
-    "setup": "npm i",
-    "build": "node ./build.mjs",
-    "buildinfo": "node ./build.mjs --verbose"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.7.1",
-    "@types/node": "20.11",
-    "@types/node-cron": "^3.0.11",
-    "@types/ws": "^8.5.10",
-    "@typescript-eslint/eslint-plugin": "7.2",
-    "@typescript-eslint/parser": "7.2",
-    "archiver": "^6.0",
-    "eslint": "8.57",
-    "fs-extra": "11.2",
-    "ignore": "^5.2",
-    "os": "^0.1",
-    "tsyringe": "4.8.0",
-    "typescript": "5.4",
-    "winston": "3.12"
-  },
-  "dependencies": {
-    "node-cron": "^3.0.3"
-  }
+    "name": "LevelCrush",
+    "version": "1.20.0",
+    "main": "src/mod.js",
+    "license": "MIT",
+    "author": "Primal-13",
+    "sptVersion": "~3.9",
+    "loadBefore": ["fika-server"],
+    "loadAfter": ["SPT-Realism"],
+    "incompatibilities": [],
+    "contributors": ["Magpie393", "Datkidman", "Primal-13"],
+    "scripts": {
+        "setup": "npm i",
+        "build": "node ./build.mjs",
+        "buildinfo": "node ./build.mjs --verbose"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.7.1",
+        "@types/node": "20.11",
+        "@types/node-cron": "^3.0.11",
+        "@types/ws": "^8.5.10",
+        "@typescript-eslint/eslint-plugin": "7.2",
+        "@typescript-eslint/parser": "7.2",
+        "archiver": "^6.0",
+        "eslint": "8.57",
+        "fs-extra": "11.2",
+        "ignore": "^5.2",
+        "os": "^0.1",
+        "tsyringe": "4.8.0",
+        "typescript": "5.4",
+        "winston": "3.12"
+    },
+    "dependencies": {
+        "node-cron": "^3.0.3"
+    }
 }

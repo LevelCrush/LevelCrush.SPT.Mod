@@ -20,7 +20,15 @@ class Mod implements IPreSptLoadModAsync, IPostSptLoadModAsync, IPostDBLoadModAs
     }
 
     public async postSptLoadAsync(container: DependencyContainer): Promise<void> {
-        await container.resolve<LevelCrush>("LevelCrush").postSptLoad(container);
+        // make sure this is absolutely last. This is hella jank. But it works for now.
+        (async () => {
+            await new Promise((resolve) => {
+                setTimeout(async () => {
+                    await container.resolve<LevelCrush>("LevelCrush").postSptLoad(container);
+                    resolve(true);
+                }, 1000);
+            });
+        })();
     }
 }
 
