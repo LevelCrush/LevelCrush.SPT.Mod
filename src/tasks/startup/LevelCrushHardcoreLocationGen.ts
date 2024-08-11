@@ -32,6 +32,9 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
     public async execute_immediate(_container: DependencyContainer): Promise<void> {
         this.logger.info("Starting to run Hardcore Static + Loot Generation");
         const tables = this.databaseServer.getTables();
+
+        // item generation
+
         const items = tables.templates.items;
         // const locales = tables.locales.global["en"];
 
@@ -120,22 +123,18 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
                             }
                             ids.push(new_id);
 
-                            loose_loot.spawnpoints[i].template.Items.push({
-                                _id: new_id,
-                                _tpl: swap_tpl,
-                                upd: {
-                                    StackObjectsCount: 1,
-                                },
-                            });
-
-                            loose_loot.spawnpoints[i].itemDistribution.push({
-                                composedKey: { key: new_id },
-                                relativeProbability: loose_loot.spawnpoints[i].itemDistribution[0].relativeProbability, // make it the same as the first tiems probability, so make the odds even(?)
-                            });
+                            for (let x = 0; x < loose_loot.spawnpoints[i].template.Items.length; x++) {
+                                loose_loot.spawnpoints[i].template.Items[x]._tpl = swap_tpl;
+                            }
                         }
                     }
                 }
                 location.looseLoot = loose_loot;
+
+                // boss spawn chances
+                for (let x = 0; x < location.base.BossLocationSpawn.length; x++) {
+                    location.base.BossLocationSpawn[x].BossChance = 100;
+                }
 
                 // add our own levelcrus property to this
                 // just  another way we can tell when we are generating loot / stuff if we are indeed a hardcore varient

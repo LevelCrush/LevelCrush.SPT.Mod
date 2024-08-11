@@ -374,13 +374,8 @@ export class LevelCrushWikiGenerate extends ScheduledTask {
         }
         await Promise.allSettled(trader_promises);
 
-        if (wiki_config.quests) {
-            promises.push(this.output_quests(wiki_config));
-        }
-
-        if (wiki_config.items) {
-            promises.push(this.output_items(wiki_config));
-        }
+        promises.push(this.output_quests(wiki_config));
+        promises.push(this.output_items(wiki_config));
 
         await Promise.allSettled(promises);
 
