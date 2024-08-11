@@ -134,6 +134,15 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
                 // boss spawn chances
                 for (let x = 0; x < location.base.BossLocationSpawn.length; x++) {
                     location.base.BossLocationSpawn[x].BossChance = 100;
+
+                    // nerf normal boss location
+                    if (location_id.includes("lab") || location_id.includes("light")) {
+                        this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore`);
+                        continue;
+                    } else {
+                        (tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance = Math.max(5, Math.ceil((tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance / 2));
+                        this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore and ${(tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance} on normal maps`);
+                    }
                 }
 
                 // add our own levelcrus property to this
