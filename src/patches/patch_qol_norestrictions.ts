@@ -60,8 +60,10 @@ export class QOLNoRestrictionsPatch implements ILevelCrushPatch {
 
         // enable not found in raid
         if (tables.globals) {
-            logger.info("Enabling Not Found In Raid Flea Market");
-            tables.globals.config.RagFair.isOnlyFoundInRaidAllowed = false;
+            //logger.info("Enabling Not Found In Raid Flea Market");
+            logger.info("Enabling Found In Raid Flea Market");
+            //tables.globals.config.RagFair.isOnlyFoundInRaidAllowed = false;
+            tables.globals.config.RagFair.isOnlyFoundInRaidAllowed = true;
         }
     }
 
