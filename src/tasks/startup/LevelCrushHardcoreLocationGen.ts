@@ -10,6 +10,7 @@ import { ILocation, IStaticAmmoDetails } from "@spt/models/eft/common/ILocation"
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { ItemTpl } from "@spt/models/enums/ItemTpl";
 import { ILooseLoot } from "@spt/models/eft/common/ILooseLoot";
+import { ILocationBase } from "@spt/models/eft/common/ILocationBase";
 
 @injectable()
 export class LevelCrushHardcoreLocationGen extends ScheduledTask {
@@ -114,15 +115,6 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
 
                     if (loose_loot.spawnpoints[i].template.IsAlwaysSpawn) {
                         for (const swap_tpl of always_spawn_swaps) {
-                            const starting_id = Math.ceil(Date.now() / 1000);
-                            let new_id = starting_id.toString();
-                            let attempt = 1;
-                            while (ids.includes(new_id)) {
-                                new_id = `${starting_id}_${attempt}`;
-                                attempt++;
-                            }
-                            ids.push(new_id);
-
                             for (let x = 0; x < loose_loot.spawnpoints[i].template.Items.length; x++) {
                                 loose_loot.spawnpoints[i].template.Items[x]._tpl = swap_tpl;
                             }
@@ -131,18 +123,23 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
                 }
                 location.looseLoot = loose_loot;
 
-                // boss spawn chances
-                for (let x = 0; x < location.base.BossLocationSpawn.length; x++) {
-                    location.base.BossLocationSpawn[x].BossChance = 100;
+                if (false) {
+                    let base = JSON.parse(JSON.stringify(location.base)) as ILocationBase;
 
-                    // nerf normal boss location
-                    if (location_id.includes("lab") || location_id.includes("light")) {
-                        this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore`);
-                        continue;
-                    } else {
-                        (tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance = Math.max(5, Math.ceil((tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance / 2));
-                        this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore and ${(tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance} on normal maps`);
+                    // boss spawn chances
+                    for (let x = 0; x < base.BossLocationSpawn.length; x++) {
+                        base.BossLocationSpawn[x].BossChance = 100;
+
+                        // nerf normal boss location
+                        if (location_id.includes("lab") || location_id.includes("light")) {
+                            this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore`);
+                        } else {
+                            (tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance = Math.max(5, Math.ceil((tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance / 2));
+                            this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore and ${(tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance} on normal maps`);
+                        }
                     }
+
+                    location.base = base;
                 }
 
                 // add our own levelcrus property to this
