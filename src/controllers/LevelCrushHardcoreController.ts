@@ -8,6 +8,8 @@ import { PlayerRaidEndState } from "@spt/models/enums/PlayerRaidEndState";
 import { ProfileHelper } from "@spt/helpers/ProfileHelper";
 import DiscordWebhook, { DiscordWebhookColors } from "../webhook";
 import { ItemHelper } from "@spt/helpers/ItemHelper";
+import { server } from "typescript";
+import { DateTime } from "@spt/models/enums/DateTime";
 
 @injectable()
 export class LevelCrushHardcoreController {
@@ -47,7 +49,15 @@ export class LevelCrushHardcoreController {
         //this.logger.info(`${JSON.stringify(info.profile, null, 4)}`);
 
         const is_hardcore = typeof serverProfile.levelcrush.zones["hardcore"] !== "undefined";
-        if (is_hardcore && !info.isPlayerScav) {
+        if (is_hardcore && info.isPlayerScav) {
+            this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is in hardcore mode as a player scav`, LogTextColor.YELLOW);
+            if (is_dead) {
+                this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is dead and is hardcore. Locking scav out for 24 hours`, LogTextColor.CYAN);
+                serverProfile.characters.scav.Info.SavageLockTime = Date.now() / 1000 + 86400;
+                this.logger.info(`Locking scav ${serverProfile.info.username} out of scav until ${new Date(serverProfile.characters.scav.Info.SavageLockTime).toLocaleString("en")}`);
+                this.saveServer.saveProfile(sessionID);
+            }
+        } else if (is_hardcore && !info.isPlayerScav) {
             this.logger.logWithColor(`${offraidData.profile.Info.Nickname} is in hardcore mode`, LogTextColor.YELLOW);
 
             if (is_dead) {

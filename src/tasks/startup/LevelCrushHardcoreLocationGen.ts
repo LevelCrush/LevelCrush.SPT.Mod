@@ -11,6 +11,25 @@ import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import { ItemTpl } from "@spt/models/enums/ItemTpl";
 import { ILooseLoot } from "@spt/models/eft/common/ILooseLoot";
 import { ILocationBase } from "@spt/models/eft/common/ILocationBase";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
+import { IBotConfig } from "@spt/models/spt/config/IBotConfig";
+import { IPmcConfig } from "@spt/models/spt/config/IPmcConfig";
+
+const HARDCORE_MAP_IDS = {
+    "56f40101d2720b2a4d8b45d6": "66c0e2e8766f6a9cfb4e9124", // customs hardcore
+    "65b8d6f5cdde2479cb2a3125": "66c0e6cd5e1f9336b987a57e", // sandbox high ( ground zero level20+)
+    "653e6760052c01c1c805532f": "66c0e6e116f016d970385b6c", // sandbox ( ground zero)
+    "5704e5fad2720bc05b8b4567": "66c0e70964da4b2df02e07d1", // rezervbase (Reserve)
+    "5704e4dad2720bb55b8b4567": "66c0e7287cfba538bfc0a9f2", // light house
+    "5b0fc42d86f7744a585f9105": "66c0e78b0fd19073ada377eb", // labs
+    "5714dbc024597771384a510d": "66c0e791b1bf4120d7f29530", // interchange
+    "59fc81d786f774390775787e": "66c0e7b226f22fdf9c4792db", // factory4_night
+    "55f2d3fd4bdc2d5f408b4567": "66c0e7d34f1920666557ec94", // factory4_day,
+    "5704e554d2720bac5b8b456e": "66c0e80eb46a11a8674eeb17", // shoreline
+    "5714dc692459777137212e12": "66c0e82aecce0da3e58472ee", // streets
+    "5704e3c2d2720bac5b8b4567": "66c0e8430a48e69ccdd8b849", // woods
+};
 
 @injectable()
 export class LevelCrushHardcoreLocationGen extends ScheduledTask {
@@ -18,6 +37,7 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
         @inject("PrimaryLogger") protected logger: ILogger,
         @inject("LevelCrushCoreConfig") protected lcConfig: LevelCrushCoreConfig,
         @inject("DatabaseServer") protected databaseServer: DatabaseServer,
+        @inject("ConfigServer") protected configSever: ConfigServer,
     ) {
         super();
     }
@@ -33,6 +53,11 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
     public async execute_immediate(_container: DependencyContainer): Promise<void> {
         this.logger.info("Starting to run Hardcore Static + Loot Generation");
         const tables = this.databaseServer.getTables();
+
+        const botConfig = this.configSever.getConfig<IBotConfig>(ConfigTypes.BOT);
+        const pmcConfig = this.configSever.getConfig<IPmcConfig>(ConfigTypes.PMC);
+
+        const locales = tables.locales.global["en"];
 
         // item generation
 
@@ -123,7 +148,7 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
                 }
                 location.looseLoot = loose_loot;
 
-                if (false) {
+                if (true) {
                     let base = JSON.parse(JSON.stringify(location.base)) as ILocationBase;
 
                     // boss spawn chances
@@ -132,12 +157,27 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
 
                         // nerf normal boss location
                         if (location_id.includes("lab") || location_id.includes("light")) {
-                            this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore`);
+                            this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to ${base.BossLocationSpawn[x].BossChance}% on Hardcore`);
                         } else {
-                            (tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance = Math.max(5, Math.ceil((tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance / 2));
-                            this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to 100% on Hardcore and ${(tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance} on normal maps`);
+                            (tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance = Math.max(5, Math.ceil((tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance / 3));
+                            this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to ${base.BossLocationSpawn[x].BossChance}% on Hardcore and ${(tables.locations[location_id] as ILocation).base.BossLocationSpawn[x].BossChance}% on normal maps`);
                         }
                     }
+
+                    const original_id = base._Id;
+                    if (typeof HARDCORE_MAP_IDS[original_id] !== "undefined") {
+                        base._Id = HARDCORE_MAP_IDS[original_id] || base._Id;
+                        this.logger.info(`Mapping ${original_id} to ${base._Id}`);
+                        // copy locales
+                        locales[base._Id + " Name"] = `${locales[original_id + " Name"]} (Hardcore)`;
+                        locales[base._Id + " Description"] = `${locales[original_id + " Description"]} (Hardcore)`;
+                    }
+
+                    this.logger.info(`Modifying ${base.Id} to ${base.Id + "_hardcore"}`);
+                    const original_map_id = base.Id;
+                    base.Id = base.Id + "_hardcore";
+
+                    botConfig.maxBotCap[base.Id.toLowerCase()] = botConfig.maxBotCap[original_map_id.toLowerCase()];
 
                     location.base = base;
                 }
@@ -154,5 +194,7 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
                 tables.locations[location_id + "_hardcore"] = location;
             }
         }
+
+        this.logger.info(`Locations: ${JSON.stringify(Object.keys(tables.locations), null, 4)}`);
     }
 }
