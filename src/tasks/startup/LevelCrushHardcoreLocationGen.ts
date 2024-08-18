@@ -156,6 +156,11 @@ export class LevelCrushHardcoreLocationGen extends ScheduledTask {
                         base.BossLocationSpawn[x].BossChance = 100;
 
                         // nerf normal boss location
+
+                        if (location_id.includes("rezervbase") && base.BossLocationSpawn[x].BossName.toLowerCase().includes("pmcbot")) {
+                            base.BossLocationSpawn[x].BossChance = 100;
+                        }
+
                         if (location_id.includes("lab") || location_id.includes("light")) {
                             this.logger.info(`On ${location_id} for ${location.base.BossLocationSpawn[x].BossName} has been set to ${base.BossLocationSpawn[x].BossChance}% on Hardcore`);
                         } else {

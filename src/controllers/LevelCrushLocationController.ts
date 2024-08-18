@@ -76,7 +76,7 @@ export class LevelCrushLocationController extends LocationController {
      * @returns ILocationBase
      */
     protected generate_hardcore(name: string, profile: ISptLevelCrushProfile): ILocationBase {
-        const location_id = name + "_hardcore";
+        const location_id = name;
         const location: ILocation = this.databaseService.getLocation(location_id);
 
         if (typeof location["levelcrush"] !== "undefined") {
