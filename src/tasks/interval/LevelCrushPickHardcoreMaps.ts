@@ -44,6 +44,11 @@ export class LevelCrushPickHardcoreMaps extends ScheduledTask {
                 continue;
             }
 
+            if (location_id.includes("factory")) {
+                // dont allow factory
+                continue;
+            }
+
             const location = locations[location_id] as ILocation;
             if (location.base && location.staticAmmo) {
                 map_location_ids.push(location_id.toLowerCase());
@@ -73,10 +78,10 @@ export class LevelCrushPickHardcoreMaps extends ScheduledTask {
     }
 
     public frequency(): number | string {
-        return "*/1 * * * *"; // this task will run every 20 minutes
+        return "*/20 * * * *"; // this task will run every 20 minutes
     }
 
     public async execute_immediate(_: DependencyContainer): Promise<void> {
-        this.execute(_);
+        return;
     }
 }
