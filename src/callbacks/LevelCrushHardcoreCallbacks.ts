@@ -39,12 +39,16 @@ export class LevelCrushHardcoreCallbacks {
     }
 
     public async zone_list(sessionID: string): Promise<void> {
+        const cache = await this.lcHardcoreController.fetch_zones();
+
         return this.httpResponseUtil.noBody({
             success: true,
             response: {
-                zones: ["bigmap", "woods", "rezervbase", "tarkovstreets"],
+                zones: cache.data,
                 sessionID: sessionID,
                 type: "hardcore",
+                timestamp: cache.timestamp,
+                hash: cache.hash,
             },
             errors: [],
         });

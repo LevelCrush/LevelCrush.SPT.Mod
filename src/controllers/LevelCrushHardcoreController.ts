@@ -10,6 +10,9 @@ import DiscordWebhook, { DiscordWebhookColors } from "../webhook";
 import { ItemHelper } from "@spt/helpers/ItemHelper";
 import { server } from "typescript";
 import { DateTime } from "@spt/models/enums/DateTime";
+import { LevelCrushCacheHelper } from "../helpers/LevelCrushCacheHelper";
+import { CustomItemTpl } from "../models/enums/CustomItemTpl";
+import { LevelCrushHardcoreMapCache } from "../models/cache/LevelCrushHardcoreMapCache";
 
 @injectable()
 export class LevelCrushHardcoreController {
@@ -22,8 +25,9 @@ export class LevelCrushHardcoreController {
         @inject("SaveServer") protected saveServer: SaveServer,
         @inject("ProfileHelper") protected profileHelper: ProfileHelper,
         @inject("ItemHelper") protected itemHelper: ItemHelper,
+        @inject("LevelCrushCacheHelper") protected cacheHelper: LevelCrushCacheHelper,
     ) {
-        this.OMNICRON_CONTAINER_ID = "66a0a1de6a3a9d80d65db3a9";
+        this.OMNICRON_CONTAINER_ID = CustomItemTpl.OmnicronSecureContainer;
 
         this.ALLOWED_CONTAINERS = [
             //    "59db794186f77448bc595262", // epsilon,
@@ -118,5 +122,11 @@ export class LevelCrushHardcoreController {
             delete serverProfile.levelcrush.zones["hardcore"];
         }
         this.saveServer.saveProfile(sessionID);
+    }
+
+    public async fetch_zones(): Promise<LevelCrushHardcoreMapCache> {
+        const res = await this.cacheHelper.read("hardcore-maps");
+        const json = JSON.parse(res) as LevelCrushHardcoreMapCache;
+        return json;
     }
 }

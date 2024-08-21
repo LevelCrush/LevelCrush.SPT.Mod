@@ -19,6 +19,7 @@ import { LevelCrushGenerateCustomItemTpl } from "../tasks/startup/LevelCrushGene
 import { LevelCrushHardcoreLocationGen } from "../tasks/startup/LevelCrushHardcoreLocationGen";
 import { LevelCrushKibaBuff } from "../tasks/startup/LevelCrushKibaBuff";
 import { LevelCrushWikiGenerate } from "../tasks/startup/LevelCrushWikiGenerate";
+import { LevelCrushhardcoreLocationGen, LevelCrushPickHardcoreMaps } from "../tasks/interval/LevelCrushPickHardcoreMaps";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -68,6 +69,10 @@ export class Container {
         });
 
         container.register<LevelCrushWikiGenerate>("LevelCrushWikiGenerate", LevelCrushWikiGenerate, {
+            lifecycle: Lifecycle.Singleton,
+        });
+
+        container.register<LevelCrushPickHardcoreMaps>("LevelCrushPickHardcoreMaps", LevelCrushPickHardcoreMaps, {
             lifecycle: Lifecycle.Singleton,
         });
     }
@@ -163,6 +168,7 @@ export class Container {
         container.registerType("LevelCrushScheduledTasks", "LevelCrushGenerateCustomItemTpl");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushHardcoreLocationGen");
         container.registerType("LevelCrushScheduledTasks", "LevelCrushWikiGenerate");
+        container.registerType("LevelCrushScheduledTasks", "LevelCrushPickHardcoreMaps");
         // container.registerType("LevelCrushScheduledTasks", "LevelCrushKibaBuff");
 
         // overrides
