@@ -42,7 +42,7 @@ export class LevelCrushHardcoreCallbacks {
         return this.httpResponseUtil.noBody({
             success: true,
             response: {
-                zones: ["bigmap", "woods", "rezervbase"],
+                zones: ["bigmap", "woods", "rezervbase", "tarkovstreets"],
                 sessionID: sessionID,
                 type: "hardcore",
             },
