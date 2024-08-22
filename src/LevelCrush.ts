@@ -1,31 +1,32 @@
-import { DependencyContainer, inject, injectable, injectAll } from "tsyringe";
-import { LevelCrushPatchTarget, ILevelCrushPatch } from "./patches/patch";
-import { LevelCrushCoreConfig } from "./configs/LevelCrushCoreConfig";
 import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DependencyContainer, inject, injectAll, injectable } from "tsyringe";
+import { LevelCrushCoreConfig } from "./configs/LevelCrushCoreConfig";
 import { LevelCrushMultiplierConfig } from "./configs/LevelCrushMultiplierConfig";
+import { ILevelCrushPatch, LevelCrushPatchTarget } from "./legacy_patches/patch";
 
 import { ConfigServer } from "@spt/servers/ConfigServer";
-import HomeScreenMessagePatch from "./patches/homescreen_message_patch";
-import ProfilePatch from "./patches/profile_patch";
-import PocketPatch from "./patches/pocket_patch";
-import QOLMoneyPatch from "./patches/patch_qol_money";
-import { LootPatch } from "./patches/loot_patch";
-import ItemPatch from "./patches/patch_items";
-import RecipePatch from "./patches/patch_recipes";
-import RecipeLoaderPatch from "./patches/patch_recipe_loader";
-import QuestPatch from "./patches/patch_quests";
-import BossPatch from "./patches/patch_bosses";
-import QOLNoRestrictionsPatch from "./patches/patch_qol_norestrictions";
-import QOLRecipePatch from "./patches/patch_qol_recipes";
-import { ScheduledTask } from "./di/ScheduledTask";
-import * as cron from "node-cron";
-import { Override } from "./di/Override";
-import { Loader } from "./di/Loader";
 import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import { HashUtil } from "@spt/utils/HashUtil";
+import * as cron from "node-cron";
+import { Loader } from "./di/Loader";
+import { Override } from "./di/Override";
+import { ScheduledTask } from "./di/ScheduledTask";
+import HomeScreenMessagePatch from "./legacy_patches/homescreen_message_patch";
+import { LootPatch } from "./legacy_patches/loot_patch";
+import BossPatch from "./legacy_patches/patch_bosses";
+import ItemPatch from "./legacy_patches/patch_items";
+import QOLMoneyPatch from "./legacy_patches/patch_qol_money";
+import QOLNoRestrictionsPatch from "./legacy_patches/patch_qol_norestrictions";
+import QOLRecipePatch from "./legacy_patches/patch_qol_recipes";
+import QuestPatch from "./legacy_patches/patch_quests";
+import RecipeLoaderPatch from "./legacy_patches/patch_recipe_loader";
+import RecipePatch from "./legacy_patches/patch_recipes";
+import PocketPatch from "./legacy_patches/pocket_patch";
+import ProfilePatch from "./legacy_patches/profile_patch";
 
 import fs from "node:fs";
 import path from "node:path";
+import { DatabasePatch } from "./di/DatabasePatch";
 
 @injectable()
 export class LevelCrush {
@@ -41,6 +42,7 @@ export class LevelCrush {
         @injectAll("LevelCrushScheduledTasks") protected scheduledTasks: ScheduledTask[],
         @injectAll("LevelCrushOverrides") protected overrides: Override[],
         @injectAll("LevelCrushLoaders") protected loaders: Loader[],
+        @injectAll("LevelCrushDatabasePatches") protected dbPatches: DatabasePatch[],
     ) {
         this.patch_results = {};
         this.patches = [];
@@ -135,6 +137,12 @@ export class LevelCrush {
             await this.loaders[i].execute(container);
         }
 
+        // run any database patches **after** our loaders
+        for (let i = 0; i < this.dbPatches.length; i++) {
+            await this.dbPatches[i].execute(container);
+        }
+
+        // DEPRECATED do not use this anymore
         // post db load
         // let anything that has a patch target of PreSpt run now
         let patch_types_allowed = [LevelCrushPatchTarget.PreSptLoadModAndPostDB, LevelCrushPatchTarget.PostDB];

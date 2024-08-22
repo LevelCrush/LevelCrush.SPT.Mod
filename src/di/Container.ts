@@ -1,25 +1,26 @@
 import { DependencyContainer, Lifecycle } from "tsyringe";
 import { LevelCrush } from "../LevelCrush";
-import { LevelCrushHardcoreRouter } from "../routers/LevelCrushHardcoreRouter";
+import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
+import { LevelCrushItemBuilder } from "../builders/LevelCrushItemBuilder";
+import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
 import { LevelCrushHardcoreCallbacks } from "../callbacks/LevelCrushHardcoreCallbacks";
-import { LevelCrushHardcoreController } from "../controllers/LevelCrushHardcoreController";
 import { LevelCrushCoreConfig } from "../configs/LevelCrushCoreConfig";
 import { LevelCrushMultiplierConfig } from "../configs/LevelCrushMultiplierConfig";
-import { LevelCrushServerTimeTask } from "../tasks/basic/LevelCrushServerTimeTask";
-import { LevelCrushDailyResetTask } from "../tasks/basic/LevelCrushDailyResetTask";
-import { LevelCrushLauncherControllerOverride } from "../overrides/LevelCrushLauncherControllerOverride";
-import { LevelCrushQuestController } from "../controllers/LevelCrushQuestController";
+import { LevelCrushHardcoreController } from "../controllers/LevelCrushHardcoreController";
 import { LevelCrushLocationController } from "../controllers/LevelCrushLocationController";
-import { LevelCrushItemBuilder } from "../builders/LevelCrushItemBuilder";
-import { LevelCrushItemLoader } from "../loaders/LevelCrushItemLoader";
-import { LevelCrushLocaleBuilder } from "../builders/LevelCrushLocaleBuilder";
-import { LevelCrushBuffBuilder } from "../builders/LevelCrushBuffBuilder";
+import { LevelCrushQuestController } from "../controllers/LevelCrushQuestController";
 import { LevelCrushCacheHelper } from "../helpers/LevelCrushCacheHelper";
+import { LevelCrushItemLoader } from "../loaders/LevelCrushItemLoader";
+import { LevelCrushLauncherControllerOverride } from "../overrides/LevelCrushLauncherControllerOverride";
+import { LevelCrushSecureContainerPatch } from "../patches/LevelCrushSecureContainerPatch";
+import { LevelCrushHardcoreRouter } from "../routers/LevelCrushHardcoreRouter";
+import { LevelCrushDailyResetTask } from "../tasks/basic/LevelCrushDailyResetTask";
+import { LevelCrushServerTimeTask } from "../tasks/basic/LevelCrushServerTimeTask";
+import { LevelCrushPickHardcoreMaps } from "../tasks/interval/LevelCrushPickHardcoreMaps";
 import { LevelCrushGenerateCustomItemTpl } from "../tasks/startup/LevelCrushGenerateCustomItemTpl";
 import { LevelCrushHardcoreLocationGen } from "../tasks/startup/LevelCrushHardcoreLocationGen";
 import { LevelCrushKibaBuff } from "../tasks/startup/LevelCrushKibaBuff";
 import { LevelCrushWikiGenerate } from "../tasks/startup/LevelCrushWikiGenerate";
-import { LevelCrushhardcoreLocationGen, LevelCrushPickHardcoreMaps } from "../tasks/interval/LevelCrushPickHardcoreMaps";
 
 /* Saw Fika setup like this and I thought it was a good idea */
 export class Container {
@@ -42,9 +43,17 @@ export class Container {
 
         Container.registerLoaders(container);
 
+        Container.registerDatabasePatches(container);
+
         Container.registerListTypes(container);
 
         container.register<LevelCrush>("LevelCrush", LevelCrush, { lifecycle: Lifecycle.Singleton });
+    }
+
+    private static registerDatabasePatches(container: DependencyContainer): void {
+        container.register<LevelCrushSecureContainerPatch>("LevelCrushSecureContainerPatch", LevelCrushSecureContainerPatch, {
+            lifecycle: Lifecycle.Singleton,
+        });
     }
 
     private static registerScheduledTask(container: DependencyContainer): void {
@@ -176,5 +185,7 @@ export class Container {
         // container.registerType("LevelCrushOverrides", "LevelCrushQuesControllerOverride");
 
         container.registerType("LevelCrushLoaders", "LevelCrushItemLoader");
+
+        container.registerType("LevelCrushDatabasePatches", "LevelCrushSecureContainerPatch");
     }
 }
