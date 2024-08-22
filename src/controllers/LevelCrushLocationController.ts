@@ -1,31 +1,31 @@
-import { inject, injectable } from "tsyringe";
-import { LocationController } from "@spt/controllers/LocationController";
-import { ICloner } from "@spt/utils/cloners/ICloner";
-import { HashUtil } from "@spt/utils/HashUtil";
-import { RandomUtil } from "@spt/utils/RandomUtil";
-import { WeightedRandomHelper } from "@spt/helpers/WeightedRandomHelper";
-import { ILogger } from "@spt/models/spt/utils/ILogger";
-import { LocationGenerator } from "@spt/generators/LocationGenerator";
-import { LocalisationService } from "@spt/services/LocalisationService";
-import { RaidTimeAdjustmentService } from "@spt/services/RaidTimeAdjustmentService";
-import { ItemFilterService } from "@spt/services/ItemFilterService";
-import { LootGenerator } from "@spt/generators/LootGenerator";
-import { DatabaseService } from "@spt/services/DatabaseService";
-import { TimeUtil } from "@spt/utils/TimeUtil";
-import { ConfigServer } from "@spt/servers/ConfigServer";
 import { ApplicationContext } from "@spt/context/ApplicationContext";
-import { ILocationBase } from "@spt/models/eft/common/ILocationBase";
-import { IGetLocationRequestData } from "@spt/models/eft/location/IGetLocationRequestData";
 import { ContextVariableType } from "@spt/context/ContextVariableType";
+import { LocationController } from "@spt/controllers/LocationController";
+import { LocationGenerator } from "@spt/generators/LocationGenerator";
+import { LootGenerator } from "@spt/generators/LootGenerator";
+import { ProfileHelper } from "@spt/helpers/ProfileHelper";
+import { WeightedRandomHelper } from "@spt/helpers/WeightedRandomHelper";
 import { ILocation } from "@spt/models/eft/common/ILocation";
+import { ILocationBase } from "@spt/models/eft/common/ILocationBase";
+import { ILooseLoot, SpawnpointTemplate } from "@spt/models/eft/common/ILooseLoot";
+import { IGetLocationRequestData } from "@spt/models/eft/location/IGetLocationRequestData";
 import { ILocationConfig } from "@spt/models/spt/config/ILocationConfig";
 import { IRaidChanges } from "@spt/models/spt/location/IRaidChanges";
-import { ILooseLoot, SpawnpointTemplate } from "@spt/models/eft/common/ILooseLoot";
-import { ProfileHelper } from "@spt/helpers/ProfileHelper";
-import { SaveServer } from "@spt/servers/SaveServer";
-import { getLevelCrushProfile } from "../utils";
-import { ISptLevelCrushProfile } from "../models/eft/profile/ISptProfile";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { SaveServer } from "@spt/servers/SaveServer";
+import { DatabaseService } from "@spt/services/DatabaseService";
+import { ItemFilterService } from "@spt/services/ItemFilterService";
+import { LocalisationService } from "@spt/services/LocalisationService";
+import { RaidTimeAdjustmentService } from "@spt/services/RaidTimeAdjustmentService";
+import { HashUtil } from "@spt/utils/HashUtil";
+import { RandomUtil } from "@spt/utils/RandomUtil";
+import { TimeUtil } from "@spt/utils/TimeUtil";
+import { ICloner } from "@spt/utils/cloners/ICloner";
+import { inject, injectable } from "tsyringe";
+import { ISptLevelCrushProfile } from "../models/eft/profile/ISptProfile";
+import { getLevelCrushProfile } from "../utils";
 
 @injectable()
 export class LevelCrushLocationController extends LocationController {
@@ -112,10 +112,11 @@ export class LevelCrushLocationController extends LocationController {
         // todo: filter ammo
 
         // adjust loot multipliers to 10x
-        this.locationConfig.looseLootMultiplier[name] = Math.ceil(Math.min(50, this.locationConfig.looseLootMultiplier[name] * 10));
-        this.locationConfig.staticLootMultiplier[name] = Math.ceil(Math.min(50, this.locationConfig.staticLootMultiplier[name] * 10));
-        this.logger.logWithColor(`Loose Loot Multiplier for: ${name} is ${this.locationConfig.looseLootMultiplier[name]} `, LogTextColor.BLUE);
-        this.logger.logWithColor(`Static Loot Multiplier for: ${name} is ${this.locationConfig.staticLootMultiplier[name]} `, LogTextColor.BLUE);
+        const normal_map_varient = name.replace("_hardcore", "");
+        this.locationConfig.looseLootMultiplier[name] = Math.ceil(Math.min(50, this.locationConfig.looseLootMultiplier[normal_map_varient] * 10));
+        this.locationConfig.staticLootMultiplier[name] = Math.ceil(Math.min(50, this.locationConfig.staticLootMultiplier[normal_map_varient] * 10));
+        this.logger.logWithColor(`Loose Loot Multiplier for: ${name} is ${this.locationConfig.looseLootMultiplier[normal_map_varient]} `, LogTextColor.BLUE);
+        this.logger.logWithColor(`Static Loot Multiplier for: ${name} is ${this.locationConfig.staticLootMultiplier[normal_map_varient]} `, LogTextColor.BLUE);
 
         // Create containers and add loot to them
         const staticLoot = this.locationGenerator.generateStaticContainers(locationBaseClone, staticAmmoDist);
