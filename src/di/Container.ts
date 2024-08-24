@@ -10,6 +10,7 @@ import { LevelCrushHardcoreController } from "../controllers/LevelCrushHardcoreC
 import { LevelCrushLocationController } from "../controllers/LevelCrushLocationController";
 import { LevelCrushQuestController } from "../controllers/LevelCrushQuestController";
 import { LevelCrushCacheHelper } from "../helpers/LevelCrushCacheHelper";
+import { LevelCrushBossLoader } from "../loaders/LevelCrushBossLoader";
 import { LevelCrushItemLoader } from "../loaders/LevelCrushItemLoader";
 import { LevelCrushLauncherControllerOverride } from "../overrides/LevelCrushLauncherControllerOverride";
 import { LevelCrushSecureContainerPatch } from "../patches/LevelCrushSecureContainerPatch";
@@ -136,6 +137,10 @@ export class Container {
         container.register<LevelCrushItemLoader>("LevelCrushItemLoader", LevelCrushItemLoader, {
             lifecycle: Lifecycle.Singleton,
         });
+
+        container.register<LevelCrushBossLoader>("LevelCrushBossLoader", LevelCrushBossLoader, {
+            lifecycle: Lifecycle.Singleton,
+        });
     }
 
     private static registerControllers(container: DependencyContainer): void {
@@ -185,6 +190,7 @@ export class Container {
         // container.registerType("LevelCrushOverrides", "LevelCrushQuesControllerOverride");
 
         container.registerType("LevelCrushLoaders", "LevelCrushItemLoader");
+        container.registerType("LevelCrushLoaders", "LevelCrushBossLoader");
 
         container.registerType("LevelCrushDatabasePatches", "LevelCrushSecureContainerPatch");
     }

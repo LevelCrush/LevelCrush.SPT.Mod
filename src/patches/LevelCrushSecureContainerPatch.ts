@@ -44,13 +44,15 @@ export class LevelCrushSecureContainerPatch extends DatabasePatch {
         }
 
         this.logger.info("removing exclusions");
-        for (const item_id in tables.templates.items) {
-            if (tables.templates.items[item_id]._props.Grids) {
-                for (let i = 0; i < tables.templates.items[item_id]._props.Grids.length; i++) {
-                    if (tables.templates.items[item_id]._props.Grids[i]._props.filters) {
-                        for (let j = 0; j < tables.templates.items[item_id]._props.Grids[i]._props.filters.length; j++) {
-                            tables.templates.items[item_id]._props.Grids[i]._props.filters[j].Filter.push(BaseClasses.MOB_CONTAINER);
-                            tables.templates.items[item_id]._props.Grids[i]._props.filters[j].ExcludedFilter = [];
+        if (false) {
+            for (const item_id in tables.templates.items) {
+                if (tables.templates.items[item_id]._props.Grids) {
+                    for (let i = 0; i < tables.templates.items[item_id]._props.Grids.length; i++) {
+                        if (tables.templates.items[item_id]._props.Grids[i]._props.filters) {
+                            for (let j = 0; j < tables.templates.items[item_id]._props.Grids[i]._props.filters.length; j++) {
+                                tables.templates.items[item_id]._props.Grids[i]._props.filters[j].Filter.push(BaseClasses.MOB_CONTAINER);
+                                tables.templates.items[item_id]._props.Grids[i]._props.filters[j].ExcludedFilter = [];
+                            }
                         }
                     }
                 }
