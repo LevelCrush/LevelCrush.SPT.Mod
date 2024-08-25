@@ -2547,11 +2547,35 @@
         },
         "mods": {
             "5bb2475ed4351e00853264e3": {
-                "mod_charge": ["5bb20dbcd4351e44f824c04e"],
-                "mod_stock": ["5bb20e58d4351e00320205d7"],
-                "mod_receiver": ["5bb20d53d4351e4502010a69"],
+                "mod_stock": ["58d2912286f7744e27117493"],
+                "mod_reciever": ["5bb20d53d4351e4502010a69"],
                 "mod_magazine": ["59c1383d86f774290a37e0ca"],
-                "mod_pistol_grip": ["5d025cc1d7ad1a53845279ef"]
+                "mod_pistol_grip": ["5d025cc1d7ad1a53845279ef"],
+                "patron_in_weapon": ["59e690b686f7746c9f75e848"],
+                "cartridges": ["59e690b686f7746c9f75e848"],
+                "mod_sight_rear": ["5bb20e49d4351e3bac1212de"],
+                "mod_foregrip": ["5b057b4f5acfc4771e1bd3e9"],
+                "mod_tactical_001": ["CCG_RAIL_COVER_KAC"],
+                "mod_tactical_002": ["6272370ee4013c5d7e31f418"],
+                "mod_charge": ["5bb20dbcd4351e44f824c04e"],
+            },
+            "5bb20d53d4351e4502010a69": {
+                "mod_barrel": ["5bb20d9cd4351e00334c9d8a"],
+                "mod_handguard": ["5bb20de5d4351e0035629e59"],
+                "mod_stock": ["5bb20e58d4351e00320205d7"],
+                "mod_gas_block": ["5bb20dcad4351e3bac1212da"],
+                "mod_muzzle": ["609269c3b0e443224b421cc1"],
+                "mod_scope": ["618b9643526131765025ab35"],
+            },
+            "618b9643526131765025ab35": {
+                "mod_scope": ["5b3b99475acfc432ff4dcbee"],
+                "mod_mount": ["618b9671d14d6d5ab879c5ea"]
+            },
+            "609269c3b0e443224b421cc1": {
+                "mod_muzzle": ["60926df0132d4d12c81fd9df"]
+            },
+            "5bb20e58d4351e00320205d7": {
+                "mod_stock_000": ["56eabf3bd2720b75698b4569"]
             },
             "5ca21c6986f77479963115a7": {
                 "Back_plate": ["65573fa5655447403702a816"],
