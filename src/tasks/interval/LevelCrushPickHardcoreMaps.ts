@@ -1,15 +1,15 @@
-import { DependencyContainer, inject, injectable } from "tsyringe";
-import { ScheduledTask } from "../../di/ScheduledTask";
-import { LevelCrushCoreConfig } from "../../configs/LevelCrushCoreConfig";
-import { ILogger } from "@spt/models/spt/utils/ILogger";
-import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
-import { DatabaseServer } from "@spt/servers/DatabaseServer";
-import path from "node:path";
 import fs from "node:fs";
-import { LevelCrushCacheHelper } from "../../helpers/LevelCrushCacheHelper";
-import { ILocaleBase } from "@spt/models/spt/server/ILocaleBase";
+import path from "node:path";
 import { ILocation } from "@spt/models/eft/common/ILocation";
+import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
+import { ILocaleBase } from "@spt/models/spt/server/ILocaleBase";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import { HashUtil } from "@spt/utils/HashUtil";
+import { DependencyContainer, inject, injectable } from "tsyringe";
+import { LevelCrushCoreConfig } from "../../configs/LevelCrushCoreConfig";
+import { ScheduledTask } from "../../di/ScheduledTask";
+import { LevelCrushCacheHelper } from "../../helpers/LevelCrushCacheHelper";
 
 @injectable()
 export class LevelCrushPickHardcoreMaps extends ScheduledTask {
@@ -82,6 +82,6 @@ export class LevelCrushPickHardcoreMaps extends ScheduledTask {
     }
 
     public async execute_immediate(_: DependencyContainer): Promise<void> {
-        return;
+        await this.execute(_);
     }
 }

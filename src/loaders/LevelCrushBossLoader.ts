@@ -152,6 +152,9 @@ export class LevelCrushBossLoader extends Loader {
 
     public async execute(_: DependencyContainer) {
         this.logger.info("LevelCrush is loading bosses");
+        this.logger.info("LevelCrush is done loading bosses");
+        return;
+        // for now dont run any of this
         const botConfig = this.configServer.getConfig<IBotConfig>(ConfigTypes.BOT);
         const tables = this.databaseServer.getTables();
 
